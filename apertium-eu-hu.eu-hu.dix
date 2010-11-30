@@ -2,6 +2,7 @@
   <alphabet/>
   <sdefs>
     <sdef n="n"      c="Noun"/>
+    <sdef n="num"    c="Numeral"/>
     <sdef n="cnjcoo" c="Coordinating conjunction"/>
   </sdefs>
   <pardefs>
@@ -14,12 +15,16 @@
     <!-- Conjunctions -->
     <e><p><l>eta<s n="cnjcoo"/></l><r>és<s n="cnjcoo"/></r></p></e>
 
+    <!-- Zenbakiak -->
+    <e><p><l>bost<s n="num"/></l><r>öt<s n="num"/></r></p></e>
+
     <!-- Izenak -->
     <e><p><l>garagardo<s n="n"/></l><r>sör<s n="n"/></r></p><par n="N_N"/></e>
     <e><p><l>ogi<s n="n"/></l><r>kenyér<s n="n"/></r></p><par n="N_N"/></e>
     <e><p><l>pisu<s n="n"/></l><r>lakás<s n="n"/></r></p><par n="N_N"/></e>
     <e><p><l>gela<s n="n"/></l><r>szobába<s n="n"/></r></p><par n="N_N"/></e>
     <e><p><l>aulki<s n="n"/></l><r>szék<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>mutil<s n="n"/></l><r>fiú<s n="n"/></r></p><par n="N_N"/></e>
 
   </section>
 </dictionary>

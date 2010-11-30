@@ -1,0 +1,22 @@
+<dictionary>
+  <alphabet/>
+  <sdefs>
+    <sdef n="n"      c="Noun"/>
+    <sdef n="cnjcoo" c="Coordinating conjunction"/>
+  </sdefs>
+  <pardefs>
+    <pardef n="N_N">
+      <e><p><l></l><r></r></p></e> 
+    </pardef>
+  </pardefs>
+  <section id="main" type="standard">
+
+    <!-- Conjunctions -->
+    <e><p><l>eta<s n="cnjcoo"/></l><r>és<s n="cnjcoo"/></r></p></e>
+
+    <!-- Izenak -->
+    <e><p><l>garagardo<s n="n"/></l><r>sör<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>ogi<s n="n"/></l><r>kenyér<s n="n"/></r></p><par n="N_N"/></e>
+
+  </section>
+</dictionary>

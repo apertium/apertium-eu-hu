@@ -9,14 +9,37 @@
     <pardef n="N_N">
       <e><p><l></l><r></r></p></e> 
     </pardef>
+    <pardef n="A_A">
+      <e><p><l></l><r></r></p></e> 
+    </pardef>
+    <pardef n="V_V">
+      <e><p><l></l><r></r></p></e> 
+    </pardef>
   </pardefs>
   <section id="main" type="standard">
 
     <!-- Conjunctions -->
     <e><p><l>eta<s n="cnjcoo"/></l><r>és<s n="cnjcoo"/></r></p></e>
 
+    <!-- Postposizioak -->
+    <e><p><l>azpian<s n="post"/></l><r>alá<s n="post"/></r></p></e>
+    <e><p><l>kanpo<s n="post"/></l><r>kívűl<s n="post"/></r></p></e>
+    <e><p><l>barruan<s n="post"/></l><r>belül<s n="post"/></r></p></e>
+
+    <!-- Pronouns -->
+    <e><p><l>ni<s n="prn"/></l><r>én<s n="prn"/></r></p></e>
+    <e><p><l>zu<s n="prn"/></l><r>te<s n="prn"/></r></p></e>
+
+    <e><p><l>gu<s n="prn"/></l><r>mi<s n="prn"/></r></p></e>
+    <e><p><l>zuek<s n="prn"/></l><r>ti<s n="prn"/></r></p></e>
+
+    <!-- Determiners -->
+    <e><p><l>a<s n="det"/></l><r>a<s n="det"/></r></p></e>
+    <e><p><l>bat<s n="det"/></l><r>egy<s n="det"/></r></p></e>
+
     <!-- Zenbakiak -->
     <e><p><l>bost<s n="num"/></l><r>öt<s n="num"/></r></p></e>
+    <e><p><l>sei<s n="num"/></l><r>hat<s n="num"/></r></p></e>
 
     <!-- Izenak -->
     <e><p><l>garagardo<s n="n"/></l><r>sör<s n="n"/></r></p><par n="N_N"/></e>
@@ -25,6 +48,71 @@
     <e><p><l>gela<s n="n"/></l><r>szobába<s n="n"/></r></p><par n="N_N"/></e>
     <e><p><l>aulki<s n="n"/></l><r>szék<s n="n"/></r></p><par n="N_N"/></e>
     <e><p><l>mutil<s n="n"/></l><r>fiú<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>fabrika<s n="n"/></l><r>gyár<s n="n"/></r></p><par n="N_N"/></e>
+    <e r="LR"><p><l>lantegi<s n="n"/></l><r>gyár<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>uda<s n="n"/></l><r>nyár<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>osasuna<s n="n"/></l><r>egészég<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>egun<s n="n"/></l><r>nap<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>goiz<s n="n"/></l><r>reggel<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>astelehen<s n="n"/></l><r>hétfő<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>kale<s n="n"/></l><r>út<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>botila<s n="n"/></l><r>üveg<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>txakur<s n="n"/></l><r>kutya<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>ume<s n="n"/></l><r>gyerek<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>paper<s n="n"/></l><r>papír<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>etxe<s n="n"/></l><r>ház<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>esku<s n="n"/></l><r>kéz<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>ur<s n="n"/></l><r>víz<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>liburu<s n="n"/></l><r>könyv<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>abeslari<s n="n"/></l><r>énekesnő<s n="n"/></r></p><par n="N_N"/></e>
+    <e r="LR"><p><l>kantari<s n="n"/></l><r>éneskesnő<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>zaldi<s n="n"/></l><r>ló<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>emakume<s n="n"/></l><r>nő<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>kotxe<s n="n"/></l><r>kocsi<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>itsasontzi<s n="n"/></l><r>hajó<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>poltsa<s n="n"/></l><r>táska<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>gizon<s n="n"/></l><r>férfi<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>lan<s n="n"/></l><r>mű<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>hitz<s n="n"/></l><r>szó<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>aintzira<s n="n"/></l><r>tó<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>harri<s n="n"/></l><r>kő<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>misterio<s n="n"/></l><r>rejtelem<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>dorre<s n="n"/></l><r>torony<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>ispilu<s n="n"/></l><r>tükör<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>txapel<s n="n"/></l><r>halap<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>plater<s n="n"/></l><r>tányér<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>krimen<s n="n"/></l><r>bűn<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>sagar<s n="n"/></l><r>alma<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>parke<s n="n"/></l><r>park<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>urtebetetze<s n="n"/></l><r>születésnap<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>neska<s n="n"/></l><r>lány<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>sudur<s n="n"/></l><r>orr<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>hilabete<s n="n"/></l><r>hó<s n="n"/></r></p><par n="N_N"/></e>
+
+    <!-- Proper nouns -->
+    <e><p><l>Erzsébet<s n="np"/><s n="ant"/><s n="f"/></l><r>Erzsébet<s n="np"/><s n="ant"/><s n="f"/></r></p><par n="N_N"/></e>
+    <e><p><l>Mária<s n="np"/><s n="ant"/><s n="f"/></l><r>Mária<s n="np"/><s n="ant"/><s n="f"/></r></p><par n="N_N"/></e>
+    <e><p><l>Imre<s n="np"/><s n="ant"/><s n="m"/></l><r>Imre<s n="np"/><s n="ant"/><s n="m"/></r></p><par n="N_N"/></e>
+
+    <!-- Adjektiboak -->
+    <e><p><l>ona<s n="adj"/></l><r>jó<s n="adj"/></r></p><par n="A_A"/></e>
+    <e><p><l>polita<s n="adj"/></l><r>szép<s n="adj"/></r></p><par n="A_A"/></e>
+
+    <!-- Adverbs -->
+    <e><p><l>ondo<s n="adv"/></l><r>jót<s n="adv"/></r></p></e>
+
+    <!-- Verbs -->
+
+    <e><p><l>bidaiatu<s n="vblex"/></l><r>utazik<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>ikusi<s n="vblex"/></l><r>lát<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>itzuli<s n="vblex"/></l><r>fordít<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>jokatu<s n="vblex"/></l><r>játszik<s n="vblex"/></r></p><par n="V_V"/></e>
+    
+    <!-- Interjections -->
+    <e><p><l>bai<s n="ij"/></l><r>igen<s n="ij"/></r></p></e>
+    <e><p><l>mersedez<s n="ij"/></l><r>kérem<s n="ij"/></r></p></e>
+    <e><p><l>kaixo<s n="ij"/></l><r>szervusz<s n="ij"/></r></p></e>
+    <e><p><l>eskerrik<b/>asko<s n="ij"/></l><r>köszönöm<s n="ij"/></r></p></e>
 
   </section>
 </dictionary>

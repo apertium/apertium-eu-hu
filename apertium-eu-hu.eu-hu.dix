@@ -25,13 +25,24 @@
     <e><p><l>azpian<s n="post"/></l><r>alá<s n="post"/></r></p></e>
     <e><p><l>kanpo<s n="post"/></l><r>kívűl<s n="post"/></r></p></e>
     <e><p><l>barruan<s n="post"/></l><r>belül<s n="post"/></r></p></e>
+    <e><p><l>gabe<s n="post"/></l><r>nélkül<s n="post"/></r></p></e>
 
     <!-- Pronouns -->
     <e><p><l>ni<s n="prn"/></l><r>én<s n="prn"/></r></p></e>
     <e><p><l>zu<s n="prn"/></l><r>te<s n="prn"/></r></p></e>
+    <e><p><l>hau<s n="prn"/></l><r>ő<s n="prn"/></r></p></e>
 
     <e><p><l>gu<s n="prn"/></l><r>mi<s n="prn"/></r></p></e>
     <e><p><l>zuek<s n="prn"/></l><r>ti<s n="prn"/></r></p></e>
+    <e><p><l>hauek<s n="prn"/></l><r>ők<s n="prn"/></r></p></e>
+
+    <e><p><l>hau<s n="prn"/></l><r>ez<s n="prn"/></r></p></e>
+    <e><p><l>hori<s n="prn"/></l><r>az<s n="prn"/></r></p></e>
+
+    <e><p><l>nor<s n="prn"/></l><r>ki<s n="prn"/></r></p></e>
+    <e><p><l>zer<s n="prn"/></l><r>mi<s n="prn"/></r></p></e>
+    <e><p><l>zein<s n="prn"/></l><r>melyik<s n="prn"/></r></p></e>
+    <e><p><l>zenbat<s n="prn"/></l><r>hány<s n="prn"/></r></p></e>
 
     <!-- Determiners -->
     <e><p><l>a<s n="det"/></l><r>a<s n="det"/></r></p></e>
@@ -48,7 +59,9 @@
     <e><p><l>gela<s n="n"/></l><r>szobába<s n="n"/></r></p><par n="N_N"/></e>
     <e><p><l>aulki<s n="n"/></l><r>szék<s n="n"/></r></p><par n="N_N"/></e>
     <e><p><l>mutil<s n="n"/></l><r>fiú<s n="n"/></r></p><par n="N_N"/></e>
+    <e r="LR"><p><l>seme<s n="n"/></l><r>fiú<s n="n"/></r></p><par n="N_N"/></e>
     <e><p><l>fabrika<s n="n"/></l><r>gyár<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>izeba<s n="n"/></l><r>néne<s n="n"/></r></p><par n="N_N"/></e>
     <e r="LR"><p><l>lantegi<s n="n"/></l><r>gyár<s n="n"/></r></p><par n="N_N"/></e>
     <e><p><l>uda<s n="n"/></l><r>nyár<s n="n"/></r></p><par n="N_N"/></e>
     <e><p><l>osasuna<s n="n"/></l><r>egészég<s n="n"/></r></p><par n="N_N"/></e>
@@ -69,6 +82,9 @@
     <e><p><l>zaldi<s n="n"/></l><r>ló<s n="n"/></r></p><par n="N_N"/></e>
     <e><p><l>emakume<s n="n"/></l><r>nő<s n="n"/></r></p><par n="N_N"/></e>
     <e><p><l>kotxe<s n="n"/></l><r>kocsi<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>auto<s n="n"/></l><r>autó<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>zapata<s n="n"/></l><r>cipőm<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>tasa<s n="n"/></l><r>csészém<s n="n"/></r></p><par n="N_N"/></e>
     <e><p><l>itsasontzi<s n="n"/></l><r>hajó<s n="n"/></r></p><par n="N_N"/></e>
     <e><p><l>poltsa<s n="n"/></l><r>táska<s n="n"/></r></p><par n="N_N"/></e>
     <e><p><l>gizon<s n="n"/></l><r>férfi<s n="n"/></r></p><par n="N_N"/></e>
@@ -88,6 +104,24 @@
     <e><p><l>neska<s n="n"/></l><r>lány<s n="n"/></r></p><par n="N_N"/></e>
     <e><p><l>sudur<s n="n"/></l><r>orr<s n="n"/></r></p><par n="N_N"/></e>
     <e><p><l>hilabete<s n="n"/></l><r>hó<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>lorategi<s n="n"/></l><r>kert<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>hiri<s n="n"/></l><r>város<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>film<s n="n"/></l><r>film<s n="n"/></r></p><par n="N_N"/></e>
+    <e r="LR"><p><l>pelikula<s n="n"/></l><r>film<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>lagun<s n="n"/></l><r>barát<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>auzoko<s n="n"/></l><r>szomszéd<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>egoki<s n="n"/></l><r>feladat<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>doktore<s n="n"/></l><r>orvos<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>urte<s n="n"/></l><r>esztendő<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>bandera<s n="n"/></l><r>zászló<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>birika<s n="n"/></l><r>tüdő<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>sabai<s n="n"/></l><r>tető<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>indar<s n="n"/></l><r>erő<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>aita<s n="n"/></l><r>apa<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>ama<s n="n"/></l><r>anya<s n="n"/></r></p><par n="N_N"/></e>
+
+    <e><p><l>anai<s n="n"/></l><r>öcs<s n="n"/></r></p><par n="N_N"/></e> 
+    <e r="RL"><p><l>anai<s n="n"/></l><r>bátya<s n="n"/></r></p><par n="N_N"/></e> <!-- més jove -->
 
     <!-- Proper nouns -->
     <e><p><l>Erzsébet<s n="np"/><s n="ant"/><s n="f"/></l><r>Erzsébet<s n="np"/><s n="ant"/><s n="f"/></r></p><par n="N_N"/></e>
@@ -97,12 +131,33 @@
     <!-- Adjektiboak -->
     <e><p><l>ona<s n="adj"/></l><r>jó<s n="adj"/></r></p><par n="A_A"/></e>
     <e><p><l>polita<s n="adj"/></l><r>szép<s n="adj"/></r></p><par n="A_A"/></e>
+    <e r="LR"><p><l>csinos<s n="adj"/></l><r>szép<s n="adj"/></r></p><par n="A_A"/></e>
+    <e><p><l>altu<s n="adj"/></l><r>magas<s n="adj"/></r></p><par n="A_A"/></e>
+    <e><p><l>marroi<s n="adj"/></l><r>barna<s n="adj"/></r></p><par n="A_A"/></e>
+    <e><p><l>beltz<s n="adj"/></l><r>fekete<s n="adj"/></r></p><par n="A_A"/></e>
+    <e><p><l>gris<s n="adj"/></l><r>szürke<s n="adj"/></r></p><par n="A_A"/></e>
+    <e><p><l>luze<s n="adj"/></l><r>hosszú<s n="adj"/></r></p><par n="A_A"/></e>
+    <e><p><l>txiki<s n="adj"/></l><r>kicsi<s n="adj"/></r></p><par n="A_A"/></e>
+    <e><p><l>merke<s n="adj"/></l><r>olcsó<s n="adj"/></r></p><par n="A_A"/></e>
+    <e><p><l>handi<s n="adj"/></l><r>nagy<s n="adj"/></r></p><par n="A_A"/></e>
+    <e><p><l>aske<s n="adj"/></l><r>szabad<s n="adj"/></r></p><par n="A_A"/></e>
+    <e r="LR"><p><l>libre<s n="adj"/></l><r>szabad<s n="adj"/></r></p><par n="A_A"/></e>
+    <e><p><l>pozik<s n="adj"/></l><r>boldog<s n="adj"/></r></p><par n="A_A"/></e>
+    <e><p><l>hori<s n="adj"/></l><r>sárga<s n="adj"/></r></p><par n="A_A"/></e>
+    <e><p><l>itsusi<s n="adj"/></l><r>csúnya<s n="adj"/></r></p><par n="A_A"/></e>
+    <e><p><l>ahul<s n="adj"/></l><r>gyenge<s n="adj"/></r></p><par n="A_A"/></e>
+    <e><p><l>zahar<s n="adj"/></l><r>régi<s n="adj"/></r></p><par n="A_A"/></e>
+    <e><p><l>triste<s n="adj"/></l><r>szomorú<s n="adj"/></r></p><par n="A_A"/></e>
+    <e><p><l>urdin<s n="adj"/></l><r>kék<s n="adj"/></r></p><par n="A_A"/></e>
+    <e><p><l>apal<s n="adj"/></l><r>alacsony<s n="adj"/></r></p><par n="A_A"/></e>
+    <e r="LR"><p><l>baxu<s n="adj"/></l><r>alacsony<s n="adj"/></r></p><par n="A_A"/></e>
+    <e><p><l>zail<s n="adj"/></l><r>nehéz<s n="adj"/></r></p><par n="A_A"/></e>
+    <e><p><l>zangar<s n="adj"/></l><r>bátor<s n="adj"/></r></p><par n="A_A"/></e>
 
     <!-- Adverbs -->
     <e><p><l>ondo<s n="adv"/></l><r>jót<s n="adv"/></r></p></e>
 
     <!-- Verbs -->
-
     <e><p><l>bidaiatu<s n="vblex"/></l><r>utazik<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>ikusi<s n="vblex"/></l><r>lát<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>itzuli<s n="vblex"/></l><r>fordít<s n="vblex"/></r></p><par n="V_V"/></e>

@@ -63,11 +63,9 @@
     <e><p><l>fabrika<s n="n"/></l><r>gyár<s n="n"/></r></p><par n="N_N"/></e>
     <e><p><l>izeba<s n="n"/></l><r>néne<s n="n"/></r></p><par n="N_N"/></e>
     <e r="LR"><p><l>lantegi<s n="n"/></l><r>gyár<s n="n"/></r></p><par n="N_N"/></e>
-    <e><p><l>uda<s n="n"/></l><r>nyár<s n="n"/></r></p><par n="N_N"/></e>
     <e><p><l>osasuna<s n="n"/></l><r>egészég<s n="n"/></r></p><par n="N_N"/></e>
     <e><p><l>egun<s n="n"/></l><r>nap<s n="n"/></r></p><par n="N_N"/></e>
     <e><p><l>goiz<s n="n"/></l><r>reggel<s n="n"/></r></p><par n="N_N"/></e>
-    <e><p><l>astelehen<s n="n"/></l><r>hétfő<s n="n"/></r></p><par n="N_N"/></e>
     <e><p><l>kale<s n="n"/></l><r>út<s n="n"/></r></p><par n="N_N"/></e>
     <e><p><l>botila<s n="n"/></l><r>üveg<s n="n"/></r></p><par n="N_N"/></e>
     <e><p><l>txakur<s n="n"/></l><r>kutya<s n="n"/></r></p><par n="N_N"/></e>
@@ -103,7 +101,6 @@
     <e><p><l>urtebetetze<s n="n"/></l><r>születésnap<s n="n"/></r></p><par n="N_N"/></e>
     <e><p><l>neska<s n="n"/></l><r>lány<s n="n"/></r></p><par n="N_N"/></e>
     <e><p><l>sudur<s n="n"/></l><r>orr<s n="n"/></r></p><par n="N_N"/></e>
-    <e><p><l>hilabete<s n="n"/></l><r>hó<s n="n"/></r></p><par n="N_N"/></e>
     <e><p><l>lorategi<s n="n"/></l><r>kert<s n="n"/></r></p><par n="N_N"/></e>
     <e><p><l>hiri<s n="n"/></l><r>város<s n="n"/></r></p><par n="N_N"/></e>
     <e><p><l>film<s n="n"/></l><r>film<s n="n"/></r></p><par n="N_N"/></e>
@@ -122,6 +119,37 @@
 
     <e><p><l>anai<s n="n"/></l><r>öcs<s n="n"/></r></p><par n="N_N"/></e> 
     <e r="RL"><p><l>anai<s n="n"/></l><r>bátya<s n="n"/></r></p><par n="N_N"/></e> <!-- més jove -->
+
+    <e><p><l>astelehen<s n="n"/></l><r>hétfő<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>astearte<s n="n"/></l><r>kedd<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>asteazken<s n="n"/></l><r>szerda<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>ostegun<s n="n"/></l><r>csütörtök<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>ostiral<s n="n"/></l><r>péntek<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>larunbat<s n="n"/></l><r>szombat<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>igande<s n="n"/></l><r>vasárnap<s n="n"/></r></p><par n="N_N"/></e>
+
+    <e><p><l>urtarril<s n="n"/></l><r>január<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>otsail<s n="n"/></l><r>február<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>martxo<s n="n"/></l><r>március<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>apiril<s n="n"/></l><r>április<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>maiatz<s n="n"/></l><r>május<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>ekain<s n="n"/></l><r>június<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>uztail<s n="n"/></l><r>július<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>abustu<s n="n"/></l><r>augusztus<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>irail<s n="n"/></l><r>szeptember<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>urri<s n="n"/></l><r>október<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>azaro<s n="n"/></l><r>november<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>abendu<s n="n"/></l><r>december<s n="n"/></r></p><par n="N_N"/></e>
+
+    <e><p><l>udaberri<s n="n"/></l><r>tavasz<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>uda<s n="n"/></l><r>nyár<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>udazken<s n="n"/></l><r>ősz<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>negu<s n="n"/></l><r>tél<s n="n"/></r></p><par n="N_N"/></e>
+
+    <e><p><l>urte<s n="n"/></l><r>év<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>hilabete<s n="n"/></l><r>hó<s n="n"/></r></p><par n="N_N"/></e>
+    <e r="RL"><p><l>hilabete<s n="n"/></l><r>hónap<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>ordu<s n="n"/></l><r>óra<s n="n"/></r></p><par n="N_N"/></e>
 
     <!-- Proper nouns -->
     <e><p><l>Erzsébet<s n="np"/><s n="ant"/><s n="f"/></l><r>Erzsébet<s n="np"/><s n="ant"/><s n="f"/></r></p><par n="N_N"/></e>
@@ -155,7 +183,31 @@
     <e><p><l>zangar<s n="adj"/></l><r>bátor<s n="adj"/></r></p><par n="A_A"/></e>
 
     <!-- Adverbs -->
+
+    <e><p><l>nora<s n="adv"/></l><r>hova<s n="adv"/></r></p></e>
+    <e><p><l>non<s n="adv"/></l><r>hol<s n="adv"/></r></p></e>
+    <e><p><l>nondik<s n="adv"/></l><r>honnan<s n="adv"/></r></p></e>
+
+    <e><p><l>@<s n="adv"/></l><r>ide<s n="adv"/></r></p></e>
+    <e><p><l>hemen<s n="adv"/></l><r>itt<s n="adv"/></r></p></e>
+    <e><p><l>hemendik<s n="adv"/></l><r>innen<s n="adv"/></r></p></e>
+
+    <e><p><l>hara<s n="adv"/></l><r>oda<s n="adv"/></r></p></e>
+    <e><p><l>han<s n="adv"/></l><r>ott<s n="adv"/></r></p></e>
+    <e><p><l>handik<s n="adv"/></l><r>onnan<s n="adv"/></r></p></e>
+
+    <e><p><l>noiz<s n="adv"/></l><r>mikor<s n="adv"/></r></p></e>
+    <e><p><l>nola<s n="adv"/></l><r>hogy<s n="adv"/></r></p></e>
+
     <e><p><l>ondo<s n="adv"/></l><r>jót<s n="adv"/></r></p></e>
+    <e><p><l>bakarrik<s n="adv"/></l><r>csak<s n="adv"/></r></p></e>
+    <e><p><l>ia<s n="adv"/></l><r>csaknem<s n="adv"/></r></p></e>
+    <e><p><l>orain<s n="adv"/></l><r>most<s n="adv"/></r></p></e>
+    <e><p><l>oraindik<s n="adv"/></l><r>még<s n="adv"/></r></p></e>
+    <e><p><l>bihar<s n="adv"/></l><r>holnap<s n="adv"/></r></p></e>
+    <e><p><l>laster<s n="adv"/></l><r>hamar<s n="adv"/></r></p></e>
+    <e><p><l>gaur<s n="adv"/></l><r>ma<s n="adv"/></r></p></e>
+    <e><p><l>gero<s n="adv"/></l><r>később<s n="adv"/></r></p></e>
 
     <!-- Verbs -->
     <e><p><l>bidaiatu<s n="vblex"/></l><r>utazik<s n="vblex"/></r></p><par n="V_V"/></e>

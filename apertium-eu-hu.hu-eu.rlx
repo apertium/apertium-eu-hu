@@ -1,0 +1,16 @@
+DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>";
+
+LIST N = N;
+LIST Det = Det;
+
+SECTION
+
+# Víz van a pohárban.
+REMOVE N IF (0 N) (0 Det) (1 N);
+
+SECTION
+
+LIST @N→ = @N→;
+
+# Víz van a pohárban.
+MAP (@N→) (Det Def) (0C (Det Def)) (1C N);

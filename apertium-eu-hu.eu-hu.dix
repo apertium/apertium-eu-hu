@@ -3,7 +3,21 @@
   <sdefs>
     <sdef n="n"      c="Noun"/>
     <sdef n="num"    c="Numeral"/>
+    <sdef n="det"    c="Determiner"/>
+    <sdef n="adj"    c="Adjective"/>
+    <sdef n="adv"    c="Adverb"/>
+    <sdef n="np"     c="Proper noun"/>
+    <sdef n="ij"     c="Interjection"/>
+    <sdef n="prn"    c="Pronoun"/>
+    <sdef n="post"   c="Postposition"/>
+    <sdef n="vblex"  c="Lexical verb"/>
+    <sdef n="vbsint" c="Synthetic verb"/>
     <sdef n="cnjcoo" c="Coordinating conjunction"/>
+
+    <sdef n="m"      c="Masculine"/>
+    <sdef n="f"      c="Feminine"/>
+
+    <sdef n="ant"    c="Anthroponym"/>
   </sdefs>
   <pardefs>
     <pardef n="N_N">
@@ -20,6 +34,10 @@
 
     <!-- Conjunctions -->
     <e><p><l>eta<s n="cnjcoo"/></l><r>és<s n="cnjcoo"/></r></p></e>
+    <e r="RL"><p><l>eta<s n="cnjcoo"/></l><r>meg<s n="cnjcoo"/></r></p></e>
+
+    <e><p><l>baina<s n="cnjcoo"/></l><r>de<s n="cnjcoo"/></r></p></e>
+    <e><p><l>edo<s n="cnjcoo"/></l><r>vagy<s n="cnjcoo"/></r></p></e>
 
     <!-- Postposizioak -->
     <e><p><l>azpian<s n="post"/></l><r>alá<s n="post"/></r></p></e>
@@ -49,8 +67,29 @@
     <e><p><l>bat<s n="det"/></l><r>egy<s n="det"/></r></p></e>
 
     <!-- Zenbakiak -->
+    <e><p><l>zero<s n="num"/></l><r>nulla<s n="num"/></r></p></e>
+    <e><p><l>bat<s n="num"/></l><r>egy<s n="num"/></r></p></e>
+    <e><p><l>bi<s n="num"/></l><r>kettő<s n="num"/></r></p></e>
+    <e><p><l>hiru<s n="num"/></l><r>három<s n="num"/></r></p></e>
+    <e><p><l>lau<s n="num"/></l><r>négy<s n="num"/></r></p></e>
     <e><p><l>bost<s n="num"/></l><r>öt<s n="num"/></r></p></e>
     <e><p><l>sei<s n="num"/></l><r>hat<s n="num"/></r></p></e>
+    <e><p><l>zazpi<s n="num"/></l><r>hét<s n="num"/></r></p></e>
+    <e><p><l>zortzi<s n="num"/></l><r>nyolc<s n="num"/></r></p></e>
+    <e><p><l>bederatzi<s n="num"/></l><r>kilenc<s n="num"/></r></p></e>
+    <e><p><l>hamar<s n="num"/></l><r>tíz<s n="num"/></r></p></e>
+
+    <e><p><l>hemeretzi<s n="num"/></l><r>tizenegy<s n="num"/></r></p></e>
+    <e><p><l>hamabi<s n="num"/></l><r>tizenkettő<s n="num"/></r></p></e>
+    <e><p><l>hamahiru<s n="num"/></l><r>tizenhárom<s n="num"/></r></p></e>
+
+    <e><p><l>hogei<s n="num"/></l><r>húsz<s n="num"/></r></p></e>
+
+    <e><p><l>berogei<s n="num"/></l><r>negyven<s n="num"/></r></p></e>
+
+    <e><p><l>hirugei<s n="num"/></l><r>hatvan<s n="num"/></r></p></e>
+
+    <e><p><l>larogei<s n="num"/></l><r>nyolcvan<s n="num"/></r></p></e>
 
     <!-- Izenak -->
     <e><p><l>garagardo<s n="n"/></l><r>sör<s n="n"/></r></p><par n="N_N"/></e>
@@ -209,7 +248,11 @@
     <e><p><l>gaur<s n="adv"/></l><r>ma<s n="adv"/></r></p></e>
     <e><p><l>gero<s n="adv"/></l><r>később<s n="adv"/></r></p></e>
 
+    <e><p><l>ere<s n="adv"/></l><r>is<s n="adv"/></r></p></e>
+
     <!-- Verbs -->
+    <e><p><l>egon<s n="vbsint"/></l><r>van<s n="vblex"/></r></p><par n="V_V"/></e>
+
     <e><p><l>bidaiatu<s n="vblex"/></l><r>utazik<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>ikusi<s n="vblex"/></l><r>lát<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>itzuli<s n="vblex"/></l><r>fordít<s n="vblex"/></r></p><par n="V_V"/></e>

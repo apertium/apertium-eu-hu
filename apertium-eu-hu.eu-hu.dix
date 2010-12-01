@@ -1,11 +1,11 @@
 <dictionary>
   <alphabet/>
   <sdefs>
-    <sdef n="n"      c="Noun"/>
+    <sdef n="n"      c="Izena"/>
     <sdef n="num"    c="Numeral"/>
     <sdef n="det"    c="Determiner"/>
     <sdef n="adj"    c="Adjective"/>
-    <sdef n="adv"    c="Adverb"/>
+    <sdef n="adv"    c="Adberbio"/>
     <sdef n="np"     c="Proper noun"/>
     <sdef n="ij"     c="Interjection"/>
     <sdef n="prn"    c="Pronoun"/>
@@ -32,20 +32,20 @@
   </pardefs>
   <section id="main" type="standard">
 
-    <!-- Conjunctions -->
+    <!-- EBAKETA: Juntagailuak -->
     <e><p><l>eta<s n="cnjcoo"/></l><r>és<s n="cnjcoo"/></r></p></e>
     <e r="RL"><p><l>eta<s n="cnjcoo"/></l><r>meg<s n="cnjcoo"/></r></p></e>
 
     <e><p><l>baina<s n="cnjcoo"/></l><r>de<s n="cnjcoo"/></r></p></e>
     <e><p><l>edo<s n="cnjcoo"/></l><r>vagy<s n="cnjcoo"/></r></p></e>
 
-    <!-- Postposizioak -->
+    <!-- EBAKETA: Postposizioak -->
     <e><p><l>azpian<s n="post"/></l><r>alá<s n="post"/></r></p></e>
     <e><p><l>kanpo<s n="post"/></l><r>kívűl<s n="post"/></r></p></e>
     <e><p><l>barruan<s n="post"/></l><r>belül<s n="post"/></r></p></e>
     <e><p><l>gabe<s n="post"/></l><r>nélkül<s n="post"/></r></p></e>
 
-    <!-- Pronouns -->
+    <!-- EBAKETA: Izenordainak -->
     <e><p><l>ni<s n="prn"/></l><r>én<s n="prn"/></r></p></e>
     <e><p><l>zu<s n="prn"/></l><r>te<s n="prn"/></r></p></e>
     <e><p><l>hau<s n="prn"/></l><r>ő<s n="prn"/></r></p></e>
@@ -62,11 +62,11 @@
     <e><p><l>zein<s n="prn"/></l><r>melyik<s n="prn"/></r></p></e>
     <e><p><l>zenbat<s n="prn"/></l><r>hány<s n="prn"/></r></p></e>
 
-    <!-- Determiners -->
+    <!-- EBAKETA: Determinatzaileak -->
     <e><p><l>a<s n="det"/></l><r>a<s n="det"/></r></p></e>
     <e><p><l>bat<s n="det"/></l><r>egy<s n="det"/></r></p></e>
 
-    <!-- Zenbakiak -->
+    <!-- EBAKETA: Zenbakiak -->
     <e><p><l>zero<s n="num"/></l><r>nulla<s n="num"/></r></p></e>
     <e><p><l>bat<s n="num"/></l><r>egy<s n="num"/></r></p></e>
     <e><p><l>bi<s n="num"/></l><r>kettő<s n="num"/></r></p></e>
@@ -91,7 +91,7 @@
 
     <e><p><l>larogei<s n="num"/></l><r>nyolcvan<s n="num"/></r></p></e>
 
-    <!-- Izenak -->
+    <!-- EBAKETA: Izenak -->
     <e><p><l>garagardo<s n="n"/></l><r>sör<s n="n"/></r></p><par n="N_N"/></e>
     <e><p><l>ogi<s n="n"/></l><r>kenyér<s n="n"/></r></p><par n="N_N"/></e>
     <e><p><l>pisu<s n="n"/></l><r>lakás<s n="n"/></r></p><par n="N_N"/></e>
@@ -190,12 +190,19 @@
     <e r="RL"><p><l>hilabete<s n="n"/></l><r>hónap<s n="n"/></r></p><par n="N_N"/></e>
     <e><p><l>ordu<s n="n"/></l><r>óra<s n="n"/></r></p><par n="N_N"/></e>
 
-    <!-- Proper nouns -->
+    <e><p><l>herri<s n="n"/></l><r>falu<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>txori<s n="n"/></l><r>madár<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>unibertsitate<s n="n"/></l><r>egyetem<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>ikasle<s n="n"/></l><r>diák<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>lore<s n="n"/></l><r>virág<s n="n"/></r></p><par n="N_N"/></e>
+    <e><p><l>denda<s n="n"/></l><r>bolt<s n="n"/></r></p><par n="N_N"/></e>
+
+    <!-- EBAKETA: Proper nouns -->
     <e><p><l>Erzsébet<s n="np"/><s n="ant"/><s n="f"/></l><r>Erzsébet<s n="np"/><s n="ant"/><s n="f"/></r></p><par n="N_N"/></e>
     <e><p><l>Mária<s n="np"/><s n="ant"/><s n="f"/></l><r>Mária<s n="np"/><s n="ant"/><s n="f"/></r></p><par n="N_N"/></e>
     <e><p><l>Imre<s n="np"/><s n="ant"/><s n="m"/></l><r>Imre<s n="np"/><s n="ant"/><s n="m"/></r></p><par n="N_N"/></e>
 
-    <!-- Adjektiboak -->
+    <!-- EBAKETA: Adjektiboak -->
     <e><p><l>ona<s n="adj"/></l><r>jó<s n="adj"/></r></p><par n="A_A"/></e>
     <e><p><l>polita<s n="adj"/></l><r>szép<s n="adj"/></r></p><par n="A_A"/></e>
     <e r="LR"><p><l>csinos<s n="adj"/></l><r>szép<s n="adj"/></r></p><par n="A_A"/></e>
@@ -221,8 +228,7 @@
     <e><p><l>zail<s n="adj"/></l><r>nehéz<s n="adj"/></r></p><par n="A_A"/></e>
     <e><p><l>zangar<s n="adj"/></l><r>bátor<s n="adj"/></r></p><par n="A_A"/></e>
 
-    <!-- Adverbs -->
-
+    <!-- EBAKETA: Adberbioak -->
     <e><p><l>nora<s n="adv"/></l><r>hova<s n="adv"/></r></p></e>
     <e><p><l>non<s n="adv"/></l><r>hol<s n="adv"/></r></p></e>
     <e><p><l>nondik<s n="adv"/></l><r>honnan<s n="adv"/></r></p></e>
@@ -250,15 +256,17 @@
 
     <e><p><l>ere<s n="adv"/></l><r>is<s n="adv"/></r></p></e>
 
-    <!-- Verbs -->
+    <!-- EBAKETA: Hitzak -->
     <e><p><l>egon<s n="vbsint"/></l><r>van<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e r="LR"><p><l>izan<s n="vbsint"/></l><r>van<s n="vblex"/></r></p><par n="V_V"/></e>
 
     <e><p><l>bidaiatu<s n="vblex"/></l><r>utazik<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>ikusi<s n="vblex"/></l><r>lát<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>itzuli<s n="vblex"/></l><r>fordít<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>idatzi<s n="vblex"/></l><r>ír<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>jokatu<s n="vblex"/></l><r>játszik<s n="vblex"/></r></p><par n="V_V"/></e>
     
-    <!-- Interjections -->
+    <!-- EBAKETA: Interjections -->
     <e><p><l>bai<s n="ij"/></l><r>igen<s n="ij"/></r></p></e>
     <e><p><l>mersedez<s n="ij"/></l><r>kérem<s n="ij"/></r></p></e>
     <e><p><l>kaixo<s n="ij"/></l><r>szervusz<s n="ij"/></r></p></e>

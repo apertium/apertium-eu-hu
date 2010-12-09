@@ -1,7 +1,7 @@
 Multichar_Symbols
 
 +N +Po
-+Abs +Acc +Dat +Ins +Com +Erg +Ine 
++Abs +Acc +Dat +Ins +Soc +Erg +Ine 
 +Art
 
 LEXICON Root
@@ -14,7 +14,7 @@ LEXICON Cases
 +Erg:%>k #  ;
 +Dat:%>i #  ;
 +Ine:%>n # ;
-+Com:%>ekin # ;
++Soc:%>ekin # ;
 
 LEXICON Nreg
 

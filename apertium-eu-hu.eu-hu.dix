@@ -200,6 +200,8 @@
     <e><p><l>lore<s n="N"/></l><r>virág<s n="N"/></r></p><par n="N_N"/></e>
     <e><p><l>denda<s n="N"/></l><r>bolt<s n="N"/></r></p><par n="N_N"/></e>
     <e><p><l>ordenagailu<s n="N"/></l><r>számítógép<s n="N"/></r></p><par n="N_N"/></e>
+    <e><p><l>gazta<s n="N"/></l><r>sajt<s n="N"/></r></p><par n="N_N"/></e>
+    <e><p><l>aste<s n="N"/></l><r>hét<s n="N"/></r></p><par n="N_N"/></e>
 
     <!-- EBAKETA: Proper nouns -->
     <e><p><l>Erzsébet<s n="np"/><s n="ant"/><s n="f"/></l><r>Erzsébet<s n="np"/><s n="ant"/><s n="f"/></r></p><par n="N_N"/></e>

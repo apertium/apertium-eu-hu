@@ -1,42 +1,140 @@
+!##############################################################################
+
 Multichar_Symbols
 
 +N +Po
 +Nom +Acc +Dat +Ins +Caus +Tra +Term +Ess1 +Ess2 +Ine +SEss +Ade +Ill +Sub +All +Ela +Del +Abl +Gen +Form +Dist +Soc +Loc +DTemp +Temp
 +Pl 
++PxSg +PxPl
++PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
 +Use/LR +Use/RL
 
-{^f} {^b}
+{^oa} {^f} {^b} {^v}
+
+!##############################################################################
 
 LEXICON Root
 
 Nouns ;
 
-LEXICON Cases 
+!##############################################################################
+! 
+! 0      I      II       III          IV                 V
+! Stem + Num. + Poss. + (Nom. poss. + Nom. poss. num.) + Case
+! ház                                                            'ház'
+! ház    ak                                                      'házak'
+! ház    ak              é            i                  ban     'házakéiban'
+! ház           am
+! ház           am       é                                
+! ház           am       é                               ban     'házaméban' 
+! ház           am       é            i
+! ház    ai     m        
+!##############################################################################
+
+LEXICON Cases1 ! "ház" , back vowel
 
 +Nom: # ;
-+Acc:%>{^f}t #  ;
++Acc:%>at #  ;
++Ill:%>ba #  ;
++Ine:%>ban #  ;
++Ela:%>ból #  ;
++Sub:%>ra #  ;
++SEss:%>on #  ;
++Del:%>ról #  ;
++All:%>hoz #  ;
++Ade:%>nál #  ;
++Abl:%>tól #  ;
++Dat:%>nak #  ;
++Ins:%>val #  ;
++Tra:%>vá #  ;
++Caus:%>ért # ;
++Ess1:%>ként # ;
++Term:%>ig # ;
++Dist:%>{^oa}nként # ;
++Temp:%>kor # ;
++DTemp:%>onta # ;
++Soc:%>{^oa}stul # ;
+
+LEXICON Poss1
+
+Cases1 ; 
++PxSg:é Cases1 ;
++PxPl:éi Cases1 ; 
+
+LEXICON PossAttr1
+
+Poss1 ;
++PxSg1:%>m Poss1 ;
++PxSg2:%>d Poss1 ;
++PxSg3:%>ja Poss1 ;
++PxPl1:%>nk Poss1 ;
++PxPl2:%>tok Poss1 ;
++PxPl3:%>juk Poss1 ;
+
+LEXICON Cases
+
++Nom: # ;
++Acc:%>t #  ;
++Dat:%>nek #  ;
 +Caus:%>ért # ;
 +Term:%>ig # ;
 +Ess1:%>ként # ;
 +Form:%>képp # ;
 +Form+Use/LR:%>képpen # ;
 
+!##############################################################################
+
+LEXICON Nreg3 ! "ház" ::: low back
+
++N: PossAttr1 ;
++N+Pl:%>ak Cases1 ;
++N+Pl:%>ai PossAttr1 ;
+
 LEXICON Nreg
+
++N: Cases ;
++N+Pl:%>{^v}k Cases ;
+
+LEXICON Nreg1 ! "asztal" ::: C_final, non_low back
+
++N: Cases ;
++N+Pl:%>ok Cases ;
+
+LEXICON Nreg2 ! "nő" ::: V_final, non_low
 
 +N: Cases ;
 +N+Pl:%>k Cases ;
 
+LEXICON Nreg4 ! "elv" ::: low front
+
++N: Cases ;
++N+Pl:%>ek Cases ;
+
+LEXICON Nreg5 ! "élet" ::: C_final, non_low front non_round
+
++N: Cases ;
++N+Pl:%>ek Cases ;
+
+LEXICON Nreg6 ! "gyök" ::: C_final, non_low front round
+
++N: Cases ;
++N+Pl:%>ök Cases ;
+
+!##############################################################################
+
 LEXICON Nouns
 
-ház Nreg   "house"  ;
 lakás Nreg  "flat" ;
 lámpa Nreg  "lamp" ;
 táska Nreg  "bag" ;
 csésze Nreg  "cup" ;
 lecke Nreg  "lesson" ;
-nő Nreg  "woman" ;
-kocsi Nreg  "car" ;
-hajó Nreg  "boat" ;
-kapu Nreg  "gate" ;
-tű Nreg  "needle" ;
 
+asztal Nreg1 "table" ;
+nő Nreg2  "woman" ;
+tű Nreg2  "needle" ;
+kocsi Nreg2  "car" ;
+hajó Nreg2  "boat" ;
+kapu Nreg2  "gate" ;
+
+ház Nreg3   "house"  ;

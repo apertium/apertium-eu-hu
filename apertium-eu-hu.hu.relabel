@@ -1,6 +1,12 @@
 +N	<N>
 +Po	<Po>
 +Pl	<Pl>
++PxSg1	<PxSg1>
++PxSg2	<PxSg2>
++PxSg3	<PxSg3>
++PxPl1	<PxPl1>
++PxPl2	<PxPl2>
++PxPl3	<PxPl3>
 +Nom	<Nom>
 +Acc	<Acc>
 +Dat	<Dat>
@@ -20,3 +26,5 @@
 +Del	<Del>
 +Abl	<Abl>
 +Form	<Form>
++PxSg	<PxSg>
++PxPl	<PxPl>

@@ -2,11 +2,13 @@
 
 Multichar_Symbols
 
-+N +Po
++N +Po +Pron
 +Nom +Acc +Dat +Ins +Caus +Tra +Term +Ess1 +Ess2 +Ine +SEss +Ade +Ill +Sub +All +Ela +Del +Abl +Gen +Form +Dist +Soc +Loc +DTemp +Temp
 +Pl 
++Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
 +PxSg +PxPl
 +PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
++Dem +Pers +Recip +Rel
 +Use/LR +Use/RL
 
 {^oa} {^f} {^b} {^v}
@@ -16,6 +18,7 @@ Multichar_Symbols
 LEXICON Root
 
 Nouns ;
+Pronouns ;
 
 !##############################################################################
 ! 
@@ -119,6 +122,31 @@ LEXICON Nreg6 ! "gyök" ::: C_final, non_low front round
 
 +N: Cases ;
 +N+Pl:%>ök Cases ;
+
+!##############################################################################
+
+LEXICON Pronouns
+
+én+Pron+Pers+Sg1:én Cases ;
+te+Pron+Pers+Sg2:te Cases ;
+ön+Pron+Pers+Sg2:ön Cases ;
+maga+Pron+Pers+Sg2:maga Cases ;
+ő+Pron+Pers+Sg3:ő Cases ;
+mi+Pron+Pers+Pl1:mi Cases ;
+ti+Pron+Pers+Pl2:ti Cases ;
+önök+Pron+Pers+Pl2:önök Cases ;
+magak+Pron+Pers+Pl2:magak Cases ;
+ők+Pron+Pers+Pl3:ők Cases ;
+
+ez+Pron+Dem:ez Cases ;
+ez+Pron+Dem+Pl:ezek Cases ; 
+az+Pron+Dem:az Cases ; 
+az+Pron+Dem+Pl:azok Cases ; 
+
+egymás+Pron+Recip:egymás Cases ; 
+
+aki+Pron+Rel:aki Cases ; 
+aki+Pron+Rel+Pl:akik Cases ; 
 
 !##############################################################################
 

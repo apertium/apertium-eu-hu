@@ -2,6 +2,7 @@ Multichar_Symbols
 
 +N +Po
 +Nom +Acc +Dat +Ins +Caus +Tra +Term +Ess1 +Ess2 +Ine +SEss +Ade +Ill +Sub +All +Ela +Del +Abl +Gen +Form +Dist +Soc +Loc +DTemp +Temp
++Pl 
 +Use/LR +Use/RL
 
 {^f} {^b}
@@ -23,9 +24,19 @@ LEXICON Cases
 LEXICON Nreg
 
 +N: Cases ;
++N+Pl:%>k Cases ;
 
 LEXICON Nouns
 
 ház Nreg   "house"  ;
 lakás Nreg  "flat" ;
+lámpa Nreg  "lamp" ;
+táska Nreg  "bag" ;
+csésze Nreg  "cup" ;
+lecke Nreg  "lesson" ;
+nő Nreg  "woman" ;
+kocsi Nreg  "car" ;
+hajó Nreg  "boat" ;
+kapu Nreg  "gate" ;
+tű Nreg  "needle" ;
 

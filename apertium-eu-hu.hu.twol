@@ -12,6 +12,12 @@ BackVow = o a á u ú ó ;
 
 Rules
 
+"Vowel lengthening after a in plural"
+a:á <=> _ %>:0 k ;
+
+"Vowel lengthening after e in plural"
+e:é <=> _ %>:0 k ;
+
 "Temporary rule"
 %>:0 <=>  _  ;
 

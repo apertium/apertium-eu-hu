@@ -1,7 +1,8 @@
 Multichar_Symbols
 
 +N +Po
-+Nom +Acc +Dat +Ins +Caus +Tra +Term +Ess1 +Ess2 +Ine +SEss +Ade +Ill +Sub +All +Ela +Del +Abl
++Nom +Acc +Dat +Ins +Caus +Tra +Term +Ess1 +Ess2 +Ine +SEss +Ade +Ill +Sub +All +Ela +Del +Abl +Gen +Form +Dist +Soc +Loc +DTemp +Temp
++Use/LR +Use/RL
 
 {^f} {^b}
 
@@ -16,6 +17,8 @@ LEXICON Cases
 +Caus:%>ért # ;
 +Term:%>ig # ;
 +Ess1:%>ként # ;
++Form:%>képp # ;
++Form+Use/LR:%>képpen # ;
 
 LEXICON Nreg
 

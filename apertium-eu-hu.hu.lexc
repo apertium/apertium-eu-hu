@@ -1,0 +1,28 @@
+Multichar_Symbols
+
++N +Po
++Nom +Acc +Dat +Ins +Caus +Tra +Term +Ess1 +Ess2 +Ine +SEss +Ade +Ill +Sub +All +Ela +Del +Abl
+
+{^f} {^b}
+
+LEXICON Root
+
+Nouns ;
+
+LEXICON Cases 
+
++Nom: # ;
++Acc:%>{^f}t #  ;
++Caus:%>ért # ;
++Term:%>ig # ;
++Ess1:%>ként # ;
+
+LEXICON Nreg
+
++N: Cases ;
+
+LEXICON Nouns
+
+ház Nreg   "house"  ;
+lakás Nreg  "flat" ;
+

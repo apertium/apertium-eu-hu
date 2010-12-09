@@ -1,0 +1,28 @@
+Multichar_Symbols
+
++N +Po
++Abs +Acc +Dat +Ins +Com +Erg +Ine 
++Art
+
+LEXICON Root
+
+Nouns ;
+
+LEXICON Cases 
+
++Abs: # ;
++Erg:%>k #  ;
++Dat:%>i #  ;
++Ine:%>n # ;
++Com:%>ekin # ;
+
+LEXICON Nreg
+
++N: Cases ;
++N+Art:%>a Cases ;
+
+LEXICON Nouns
+
+etxe Nreg  "house"  ;
+pisu Nreg  "flat" ;
+

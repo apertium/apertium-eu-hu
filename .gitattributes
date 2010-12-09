@@ -1,3 +1,10 @@
 * text=auto !eol
+/Makefile -text
 /apertium-eu-hu.eu-hu.dix -text
+/apertium-eu-hu.eu.lexc -text
+/apertium-eu-hu.eu.relabel -text
+/apertium-eu-hu.eu.twol -text
 /apertium-eu-hu.hu-eu.rlx -text
+/apertium-eu-hu.hu.lexc -text
+/apertium-eu-hu.hu.relabel -text
+/apertium-eu-hu.hu.twol -text

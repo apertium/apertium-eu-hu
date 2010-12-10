@@ -1,15 +1,30 @@
+!! =================================== !
+!! The Basque  morphophonological file !
+!! =================================== !
+
 Alphabet
  a b c d e f g h i j k l m n ñ o p q r s t u v w x y z
  A B C D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z 
 
- %> ;
+ %>:0 ;
 
 Sets
 
-Vow = a e i o u;
+ Vow = a e i o u;
+
+ Cns = b c d f g h j k l m n p q r s t v w x z ð þ ;
+ 
+ Nas = m n ;
+ NonNas = b c d f g h j k l p q r s t v w x z ð þ ;
 
 Rules
 
-"Temporary rule"
-%>:0 <=>  _ ;
 
+"ae -> e"
+ a:0 <=> _ %>: e ;
+ 
+ 
+"r doubling"
+ 0:r <=> r %>: _ Vow ;
+  
+ 

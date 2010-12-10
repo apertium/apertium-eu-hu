@@ -1,28 +1,141 @@
 Multichar_Symbols
 
 +N +Po
-+Abs +Acc +Dat +Ins +Soc +Erg +Ine 
++Abs +Acc +Dat +Ins +Soc +Erg +Ine +Ben +Par +All +Ela +Gen +Term +Ten
 +Art
++Locp
 
 LEXICON Root
 
 Nouns ;
 
-LEXICON Cases 
+LEXICON SgCases 
 
-+Abs: # ;
-+Erg:%>k #  ;
-+Dat:%>i #  ;
-+Ine:%>n # ;
-+Soc:%>ekin # ;
++Sg+Abs: # ;                                !-ak
++Sg+Erg:%>k #  ;                        !-ek
++Sg+Dat:%>ri #  ;                        !-ei
+
++Sg+Ine:%>n # ;             !-ean    !-etan
+!twolc rule - larunbata - larunbatean // isn't the lemma 'larunbat' here ? 
++Sg+All:%>ra # ;            !-era     !-etara
++Sg+Ela:%>tik # ;          !-etik     !-etatik
++Sg+LGen:%>ko # ;      !-eko    !-etako
+
++Sg+PGen:%>ren # ;        !-en
++Sg+Ins:%>z # ;                !-ez, taz, etaz
++Sg+Soc:%>rekin # ;         !-ekin
++Sg+Ben:%>rentzat # ;      !-entzat
++Sg+Ben2:%>rengatik # ;  !-agatik  !-engatik
+
+
+LEXICON PlCases 
+
++Pl+Abs:%>k # ;
++Pl+Erg:%>ek #  ;
++Pl+Dat:%>ei #  ;
+
++Pl+Ine:%>etan # ;
++Pl+All:%>etara # ;
++Pl+Ela:%>etatik # ;
++Pl+LGen:%>etako # ;
+
++Pl+PGen:%>en # ; 
++Pl+Ins:%>ez # ; 
++Pl+Soc:%>ekin # ;
++Pl+Ben:%>entzat # ;
++Pl+Ben2:%>engatik # ;
+
+
+
+LEXICON Propcases 
+
++Abs: # ;                   
++Erg:%>k #  ;            ! -ek
++Dat:%>i #  ;             ! -ri
+
++Ine:%>n # ;             ! -en
++All:%>ra # ;             ! -a
++Ela:%>tik # ;            !-dik
++LGen:%>ko # ;        !-go
+
++Par:%>rik # ;
++PGen:%>ren # ;        !-en
++Ins:%>z # ;                !-ez, taz, etaz
++Soc:%>rekin # ;         !-ekin
++Ben:%>rentzat # ;      !-entzat
++Ben2:%>rengatik # ;  !-engatik
+
+
+LEXICON Locparadigm !after animate noun phrases
+
++Locp:%>gan # ; ! "at, in" mutilengan - in the boys
++Locp:%>gan Loccases ;
+
+LEXCION Loccases
+
++Ela:%>dik # ; !"from"
++All:%>a # ; ! "to"
++Term:%>aino # ; !"as far as, up to"
++Ten:%>antz # ; ! "toward"
+
+LEXICON Precases !nouns that can denote a location, they can take another case in addition
+
++Sg+Term:%>raino # ; !Terminal "as far as"
++Sg+Gen:%>ko # ;
++Sg+:%>koa # ;
++Sg+Ten:%>rantz # ; !Tendential "toward"
+
+
+!for propernouns ending in a consonant
+
+LEXICON Dim
++Dim:%>txo Cases ; !tto, no
 
 LEXICON Nreg
 
 +N: Cases ;
 +N+Art:%>a Cases ;
++N: Dim ;
+
+LEXICON Na
+
++N: MggCases ;
++N+Art:%> SgCases ;
++N+Art:%> PlCases ;
++N: Dim ;
 
 LEXICON Nouns
 
 etxe Nreg  "house"  ;
 pisu Nreg  "flat" ;
+taberna Na "bar" ;
+txakur Nreg  "dog"  ;
+
+LEXICON Propernouns
+
+Frantzia Na "France" ;
+Galizia Na "Galicia" ;
+Grezia Na "Greece" ;
+Japonia Na "Japan" ;
+Katalunia Na "Catalonia" ;
+Polonia Na "Poland" ;
+Suedia Na "Sweden" ;
+Suitza Na "Switzerland" ;
+Turkia Na "Turkey" ;
+Txekia Na "Czech Republic" ;
+Baiona Na "Bayonne" ;
+Gipuzkoa Na "Guipuzcoa" ;
+Aezkoa Na "Aezcoa" ;
+Baiona Na "Bayonne" ;
+Hendaia Na "Hendaye" ;
+Bidasoa Na "Bidasoa" ; 
+Leioa Na "Lejona" ;
+Donostia Na "San Sebastian" ;
+Nafarroa Na "Navarra" ;
+Errenteria Na "Renteria" ;
+Ordizia Na "Villafranca de Oria" ;
+Getaria Na "Guetaria" ;
+Zuberoa Na "Soule" ;
+
+!lexicon for propernouns, nouns, nouns with organic a
 

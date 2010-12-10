@@ -1,6 +1,9 @@
 +N	<N>
 +Po	<Po>
 +Pron	<Pron>
++Det	<Det>
++CC	<CC>
++CS	<CS>
 +Pl	<Pl>
 +PxSg1	<PxSg1>
 +PxSg2	<PxSg2>
@@ -26,10 +29,16 @@
 +Ela	<Ela>
 +Del	<Del>
 +Abl	<Abl>
++Dist	<Dist>
++Soc	<Soc>
++Temp	<Temp>
++DTemp	<DTemp>
 +Form	<Form>
 +PxSg	<PxSg>
 +PxPl	<PxPl>
 +Dem	<Dem>
++Def	<Def>
++Indef	<Indef>
 +Pers	<Pers>
 +Recip	<Recip>
 +Rel	<Rel>

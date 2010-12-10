@@ -6,11 +6,37 @@ Alphabet
 
 Sets
 
-FrontVow = e ö é ü ű ő ;
-
-BackVow = o a á u ú ó ;
+FrontVow = e é i í ü ű ö ő ;
+FrontRoundedVow = ö ő ü ű ;
+FrontUnroundedVow = e é i í;
+BackVow = a á o ó u ú ;
 
 Rules
+
+! 
+! Vowel harmony rules in Hungarian require that front or back assonance
+! in the vowels of a stem be maintained through the entire word, thus 
+! for the most part -- except some recent loans -- Hungarian words have
+! either only back or only front vowels.
+!
+! Because vowel assonance is maintained throughout the whole word, most 
+! suffixes have front and back vowel variants, e.g. the dative -nak (B)
+! -nek (F). Thus if a stem contains back vowels it affixes back vowel suffixes
+! should the word contain only front vowels, it gets front vowel suffixes.
+! 
+! When a suffix contains only front vowels, then a second distinction is 
+! made: rounded/unrounded in the _last_ vowel. If the stem's last vowel 
+! is front and rounded it takes a suffix with a front rounded vowel. If 
+! the stem's _last_ vowel is front and unrounded it take s front unrounded
+! suffix. Although suffixes for most words have front/back variants, only 
+! a few endings have unrounded/rounded variants (e.g. allative -hoz/-hez/-höz)
+! and the plural suffix (-k/-ok/-ek/-ök)
+!
+! Front unrounded vowels are also considered 'neutral'; a word containing
+! back vowels and front unrounded vowels is considered a back vowel word. If
+! _only_ front unrounded vowels appear in a stem, then it is considered to be
+! of front vowel assonance. Although there are exceptions (e.g. szív 'heart' 
+! has front vowel assonance, but szív 'inhale' has back vowel assonance).
 
 "Vowel lengthening after a in plural"
 a:á <=> _ %>:0 k ;

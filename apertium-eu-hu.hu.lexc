@@ -2,13 +2,13 @@
 
 Multichar_Symbols
 
-+N +Po +Pron
++N +Po +Det +Pron +CC +CS
 +Nom +Acc +Dat +Ins +Caus +Tra +Term +Ess1 +Ess2 +Ine +SEss +Ade +Ill +Sub +All +Ela +Del +Abl +Gen +Form +Dist +Soc +Loc +DTemp +Temp
 +Pl 
 +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
 +PxSg +PxPl
 +PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
-+Dem +Pers +Recip +Rel
++Dem +Pers +Recip +Rel +Def +Indef
 +Use/LR +Use/RL
 
 {^oa} {^f} {^b} {^v}
@@ -19,6 +19,8 @@ LEXICON Root
 
 Nouns ;
 Pronouns ;
+Determiners ;
+Conjunctions ;
 
 !##############################################################################
 ! 
@@ -32,6 +34,7 @@ Pronouns ;
 ! ház           am       é                               ban     'házaméban' 
 ! ház           am       é            i
 ! ház    ai     m        
+!
 !##############################################################################
 
 LEXICON Cases1 ! "ház" , back vowel
@@ -122,6 +125,34 @@ LEXICON Nreg6 ! "gyök" ::: C_final, non_low front round
 
 +N: Cases ;
 +N+Pl:%>ök Cases ;
+
+!##############################################################################
+
+LEXICON CC
+
++CC: # ;
+
+LEXICON CS
+
++CS: # ;
+
+LEXICON Conjunctions 
+
+és CC "and";
+meg CC "and";
+de CC "but";
+vagy CC "or";
+
+!##############################################################################
+
+LEXICON Determiners 
+
+a+Det+Def+Use/RL:%~a # ;
+a+Det+Def+Use/LR:a # ;
+a+Det+Def+Use/LR:az # ;
+
+egy+Det+Indef:egy # ;
+
 
 !##############################################################################
 

@@ -23,6 +23,7 @@ LEXICON Root
 
 Nouns ;
 Propernouns ;
+Pronouns ;
 
 LEXICON SgCases1 
 
@@ -91,6 +92,7 @@ LEXICON MggCases2
 +Mgg+All:%>etara # ;    !tara
 +Mgg+Ela:%>etatik # ;   !tatik
 
+
 LEXICON MggCases3
 
 +Mgg+LGen:%>etako # ;   !tako
@@ -122,19 +124,19 @@ LEXICON Bizidun !after animate noun phrases
 +Biz:%>gan SgCases2 ;
 +Biz:%>engan PlCases2 ;
 
-LEXICON Loccases
-
-+Ela:%>dik # ; !"from"
-+All:%>a # ; ! "to"
-+Term:%>aino # ; !"as far as, up to"
-+Ten:%>antz # ; ! "toward"
-
-LEXICON Precases !nouns that can denote a location, they can take another case in addition
-
-+Sg+Term:%>raino # ; !Terminal "as far as"
-+Sg+Gen:%>ko # ;
-+Sg+XXX:%>koa # ;
-+Sg+Ten:%>rantz # ; !Tendential "toward"
+!LEXICON Loccases
+!
+!+Ela:%>dik # ; !"from"
+!+All:%>a # ; ! "to"
+!+Term:%>aino # ; !"as far as, up to"
+!+Ten:%>antz # ; ! "toward"
+!
+!LEXICON Precases !nouns that can denote a location, they can take another case in addition
+!
+!+Sg+Term:%>raino # ; !Terminal "as far as"
+!+Sg+Gen:%>ko # ;
+!+Sg+XXX:%>koa # ;
+!+Sg+Ten:%>rantz # ; !Tendential "toward"
 
 
 !for propernouns ending in a consonant
@@ -146,6 +148,7 @@ LEXICON Nreg
 
 +N: MggCases1 ;
 +N: MggCases2 ;
++N: MggCases3 ;
 +N+Art:%>a SgCases1 ;
 +N+Art:%>a SgCases2 ;
 +N+Art:%>a SgCases3 ;
@@ -167,6 +170,7 @@ LEXICON Na
 
 +N: MggCases1 ;
 +N: MggCases2 ;
++N: MggCases3 ;
 +N+Art: SgCases1 ;
 +N+Art: SgCases2 ;
 +N+Art: SgCases3 ;

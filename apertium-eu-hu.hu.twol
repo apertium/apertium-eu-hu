@@ -1,19 +1,38 @@
+
+
+
 Alphabet
  a á b c d e é f g h i í j k l m n o ó ö ő p q r s t u ú ü ű v w x y z
  A Á B C D E É F G H I Í J K L M N O Ó Ö Ő P Q R S T U Ú Ü Ű V W X Y Z 
 
- %>:0 ;
+ %>:0 %^SHORT:0
+ %^v:0 %^U:y %^A:e %^OAEÖ:e %^Ó:ő %^Á:é %^EÖ:e 
+ ;
+
+!%^SHORT for avoiding a/e lengthening in front of -kor etc.
 
 Sets
 
+Cns = b c d f g h j k l m n p q r s t v w x z
+      B C D F G H J K L M N P Q R S T V W X Z ;
 FrontVow = e é i í ü ű ö ő ;
 FrontRoundedVow = ö ő ü ű ;
 FrontUnroundedVow = e é i í;
+BackRoundedVow = o ó u ú ;
+BackUnroundedVow = a á ; 
 BackVow = a á o ó u ú ;
+ArchiVow =  %^v %^U %^A %^OAEÖ %^Ó %^Á %^EÖ ;
+Vow = FrontVow BackVow ArchiVow ;
+Segment = FrontVow BackVow ArchiVow Cns ;
+NonFront = Cns  BackVow ArchiVow %> ;
+NonBack =  Cns FrontVow ArchiVow %> ;
+NonBackRounded = Cns FrontVow BackUnroundedVow ArchiVow ;
+NonFrontUnrounded = Cns BackVow ;
+
+! consider adding the archivowels to the vowel sets, look at that.
 
 Rules
 
-! 
 ! Vowel harmony rules in Hungarian require that front or back assonance
 ! in the vowels of a stem be maintained through the entire word, thus 
 ! for the most part -- except some recent loans -- Hungarian words have
@@ -38,10 +57,26 @@ Rules
 ! of front vowel assonance. Although there are exceptions (e.g. szív 'heart' 
 ! has front vowel assonance, but szív 'inhale' has back vowel assonance).
 
-"Vowel lengthening after a in plural"
-a:á <=> _ %>:0 k ;
-
-"Vowel lengthening after e in plural"
-e:é <=> _ %>:0 k ;
+!  +SEss:%>%^EÖn #  ;           ! -(o)n/-(e)n/-(ö)n
 
 
+"Short Back EÖ Harmony"
+ %^EÖ:o <=> BackVow: NonFront:* %>: NonFront:* _ ;
+
+"Short Front Round Harmony"
+ %^EÖ:ö <=> FrontRoundedVow: NonFront:* %>: NonFront:* _ ;
+
+"Short Back harmony"
+  %^A:a <=> BackVow: NonFront:* %>: NonFront:* _ ;
+  
+"Long Back harmony"
+ %^Á:á <=> BackVow: NonFront:* %>: NonFront:* _ ;
+
+"Vowel lengthening after stem-final a followed by suffix"
+a:á <=> _ %>: Segment: ;
+
+"Vowel lengthening after stem-final e followed by suffix"
+e:é <=> _ %>: Segment: ;
+  
+"Vowel shorting after vowel-final stems"
+ %^EÖ:0 <=> Vow %>: _ ;

@@ -1,3 +1,6 @@
+
+
+
 !##############################################################################
 
 Multichar_Symbols
@@ -11,7 +14,14 @@ Multichar_Symbols
 +Dem +Pers +Recip +Rel +Def +Indef
 +Use/LR +Use/RL
 
-{^oa} {^f} {^b} {^v}
+%^v  ! any vow
+%^U  ! u or y
+%^A  ! a or e
+%^Ó  ! ó or ő
+%^Á  ! á or é
+%^EÖ ! o or e or ö
+%^AEUY ! one of these -- is this just the wrong group? -- no 'y' in hungarian
+%^SHORT ! demand short vowel before -kor / -ként
 
 !##############################################################################
 
@@ -37,94 +47,56 @@ Conjunctions ;
 !
 !##############################################################################
 
-LEXICON Cases1 ! "ház" , back vowel
+LEXICON Cases 
 
-+Nom: # ;
-+Acc:%>at #  ;
-+Ill:%>ba #  ;
-+Ine:%>ban #  ;
-+Ela:%>ból #  ;
-+Sub:%>ra #  ;
-+SEss:%>on #  ;
-+Del:%>ról #  ;
-+All:%>hoz #  ;
-+Ade:%>nál #  ;
-+Abl:%>tól #  ;
-+Dat:%>nak #  ;
-+Ins:%>val #  ;
-+Tra:%>vá #  ;
-+Caus:%>ért # ;
-+Ess1:%>ként # ;
-+Term:%>ig # ;
-+Dist:%>{^oa}nként # ;
-+Temp:%>kor # ;
-+DTemp:%>onta # ;
-+Soc:%>{^oa}stul # ;
++Nom: # ;                    !
++Acc:%>t #  ;                ! -t
++Ill:%>b%^A #  ;             ! -ba/-be
++Ine:%>b%^An #  ;            ! -ban/-ben
++Ela:%>b%^Ól #  ;            ! -ból/-ből
++Sub:%>r%^A #  ;             ! -ra/-re
++SEss:%>%^EÖn #  ;           ! -on/-en/-ön
++Del:%>r%^Ól #  ;            ! -ról/-ről
++All:%>h%^EÖz #  ;           ! -hoz/-hez/-höz 
++Ade:%>n%^Ál #  ;            ! -nál/-nél
++Abl:%>t%^Ól #  ;            ! -tól/-től
++Dat:%>n%^Ak #  ;            ! -nak/-nek
++Ins:%>v%^Al #  ;            ! -val/-vel
++Tra:%>v%^Á #  ;             ! -vá/-vé
++Caus:%>ért # ;              ! -ért
++Ess1:%>%^SHORTként # ;      ! -ként 
++Term:%>ig # ;               ! -ig
++Dist:%>{^oa}nként # ;       ! -onként/-anként/-enként/-önként
++Temp:%>%^SHORTkor # ;       ! -kor
++DTemp:%>%^EÖnta # ;         ! -onta/-enta/-önta
++Soc:%>{^oa}stul # ;         ! ?
 
-LEXICON Poss1
+LEXICON Poss
 
-Cases1 ; 
-+PxSg:é Cases1 ;
-+PxPl:éi Cases1 ; 
+Cases ; 
++PxSg:é Cases ;
++PxPl:éi Cases ; 
 
-LEXICON PossAttr1
+LEXICON PossAttr
 
-Poss1 ;
-+PxSg1:%>m Poss1 ;
-+PxSg2:%>d Poss1 ;
-+PxSg3:%>ja Poss1 ;
-+PxPl1:%>nk Poss1 ;
-+PxPl2:%>tok Poss1 ;
-+PxPl3:%>juk Poss1 ;
+Poss ;
+PossSuff ;
 
-LEXICON Cases
-
-+Nom: # ;
-+Acc:%>t #  ;
-+Dat:%>nek #  ;
-+Caus:%>ért # ;
-+Term:%>ig # ;
-+Ess1:%>ként # ;
-+Form:%>képp # ;
-+Form+Use/LR:%>képpen # ;
+LEXICON PossSuff
++PxSg1:%>m Poss ;
++PxSg2:%>d Poss ;
++PxSg3:%>ja Poss ;
++PxPl1:%>nk Poss ;
++PxPl2:%>tok Poss ;
++PxPl3:%>juk Poss ;
 
 !##############################################################################
 
-LEXICON Nreg3 ! "ház" ::: low back
-
-+N: PossAttr1 ;
-+N+Pl:%>ak Cases1 ;
-+N+Pl:%>ai PossAttr1 ;
-
 LEXICON Nreg
 
-+N: Cases ;
-+N+Pl:%>{^v}k Cases ;
-
-LEXICON Nreg1 ! "asztal" ::: C_final, non_low back
-
-+N: Cases ;
-+N+Pl:%>ok Cases ;
-
-LEXICON Nreg2 ! "nő" ::: V_final, non_low
-
-+N: Cases ;
++N: PossAttr ;
 +N+Pl:%>k Cases ;
-
-LEXICON Nreg4 ! "elv" ::: low front
-
-+N: Cases ;
-+N+Pl:%>ek Cases ;
-
-LEXICON Nreg5 ! "élet" ::: C_final, non_low front non_round
-
-+N: Cases ;
-+N+Pl:%>ek Cases ;
-
-LEXICON Nreg6 ! "gyök" ::: C_final, non_low front round
-
-+N: Cases ;
-+N+Pl:%>ök Cases ;
++N+Pl:%>i PossSuff ;
 
 !##############################################################################
 
@@ -159,25 +131,6 @@ egy+Det+Indef:egy # ;
 LEXICON Pronouns
 
 én+Pron+Pers+Sg1:én Cases ;
-te+Pron+Pers+Sg2:te Cases ;
-ön+Pron+Pers+Sg2:ön Cases ;
-maga+Pron+Pers+Sg2:maga Cases ;
-ő+Pron+Pers+Sg3:ő Cases ;
-mi+Pron+Pers+Pl1:mi Cases ;
-ti+Pron+Pers+Pl2:ti Cases ;
-önök+Pron+Pers+Pl2:önök Cases ;
-magak+Pron+Pers+Pl2:magak Cases ;
-ők+Pron+Pers+Pl3:ők Cases ;
-
-ez+Pron+Dem:ez Cases ;
-ez+Pron+Dem+Pl:ezek Cases ; 
-az+Pron+Dem:az Cases ; 
-az+Pron+Dem+Pl:azok Cases ; 
-
-egymás+Pron+Recip:egymás Cases ; 
-
-aki+Pron+Rel:aki Cases ; 
-aki+Pron+Rel+Pl:akik Cases ; 
 
 !##############################################################################
 
@@ -189,11 +142,11 @@ táska Nreg  "bag" ;
 csésze Nreg  "cup" ;
 lecke Nreg  "lesson" ;
 
-asztal Nreg1 "table" ;
-nő Nreg2  "woman" ;
-tű Nreg2  "needle" ;
-kocsi Nreg2  "car" ;
-hajó Nreg2  "boat" ;
-kapu Nreg2  "gate" ;
+asztal Nreg "table" ;
+nő Nreg  "woman" ;
+tű Nreg  "needle" ;
+kocsi Nreg  "car" ;
+hajó Nreg  "boat" ;
+kapu Nreg  "gate" ;
 
-ház Nreg3   "house"  ;
+ház Nreg   "house"  ;

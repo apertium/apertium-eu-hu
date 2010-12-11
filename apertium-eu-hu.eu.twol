@@ -12,10 +12,10 @@ Sets
 
  Vow = a e i o u;
 
- Cns = b c d f g h j k l m n p q r s t v w x z ð þ ;
+ Cns = b c d f g h j k l m n p q r s t v w x z ;
  
  Nas = m n ;
- NonNas = b c d f g h j k l p q r s t v w x z ð þ ;
+ NonNas = b c d f g h j k l p q r s t v w x z ;
 
 Rules
 

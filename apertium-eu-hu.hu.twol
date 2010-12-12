@@ -1,15 +1,13 @@
-
-
-
 Alphabet
  a á b c d e é f g h i í j k l m n o ó ö ő p q r s t u ú ü ű v w x y z
  A Á B C D E É F G H I Í J K L M N O Ó Ö Ő P Q R S T U Ú Ü Ű V W X Y Z 
 
- %>:0 %^SHORT:0
+ %>:0 %^SHORT:0 %^ASSIM:0
  %^v:0 %^U:y %^A:e %^OAEÖ:e %^Ó:ő %^Á:é %^EÖ:e 
  ;
 
 !%^SHORT for avoiding a/e lengthening in front of -kor etc.
+!%^ASSIM for -v- consonant assimilation
 
 Sets
 
@@ -59,24 +57,69 @@ Rules
 
 !  +SEss:%>%^EÖn #  ;           ! -(o)n/-(e)n/-(ö)n
 
-
 "Short Back EÖ Harmony"
- %^EÖ:o <=> BackVow: NonFront:* %>: NonFront:* _ ;
+%^EÖ:o <=> BackVow: NonFront:* %>: NonFront:* _ ;
+
+!€ház>^EÖn
+!€ház>00on
 
 "Short Front Round Harmony"
- %^EÖ:ö <=> FrontRoundedVow: NonFront:* %>: NonFront:* _ ;
+%^EÖ:ö <=> FrontRoundedVow: NonFront:* %>: NonFront:* _ ;
+
+!€könyv>^EÖn
+!€könyv>00ön
 
 "Short Back harmony"
-  %^A:a <=> BackVow: NonFront:* %>: NonFront:* _ ;
+%^A:a <=> BackVow: NonFront:* %>: NonFront:* _ ;
+
+!ház>b^An
+!ház>b0an
   
+!ész>b^An
+!ész>b0en
+
 "Long Back harmony"
- %^Á:á <=> BackVow: NonFront:* %>: NonFront:* _ ;
+%^Á:á <=> BackVow: NonFront:* %>: NonFront:* _ ;
 
 "Vowel lengthening after stem-final a followed by suffix"
 a:á <=> _ %>: Segment: ;
 
+!€lámpa>nak
+!€lámpá>nak
+
+!€lámpa>^EÖn
+!€lámpá>^EÖn
+
 "Vowel lengthening after stem-final e followed by suffix"
 e:é <=> _ %>: Segment: ;
+
+!€csésze>nek
+!€csészé>nek
   
 "Vowel shorting after vowel-final stems"
  %^EÖ:0 <=> Vow %>: _ ;
+
+"Digraph consonant assimilation with -v- suffixes" 
+Cb:Ca <=> Cx _ %>: %^ASSIM:0 v:Cy %^A: ;
+          where Ca in (c d g n s t z)
+                Cb in (s z y y z y s) 
+                Cx in (c d g n s t z)
+                Cy in (s z y y z y s) matched ;
+
+!€ész>^ASSIMv^Al
+!€éss>000000z^Al
+
+!€lány>^ASSIMv^Al
+!€lánn>000000y^Al
+
+!
+! barátok + val -> barátokkal
+! barátom + val -> barátommal
+!
+!"Consonant assimilation with -v- suffixes" 
+!v:Cx <=> Cy %>: %^ASSIM:0 _  ;
+!          where Cx in (b f h j k l m p q r v w x) 
+!                Cy in (b f h j k l m p q r v w x) matched ;
+!
+!€ház>^ASSIMv^Al
+!€ház>000000z^Al

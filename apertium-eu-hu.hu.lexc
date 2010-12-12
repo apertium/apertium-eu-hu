@@ -22,6 +22,7 @@ Multichar_Symbols
 %^EÖ ! o or e or ö
 %^AEUY ! one of these -- is this just the wrong group? -- no 'y' in hungarian
 %^SHORT ! demand short vowel before -kor / -ként
+%^ASSIM ! initial -v- of suffix assimilates to the stem final consonant
 
 !##############################################################################
 
@@ -61,8 +62,8 @@ LEXICON Cases
 +Ade:%>n%^Ál #  ;            ! -nál/-nél
 +Abl:%>t%^Ól #  ;            ! -tól/-től
 +Dat:%>n%^Ak #  ;            ! -nak/-nek
-+Ins:%>v%^Al #  ;            ! -val/-vel
-+Tra:%>v%^Á #  ;             ! -vá/-vé
++Ins:%>%^ASSIMv%^Al #  ;            ! -val/-vel
++Tra:%>%^ASSIMv%^Á #  ;             ! -vá/-vé
 +Caus:%>ért # ;              ! -ért
 +Ess1:%>%^SHORTként # ;      ! -ként 
 +Term:%>ig # ;               ! -ig
@@ -142,11 +143,18 @@ táska Nreg  "bag" ;
 csésze Nreg  "cup" ;
 lecke Nreg  "lesson" ;
 
+víz Nreg "water" ;
+bor Nreg "wine" ;
+ész Nreg "mind" ;
 asztal Nreg "table" ;
+toll Nreg "pen" ;
+orr Nreg "nose" ;
+lány Nreg "girl" ;
 nő Nreg  "woman" ;
 tű Nreg  "needle" ;
 kocsi Nreg  "car" ;
 hajó Nreg  "boat" ;
 kapu Nreg  "gate" ;
+barát Nreg  "friend" ;
 
 ház Nreg   "house"  ;

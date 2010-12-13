@@ -210,8 +210,11 @@ LEXICON Np
 
 +N+Prop: Propcases ;
 
+!LEXICON AuxUkan
+!
+!+V+Aux: 
 
-LEXICON Aux
+LEXICON AuxIzan
 
 +V+Aux: IZANNOR ;
 
@@ -300,6 +303,6 @@ Zuberoa Np "Soule" ;
 LEXICON Verbs
 
 asmatu Mv "invent" ;
-izan Aux "be" ;
-ukan Aux "be" ;
+izan: AuxIzan "be" ;
+!:ukan AuxUkan "be" ;
 

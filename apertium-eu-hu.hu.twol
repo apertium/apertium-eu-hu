@@ -100,17 +100,26 @@ e:é <=> _ %>: Segment: ;
  %^EÖ:0 <=> Vow %>: _ ;
 
 "Digraph consonant assimilation with -v- suffixes" 
-Cb:Ca <=> Cx _ %>: %^ASSIM:0 v:Cy %^A: ;
-          where Ca in (c d g n s t z)
-                Cb in (s z y y z y s) 
-                Cx in (c d g n s t z)
-                Cy in (s z y y z y s) matched ;
+Cb:Ca <=> Cx _ %>: %^ASSIM: ;
+          where Ca in (n) !where Ca in (c d g n s t z)
+                Cb in (y) !      Cb in (s z y y z y s) 
+                Cx in (n) matched; !      Cx in (c d g n s t z)
+
+                !Cy in (y) matched; !      Cy in (s z y y z y s) matched ;
 
 !€ész>^ASSIMv^Al
 !€éss>000000z^Al
 
 !€lány>^ASSIMv^Al
 !€lánn>000000y^Al
+
+"Digraph consonant assimilation with -v- suffixes, 2" 
+v:Cc <=> Ca Cb %>: %^ASSIM: _ ;
+          where Ca in (n) !where Ca in (c d g n s t z)
+                Cb in (n)
+                Cc in (y) matched ;!      Cb in (s z y y z y s) 
+
+
 
 !
 ! barátok + val -> barátokkal

@@ -74,28 +74,28 @@ LEXICON PlCases3
 
 LEXICON MggCases1 
 
-+Mgg+Abs: # ;
-+Mgg+Erg:%>ek # ;   !k
-+Mgg+Dat:%>ri # ;   !i
++Abs: # ;
++Erg:%>k # ;   !k
++Dat:%>ri # ;   !i
 
-+Mgg+PGen:%>ren # ;    !en
-+Mgg+Ins:%>z # ;       !ez,etaz,taz
-+Mgg+Soc:%>rekin # ;   !ekin
-+Mgg+Ben:%>rentzat # ; !entzat
-+Mgg+Ben2:%>rengatik # ;   !engatik
++PGen:%>ren # ;    !en
++Ins:%>z # ;       !ez,etaz,taz
++Soc:%>rekin # ;   !ekin
++Ben:%>rentzat # ; !entzat
++Ben2:%>rengatik # ;   !engatik
 
-+Mgg+Par:%>rik # ;
++Par:%>rik # ;
 
 LEXICON MggCases2
 
-+Mgg+Ine:%>etan # ;     !tan
-+Mgg+All:%>etara # ;    !tara
-+Mgg+Ela:%>etatik # ;   !tatik
++Ine:%>etan # ;     !tan
++All:%>etara # ;    !tara
++Ela:%>etatik # ;   !tatik
 
 
 LEXICON MggCases3
 
-+Mgg+LGen:%>etako # ;   !tako
++LGen:%>etako # ;   !tako
 
 
 
@@ -121,8 +121,10 @@ LEXICON Bizidun !after animate noun phrases
 
 +Biz: SgCases1 ;
 +Biz: PlCases1 ;
++Biz: MggCases1 ;
 +Biz:%>gan SgCases2 ;
-+Biz:%>engan PlCases2 ;
++Biz:%>rengan PlCases2 ;
++Biz:%>rengan MggCases2 ;
 
 !LEXICON Loccases
 !
@@ -159,11 +161,8 @@ LEXICON Nreg
 
 LEXICON NregBizi
 
-+N: MggCases1 ;
 +N: Bizidun ;
-+N+Art:%>a SgCases1 ;
 +N+Art:%>a Bizidun ;
-+N+Art:%>a PlCases1 ;
 !+N: Dim ;
 
 LEXICON Na
@@ -181,15 +180,37 @@ LEXICON Na
 
 LEXICON NaBizi
 
-+N: MggCases1 ;
-+N+Art: SgCases1 ;
-+N+Art: PlCases1 ;
++N: Bizidun ;
 +N+Art: Bizidun ;
 !+N: Dim ;
 
 LEXICON Np
 
 +N+Prop: Propcases ;
+
+
+LEXICON Aux
+
++V+Aux: IZANNOR ;
+
+LEXICON IZANNOR
+
++Ind+Prs+AbsSg1:naiz # ;
++Ind+Prs+AbsSg2inf:haiz # ;
++Ind+Prs+AbsSg2:zara # ;
++Ind+Prs+AbsSg3:da # ;
++Ind+Prs+AbsPl1:gara # ;
++Ind+Prs+AbsPl2:zarete # ;
++Ind+Prs+AbsPl3:dira # ;
+
+!prt - en
++Ind+Prt+AbsSg1:nintzen # ;
++Ind+Prt+AbsSg2inf:hintzen # ;
++Ind+Prt+AbsSg2:zinen # ;
++Ind+Prt+AbsSg3:zen # ;
++Ind+Prt+AbsPl1:ginen # ;
++Ind+Prt+AbsPl2:zineten # ;
++Ind+Prt+AbsPl3:ziren # ;
 
 
 LEXICON Nouns
@@ -228,5 +249,9 @@ Ordizia Np "Villafranca de Oria" ;
 Getaria Np "Guetaria" ;
 Zuberoa Np "Soule" ;
 
-!lexicon for propernouns, nouns, nouns with organic a
+LEXICON Verbs
+
+asmatu Mv "invent" ;
+izan Aux "be" ;
+ukan Aux "be" ;
 

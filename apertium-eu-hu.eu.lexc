@@ -17,6 +17,27 @@ Multichar_Symbols
 
 +Pron
 
++V
++Aux
++ifl
++ifl/f
++ifl/m
++Ind
++Prs
++Prt
++Abs/Sg1
++Abs/Sg2
++Abs/Sg3
++Abs/Pl1
++Abs/Pl2
++Abs/Pl3
++Dat/Sg1
++Dat/Sg2
++Dat/Sg3
++Dat/Pl1
++Dat/Pl2
++Dat/Pl3
+
 %>
 
 LEXICON Root
@@ -24,6 +45,7 @@ LEXICON Root
 Nouns ;
 Propernouns ;
 Pronouns ;
+Verbs ;
 
 LEXICON SgCases1 
 

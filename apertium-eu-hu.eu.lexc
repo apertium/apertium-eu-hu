@@ -195,22 +195,48 @@ LEXICON Aux
 
 LEXICON IZANNOR
 
-+Ind+Prs+AbsSg1:naiz # ;
-+Ind+Prs+AbsSg2inf:haiz # ;
-+Ind+Prs+AbsSg2:zara # ;
-+Ind+Prs+AbsSg3:da # ;
-+Ind+Prs+AbsPl1:gara # ;
-+Ind+Prs+AbsPl2:zarete # ;
-+Ind+Prs+AbsPl3:dira # ;
++Ind+Prs+Abs/Sg1:naiz # ;
++Ind+Prs+Abs/Sg2+ifl:haiz # ; !+Ind+Prs+Abs/hi
++Ind+Prs+Abs/Sg2:zara # ;
++Ind+Prs+Abs/Sg3:da # ;
++Ind+Prs+Abs/Pl1:gara # ;
++Ind+Prs+Abs/Pl2:zarete # ;
++Ind+Prs+Abs/Pl3:dira # ;
 
 !prt - en
-+Ind+Prt+AbsSg1:nintzen # ;
-+Ind+Prt+AbsSg2inf:hintzen # ;
-+Ind+Prt+AbsSg2:zinen # ;
-+Ind+Prt+AbsSg3:zen # ;
-+Ind+Prt+AbsPl1:ginen # ;
-+Ind+Prt+AbsPl2:zineten # ;
-+Ind+Prt+AbsPl3:ziren # ;
++Ind+Prt+Abs/Sg1:nintzen # ;
++Ind+Prt+Abs/Sg2+ifl:hintzen # ;
++Ind+Prt+Abs/Sg2:zinen # ;
++Ind+Prt+Abs/Sg3:zen # ;
++Ind+Prt+Abs/Pl1:ginen # ;
++Ind+Prt+Abs/Pl2:zineten # ;
++Ind+Prt+Abs/Pl3:ziren # ;
+
+LEXICON IZANNORNORI
+
++Ind+Abs/Sg1:nintzai IZANNORI ;
++Ind+Abs/Sg2+ifl:hintzai IZANNORI ; !+Ind+Prs+Abs/hi
++Ind+Abs/Sg2:zintzai IZANNORI ;
++Ind+Abs/Sg3:zitzai IZANNORI ;
++Ind+Abs/Pl1:gintzaizki IZANNORI ;
++Ind+Abs/Pl2:zintzaizki IZANNORI ;
++Ind+Abs/Pl3:aitzaizki IZANNORI ;
+
+LEXICON IZANNORI
+
++Dat/Sg1:%>t       PAST ; !dan before a consonant
++Dat/Sg2+ifl/m:%>k PAST ; !kian before a consonant
++Dat/Sg2+ifl/f:%>n PAST ; !
++Dat/Sg2:%>zu      PAST ;
++Dat/Sg3:%>o       PAST ;
++Dat/Pl1:%>gu      PAST ;
++Dat/Pl2:%>zuete   PAST ;
++Dat/Pl3:%>e       PAST ;
+
+LEXICON PAST
+
++Prt:n ;
+
 
 
 LEXICON Nouns

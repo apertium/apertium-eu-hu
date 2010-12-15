@@ -254,6 +254,11 @@
     <e><p><l>Mária<s n="np"/><s n="ant"/><s n="f"/></l><r>Mária<s n="np"/><s n="ant"/><s n="f"/></r></p><par n="N_N"/></e>
     <e><p><l>Imre<s n="np"/><s n="ant"/><s n="m"/></l><r>Imre<s n="np"/><s n="ant"/><s n="m"/></r></p><par n="N_N"/></e>
 
+    <e><p><l>Kanada<s n="np"/><s n="top"/></l><r>Kanada<s n="np"/><s n="top"/></r></p><par n="N_N"/></e>
+    <e><p><l>Estatu<b/>Batuak<s n="np"/><s n="top"/></l><r>Egyesült<b/>Államok<s n="np"/><s n="top"/></r></p><par n="N_N"/></e>
+    <e><p><l>Ingalaterra<s n="np"/><s n="top"/></l><r>Anglia<s n="np"/><s n="top"/></r></p><par n="N_N"/></e>
+    <e><p><l>Irlanda<s n="np"/><s n="top"/></l><r>Írország<s n="np"/><s n="top"/></r></p><par n="N_N"/></e>
+
     <!-- EBAKETA: Adjektiboak -->
     <e><p><l>ona<s n="adj"/></l><r>jó<s n="adj"/></r></p><par n="A_A"/></e>
     <e><p><l>polita<s n="adj"/></l><r>szép<s n="adj"/></r></p><par n="A_A"/></e>
@@ -344,7 +349,7 @@
     <e><p><l>bai<s n="ij"/></l><r>igen<s n="ij"/></r></p></e>
     <e><p><l>mersedez<s n="ij"/></l><r>kérem<s n="ij"/></r></p></e>
     <e><p><l>barkatu<s n="ij"/></l><r>elnézést<s n="ij"/></r></p></e>
-    <e><p><l>barkatu<s n="ij"/></l><r>bocsánat<s n="ij"/></r></p></e>
+    <e r="RL"><p><l>barkatu<s n="ij"/></l><r>bocsánat<s n="ij"/></r></p></e>
     <e><p><l>kaixo<s n="ij"/></l><r>szervusz<s n="ij"/></r></p></e>
     <e><p><l>eskerrik<b/>asko<s n="ij"/></l><r>köszönöm<s n="ij"/></r></p></e>
     <e><p><l>egun<b/>on<s n="ij"/></l><r>jó<b/>napot<s n="ij"/></r></p></e>

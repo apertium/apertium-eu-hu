@@ -248,6 +248,10 @@
     <e><p><l>gosari<s n="N"/></l><r>reggeli<s n="N"/></r></p><par n="N_N"/></e>
     <e><p><l>haragi<s n="N"/></l><r>hús<s n="N"/></r></p><par n="N_N"/></e>
     <e><p><l>patata<s n="N"/></l><r>burgonya<s n="N"/></r></p><par n="N_N"/></e>
+    <e><p><l>eraikin<s n="N"/></l><r>épület<s n="N"/></r></p><par n="N_N"/></e>
+    <e><p><l>lan<s n="N"/></l><r>munka<s n="N"/></r></p><par n="N_N"/></e>
+    <e><p><l>bulego<s n="N"/></l><r>iroda<s n="N"/></r></p><par n="N_N"/></e>
+    <e><p><l>eskola<s n="N"/></l><r>iskola<s n="N"/></r></p><par n="N_N"/></e>
 
     <!-- EBAKETA: Proper nouns -->
     <e><p><l>Erzsébet<s n="np"/><s n="ant"/><s n="f"/></l><r>Erzsébet<s n="np"/><s n="ant"/><s n="f"/></r></p><par n="N_N"/></e>
@@ -258,6 +262,12 @@
     <e><p><l>Estatu<b/>Batuak<s n="np"/><s n="top"/></l><r>Egyesült<b/>Államok<s n="np"/><s n="top"/></r></p><par n="N_N"/></e>
     <e><p><l>Ingalaterra<s n="np"/><s n="top"/></l><r>Anglia<s n="np"/><s n="top"/></r></p><par n="N_N"/></e>
     <e><p><l>Irlanda<s n="np"/><s n="top"/></l><r>Írország<s n="np"/><s n="top"/></r></p><par n="N_N"/></e>
+    <e><p><l>Frantzia<s n="np"/><s n="top"/></l><r>Franciaország<s n="np"/><s n="top"/></r></p><par n="N_N"/></e>
+    <e><p><l>Espaina<s n="np"/><s n="top"/></l><r>Spanyolország<s n="np"/><s n="top"/></r></p><par n="N_N"/></e>
+    <e><p><l>Italia<s n="np"/><s n="top"/></l><r>Olaszország<s n="np"/><s n="top"/></r></p><par n="N_N"/></e>
+    <e><p><l>Errusia<s n="np"/><s n="top"/></l><r>Oroszország<s n="np"/><s n="top"/></r></p><par n="N_N"/></e>
+    <e><p><l>Austria<s n="np"/><s n="top"/></l><r>Ausztria<s n="np"/><s n="top"/></r></p><par n="N_N"/></e>
+    <e><p><l>Alemania<s n="np"/><s n="top"/></l><r>Németország<s n="np"/><s n="top"/></r></p><par n="N_N"/></e>
 
     <!-- EBAKETA: Adjektiboak -->
     <e><p><l>ona<s n="adj"/></l><r>jó<s n="adj"/></r></p><par n="A_A"/></e>
@@ -296,6 +306,7 @@
     <e><p><l>gaztelau<s n="adj"/></l><r>spanyol<s n="adj"/></r></p><par n="A_A"/></e>
     <e><p><l>frantses<s n="adj"/></l><r>francia<s n="adj"/></r></p><par n="A_A"/></e>
     <e><p><l>italiar<s n="adj"/></l><r>olasz<s n="adj"/></r></p><par n="A_A"/></e>
+    <e><p><l>zikin<s n="adj"/></l><r>piszkos<s n="adj"/></r></p><par n="A_A"/></e>
 
     <!-- EBAKETA: Adberbioak -->
 
@@ -328,6 +339,11 @@
     <e><p><l>oso<s n="adv"/></l><r>nagyon<s n="adv"/></r></p></e>
     <e><p><l>pixka<b/>bat<s n="adv"/></l><r>egy<b/>kicsit<s n="adv"/></r></p></e>
 
+    <e><p><l>orduan<s n="adv"/></l><r>akkor<s n="adv"/></r></p></e>
+    <e><p><l>beti<s n="adv"/></l><r>mindig<s n="adv"/></r></p></e>
+
+    <e><p><l>adibidez<s n="adv"/></l><r>például<s n="adv"/></r></p></e>
+
     <!-- EBAKETA: Hitzak -->
     <e><p><l>egon<s n="vbsint"/></l><r>van<s n="vblex"/></r></p><par n="V_V"/></e>
     <e r="LR"><p><l>izan<s n="vbsint"/></l><r>van<s n="vblex"/></r></p><par n="V_V"/></e>
@@ -339,11 +355,14 @@
     <e><p><l>itzuli<s n="vblex"/></l><r>fordít<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>idatzi<s n="vblex"/></l><r>ír<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>jokatu<s n="vblex"/></l><r>játszik<s n="vblex"/></r></p><par n="V_V"/></e>
-    <e><p><l>hitz<b/>egin<s n="vblex"/></l><r>beszél<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>hitz<b/>egin<s n="vblex"/></l><r>beszél<s n="vblex"/></r></p><par n="V_V"/></e> <!-- eu: +Ins, hu: +Ess -->
     <e><p><l>jakin<s n="vblex"/></l><r>tud<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>ulertu<s n="vblex"/></l><r>ért<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>ikasi<s n="vblex"/></l><r>tanul<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>joan<s n="vblex"/></l><r>megy<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>ezagatu<s n="vblex"/></l><r>ismer<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>etorri<s n="vblex"/></l><r>jön<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>edan<s n="vblex"/></l><r>iszik<s n="vblex"/></r></p><par n="V_V"/></e>
     
     <!-- EBAKETA: Interjections -->
     <e><p><l>bai<s n="ij"/></l><r>igen<s n="ij"/></r></p></e>

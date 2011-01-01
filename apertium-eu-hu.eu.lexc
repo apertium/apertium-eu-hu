@@ -222,11 +222,38 @@ LEXICON ERAMAN
 +V+Ind+Prs+Erg/Sg1:daraman # ;
 +V+Ind+Prs+Erg/Sg2+ifl+f:daramak # ; 
 +V+Ind+Prs+Erg/Sg2+ifl+m:daraman # ;
-+V+Ind+Prs+Erg/Sg2:daramat # ;
++V+Ind+Prs+Erg/Sg2:daramazu # ;
 +V+Ind+Prs+Erg/Sg3:drama # ;
 +V+Ind+Prs+Erg/Pl1:daramagu # ;
 +V+Ind+Prs+Erg/Pl2:daramazue # ;
 +V+Ind+Prs+Erg/Pl3:daramate # ;
+
++V+Ind+Prt+Erg/Sg1:neraman # ;
++V+Ind+Prt+Erg/Sg2+ifl:heraman # ; 
++V+Ind+Prt+Erg/Sg2:zeneraman # ;
++V+Ind+Prt+Erg/Sg3:zeraman # ;
++V+Ind+Prt+Erg/Pl1:generaman # ;
++V+Ind+Prt+Erg/Pl2:zeneramaten # ;
++V+Ind+Prt+Erg/Pl3:zeramaten # ;
+
+LEXICON ESAN
++V+Ind+Prs+Erg/Sg1:diot # ;
++V+Ind+Prs+Erg/Sg2+ifl+f:diok # ; 
++V+Ind+Prs+Erg/Sg2+ifl+m:dion # ;
++V+Ind+Prs+Erg/Sg2:diozu # ;
++V+Ind+Prs+Erg/Sg3:dio # ;
++V+Ind+Prs+Erg/Pl1:diogu # ;
++V+Ind+Prs+Erg/Pl2:diozue # ;
++V+Ind+Prs+Erg/Pl3:diote # ;
+
++V+Ind+Prt+Erg/Sg1:nioen # ;
++V+Ind+Prt+Erg/Sg2+ifl:hioen # ; 
++V+Ind+Prt+Erg/Sg2:zenioen # ;
++V+Ind+Prt+Erg/Sg3:zioen # ;
++V+Ind+Prt+Erg/Pl1:genioen # ;
++V+Ind+Prt+Erg/Pl2:zenioten # ;
++V+Ind+Prt+Erg/Pl3:zioten # ;
+
 
 LEXICON AuxIzan
 
@@ -318,6 +345,7 @@ LEXICON Verbs
 
 asmatu Mv "invent" ;
 eraman ERAMAN "bring" ;
+esan ESAN "say" ;
 ibili "walk" ;
 izan: AuxIzan "be" ;
 !:ukan AuxUkan "be" ;

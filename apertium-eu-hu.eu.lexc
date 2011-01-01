@@ -214,6 +214,20 @@ LEXICON Np
 !
 !+V+Aux: 
 
+LEXICON Mv
+
++V # ;
+
+LEXICON ERAMAN
++V+Ind+Prs+Erg/Sg1:daraman # ;
++V+Ind+Prs+Erg/Sg2+ifl+f:daramak # ; 
++V+Ind+Prs+Erg/Sg2+ifl+m:daraman # ;
++V+Ind+Prs+Erg/Sg2:daramat # ;
++V+Ind+Prs+Erg/Sg3:drama # ;
++V+Ind+Prs+Erg/Pl1:daramagu # ;
++V+Ind+Prs+Erg/Pl2:daramazue # ;
++V+Ind+Prs+Erg/Pl3:daramate # ;
+
 LEXICON AuxIzan
 
 +V+Aux: IZANNOR ;
@@ -303,6 +317,8 @@ Zuberoa Np "Soule" ;
 LEXICON Verbs
 
 asmatu Mv "invent" ;
+eraman ERAMAN "bring" ;
+ibili "walk" ;
 izan: AuxIzan "be" ;
 !:ukan AuxUkan "be" ;
 

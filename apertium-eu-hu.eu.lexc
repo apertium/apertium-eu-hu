@@ -218,10 +218,28 @@ LEXICON Mv
 
 +V # ;
 
+LEXICON IBILI
++V+Ind+Prs+Abs/Sg1:nabil # ;
++V+Ind+Prs+Abs/Sg2+ifl:habil # ; 
++V+Ind+Prs+Abs/Sg2:zabiltza # ;
++V+Ind+Prs+Abs/Sg3:dabil # ;
++V+Ind+Prs+Abs/Pl1:gabiltza # ;
++V+Ind+Prs+Abs/Pl2:zabiltzate # ;
++V+Ind+Prs+Abs/Pl3:dabiltza # ;
+           
++V+Ind+Prt+Abs/Sg1:nenbilen # ;
++V+Ind+Prt+Abs/Sg2+ifl:henbilen # ; 
++V+Ind+Prt+Abs/Sg2:zenbiltzan # ;
++V+Ind+Prt+Abs/Sg3:zebilen # ;
++V+Ind+Prt+Abs/Pl1:genbiltzan # ;
++V+Ind+Prt+Abs/Pl2:zenbiltzaten # ;
++V+Ind+Prt+Abs/Pl3:zebiltzan # ;
+
+
 LEXICON ERAMAN
 +V+Ind+Prs+Erg/Sg1:daraman # ;
-+V+Ind+Prs+Erg/Sg2+ifl+f:daramak # ; 
-+V+Ind+Prs+Erg/Sg2+ifl+m:daraman # ;
++V+Ind+Prs+Erg/Sg2+ifl+f:daraman # ; 
++V+Ind+Prs+Erg/Sg2+ifl+m:daramak # ;
 +V+Ind+Prs+Erg/Sg2:daramazu # ;
 +V+Ind+Prs+Erg/Sg3:drama # ;
 +V+Ind+Prs+Erg/Pl1:daramagu # ;
@@ -238,8 +256,8 @@ LEXICON ERAMAN
 
 LEXICON ESAN
 +V+Ind+Prs+Erg/Sg1:diot # ;
-+V+Ind+Prs+Erg/Sg2+ifl+f:diok # ; 
-+V+Ind+Prs+Erg/Sg2+ifl+m:dion # ;
++V+Ind+Prs+Erg/Sg2+ifl+f:dion # ; 
++V+Ind+Prs+Erg/Sg2+ifl+m:diok # ;
 +V+Ind+Prs+Erg/Sg2:diozu # ;
 +V+Ind+Prs+Erg/Sg3:dio # ;
 +V+Ind+Prs+Erg/Pl1:diogu # ;
@@ -253,6 +271,62 @@ LEXICON ESAN
 +V+Ind+Prt+Erg/Pl1:genioen # ;
 +V+Ind+Prt+Erg/Pl2:zenioten # ;
 +V+Ind+Prt+Erg/Pl3:zioten # ;
+
+LEXICON EKARRI
++V+Ind+Prs+Erg/Sg1:dakart # ;
++V+Ind+Prs+Erg/Sg2+ifl+f:dakarn # ; 
++V+Ind+Prs+Erg/Sg2+ifl+m:dakark # ;
++V+Ind+Prs+Erg/Sg2:dakarzu # ;
++V+Ind+Prs+Erg/Sg3:dakar # ;
++V+Ind+Prs+Erg/Pl1:dakargu # ;
++V+Ind+Prs+Erg/Pl2:dakarzue # ;
++V+Ind+Prs+Erg/Pl3:dakarte # ;
+
++V+Ind+Prt+Erg/Sg1:nekarn # ;
++V+Ind+Prt+Erg/Sg2+ifl:hekarn # ; 
++V+Ind+Prt+Erg/Sg2:zenekarn # ;
++V+Ind+Prt+Erg/Sg3:zekarn # ;
++V+Ind+Prt+Erg/Pl1:genekarn # ;
++V+Ind+Prt+Erg/Pl2:zenekarten # ;
++V+Ind+Prt+Erg/Pl3:zekarten # ;
+
+LEXICON IRUTDITU
++V+Ind+Prs+Dat/Sg1:dirudit # ;
++V+Ind+Prs+Dat/Sg2+ifl+f:dirudin # ; 
++V+Ind+Prs+Dat/Sg2+ifl+m:dirudik # ;
++V+Ind+Prs+Dat/Sg2:dirudizu # ;
++V+Ind+Prs+Dat/Sg3:dirudi # ;
++V+Ind+Prs+Dat/Pl1:dirudigu # ;
++V+Ind+Prs+Dat/Pl2:dirudizue # ;
++V+Ind+Prs+Dat/Pl3:dirudite # ;
+           
++V+Ind+Prt+Dat/Sg1:nirudien # ;
++V+Ind+Prt+Dat/Sg2+ifl:hirudien # ; 
++V+Ind+Prt+Dat/Sg2:zenirudien # ;
++V+Ind+Prt+Dat/Sg3:zirudien # ;
++V+Ind+Prt+Dat/Pl1:genirudien # ;
++V+Ind+Prt+Dat/Pl2:zeniruditen # ;
++V+Ind+Prt+Dat/Pl3:ziruditen # ;
+
+
+LEXICON JAKIN
++V+Ind+Prs+Erg/Sg1:dakit # ;
++V+Ind+Prs+Erg/Sg2+ifl+f:dakin # ; 
++V+Ind+Prs+Erg/Sg2+ifl+m:dakik # ;
++V+Ind+Prs+Erg/Sg2:dakizu # ;
++V+Ind+Prs+Erg/Sg3:daki # ;
++V+Ind+Prs+Erg/Pl1:dakigu # ;
++V+Ind+Prs+Erg/Pl2:dakizue # ;
++V+Ind+Prs+Erg/Pl3:dakite # ;
+
++V+Ind+Prt+Erg/Sg1:nekien # ;
++V+Ind+Prt+Erg/Sg2+ifl:hekien # ; 
++V+Ind+Prt+Erg/Sg2:zenekien # ;
++V+Ind+Prt+Erg/Sg3:zekien # ;
++V+Ind+Prt+Erg/Pl1:genekien # ;
++V+Ind+Prt+Erg/Pl2:zenekiten # ;
++V+Ind+Prt+Erg/Pl3:zekiten # ;
+
 
 
 LEXICON AuxIzan
@@ -344,9 +418,12 @@ Zuberoa Np "Soule" ;
 LEXICON Verbs
 
 asmatu Mv "invent" ;
-eraman ERAMAN "bring" ;
-esan ESAN "say" ;
-ibili "walk" ;
+eraman: ERAMAN "bring" ;
+esan: ESAN "say" ;
+ekarri: EKARRI "bring" ;
+ibili: IBILI "walk" ;
+iruditu: IRUDITU "seem" ;
+jakin: JAKIN "know" ;
 izan: AuxIzan "be" ;
 !:ukan AuxUkan "be" ;
 

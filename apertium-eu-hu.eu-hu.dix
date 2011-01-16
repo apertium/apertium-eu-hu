@@ -19,6 +19,7 @@
     <sdef n="f"      c="Feminine"/>
 
     <sdef n="ant"    c="Anthroponym"/>
+    <sdef n="top"    c="Toponym"/>
   </sdefs>
   <pardefs>
     <pardef n="N_N">
@@ -253,7 +254,28 @@
     <e><p><l>bulego<s n="N"/></l><r>iroda<s n="N"/></r></p><par n="N_N"/></e>
     <e><p><l>eskola<s n="N"/></l><r>iskola<s n="N"/></r></p><par n="N_N"/></e>
 
+    <e><p><l>ile<s n="N"/></l><r>haj<s n="N"/></r></p><par n="N_N"/></e>
+    <e><p><l>szem<s n="N"/></l><r>begi<s n="N"/></r></p><par n="N_N"/></e>
+    <e><p><l>sudur<s n="N"/></l><r>orr<s n="N"/></r></p><par n="N_N"/></e>
+    <e><p><l>atzamar<s n="N"/></l><r>ujj<s n="N"/></r></p><par n="N_N"/></e>
+    <e><p><l>esku<s n="N"/></l><r>kéz<s n="N"/></r></p><par n="N_N"/></e>
+    <e><p><l>váll<s n="N"/></l><r>sorbalda<s n="N"/></r></p><par n="N_N"/></e>
+    <e><p><l>zilbor<s n="N"/></l><r>köldök<s n="N"/></r></p><par n="N_N"/></e>
+    <e><p><l>okondo<s n="N"/></l><r>könyök<s n="N"/></r></p><par n="N_N"/></e>
+    <e><p><l>belarri<s n="N"/></l><r>fül<s n="N"/></r></p><par n="N_N"/></e>
+    <e><p><l>buru<s n="N"/></l><r>fej<s n="N"/></r></p><par n="N_N"/></e>
+    <e><p><l>aurpegi<s n="N"/></l><r>arc<s n="N"/></r></p><par n="N_N"/></e>
+    <e><p><l>kokots<s n="N"/></l><r>áll<s n="N"/></r></p><par n="N_N"/></e>
+    <e><p><l>aho<s n="N"/></l><r>száj<s n="N"/></r></p><par n="N_N"/></e>
+    <e><p><l>lepo<s n="N"/></l><r>nyak<s n="N"/></r></p><par n="N_N"/></e>
+    <e><p><l>titipunta<s n="N"/></l><r>mellbimbó<s n="N"/></r></p><par n="N_N"/></e>
+
+    <e><p><l>ispilu<s n="N"/></l><r>tükör<s n="N"/></r></p><par n="N_N"/></e>
+    <e><p><l>mapa<s n="N"/></l><r>térkép<s n="N"/></r></p><par n="N_N"/></e>
+
     <!-- EBAKETA: Proper nouns -->
+    <e><p><l>Nagy<s n="np"/><s n="cog"/><s n="mf"/></l><r>Nagy<s n="np"/><s n="cog"/><s n="mf"/></r></p><par n="N_N"/></e>
+
     <e><p><l>Erzsébet<s n="np"/><s n="ant"/><s n="f"/></l><r>Erzsébet<s n="np"/><s n="ant"/><s n="f"/></r></p><par n="N_N"/></e>
     <e><p><l>Mária<s n="np"/><s n="ant"/><s n="f"/></l><r>Mária<s n="np"/><s n="ant"/><s n="f"/></r></p><par n="N_N"/></e>
     <e><p><l>Imre<s n="np"/><s n="ant"/><s n="m"/></l><r>Imre<s n="np"/><s n="ant"/><s n="m"/></r></p><par n="N_N"/></e>

@@ -97,38 +97,28 @@ e:é <=> _ %>: Segment: ;
 !€csészé>nek
   
 "Vowel shorting after vowel-final stems"
- %^EÖ:0 <=> Vow %>: _ ;
+%^EÖ:0 <=> Vow %>: _ ;
 
-"Digraph consonant assimilation with -v- suffixes" 
-Cb:Ca <=> Cx _ %>: %^ASSIM: ;
-          where Ca in (n) !where Ca in (c d g n s t z)
-                Cb in (y) !      Cb in (s z y y z y s) 
-                Cx in (n) matched; !      Cx in (c d g n s t z)
-
-                !Cy in (y) matched; !      Cy in (s z y y z y s) matched ;
+"Digraph consonant assimilation 'sz' to 'ssz' with -v- suffixes" 
+z:s <=> s _ %>: %^ASSIM: v:z ;
 
 !€ész>^ASSIMv^Al
 !€éss>000000z^Al
 
+"Digraph consonant assimilation 'ny' to 'nny' with -v- suffixes" 
+y:n <=> n _ %>: %^ASSIM: v:y ;
+
 !€lány>^ASSIMv^Al
 !€lánn>000000y^Al
-
-"Digraph consonant assimilation with -v- suffixes, 2" 
-v:Cc <=> Ca Cb %>: %^ASSIM: _ ;
-          where Ca in (n) !where Ca in (c d g n s t z)
-                Cb in (n)
-                Cc in (y) matched ;!      Cb in (s z y y z y s) 
-
-
 
 !
 ! barátok + val -> barátokkal
 ! barátom + val -> barátommal
 !
-!"Consonant assimilation with -v- suffixes" 
-!v:Cx <=> Cy %>: %^ASSIM:0 _  ;
-!          where Cx in (b f h j k l m p q r v w x) 
-!                Cy in (b f h j k l m p q r v w x) matched ;
-!
+"Consonant assimilation with -v- suffixes" 
+v:Cx <=> Cy %>: %^ASSIM:0 _  ;
+          where Cx in (b f h j k l m p q r v w x) 
+                Cy in (b f h j k l m p q r v w x) matched ;
+
 !€ház>^ASSIMv^Al
 !€ház>000000z^Al

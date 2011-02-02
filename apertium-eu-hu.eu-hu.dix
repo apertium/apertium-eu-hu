@@ -378,7 +378,6 @@
     <e><p><l>itzuli<s n="vblex"/></l><r>fordít<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>idatzi<s n="vblex"/></l><r>ír<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>jokatu<s n="vblex"/></l><r>játszik<s n="vblex"/></r></p><par n="V_V"/></e>
-    <e><p><l>hitz<b/>egin<s n="vblex"/></l><r>beszél<s n="vblex"/></r></p><par n="V_V"/></e> <!-- eu: +Ins, hu: +Ess -->
     <e><p><l>jakin<s n="vblex"/></l><r>tud<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>ulertu<s n="vblex"/></l><r>ért<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>ikasi<s n="vblex"/></l><r>tanul<s n="vblex"/></r></p><par n="V_V"/></e>
@@ -387,6 +386,11 @@
     <e><p><l>etorri<s n="vblex"/></l><r>jön<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>edan<s n="vblex"/></l><r>iszik<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>irakurri<s n="vblex"/></l><r>olvas<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>erosi<s n="vblex"/></l><r>vesz<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>jarri<s n="vblex"/></l><r>tesz<s n="vblex"/></r></p><par n="V_V"/></e>
+
+    <e><p><l>hitz<b/>egin<s n="vblex"/></l><r>beszél<s n="vblex"/></r></p><par n="V_V"/></e> <!-- eu: +Ins, hu: +Ess -->
+    <e><p><l>gitarra<b/>jo<s n="vblex"/></l><r>gitározni<s n="vblex"/></r></p><par n="V_V"/></e>
     
     <!-- EBAKETA: Interjections -->
     <e><p><l>bai<s n="ij"/></l><r>igen<s n="ij"/></r></p></e>

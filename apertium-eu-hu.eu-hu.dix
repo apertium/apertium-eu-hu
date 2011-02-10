@@ -17,9 +17,11 @@
 
     <sdef n="m"      c="Masculine"/>
     <sdef n="f"      c="Feminine"/>
+    <sdef n="mf"     c="Masculine / feminine"/>
 
     <sdef n="ant"    c="Anthroponym"/>
     <sdef n="top"    c="Toponym"/>
+    <sdef n="cog"    c="Cognomen"/>
   </sdefs>
   <pardefs>
     <pardef n="N_N">

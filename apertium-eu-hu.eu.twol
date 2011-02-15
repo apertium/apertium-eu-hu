@@ -27,4 +27,8 @@ Rules
 "r doubling"
  0:r <=> r %>: _ Vow ;
   
- 
+"cons + k -> cons +ek"
+ %>:e <=> Cns: _ k ; 
+
+"r + k -> r r +ek"
+ %>:r <=> r: _ 0:e k ; 

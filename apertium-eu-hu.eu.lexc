@@ -2,6 +2,7 @@ Multichar_Symbols
 
 +N +Po
 +Abs +Dat +Ins +Soc +Erg +Ine +Ben +Ben2 +Par +All +Ela +Term +Ten
++Masc +Fem +Top
 +Art
 +Locp
 +Ben2
@@ -222,9 +223,18 @@ LEXICON NaBizi
 +N+Art: Bizidun ;
 !+N: Dim ;
 
-LEXICON Np
+LEXICON NpM
 
-+N+Prop: Propcases ;
++N+Prop+Masc: Propcases ;
+
+LEXICON NpF
+
++N+Prop+Fem: Propcases ;
+
+LEXICON NpTop
+
++N+Prop+Top: Propcases ;
+
 
 !LEXICON AuxUkan
 !
@@ -477,37 +487,53 @@ mendi Nreg "mountain" ;
 
 LEXICON Propernouns
 
-Aitor Np "Aitor" ;
-Arkaitz Np "Arkaitz" ;
-Danel Np "Danel" ;
-Francis Np "Francis" ;
-Itziar Np "Itziar" ;
-Linda Np "Linda" ;
-Tristan Np "Tristan" ;
+Aitor NpM "Aitor" ;
+Arkaitz NpM "Arkaitz" ;
+Danel NpM "Danel" ;
+Francis NpM "Francis" ;
+Tristan NpM "Tristan" ;
+Kepa NpM "Kepa" ;
+Iñaki NpM "Iñaki" ;
+Mikel NpM "Mikel" ;
 
-Frantzia Np "France" ;
-Galizia Np "Galicia" ;
-Grezia Np "Greece" ;
-Japonia Np "Japan" ;
-Katalunia Np "Catalonia" ;
-Polonia Np "Poland" ;
-Suedia Np "Sweden" ;
-Suitza Np "Switzerland" ;
-Turkia Np "Turkey" ;
-Txekia Np "Czech Republic" ;
-Baiona Np "Bayonne" ;
-Gipuzkoa Np "Guipuzcoa" ;
-Aezkoa Np "Aezcoa" ;
-Baiona Np "Bayonne" ;
-Hendaia Np "Hendaye" ;
-Bidasoa Np "Bidasoa" ; 
-Leioa Np "Lejona" ;
-Donostia Np "San Sebastian" ;
-Nafarroa Np "Navarra" ;
-Errenteria Np "Renteria" ;
-Ordizia Np "Villafranca de Oria" ;
-Getaria Np "Guetaria" ;
-Zuberoa Np "Soule" ;
+Itziar NpF "Itziar" ;
+Garbiñe NpF "Garbiñe" ;
+Linda NpF "Linda" ;
+Naiara NpF "Naiara" ;
+Ainhoa NpF "Ainhoa" ;
+Edurne NpF "Edurne" ;
+Nora NpF "Nora" ;
+Miren NpF "Miren" ;
+Molly NpF "Molly" ;
+Veronica NpF "Veronica" ;
+Lara NpF "Lara" ;
+Nerea NpF "Nerea" ;
+Laraitz NpF "Laraitz" ;
+Maite NpF "Maite" ;
+
+Frantzia NpTop "France" ;
+Galizia NpTop "Galicia" ;
+Grezia NpTop "Greece" ;
+Japonia NpTop "Japan" ;
+Katalunia NpTop "Catalonia" ;
+Polonia NpTop "Poland" ;
+Suedia NpTop "Sweden" ;
+Suitza NpTop "Switzerland" ;
+Turkia NpTop "Turkey" ;
+Txekia NpTop "Czech Republic" ;
+Baiona NpTop "Bayonne" ;
+Gipuzkoa NpTop "Guipuzcoa" ;
+Aezkoa NpTop "Aezcoa" ;
+Baiona NpTop "Bayonne" ;
+Hendaia NpTop "Hendaye" ;
+Bidasoa NpTop "Bidasoa" ; 
+Leioa NpTop "Lejona" ;
+Donostia NpTop "San Sebastian" ;
+Nafarroa NpTop "Navarra" ;
+Errenteria NpTop "Renteria" ;
+Ordizia NpTop "Villafranca de Oria" ;
+Getaria NpTop "Guetaria" ;
+Zuberoa NpTop "Soule" ;
 
 LEXICON Pronouns
 +Pron+Pers+Sg1:ni SgCases1 ;

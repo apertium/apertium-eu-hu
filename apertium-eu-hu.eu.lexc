@@ -61,6 +61,7 @@ Nouns ;
 Propernouns ;
 Pronouns ;
 Verbs ;
+Numerals ;
 
 LEXICON SgCases1 
 
@@ -494,9 +495,9 @@ lortu Mv "achieve";
 !:ukan AuxUkan "be" ;
 
 LEXICON Numerals
-bat: NUM "one" ;
-bi: NUM "two" ;
-hiru: NUM "hiru" ;
+bat NUM "one" ;
+bi NUM "two" ;
+hiru NUM "hiru" ;
 
 LEXICON NUM
 

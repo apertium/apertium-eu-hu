@@ -24,7 +24,7 @@ Multichar_Symbols
 
 +Num
 
-+V
++V +Inf +Prc +Der/N +Subcaus +Cont
 +Aux
 +ifl
 +ifl/f
@@ -246,10 +246,43 @@ LEXICON NpTop
 !
 !+V+Aux: 
 
-LEXICON Mv
+LEXICON Tu
 
-+V: # ;
-+V+Fut:%>ko # ;
++V+Inf: # ;
++V: Verbforms ;
++V+Prc:%tu #;
++V:%tu Fut;
+
+LEXICON Tu
+
++V+Inf: # ;
++V: Verbforms ;
++V+Prc:%du #;
++V:%du Fut;
+
+LEXICON Sinmas
+
++V+Inf: # ;
++V: Verbforms ;
++V+Prc: #;
++V+: Fut;
+
+LEXICON I
+
++V: Verbforms ;
++V+Inf: # ;
++V+Prc:%i #;
++V+:%i Fut;
+
+LEXICON Verbforms
+
++V+Subcaus:%>tzeko # ;
++V+Der/N:%>tzea # ;
++V+Cont:%>tzen # ;
+
+LEXICON Fut
+
++Fut:%>ko # ;
 
 LEXICON IBILI
 +V+Ind+Prs+Abs/Sg1:nabil # ;
@@ -503,6 +536,7 @@ etxe Nreg "house" ;
 hartz NregBizi "bear" ;
 hortz Nreg "tooth" ;
 katu NregBizi "cat" ;
+kolore Nreg "color" ;
 neska NaBizi "girl" ;
 pisu Nreg "flat" ;
 taberna Na "bar" ;
@@ -573,36 +607,38 @@ LEXICON Pronouns
 +Pron+Pers+Sg2:zu SgCases1 ;
 +Pron+Pers+Sg3:ha SgCases1 ;
 
++Pron+Dem+Sg1:hau SgCases1 ;
+
 
 LEXICON Verbs
 
-abestu Mv "sing" ;
-agertu Mv "appear" ;
-ahaztu Mv "forget" ;
-aldatu Mv "change" ;
-amaitu Mv "finnish" ;
-argitu Mv "clear" ;
-aritu Mv "busy# oneself" ;
-asmatu Mv "invent" ;
+abes Tu "sing" ;
+ager Tu "appear" ;
+ahaz Tu "forget" ;
+alda Tu "change" ;
+amai Tu "finnish" ;
+argi Tu "clear" ;
+ari Tu "busy# oneself" ;
+asma Tu "invent" ;
 atera Mv "go out" ;
-aurkitu Mv "find" ;
-baieztatu Mv "confirm" ;
-banandu Mv "differ" ;
+aurki Tu "find" ;
+baiezta Tu "confirm" ;
+banan Du "differ" ;
 bete Mv "complete" ;
-maitemindu Mv "fall# in love" ;
+maitemin Du "fall# in love" ;
 eduki: EDUKI "have" ;  
 eraman: ERAMAN "bring" ;
 esan: ESAN "say" ;
-eskaini Mv "offer" ;
+eskain I "offer" ;
 ekarri: EKARRI "bring" ;
 ibili: IBILI "walk" ;
 iruditu: IRUDITU "seem" ;
 izan: AuxIzan "be" ;
 jakin: JAKIN "know" ;
-lortu Mv "achieve";
-oparitu Mv "give" ;
+lor Tu "achieve";
+oparitu Tu "give" ;
 ukan: AuxUkan "be" ;
-ziurtatu Mv"secure" ;
+ziurta Tu"secure" ;
 
 LEXICON NUMBAT
 

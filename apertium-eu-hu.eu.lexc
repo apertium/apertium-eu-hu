@@ -417,13 +417,25 @@ Zuberoa Np "Soule" ;
 
 LEXICON Verbs
 
+abestu Mv "sing" ;
+agertu Mv "appear" ;
+ahaztu Mv "forget" ;
+aldatu Mv "change" ;
+amaitu Mv "finnish" ;
+argitu Mv "clear" ;
+aritu Mv "busy oneself" ;
 asmatu Mv "invent" ;
+atera Mv "go out" ;
+aurkitu Mv "find" ;
+baieztatu Mv "confirm" ;
+banandu Mv "differ" ;
 eraman: ERAMAN "bring" ;
 esan: ESAN "say" ;
 ekarri: EKARRI "bring" ;
 ibili: IBILI "walk" ;
 iruditu: IRUDITU "seem" ;
-jakin: JAKIN "know" ;
 izan: AuxIzan "be" ;
+jakin: JAKIN "know" ;
+lortu Mv "achieve";
 !:ukan AuxUkan "be" ;
 

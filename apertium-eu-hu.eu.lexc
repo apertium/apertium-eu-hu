@@ -4,6 +4,7 @@ Multichar_Symbols
 +Abs +Dat +Ins +Soc +Erg +Ine +Ben +Ben2 +Par +All +Ela +Term +Ten
 +Masc +Fem +Top
 +Art
++Fut
 +Ord
 +Locp
 +Ben2
@@ -248,6 +249,7 @@ LEXICON NpTop
 LEXICON Mv
 
 +V: # ;
++V+Fut:%>ko # ;
 
 LEXICON IBILI
 +V+Ind+Prs+Abs/Sg1:nabil # ;

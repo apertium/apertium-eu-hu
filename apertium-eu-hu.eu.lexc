@@ -3,6 +3,7 @@ Multichar_Symbols
 +N +Po
 +Abs +Dat +Ins +Soc +Erg +Ine +Ben +Ben2 +Par +All +Ela +Term +Ten
 +Masc +Fem +Top
++Der/N
 +Art
 +Fut
 +Ord
@@ -265,19 +266,20 @@ LEXICON Sinmas
 +V+Inf: # ;
 +V: Verbforms ;
 +V+Prc: #;
-+V+: Fut;
++V: Fut;
 
 LEXICON I
 
 +V: Verbforms ;
 +V+Inf: # ;
 +V+Prc:%i #;
-+V+:%i Fut;
++V:%>i Fut;
 
 LEXICON Verbforms
 
 +Subcaus:%>tzeko # ;
-+Der/N:%>tzea # ;
++Der/N:%>tze #  ;           !! 
++Der/N+Art:%>tzea #  ;      !! Should this go to the SgCases1 continuation lexicon?
 +Cont:%>tzen # ;
 
 LEXICON Fut

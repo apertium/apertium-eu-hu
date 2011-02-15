@@ -276,9 +276,9 @@ LEXICON I
 
 LEXICON Verbforms
 
-+V+Subcaus:%>tzeko # ;
-+V+Der/N:%>tzea # ;
-+V+Cont:%>tzen # ;
++Subcaus:%>tzeko # ;
++Der/N:%>tzea # ;
++Cont:%>tzen # ;
 
 LEXICON Fut
 
@@ -620,11 +620,11 @@ amai Tu "finnish" ;
 argi Tu "clear" ;
 ari Tu "busy# oneself" ;
 asma Tu "invent" ;
-atera Mv "go out" ;
+atera Sinmas "go out" ;
 aurki Tu "find" ;
 baiezta Tu "confirm" ;
 banan Du "differ" ;
-bete Mv "complete" ;
+bete Sinmas "complete" ;
 maitemin Du "fall# in love" ;
 eduki: EDUKI "have" ;  
 eraman: ERAMAN "bring" ;

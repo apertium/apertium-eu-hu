@@ -378,7 +378,9 @@ LEXICON JAKIN
 LEXICON AuxIzan
 
 +V+Aux: IZANNOR ;
-+V+Aux: IZANNORNORK ;
+
+LEXICON AuxUkan
++V+Aux: UKANNORNORK ;
 +V+Aux: IZANNORNORI ;
 
 LEXICON IZANNOR
@@ -401,7 +403,7 @@ LEXICON IZANNOR
 +Ind+Prt+Abs/Pl3:ziren # ;
 
 
-LEXICON IZANNORNORK
+LEXICON UKANNORNORK
 
 +Ind+Prs+Abs/Sg3+Erg/Sg1:dut # ;
 +Ind+Prs+Abs/Sg3+Erg/Sg2:duzu # ;
@@ -536,7 +538,7 @@ iruditu: IRUDITU "seem" ;
 izan: AuxIzan "be" ;
 jakin: JAKIN "know" ;
 lortu Mv "achieve";
-!:ukan AuxUkan "be" ;
+ukan: AuxUkan "be" ;
 
 LEXICON NUM
 

@@ -264,22 +264,39 @@ LEXICON IBILI
 
 
 LEXICON ERAMAN
-+V+Ind+Prs+Erg/Sg1:daraman # ;
-+V+Ind+Prs+Erg/Sg2+ifl/f:daraman # ; 
-+V+Ind+Prs+Erg/Sg2+ifl/m:daramak # ;
-+V+Ind+Prs+Erg/Sg2:daramazu # ;
-+V+Ind+Prs+Erg/Sg3:drama # ;
-+V+Ind+Prs+Erg/Pl1:daramagu # ;
-+V+Ind+Prs+Erg/Pl2:daramazue # ;
-+V+Ind+Prs+Erg/Pl3:daramate # ;
++V+Ind+Prs+Abs/Sg3+Erg/Sg1:daraman # ;
++V+Ind+Prs+Abs/Sg3+Erg/Sg2+ifl/f:daraman # ; 
++V+Ind+Prs+Abs/Sg3+Erg/Sg2+ifl/m:daramak # ;
++V+Ind+Prs+Abs/Sg3+Erg/Sg2:daramazu # ;
++V+Ind+Prs+Abs/Sg3+Erg/Sg3:drama # ;
++V+Ind+Prs+Abs/Sg3+Erg/Pl1:daramagu # ;
++V+Ind+Prs+Abs/Sg3+Erg/Pl2:daramazue # ;
++V+Ind+Prs+Abs/Sg3+Erg/Pl3:daramate # ;
 
-+V+Ind+Prt+Erg/Sg1:neraman # ;
-+V+Ind+Prt+Erg/Sg2+ifl:heraman # ; 
-+V+Ind+Prt+Erg/Sg2:zeneraman # ;
-+V+Ind+Prt+Erg/Sg3:zeraman # ;
-+V+Ind+Prt+Erg/Pl1:generaman # ;
-+V+Ind+Prt+Erg/Pl2:zeneramaten # ;
-+V+Ind+Prt+Erg/Pl3:zeramaten # ;
++V+Ind+Prs+Abs/Pl3+Erg/Sg1:daramatzan # ;
++V+Ind+Prs+Abs/Pl3+Erg/Sg2+ifl/f:daramatzan # ; 
++V+Ind+Prs+Abs/Pl3+Erg/Sg2+ifl/m:daramatzak # ;
++V+Ind+Prs+Abs/Pl3+Erg/Sg2:daramatzazu # ;
++V+Ind+Prs+Abs/Pl3+Erg/Sg3:dramatza # ;
++V+Ind+Prs+Abs/Pl3+Erg/Pl1:daramatzagu # ;
++V+Ind+Prs+Abs/Pl3+Erg/Pl2:daramatzazue # ;
++V+Ind+Prs+Abs/Pl3+Erg/Pl3:daramatzate # ;
+
++V+Ind+Prt+Abs/Sg3+Erg/Sg1:neraman # ;
++V+Ind+Prt+Abs/Sg3+Erg/Sg2+ifl:heraman # ; 
++V+Ind+Prt+Abs/Sg3+Erg/Sg2:zeneraman # ;
++V+Ind+Prt+Abs/Sg3+Erg/Sg3:zeraman # ;
++V+Ind+Prt+Abs/Sg3+Erg/Pl1:generaman # ;
++V+Ind+Prt+Abs/Sg3+Erg/Pl2:zeneramaten # ;
++V+Ind+Prt+Abs/Sg3+Erg/Pl3:zeramaten # ;
+
++V+Ind+Prt+Abs/Pl3+Erg/Sg1:neramatzan # ;
++V+Ind+Prt+Abs/Pl3+Erg/Sg2+ifl:heramatzan # ; 
++V+Ind+Prt+Abs/Pl3+Erg/Sg2:zeneramatzan # ;
++V+Ind+Prt+Abs/Pl3+Erg/Sg3:zeramatzan # ;
++V+Ind+Prt+Abs/Pl3+Erg/Pl1:generamatzan # ;
++V+Ind+Prt+Abs/Pl3+Erg/Pl2:zeneramatzaten # ;
++V+Ind+Prt+Abs/Pl3+Erg/Pl3:zeramatzaten # ;
 
 LEXICON ESAN
 +V+Ind+Prs+Erg/Sg1:diot # ;

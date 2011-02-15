@@ -16,6 +16,7 @@ Multichar_Symbols
 +Sg
 
 +Pron
++Pers
 
 +V
 +Aux
@@ -37,6 +38,18 @@ Multichar_Symbols
 +Dat/Pl1
 +Dat/Pl2
 +Dat/Pl3
++Erg/Sg1
++Erg/Sg2
++Erg/Sg2
++Erg/Sg2
++Erg/Sg3
++Erg/Pl1
++Erg/Pl2
++Erg/Pl3
+
++Sg1
++Sg2
++Sg2
 
 %>
 
@@ -216,7 +229,7 @@ LEXICON Np
 
 LEXICON Mv
 
-+V # ;
++V: # ;
 
 LEXICON IBILI
 +V+Ind+Prs+Abs/Sg1:nabil # ;
@@ -238,8 +251,8 @@ LEXICON IBILI
 
 LEXICON ERAMAN
 +V+Ind+Prs+Erg/Sg1:daraman # ;
-+V+Ind+Prs+Erg/Sg2+ifl+f:daraman # ; 
-+V+Ind+Prs+Erg/Sg2+ifl+m:daramak # ;
++V+Ind+Prs+Erg/Sg2+ifl/f:daraman # ; 
++V+Ind+Prs+Erg/Sg2+ifl/m:daramak # ;
 +V+Ind+Prs+Erg/Sg2:daramazu # ;
 +V+Ind+Prs+Erg/Sg3:drama # ;
 +V+Ind+Prs+Erg/Pl1:daramagu # ;
@@ -256,8 +269,8 @@ LEXICON ERAMAN
 
 LEXICON ESAN
 +V+Ind+Prs+Erg/Sg1:diot # ;
-+V+Ind+Prs+Erg/Sg2+ifl+f:dion # ; 
-+V+Ind+Prs+Erg/Sg2+ifl+m:diok # ;
++V+Ind+Prs+Erg/Sg2+ifl/f:dion # ; 
++V+Ind+Prs+Erg/Sg2+ifl/m:diok # ;
 +V+Ind+Prs+Erg/Sg2:diozu # ;
 +V+Ind+Prs+Erg/Sg3:dio # ;
 +V+Ind+Prs+Erg/Pl1:diogu # ;
@@ -274,8 +287,8 @@ LEXICON ESAN
 
 LEXICON EKARRI
 +V+Ind+Prs+Erg/Sg1:dakart # ;
-+V+Ind+Prs+Erg/Sg2+ifl+f:dakarn # ; 
-+V+Ind+Prs+Erg/Sg2+ifl+m:dakark # ;
++V+Ind+Prs+Erg/Sg2+ifl/f:dakarn # ; 
++V+Ind+Prs+Erg/Sg2+ifl/m:dakark # ;
 +V+Ind+Prs+Erg/Sg2:dakarzu # ;
 +V+Ind+Prs+Erg/Sg3:dakar # ;
 +V+Ind+Prs+Erg/Pl1:dakargu # ;
@@ -292,8 +305,8 @@ LEXICON EKARRI
 
 LEXICON IRUTDITU
 +V+Ind+Prs+Dat/Sg1:dirudit # ;
-+V+Ind+Prs+Dat/Sg2+ifl+f:dirudin # ; 
-+V+Ind+Prs+Dat/Sg2+ifl+m:dirudik # ;
++V+Ind+Prs+Dat/Sg2+ifl/f:dirudin # ; 
++V+Ind+Prs+Dat/Sg2+ifl/m:dirudik # ;
 +V+Ind+Prs+Dat/Sg2:dirudizu # ;
 +V+Ind+Prs+Dat/Sg3:dirudi # ;
 +V+Ind+Prs+Dat/Pl1:dirudigu # ;
@@ -311,8 +324,8 @@ LEXICON IRUTDITU
 
 LEXICON JAKIN
 +V+Ind+Prs+Erg/Sg1:dakit # ;
-+V+Ind+Prs+Erg/Sg2+ifl+f:dakin # ; 
-+V+Ind+Prs+Erg/Sg2+ifl+m:dakik # ;
++V+Ind+Prs+Erg/Sg2+ifl/f:dakin # ; 
++V+Ind+Prs+Erg/Sg2+ifl/m:dakik # ;
 +V+Ind+Prs+Erg/Sg2:dakizu # ;
 +V+Ind+Prs+Erg/Sg3:daki # ;
 +V+Ind+Prs+Erg/Pl1:dakigu # ;
@@ -389,6 +402,7 @@ neska NaBizi "girl" ;
 seme NregBizi "son" ;
 mendi Nreg "mountain" ;
 
+
 LEXICON Propernouns
 
 Frantzia Np "France" ;
@@ -414,6 +428,12 @@ Errenteria Np "Renteria" ;
 Ordizia Np "Villafranca de Oria" ;
 Getaria Np "Guetaria" ;
 Zuberoa Np "Soule" ;
+
+LEXICON Pronouns
++Pron+Pers+Sg1+Erg:nik # ;
++Pron+Pers+Sg2+Erg:zuk # ;
++Pron+Pers+Sg3+Erg:hark # ;
+
 
 LEXICON Verbs
 

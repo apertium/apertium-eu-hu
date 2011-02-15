@@ -80,7 +80,7 @@ LEXICON SgCases1
 
 LEXICON SgCases2
 
-+Sg+Ine: # ; !-ean !-etan
+!+Sg+Ine: # ; !-ean !-etan
 !twolc rule - larunbata - larunbatean // isn't the lemma 'larunbat' here ? 
 +Sg+All:%>ra # ; !-era !-etara
 +Sg+Ela:%>tik # ; !-etik !-etatik
@@ -162,9 +162,12 @@ LEXICON Bizidun !after animate noun phrases
 
 +Biz: SgCases1 ;
 +Biz: PlCases1 ;
-+Biz: MggCases1 ;
 +Biz:%>gan SgCases2 ;
 +Biz:%>rengan PlCases2 ;
+
+LEXICON Bizidun2 !after animate noun phrases
+
++Biz: MggCases1 ;
 +Biz:%>rengan MggCases2 ;
 
 !LEXICON Loccases
@@ -202,7 +205,7 @@ LEXICON Nreg
 
 LEXICON NregBizi
 
-+N: Bizidun ;
++N: Bizidun2 ;
 +N+Art:%>a Bizidun ;
 !+N: Dim ;
 
@@ -221,7 +224,7 @@ LEXICON Na
 
 LEXICON NaBizi
 
-+N: Bizidun ;
++N: Bizidun2 ;
 +N+Art: Bizidun ;
 !+N: Dim ;
 

@@ -18,6 +18,8 @@ Multichar_Symbols
 +Pron
 +Pers
 
++Num
+
 +V
 +Aux
 +ifl
@@ -321,6 +323,36 @@ LEXICON IRUTDITU
 +V+Ind+Prt+Dat/Pl2:zeniruditen # ;
 +V+Ind+Prt+Dat/Pl3:ziruditen # ;
 
+LEXICON EDUKI
++V+Ind+Prs+Abs/Sg3+Erg/Sg1:daukat # ;
++V+Ind+Prs+Abs/Sg3+Erg/Sg2:daukazu # ;
++V+Ind+Prs+Abs/Sg3+Erg/Sg3:dauka # ;
++V+Ind+Prs+Abs/Sg3+Erg/Pl1:daukagu # ;
++V+Ind+Prs+Abs/Sg3+Erg/Pl2:daukazue # ;
++V+Ind+Prs+Abs/Sg3+Erg/Pl3:daukate # ;
+
++V+Ind+Prs+Abs/Pl3+Erg/Sg1:dauzkat # ;
++V+Ind+Prs+Abs/Pl3+Erg/Sg2:dauzkazu # ;
++V+Ind+Prs+Abs/Pl3+Erg/Sg3:dauzka # ;
++V+Ind+Prs+Abs/Pl3+Erg/Pl1:dauzkagu # ;
++V+Ind+Prs+Abs/Pl3+Erg/Pl2:dauzkazue # ;
++V+Ind+Prs+Abs/Pl3+Erg/Pl3:dauzkate # ;
+           
++V+Ind+Prt+Abs/Sg3+Erg/Sg1:neukan # ; 
++V+Ind+Prt+Abs/Sg3+Erg/Sg2:zeneukan # ;
++V+Ind+Prt+Abs/Sg3+Erg/Sg3:zeukan # ;
++V+Ind+Prt+Abs/Sg3+Erg/Pl1:geneukan # ;
++V+Ind+Prt+Abs/Sg3+Erg/Pl2:zeneukaten # ;
++V+Ind+Prt+Abs/Sg3+Erg/Pl3:zeukaten # ;
+
++V+Ind+Prt+Abs/Pl3+Erg/Sg1:neuzkan # ;
++V+Ind+Prt+Abs/Pl3+Erg/Sg2:zeneuzkan # ;
++V+Ind+Prt+Abs/Pl3+Erg/Sg3:zeuzkan # ;
++V+Ind+Prt+Abs/Pl3+Erg/Pl1:geneuzkan # ;
++V+Ind+Prt+Abs/Pl3+Erg/Pl2:zeneuzkaten # ;
++V+Ind+Prt+Abs/Pl3+Erg/Pl3:zeuzkaten # ;
+
+
 
 LEXICON JAKIN
 +V+Ind+Prs+Erg/Sg1:dakit # ;
@@ -395,6 +427,7 @@ LEXICON PAST
 LEXICON Nouns
 
 etxe Nreg "house" ;
+katu Nreg "cat" ;
 pisu Nreg "flat" ;
 taberna Na "bar" ;
 txakur NregBizi "dog" ;
@@ -449,6 +482,7 @@ atera Mv "go out" ;
 aurkitu Mv "find" ;
 baieztatu Mv "confirm" ;
 banandu Mv "differ" ;
+eduki: EDUKI "have" ;  
 eraman: ERAMAN "bring" ;
 esan: ESAN "say" ;
 ekarri: EKARRI "bring" ;
@@ -459,3 +493,11 @@ jakin: JAKIN "know" ;
 lortu Mv "achieve";
 !:ukan AuxUkan "be" ;
 
+LEXICON Numerals
+bat: NUM "one" ;
+bi: NUM "two" ;
+hiru: NUM "hiru" ;
+
+LEXICON NUM
+
++Num: SgCases1 ;

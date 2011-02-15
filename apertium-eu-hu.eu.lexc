@@ -4,6 +4,7 @@ Multichar_Symbols
 +Abs +Dat +Ins +Soc +Erg +Ine +Ben +Ben2 +Par +All +Ela +Term +Ten
 +Masc +Fem +Top
 +Art
++Ord
 +Locp
 +Ben2
 +PGen
@@ -549,12 +550,13 @@ ahaztu Mv "forget" ;
 aldatu Mv "change" ;
 amaitu Mv "finnish" ;
 argitu Mv "clear" ;
-aritu Mv "busy oneself" ;
+aritu Mv "busy# oneself" ;
 asmatu Mv "invent" ;
 atera Mv "go out" ;
 aurkitu Mv "find" ;
 baieztatu Mv "confirm" ;
 banandu Mv "differ" ;
+maitemindu Mv "fall# in love" ;
 eduki: EDUKI "have" ;  
 eraman: ERAMAN "bring" ;
 esan: ESAN "say" ;
@@ -566,12 +568,25 @@ jakin: JAKIN "know" ;
 lortu Mv "achieve";
 ukan: AuxUkan "be" ;
 
-LEXICON NUM
+LEXICON NUMBAT
 
 +Num: SgCases1 ;
 
+LEXICON NUM
+
++Num: SgCases1 ;
++Num+Ord:%>garren SgCases1 ;
++Num+Ord+Art:%>garren%>a SgCases1 ;
+
 LEXICON Numerals
-bat NUM "one" ;
+bat NUMBAT "one" ;
 bi NUM "two" ;
 hiru NUM "hiru" ;
+lau NUM "lau" ;
+bost NUM "five" ;
+sei NUM "six" ;
+zazpi NUM "seven" ;
+zortzi NUM "eight" ;
+bederatzi NUM "nine" ;
+hamar NUM "ten" ;
 

@@ -494,7 +494,9 @@ LEXICON PAST
 LEXICON Nouns
 
 etxe Nreg "house" ;
-katu Nreg "cat" ;
+hartz NregBizi "bear" ;
+hortz Nreg "tooth" ;
+katu NregBizi "cat" ;
 pisu Nreg "flat" ;
 taberna Na "bar" ;
 txakur NregBizi "dog" ;

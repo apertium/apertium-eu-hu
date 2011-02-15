@@ -430,9 +430,9 @@ Getaria Np "Guetaria" ;
 Zuberoa Np "Soule" ;
 
 LEXICON Pronouns
-+Pron+Pers+Sg1+Erg:nik # ;
-+Pron+Pers+Sg2+Erg:zuk # ;
-+Pron+Pers+Sg3+Erg:hark # ;
++Pron+Pers+Sg1:ni SgCases1 ;
++Pron+Pers+Sg2:zu SgCases1 ;
++Pron+Pers+Sg3:ha SgCases1 ;
 
 
 LEXICON Verbs

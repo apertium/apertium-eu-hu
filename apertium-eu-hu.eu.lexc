@@ -378,6 +378,8 @@ LEXICON JAKIN
 LEXICON AuxIzan
 
 +V+Aux: IZANNOR ;
++V+Aux: IZANNORNORK ;
++V+Aux: IZANNORNORI ;
 
 LEXICON IZANNOR
 
@@ -397,6 +399,40 @@ LEXICON IZANNOR
 +Ind+Prt+Abs/Pl1:ginen # ;
 +Ind+Prt+Abs/Pl2:zineten # ;
 +Ind+Prt+Abs/Pl3:ziren # ;
+
+
+LEXICON IZANNORNORK
+
++Ind+Prs+Abs/Sg3+Erg/Sg1:dut # ;
++Ind+Prs+Abs/Sg3+Erg/Sg2:duzu # ;
++Ind+Prs+Abs/Sg3+Erg/Sg3:du # ;
++Ind+Prs+Abs/Sg3+Erg/Pl1:dugu # ;
++Ind+Prs+Abs/Sg3+Erg/Pl2:duzue # ;
++Ind+Prs+Abs/Sg3+Erg/Pl3:dute # ;
+       
++Ind+Prs+Abs/Pl3+Erg/Sg1:ditut # ;
++Ind+Prs+Abs/Pl3+Erg/Sg2:dituzu # ;
++Ind+Prs+Abs/Pl3+Erg/Sg3:ditu # ;
++Ind+Prs+Abs/Pl3+Erg/Pl1:ditugu # ;
++Ind+Prs+Abs/Pl3+Erg/Pl2:dituzue # ;
++Ind+Prs+Abs/Pl3+Erg/Pl3:dituzte # ;
+
+!prt - en
++Ind+Prt+Abs/Sg3+Erg/Sg1:nuen # ;
++Ind+Prt+Abs/Sg3+Erg/Sg2:zenuen # ;
++Ind+Prt+Abs/Sg3+Erg/Sg3:zuen # ;
++Ind+Prt+Abs/Sg3+Erg/Pl1:genuen # ;
++Ind+Prt+Abs/Sg3+Erg/Pl2:zenuten # ;
++Ind+Prt+Abs/Sg3+Erg/Pl3:zuten # ;
+       
++Ind+Prt+Abs/Pl3+Erg/Sg1:nituen # ;
++Ind+Prt+Abs/Pl3+Erg/Sg2:zenituen # ;
++Ind+Prt+Abs/Pl3+Erg/Sg3:zituen # ;
++Ind+Prt+Abs/Pl3+Erg/Pl1:genituen # ;
++Ind+Prt+Abs/Pl3+Erg/Pl2:zenituzten # ;
++Ind+Prt+Abs/Pl3+Erg/Pl3:zituzten # ;
+
+
 
 LEXICON IZANNORNORI
 
@@ -438,6 +474,14 @@ mendi Nreg "mountain" ;
 
 
 LEXICON Propernouns
+
+Aitor Np "Aitor" ;
+Arkaitz Np "Arkaitz" ;
+Danel Np "Danel" ;
+Francis Np "Francis" ;
+Itziar Np "Itziar" ;
+Linda Np "Linda" ;
+Tristan Np "Tristan" ;
 
 Frantzia Np "France" ;
 Galizia Np "Galicia" ;

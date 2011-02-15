@@ -497,10 +497,11 @@ etxe Nreg "house" ;
 hartz NregBizi "bear" ;
 hortz Nreg "tooth" ;
 katu NregBizi "cat" ;
+neska NaBizi "girl" ;
 pisu Nreg "flat" ;
 taberna Na "bar" ;
 txakur NregBizi "dog" ;
-neska NaBizi "girl" ;
+odol Nreg "blood" ;
 seme NregBizi "son" ;
 mendi Nreg "mountain" ;
 
@@ -581,17 +582,21 @@ atera Mv "go out" ;
 aurkitu Mv "find" ;
 baieztatu Mv "confirm" ;
 banandu Mv "differ" ;
+bete Mv "complete" ;
 maitemindu Mv "fall# in love" ;
 eduki: EDUKI "have" ;  
 eraman: ERAMAN "bring" ;
 esan: ESAN "say" ;
+eskaini Mv "offer" ;
 ekarri: EKARRI "bring" ;
 ibili: IBILI "walk" ;
 iruditu: IRUDITU "seem" ;
 izan: AuxIzan "be" ;
 jakin: JAKIN "know" ;
 lortu Mv "achieve";
+oparitu Mv "give" ;
 ukan: AuxUkan "be" ;
+ziurtatu Mv"secure" ;
 
 LEXICON NUMBAT
 

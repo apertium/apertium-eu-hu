@@ -3,7 +3,6 @@ Multichar_Symbols
 +N +Po +Cm +Punct
 +Abs +Dat +Ins +Soc +Erg +Ine +Ben +Ben2 +Par +All +Ela +Term +Ten
 +Masc +Fem +Top 
-+Der/N
 +Art
 +Fut
 +Ord
@@ -16,6 +15,9 @@ Multichar_Symbols
 +Prop
 +Biz
 
++Der/N			!! ??
++Der/tzeko 		!! ?? 
+
 +Dim
 +Pl
 +Sg
@@ -25,7 +27,7 @@ Multichar_Symbols
 
 +Num
 
-+V +Inf +Prc +Der/N +Der/tzeko +Cont
++V +Inf +Prc +Cont
 +Aux
 +ifl
 +ifl/f

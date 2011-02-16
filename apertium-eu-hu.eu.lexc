@@ -15,8 +15,7 @@ Multichar_Symbols
 +Prop
 +Biz
 
-+Der/N			!! ??
-+Der/tzeko 		!! ?? 
++Der/N	+ko 
 
 +Dim
 +Pl
@@ -27,7 +26,7 @@ Multichar_Symbols
 
 +Num
 
-+V +Inf +Prc +Cont
++V +Root +Prc +Cont
 +Aux
 +ifl
 +ifl/f
@@ -265,38 +264,42 @@ LEXICON NpTop
 
 LEXICON Tu
 
-+V+Inf: # ;
-+V: Verbforms ;
++V+Root: # ;
++V: Nominalization ;
 +V+Prc:%tu #;
 +V:%tu Fut;
 
-LEXICON Tu
+LEXICON Du
 
-+V+Inf: # ;
-+V: Verbforms ;
++V+Root: # ;
++V: Nominalization ;
 +V+Prc:%du #;
 +V:%du Fut;
 
 LEXICON Sinmas
 
-+V+Inf: # ;
-+V: Verbforms ;
++V+Root: # ;
++V: Nominalization ;
 +V+Prc: #;
 +V: Fut;
 
 LEXICON I
 
-+V: Verbforms ;
-+V+Inf: # ;
++V: Nominalization ;
++V+Root: # ;
 +V+Prc:%i #;
 +V:%>i Fut;
 
-LEXICON Verbforms
+LEXICON Nominalization
 
-+Der/tzeko:%>tzeko # ;
-+Der/N:%>tze #  ;           !! 
-+Der/N+Art:%>tzea #  ;      !! Should this go to the SgCases1 continuation lexicon?
-+Cont:%>tzen # ;
++Der/N:%>tze #  ;
++Der/N:%>tze Nominalization2  ;
+
+LEXICON Nominalization2
+
++ko:%>ko # ;
++Art:%>a #  ;      !! Should this go to the SgCases1 continuation 
++Cont:%>n # ;
 
 LEXICON Fut
 
@@ -713,6 +716,7 @@ ezin Sinmas "can# not" ;
 gerta Tu "happen" ;
 gosal Du "breakfast" ;
 graba Tu "tape" ;
+haserre Tu "get# angry" ;
 has I "begin" ;
 hauta Tu "choose" ;
 hil Sinmas "die" ;
@@ -728,7 +732,7 @@ isur I "flow" ;
 izan: AuxIzan "be" ;
 jaits I "go# down" ;
 jan Sinmas "eat" ;
-jarr I "put" ; 
+jar I "put" ; !R
 jakin: JAKIN "know" ;
 joan JOAN "go" ;
 joka Tu "play" ;
@@ -741,9 +745,11 @@ mintza Tu "talk" ;
 nahas Tu "mix" ;
 onar Tu "accept" ;
 opari Tu "give" ;
+o Tu "occur" ;
 sar Tu "enter" ;
 topa Tu "meet" ;
 ukan: AuxUkan "be" ;
+uki Tu "touch" ;
 uler Tu "understand" ;
 zeharka Tu "cross" ;
 zintzilika Tu "hang" ;

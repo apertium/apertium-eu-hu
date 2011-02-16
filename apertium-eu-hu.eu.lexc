@@ -1,8 +1,8 @@
 Multichar_Symbols
 
-+N +Po
++N +Po +Cm +Punct
 +Abs +Dat +Ins +Soc +Erg +Ine +Ben +Ben2 +Par +All +Ela +Term +Ten
-+Masc +Fem +Top
++Masc +Fem +Top 
 +Der/N
 +Art
 +Fut
@@ -67,6 +67,7 @@ Propernouns ;
 Pronouns ;
 Verbs ;
 Numerals ;
+Punctuation ;
 
 LEXICON SgCases1 
 
@@ -748,3 +749,11 @@ zortzi NUM "eight" ;
 bederatzi NUM "nine" ;
 hamar NUM "ten" ;
 
+LEXICON PUNCT
+
++Punct: # ;
+
+LEXICON Punctuation
+
+%, PUNCT ;
+%. PUNCT ;

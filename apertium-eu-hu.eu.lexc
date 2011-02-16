@@ -286,6 +286,23 @@ LEXICON Fut
 
 +Fut:%>ko # ;
 
+LEXICON JOAN
++V+Ind+Prs+Abs/Sg1:noa # ;
++V+Ind+Prs+Abs/Sg2+ifl:hoa # ; 
++V+Ind+Prs+Abs/Sg2:zoaz # ;
++V+Ind+Prs+Abs/Sg3:doa # ;
++V+Ind+Prs+Abs/Pl1:goaz # ;
++V+Ind+Prs+Abs/Pl2:zoazte # ;
++V+Ind+Prs+Abs/Pl3:doaz # ;
+
++V+Ind+Prt+Abs/Sg1:nindoen # ;
++V+Ind+Prt+Abs/Sg2+ifl:hindoen # ; 
++V+Ind+Prt+Abs/Sg2:zinoazen # ;
++V+Ind+Prt+Abs/Sg3:zioen # ;
++V+Ind+Prt+Abs/Pl1:ginoazen # ;
++V+Ind+Prt+Abs/Pl2:zinoazten # ;
++V+Ind+Prt+Abs/Pl3:zioazen # ;
+
 LEXICON IBILI
 +V+Ind+Prs+Abs/Sg1:nabil # ;
 +V+Ind+Prs+Abs/Sg2+ifl:habil # ; 
@@ -302,6 +319,24 @@ LEXICON IBILI
 +V+Ind+Prt+Abs/Pl1:genbiltzan # ;
 +V+Ind+Prt+Abs/Pl2:zenbiltzaten # ;
 +V+Ind+Prt+Abs/Pl3:zebiltzan # ;
+
+LEXICON ETORRI
+
++V+Ind+Prs+Abs/Sg1:nator # ;
++V+Ind+Prs+Abs/Sg2+ifl:hator # ; 
++V+Ind+Prs+Abs/Sg2:zatoz # ;
++V+Ind+Prs+Abs/Sg3:dator # ;
++V+Ind+Prs+Abs/Pl1:gatoz # ;
++V+Ind+Prs+Abs/Pl2:zatozte # ;
++V+Ind+Prs+Abs/Pl3:datoz # ;
+           
++V+Ind+Prt+Abs/Sg1:nentorren # ;
++V+Ind+Prt+Abs/Sg2+ifl:hentorren # ; 
++V+Ind+Prt+Abs/Sg2:zentozen # ;
++V+Ind+Prt+Abs/Sg3:zetorren # ;
++V+Ind+Prt+Abs/Pl1:gentozen # ;
++V+Ind+Prt+Abs/Pl2:zentozten # ;
++V+Ind+Prt+Abs/Pl3:zetozten # ;
 
 
 LEXICON ERAMAN
@@ -608,7 +643,11 @@ Zuberoa NpTop "Soule" ;
 LEXICON Pronouns
 +Pron+Pers+Sg1:ni SgCases1 ;
 +Pron+Pers+Sg2:zu SgCases1 ;
-+Pron+Pers+Sg3:ha SgCases1 ;
++Pron+Pers+Sg2+inf:hi SgCases1 ;
++Pron+Pers+Sg3:bera SgCases1 ;
++Pron+Pers+Pl1:guk # ;
++Pron+Pers+Pl2:zuek # ;
++Pron+Pers+Pl3:haiek # ;
 
 +Pron+Dem+Sg1:hau SgCases1 ;
 
@@ -631,16 +670,46 @@ bete Sinmas "complete" ;
 maitemin Du "fall# in love" ;
 eduki: EDUKI "have" ;  
 eraman: ERAMAN "bring" ;
+errapa Tu "realize" ;
 esan: ESAN "say" ;
 eskain I "offer" ;
+eska Tu "order" ;
 ekarri: EKARRI "bring" ;
+eskain I "offer" ;
+etorri ETORRI "come" ;
+gerta Tu "happen" ;
+gosal Du "breakfast" ;
+graba Tu "tape" ;
+has I "begin" ;
+hauta Tu "choose" ;
+hil Sinmas "die" ;
+honda Tu "destroy" ;
 ibili: IBILI "walk" ;
+igo Sinmas "ascend" ;
+ikas I "learn" ;
+ikus I "see" ;
+irits I "arrive" ;
 iruditu: IRUDITU "seem" ;
+isur I "flow" ;
 izan: AuxIzan "be" ;
+jaits I "go# down" ;
+jan Sinmas "eat" ;
+jarr I "put" ; 
 jakin: JAKIN "know" ;
+joan JOAN "go" ;
+joka Tu "play" ;
+kezka Tu "worry" ;
+kontura Tu "notice" ;
+landa Tu "plant" ;
 lor Tu "achieve";
-oparitu Tu "give" ;
+mintza Tu "talk" ;
+nahas Tu "mix" ;
+onar Tu "accept" ;
+opari Tu "give" ;
+sar Tu "enter" ;
+topa Tu "meet" ;
 ukan: AuxUkan "be" ;
+uler Tu "understand" ;
 ziurta Tu"secure" ;
 
 LEXICON NUMBAT

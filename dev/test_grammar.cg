@@ -1,0 +1,9 @@
+DELIMITERS = "." ;
+
+SECTION
+
+SUBSTITUTE (V) (V Agcase_Erg Agsyn_Subj Thcase_Abs Thsyn_Obj) ("lor");
+
+SUBSTITUTE (V) (V Caucase_Erg Caucase_Soz Causyn_Subj  Expcase_Abs Expsyn_Obj Expsem_Hum) ("haserre");
+    ## Zergatik haserretzen zara nirekin?
+    ## Manin dun suhtat mu ala/munnje?

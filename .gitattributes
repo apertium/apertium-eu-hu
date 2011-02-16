@@ -8,3 +8,4 @@
 /apertium-eu-hu.hu.lexc -text
 /apertium-eu-hu.hu.relabel -text
 /apertium-eu-hu.hu.twol -text
+dev/test_grammar.cg -text

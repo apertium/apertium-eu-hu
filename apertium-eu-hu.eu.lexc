@@ -689,7 +689,8 @@ bilaka Tu "turn# into" ;
 bisita Tu "visit" ;
 dei Tu "call" ;
 edan Sinmas "drink" ;
-eduki: EDUKI "have" ; 
+eduki: EDUKI "have" ;
+egin Sinmas "do" ; 
 egoki Tu "adapt" ;
 ehiza Tu "hunt" ;
 ekarr I "bring" ;
@@ -744,6 +745,8 @@ sar Tu "enter" ;
 topa Tu "meet" ;
 ukan: AuxUkan "be" ;
 uler Tu "understand" ;
+zeharka Tu "cross" ;
+zintzilika Tu "hang" ;
 ziurta Tu"secure" ;
 
 LEXICON NUMBAT

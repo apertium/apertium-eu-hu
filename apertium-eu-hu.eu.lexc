@@ -25,7 +25,7 @@ Multichar_Symbols
 
 +Num
 
-+V +Inf +Prc +Der/N +Subcaus +Cont
++V +Inf +Prc +Der/N +Der/tzeko +Cont
 +Aux
 +ifl
 +ifl/f
@@ -291,7 +291,7 @@ LEXICON I
 
 LEXICON Verbforms
 
-+Subcaus:%>tzeko # ;
++Der/tzeko:%>tzeko # ;
 +Der/N:%>tze #  ;           !! 
 +Der/N+Art:%>tzea #  ;      !! Should this go to the SgCases1 continuation lexicon?
 +Cont:%>tzen # ;

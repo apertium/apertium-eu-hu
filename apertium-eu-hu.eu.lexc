@@ -161,6 +161,19 @@ LEXICON Propcases
 +Ben2:%>rengatik # ; !-engatik
 
 
+LEXICON PronSgCases 
+
++Abs: # ; !-ak
++Erg:%>k # ; !-ek
++Dat:%>ri # ; !-ei
+
++PGen:%>ren # ; !-en
++Ins:%>z # ; !-ez, taz, etaz
++Soc:%>rekin # ; !-ekin
++Ben:%>rentzat # ; !-entzat
++Ben2:%>rengatik # ; !-agatik !-engatik
+
+
 LEXICON Bizidun !after animate noun phrases
 
 +Biz: SgCases1 ;
@@ -642,21 +655,22 @@ Getaria NpTop "Guetaria" ;
 Zuberoa NpTop "Soule" ;
 
 LEXICON Pronouns
-+Pron+Pers+Sg1:ni SgCases1 ;
-+Pron+Pers+Sg2:zu SgCases1 ;
-+Pron+Pers+Sg2+inf:hi SgCases1 ;
-+Pron+Pers+Sg3:bera SgCases1 ;
++Pron+Pers+Sg1:ni PronSgCases ;
++Pron+Pers+Sg2:zu PronSgCases ;
++Pron+Pers+Sg2+inf:hi PronSgCases ;
++Pron+Pers+Sg3:bera PronSgCases ;
 +Pron+Pers+Pl1:guk # ;
 +Pron+Pers+Pl2:zuek # ;
 +Pron+Pers+Pl3:haiek # ;
 
-+Pron+Dem+Sg1:hau SgCases1 ;
++Pron+Dem+Sg3:hau PronSgCases ;
 
 
 LEXICON Verbs
 
 abes Tu "sing" ;
 ager Tu "appear" ;
+ahal Sinmas "can" ;
 ahaz Tu "forget" ;
 alda Tu "change" ;
 amai Tu "finnish" ;
@@ -667,6 +681,7 @@ atera Sinmas "go out" ;
 aurki Tu "find" ;
 baiezta Tu "confirm" ;
 banan Du "differ" ;
+behar Sinmas "must" ;
 bete Sinmas "complete" ;
 bilaka Tu "turn# into" ;
 bisita Tu "visit" ;
@@ -691,6 +706,7 @@ eska Tu "order" ;
 ekarri: EKARRI "bring" ;
 eskain I "offer" ;
 etorri ETORRI "come" ;
+ezin Sinmas "can# not" ;
 gerta Tu "happen" ;
 gosal Du "breakfast" ;
 graba Tu "tape" ;
@@ -702,6 +718,7 @@ ibili: IBILI "walk" ;
 igo Sinmas "ascend" ;
 ikas I "learn" ;
 ikus I "see" ;
+irakin Sinmas "boil" ;
 irits I "arrive" ;
 iruditu: IRUDITU "seem" ;
 isur I "flow" ;

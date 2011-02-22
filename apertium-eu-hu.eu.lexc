@@ -673,6 +673,14 @@ LEXICON Pronouns
 +Pron+Pers+Pl3:haiek # ;
 
 +Pron+Dem+Sg3:hau PronSgCases ;
++Pron+Dem+Sg3:hori PronSgCases ;
++Pron+Dem+Sg3:hura PronSgCases ;
+
++Pron+Interr+Sg3:zer PronSgCases ;
++Pron+Interr+Sg3:nor PronSgCases ;
+
+LEXICON Adverbs
++Adv:zergatik # ;
 
 
 LEXICON Verbs

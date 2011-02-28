@@ -22,7 +22,7 @@ Multichar_Symbols
 +Sg
 
 +Pron
-+Pers +Dem
++Pers +Dem +Poss
 
 +Num
 
@@ -168,7 +168,7 @@ LEXICON PronSgCases
 +Erg:%>k # ; !-ek
 +Dat:%>ri # ; !-ei
 
-+PGen:%>ren # ; !-en
++PGen:%>re # ; !-en
 +Ins:%>z # ; !-ez, taz, etaz
 +Soc:%>rekin # ; !-ekin
 +Ben:%>rentzat # ; !-entzat

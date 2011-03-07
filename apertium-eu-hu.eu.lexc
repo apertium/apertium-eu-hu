@@ -1,6 +1,6 @@
 Multichar_Symbols
 
-+N +Po +Cm +Punct
++N +Po +Cm +Punct +Adv
 +Abs +Dat +Ins +Soc +Erg +Ine +Ben +Ben2 +Par +All +Ela +Term +Ten
 +Masc +Fem +Top 
 +Art
@@ -63,7 +63,9 @@ Multichar_Symbols
 
 LEXICON Root
 
+Adjectives ;
 Nouns ;
+Postposition ;
 Propernouns ;
 Pronouns ;
 Verbs ;
@@ -256,6 +258,19 @@ LEXICON NpF
 LEXICON NpTop
 
 +N+Prop+Top: Propcases ;
+
+LEXICON Areg
+
++A: MggCases1 ;
++A: MggCases2 ;
++A: MggCases3 ;
++A+Art:%>a SgCases1 ;
++A+Art:%>a SgCases2 ;
++A+Art:%>a SgCases3 ;
++A+Art:%>a PlCases1 ;
++A+Art:%>a PlCases2 ;
++A+Art:%>a PlCases3 ;
+
 
 
 !LEXICON AuxUkan
@@ -588,18 +603,34 @@ LEXICON PAST
 
 LEXICON Nouns
 
+antzerki Nreg "theatre" ;
+arazo Nreg "problem" ;
+eskola Na "school" ;
 etxe Nreg "house" ;
 hartz NregBizi "bear" ;
+hotel Nreg "hotel" ;
 hortz Nreg "tooth" ;
+jende Nreg "people" ;
+kale Nreg "street" ;
 katu NregBizi "cat" ;
+kaxoi Nreg "drawer" ;
 kolore Nreg "color" ;
+lagun NregBizi "friend" ;
+lan Nreg "work" ;
+mendi Nreg "mountain" ;
+manifestazio "demonstration" ;
+muxu Nreg "kiss" ;
 neska NaBizi "girl" ;
+papera Na "paper" ;
+pastel Nreg "cake" ;
+poltsa Na "bag" ;
 pisu Nreg "flat" ;
 taberna Na "bar" ;
 txakur NregBizi "dog" ;
 odol Nreg "blood" ;
+sari Nreg "prize" ;
 seme NregBizi "son" ;
-mendi Nreg "mountain" ;
+telefono Nreg "telephone" ;
 
 
 LEXICON Propernouns
@@ -680,7 +711,13 @@ LEXICON Pronouns
 +Pron+Interr+Sg3:nor PronSgCases ;
 
 LEXICON Adverbs
++Adv:atzo # ;
++Adv:bihar # ;
++Adv:gaur # ;
 +Adv:zergatik # ;
+
+LEXICON Adjectives
+tonto Areg "stupid" ;
 
 
 LEXICON Verbs
@@ -791,6 +828,9 @@ utz I "leave" ;
 zeharka Tu "cross" ;
 zintzilika Tu "hang" ;
 ziurta Tu"secure" ;
+
+LEXICON Postposition ;
++Po:buruz # ;
 
 LEXICON NUMBAT
 

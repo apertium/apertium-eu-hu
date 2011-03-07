@@ -3,7 +3,7 @@ Multichar_Symbols
 +N +Po +Cm +Punct +Adv
 +Abs +Dat +Ins +Soc +Erg +Ine +Ben +Ben2 +Par +All +Ela +Term +Ten
 +Masc +Fem +Top 
-+Art
++Art +Interr
 +Fut
 +Ord
 +Locp
@@ -696,13 +696,13 @@ Getaria NpTop "Guetaria" ;
 Zuberoa NpTop "Soule" ;
 
 LEXICON Pronouns
-+Pron+Pers+Sg1:ni PronSgCases ;
-+Pron+Pers+Sg2:zu PronSgCases ;
-+Pron+Pers+Sg2+inf:hi PronSgCases ;
-+Pron+Pers+Sg3:bera PronSgCases ;
-+Pron+Pers+Pl1:guk # ;
-+Pron+Pers+Pl2:zuek # ;
-+Pron+Pers+Pl3:haiek # ;
+ni+Pron+Pers+Sg1:ni PronSgCases ;
+zu+Pron+Pers+Sg2:zu PronSgCases ;
+hi+Pron+Pers+Sg2+inf:hi PronSgCases ;
+bera+Pron+Pers+Sg3:bera PronSgCases ;
+gu+Pron+Pers+Pl1:guk # ;
+zuek+Pron+Pers+Pl2:zuek # ;
+haiek+Pron+Pers+Pl3:haiek # ;
 
 +Pron+Dem+Sg3:hau PronSgCases ;
 +Pron+Dem+Sg3:hori PronSgCases ;
@@ -711,11 +711,16 @@ LEXICON Pronouns
 +Pron+Interr+Sg3:zer PronSgCases ;
 +Pron+Interr+Sg3:nor PronSgCases ;
 
+LEXICON ADV 
+
++Adv: # ;
+
 LEXICON Adverbs
-+Adv:atzo # ;
-+Adv:bihar # ;
-+Adv:gaur # ;
-+Adv:zergatik # ;
+
+atzo ADV  ;
+bihar ADV ;
+gaur ADV ;
+zergatik+Adv+Interr:zergatik # ;
 
 LEXICON Adjectives
 tonto Areg "stupid" ;

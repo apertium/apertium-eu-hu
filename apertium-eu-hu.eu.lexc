@@ -64,6 +64,7 @@ Multichar_Symbols
 LEXICON Root
 
 Adjectives ;
+Adverbs ;
 Nouns ;
 Postposition ;
 Propernouns ;
@@ -829,7 +830,7 @@ zeharka Tu "cross" ;
 zintzilika Tu "hang" ;
 ziurta Tu"secure" ;
 
-LEXICON Postposition ;
+LEXICON Postposition
 +Po:buruz # ;
 
 LEXICON NUMBAT

@@ -33,8 +33,8 @@ Rules
 "r + k -> r r +ek"
  %>:r <=> r: _ 0:e k ; 
  
-"T + s or x or z + t -> s or x or z + t"
- T:0 _ s %> t ;
+!"T + s or x or z + t -> s or x or z + t"
+ T:0 _ s %> t  ;
 !big T is deleted if followed by a t as in aberaTs 
 
 

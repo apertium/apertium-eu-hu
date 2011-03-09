@@ -604,8 +604,13 @@ LEXICON PAST
 
 LEXICON Nouns
 
+abesti Nreg "song" ;
 antzerki Nreg "theatre" ;
 arazo Nreg "problem" ;
+egongela Na "room" ;
+egun Nreg "day" ;
+enpresa Na "company" ;
+epaiketa Na "court" ;
 eskola Na "school" ;
 etxe Nreg "house" ;
 giltza Na "key" ;
@@ -614,19 +619,23 @@ hotel Nreg "hotel" ;
 hortz Nreg "tooth" ;
 jende Nreg "people" ;
 kale Nreg "street" ;
+kargu Nreg "charge" ;
 katu NregBizi "cat" ;
 kaxoi Nreg "drawer" ;
 kolore Nreg "color" ;
 lagun NregBizi "friend" ;
 lan Nreg "work" ;
-mendi Nreg "mountain" ;
+maite Na "love" ;
 manifestazio "demonstration" ;
+mendi Nreg "mountain" ;
 muxu Nreg "kiss" ;
 neska NaBizi "girl" ;
 papera Na "paper" ;
 pastel Nreg "cake" ;
 poltsa Na "bag" ;
 pisu Nreg "flat" ;
+presa Na "hurry" ;
+sukalde Nreg "kitchen" ;
 taberna Na "bar" ;
 txakur NregBizi "dog" ;
 odol Nreg "blood" ;

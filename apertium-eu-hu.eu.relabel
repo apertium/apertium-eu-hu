@@ -39,9 +39,15 @@
 +Abs/Sg1	<NR_NI>
 +Abs/Sg2	<NR_ZU>
 +Abs/Sg3	<NR_HU>
++Abs/Pl1	<NR_GU>
++Abs/Pl2	<NR_ZE>
++Abs/Pl3	<NR_HA>
 +Erg/Sg1	<NK_NI>
 +Erg/Sg2	<NK_ZU>
 +Erg/Sg3	<NK_HU>
++Erg/Pl1	<NR_GU>
++Erg/Pl2	<NR_ZE>
++Erg/Pl3	<NR_HA>
 +Fut	<Fut>
 +Punct	<Punct>
 +Inf	<Inf>

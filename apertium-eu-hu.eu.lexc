@@ -61,6 +61,8 @@ Multichar_Symbols
 
 %>
 
+%{t%}
+
 LEXICON Root
 
 Adjectives ;
@@ -282,15 +284,15 @@ LEXICON Tu
 
 +V+Root: # ;
 +V: Nominalization ;
-+V+Prc:%tu #;
-+V:%tu Fut;
++V+Prc:%>tu #;
++V:%>tu Fut;
 
 LEXICON Du
 
 +V+Root: # ;
 +V: Nominalization ;
-+V+Prc:%du #;
-+V:%du Fut;
++V+Prc:%>du #;
++V:%>du Fut;
 
 LEXICON Sinmas
 
@@ -303,7 +305,7 @@ LEXICON I
 
 +V: Nominalization ;
 +V+Root: # ;
-+V+Prc:%i #;
++V+Prc:%>i #;
 +V:%>i Fut;
 
 LEXICON Nominalization
@@ -738,7 +740,7 @@ tonto Areg "stupid" ;
 
 LEXICON Verbs
 
-aberaTs Tu "get rich" ;
+abera%{t%}s Tu "get rich" ;
 abes Tu "sing" ;
 adieraZ I "declare" ;
 afal Du ;
@@ -806,7 +808,7 @@ irakin Sinmas "boil" ;
 irits I "arrive" ;
 iruditu: IRUDITU "seem" ;
 isur I "flow" ;
-itx I ;
+i%{t%}x I ;
 izan: AuxIzan "be" ;
 jaits I "go# down" ;
 jan Sinmas "eat" ;

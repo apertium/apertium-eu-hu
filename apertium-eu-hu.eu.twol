@@ -6,13 +6,14 @@ Alphabet
  a b c d e f g h i j k l m n ñ o p q r s t u v w x y z
  A B C D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z 
 
- %>:0 ;
+ %>:0 %{t%}:t ;
 
 Sets
 
  Vow = a e i o u;
 
- Cns = b c d f g h j k l m n p q r s t v w x z ;
+ ArchiCns = %{t%} ;
+ Cns = b c d f g h j k l m n p q r s t v w x z ArchiCns;
  
  Nas = m n ;
  NonNas = b c d f g h j k l p q r s t v w x z ;
@@ -24,18 +25,24 @@ Rules
  a:0 <=> _ %>: e ;
  
  
-"r doubling"
- 0:r <=> r %>: _ Vow ;
+!"r doubling"
+! 0:r <=> r %>: _ Vow ;
   
-"cons + k -> cons +ek"
- %>:e <=> Cns: _ k ; 
+!"cons + k -> cons +ek"
+! %>:e <=> Cns: _ k ; 
 
-"r + k -> r r +ek"
- %>:r <=> r: _ 0:e k ; 
+!"r + k -> r r +ek"
+! %>:r <=> r: _ 0:e k ; 
  
 !"T + s or x or z + t -> s or x or z + t"
- T:0 _ s %> t  ;
+! T:0 _ s %> t  ;
 !big T is deleted if followed by a t as in aberaTs 
+
+"remove t"
+%{t%}:0 <=> _ [ s | x ] %> t z e ;
+
+!abera{t}s>tze
+!aberastze
 
 
 !^Z:0 <=> ^N %> t _ e ;

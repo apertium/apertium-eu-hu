@@ -12,8 +12,7 @@ Sets
 
  Vow = a e i o u;
 
- ArchiCns = %{t%} ;
- Cns = b c d f g h j k l m n p q r s t v w x z ArchiCns;
+ Cns = b c d f g h j k l m n p q r s t v w x z ;
  
  Nas = m n ;
  NonNas = b c d f g h j k l p q r s t v w x z ;
@@ -39,7 +38,10 @@ Rules
 !big T is deleted if followed by a t as in aberaTs 
 
 "remove t"
-%{t%}:0 <=> _ [ s | x ] %> t z e ;
+%{t%}:0 <=> _ [ s | x ] %>: t ;
+
+"remove z"
+z:0 <=> [ n | x | s | z ] %>: t _ e ;
 
 !abera{t}s>tze
 !aberastze

@@ -740,7 +740,7 @@ tonto Areg "stupid" ;
 
 LEXICON Verbs
 
-abera%{t%}s Tu "get rich" ;
+abera%{t%}s Tu "get# rich" ;
 abes Tu "sing" ;
 adieraZ I "declare" ;
 afal Du ;
@@ -781,7 +781,7 @@ eskain I "offer" ;
 eska Tu "order" ;
 ekarri: EKARRI "bring" ;
 eskain I "offer" ;
-etorri ETORRI "come" ;
+etorr ETORRI "come" ;
 existi Tu ;
 ezin Sinmas "can# not" ;
 ezkon Du ;

@@ -152,7 +152,7 @@ LEXICON MggCases3
 LEXICON Propcases 
 
 +Abs: # ; 
-+Erg:%>k # ; ! -ek
++Erg:%>ek # ; ! -k
 +Dat:%>i # ; ! -ri
 
 +Ine:%>n # ; ! -en
@@ -161,10 +161,10 @@ LEXICON Propcases
 +LGen:%>ko # ; !-go
 
 +PGen:%>ren # ; !-en
-+Ins:%>z # ; !-ez, taz, etaz
-+Soc:%>rekin # ; !-ekin
-+Ben:%>rentzat # ; !-entzat
-+Ben2:%>rengatik # ; !-engatik
++Ins:%>ez # ; !-z, taz, etaz
++Soc:%>ekin # ; !-rekin
++Ben:%>entzat # ; !-rentzat
++Ben2:%>engatik # ; !-rengatik
 
 
 LEXICON PronSgCases 
@@ -611,6 +611,7 @@ antzerki Nreg "theatre" ;
 arazo Nreg "problem" ;
 egongela Na "room" ;
 egun Nreg "day" ;
+emaitza Na "result" ;
 enpresa Na "company" ;
 epaiketa Na "court" ;
 eskola Na "school" ;
@@ -619,8 +620,10 @@ giltza Na "key" ;
 hartz NregBizi "bear" ;
 hotel Nreg "hotel" ;
 hortz Nreg "tooth" ;
-jende Nreg "people" ;
+jende NregBizi "people" ;
+jokalari NaBizi "player" ;
 kale Nreg "street" ;
+kantu Nreg "song" ;
 kargu Nreg "charge" ;
 katu NregBizi "cat" ;
 kaxoi Nreg "drawer" ;
@@ -736,6 +739,7 @@ zergatik+Adv+Interr:zergatik # ;
 
 LEXICON Adjectives
 tonto Areg "stupid" ;
+urduri Areg "nervous" ;
 
 
 LEXICON Verbs

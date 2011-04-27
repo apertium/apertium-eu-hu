@@ -1,8 +1,8 @@
 Multichar_Symbols
 
-+N +Po +Cm +Punct +Adv
++N +Po +Cm +Punct +Adv +CLB
 +Abs +Dat +Ins +Soc +Erg +Ine +Ben +Ben2 +Par +All +Ela +Term +Ten
-+Masc +Fem +Top 
++Mal +Fem +Plc 
 +Art +Interr
 +Fut
 +Ord
@@ -252,7 +252,7 @@ LEXICON NaBizi
 
 LEXICON NpM
 
-+N+Prop+Masc: Propcases ;
++N+Prop+Mal: Propcases ;
 
 LEXICON NpF
 
@@ -260,7 +260,7 @@ LEXICON NpF
 
 LEXICON NpTop
 
-+N+Prop+Top: Propcases ;
++N+Prop+Plc: Propcases ;
 
 LEXICON Areg
 
@@ -628,6 +628,7 @@ kargu Nreg "charge" ;
 katu NregBizi "cat" ;
 kaxoi Nreg "drawer" ;
 kolore Nreg "color" ;
+konponbide Nreg "solution" ;
 lagun NregBizi "friend" ;
 lan Nreg "work" ;
 maite Na "love" ;
@@ -749,6 +750,7 @@ abes Tu "sing" ;
 adieraZ I "declare" ;
 afal Du ;
 ager Tu "appear" ;
+agur Tu "greet" ;
 ahal Sinmas "can" ;
 ahaz Tu "forget" ;
 alda Tu "change" ;
@@ -791,6 +793,7 @@ ezin Sinmas "can# not" ;
 ezkon Du ;
 flota Tu ;
 gaindi Tu ;
+geldi Tu "stay" ;
 graba Tu "record" ;
 gerta Tu "happen" ;
 gosal Du "breakfast" ;
@@ -813,6 +816,7 @@ irits I "arrive" ;
 iruditu: IRUDITU "seem" ;
 isur I "flow" ;
 i%{t%}x I ;
+itxaron "wait" ;
 izan: AuxIzan "be" ;
 jaits I "go# down" ;
 jan Sinmas "eat" ;
@@ -832,9 +836,10 @@ lan Du ;
 landa Tu "plant" ;
 laztand Du ;
 lor Tu "achieve";
+lo Tu "tie" ;
 maitemin Du "fall# in love" ;
 mintza Tu "talk" ;
-moz Tu ;
+moz Tu "cut" ;
 mugi Tu ;
 nahas Tu "mix" ;
 onar Tu "accept" ;
@@ -843,12 +848,14 @@ o Tu "occur" ;
 onar Tu "admit" ;
 oroi Tu ;
 pasa Tu "happen" ;
+saia Tu "try" ;
 sar Tu "enter" ;
 topa Tu "meet" ;
 ukan: AuxUkan "be" ;
 uki Tu "touch" ;
 uler Tu "understand" ;
 utz I "leave" ;
+zain Du "" ;
 zeharka Tu "cross" ;
 zintzilika Tu "hang" ;
 ziurta Tu"secure" ;
@@ -878,11 +885,15 @@ zortzi NUM "eight" ;
 bederatzi NUM "nine" ;
 hamar NUM "ten" ;
 
-LEXICON PUNCT
+LEXICON CLB
 
-+Punct: # ;
++CLB: # ;
 
 LEXICON Punctuation
 
-%, PUNCT ;
-%. PUNCT ;
+%, CLB ;
+%. CLB ;
+%; CLB ;
+%: CLB ;
+%? CLB ;
+%! CLB ;

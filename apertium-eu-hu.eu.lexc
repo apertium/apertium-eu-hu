@@ -73,6 +73,7 @@ Propernouns ;
 Pronouns ;
 Verbs ;
 Numerals ;
+Conjunctions ;
 Punctuation ;
 
 LEXICON SgCases1 
@@ -257,6 +258,11 @@ LEXICON NpM
 LEXICON NpF
 
 +N+Prop+Fem: Propcases ;
+
+LEXICON NpS
+
++N+Prop+Sur: Propcases ;
+
 
 LEXICON NpTop
 
@@ -616,9 +622,12 @@ apiril Nreg "April" ;
 arazo Nreg "problem" ;
 arrazakeri Nreg "racisim" ;
 aste Nreg "week" ;
+atentatu Nreg "assault" ;
 azaro Nreg "November" ;
 
 bidaiari NregBizi "traveller";
+bilera Na "meeting" ;
+borroka Nreg "fighting" ;
 boxeolari NregBizi "boxer" ;
 britainiar NregBizi "British" ;
 buruzagi NregBizi "head" ;
@@ -631,12 +640,15 @@ ekain Nreg "June" ;
 emaitza Na "result" ;
 enbaxadore NregBizi "emabassador" ;
 enpresa Na "company" ;
-entrenatzaile NaBizi "" ;
+entrenatzaile NregBizi "" ;
 epaiketa Na "court" ;
 erasoaldi Nreg "attack" ;
 eskola Na "school" ;
+esku Nreg "hand" ;
 etxe Nreg "house" ;
 euskaldun NregBizi "Basque# speaker" ;
+
+ferry Nreg "ferry" ;
 
 gazte NregBizi "youth" ;
 giltza Na "key" ;
@@ -646,31 +658,36 @@ gobernu Nreg "government" ;
 hartz NregBizi "bear" ;
 haur NregBizi "child" ;
 hilabete Nreg "month" ;
+historia Na "history" ;
 holandar NregBizi "Dutch" ;
 hotel Nreg "hotel" ;
 hortz Nreg "tooth" ;
 
-independentista "independentist" ;
-indigena "indigenous" ;
-irabazle "winner" ;
+independentista NregBizi "independentist" ;
+indigena NregBizi "indigenous" ;
+inguru Nreg "surrounding" ;
+irabazle NregBizi "winner" ;
 irail Nreg "September" ;
 irakasle NregBizi "teacher" ; 
 itsaso Nreg "sea" ;
+itsasontzi Nreg "boat" ;
 istripu Nreg "accident" ;
 iturri Nreg "source" ;
 
 jarraitzail NregBizi "supporter" ;
 jende NregBizi "people" ;
-jokalari NaBizi "player" ;
+jokalari NregBizi "player" ;
 
 kale Nreg "street" ;
 kantu Nreg "song" ;
+kapitain Nreg "captain" ;
 kargu Nreg "charge" ;
 katu NregBizi "cat" ;
 kaxoi Nreg "drawer" ;
 kolore Nreg "color" ;
 kolpeka Na "hit" ;
 konponbide Nreg "solution" ;
+kristau NregBizi "Christian" ;
 
 lagun NregBizi "friend" ;
 lan Nreg "work" ;
@@ -683,6 +700,7 @@ manifestazio Nreg "demonstration" ;
 martxo Nreg "March" ;
 mendi Nreg "mountain" ;
 militar NregBizi "soldier" ;
+musulman NregBizi "Muslim" ;
 muxu Nreg "kiss" ;
 
 neska NaBizi "girl" ;
@@ -694,21 +712,26 @@ ordu Nreg "hour" ;
 otsail Nreg "February" ;
 
 papera Na "paper" ;
+partidu Nreg "match" ;
+pasaporte Nreg "passport" ;
 pastel Nreg "cake" ;
 plaza Na "place" ;
 poltsa Na "bag" ;
 pisu Nreg "flat" ;
 presa Na "hurry" ;
+presidente NregBizi "president" ;
 
 soldadu NregBizi "soldier" ;
 sukalde Nreg "kitchen" ;
 taberna Na "bar" ;
 txakur NregBizi "dog" ;
+testu Nreg "text" ;
 
 sari Nreg "prize" ;
 seme NregBizi "son" ;
 telefono Nreg "telephone" ;
 talde Nreg "group" ;
+txalaparta Na "txalaparta" ;
 txirrindulari Nreg "cyclist" ;
 
 uda Na "summer" ;
@@ -750,6 +773,7 @@ Justin NpM "Justin" ;
 Tomas NpM "Tomas" ;
 Alex NpM "Alex" ;
 Julen NpM "Julen" ;
+Sergio NpM "Sergio" ;
 
 Itziar NpF "Itziar" ;
 Garbiñe NpF "Garbiñe" ;
@@ -770,6 +794,21 @@ Arantxa NpF "Arantxa" ;
 Olaia NpF "Olaia" ;
 Marlene NpF "Marlene" ;
 Raquel NpF "Raquel" ;
+
+Maradona NpS "Maradona" ;
+Uranga NpS "Uranga" ;
+Zubia NpS "Zubia" ;
+Clinton NpS "Clinton" ;
+Garbajo NpS "Garbajo" ;
+Millar NpS "Millar" ;
+Meabe NpS "Meabe" ;
+Fernandez NpS "Fernandez" ;
+Moreno NpS "Moreno" ;
+Garciar NpS "Garciar" ;
+Guerrero NpS "Guerrero" ;
+Azurmendi NpS "Azurmendi" ;
+Aierbe NpS "Aierbe" ;
+
 
 Frantzia NpTop "France" ;
 Galizia NpTop "Galicia" ;
@@ -799,6 +838,10 @@ Zuberoa NpTop "Soule" ;
 Eibar NpTop "Eibar" ;
 Miarritz NpTop "Miarritz" ;
 Kamerun NpTop "Kamerun" ;
+Indonesia NpTop "Indonesia" ;
+Espainia NpTop "Spain" ;
+Serbia NpTop "Serbia" ;
+Bilbao NpTop "Bilbao" ;
 
 LEXICON Pronouns
 ni+Pron+Pers+Sg1:ni PronSgCases ;
@@ -823,8 +866,11 @@ LEXICON ADV
 LEXICON Adverbs
 
 atzo ADV  ;
+behin ADV ;
 bihar ADV ;
+ere ADV ;
 gaur ADV ;
+orain ADV ;
 zergatik+Adv+Interr:zergatik # ;
 
 LEXICON Adjectives
@@ -853,6 +899,7 @@ asma Tu "invent" ;
 atera Sinmas "go out" ;
 atxilo Tu "arrest" ;
 aurki Tu "find" ;
+azal Du "" ;
 
 baiezta Tu "confirm" ;
 banan Du "differ" ;
@@ -905,6 +952,7 @@ ibili: IBILI "walk" ;
 igo Sinmas "ascend" ;
 ikas I "learn" ;
 ikus I "see" ;
+irabaz I "earn" ;
 irakin Sinmas "boil" ;
 irits I "arrive" ;
 iruditu: IRUDITU "seem" ;
@@ -923,10 +971,13 @@ jo Sinmas ;
 joan JOAN "go" ;
 joka Tu "play" ;
 jolas Tu ;
+
 kezka Tu "worry" ;
 koka Tu ;
-konpara Tu ;
+konpara Tu "compare" ;
+kontrola Tu "control" ;
 kontura Tu "notice" ;
+
 lan Du ;
 landa Tu "plant" ;
 laztand Du ;
@@ -958,6 +1009,12 @@ zuri Tu "hurt" ;
 
 LEXICON Postposition
 +Po:buruz # ;
++Po:ondoren # ;
++Po:artean # ;
+
+LEXICON Conjunctions
++CC:eta # ;
++CC:baina # ;
 
 LEXICON NUMBAT
 

@@ -1,6 +1,6 @@
 Multichar_Symbols
 
-+N +Po +Cm +Punct +Adv +CLB
++N +Po +Cm +Punct +Adv +A +CLB +CC
 +Abs +Dat +Ins +Soc +Erg +Ine +Ben +Ben2 +Par +All +Ela +Term +Ten
 +Mal +Fem +Plc 
 +Art +Interr
@@ -14,6 +14,9 @@ Multichar_Symbols
 +XXX
 +Prop
 +Biz
+
++Comp
++Superl
 
 +Der/N	+ko 
 
@@ -34,6 +37,7 @@ Multichar_Symbols
 +Ind
 +Prs
 +Prt
++Pot
 +Abs/Sg1
 +Abs/Sg2
 +Abs/Sg3
@@ -57,7 +61,9 @@ Multichar_Symbols
 
 +Sg1
 +Sg2
-+Sg2
++Sg3
+
++Sub +Temp
 
 %>
 
@@ -147,6 +153,7 @@ LEXICON MggCases2
 LEXICON MggCases3
 
 +LGen:%>etako # ;   !tako
++LGen:%>eko # ;
 
 
 
@@ -268,6 +275,10 @@ LEXICON NpTop
 
 +N+Prop+Plc: Propcases ;
 
+LEXICON NpOrg
+
++N+Prop+Org: Propcases ;
+
 LEXICON Areg
 
 +A: MggCases1 ;
@@ -279,6 +290,9 @@ LEXICON Areg
 +A+Art:%>a PlCases1 ;
 +A+Art:%>a PlCases2 ;
 +A+Art:%>a PlCases3 ;
++Adv+Comp:%>ago # ;
++A+Comp:%>agoa MggCases1 ;
++A+Superl:%>ena MggCases1 ;
 
 
 
@@ -306,6 +320,7 @@ LEXICON Sinmas
 +V: Nominalization ;
 +V+Prc: #;
 +V: Fut;
++V+Sub+Temp:ez # ;
 
 LEXICON I
 
@@ -318,10 +333,12 @@ LEXICON Nominalization
 
 +Der/N:%>tze #  ;
 +Der/N:%>tze Nominalization2  ;
++Der/N:%>te #  ;
++Der/N:%>te Nominalization2  ;
 
 LEXICON Nominalization2
 
-+ko:%>ko # ;
++Sub:%>ko # ;
 +Art:%>a #  ;      !! Should this go to the SgCases1 continuation 
 +Cont:%>n # ;
 
@@ -330,195 +347,195 @@ LEXICON Fut
 +Fut:%>ko # ;
 
 LEXICON JOAN
-+V+Ind+Prs+Abs/Sg1:noa # ;
-+V+Ind+Prs+Abs/Sg2+ifl:hoa # ; 
-+V+Ind+Prs+Abs/Sg2:zoaz # ;
-+V+Ind+Prs+Abs/Sg3:doa # ;
-+V+Ind+Prs+Abs/Pl1:goaz # ;
-+V+Ind+Prs+Abs/Pl2:zoazte # ;
-+V+Ind+Prs+Abs/Pl3:doaz # ;
++V+Ind+Prs+Abs/Sg1:noa SUBCL ;
++V+Ind+Prs+Abs/Sg2+ifl:hoa SUBCL ; 
++V+Ind+Prs+Abs/Sg2:zoaz SUBCL ;
++V+Ind+Prs+Abs/Sg3:doa SUBCL ;
++V+Ind+Prs+Abs/Pl1:goaz SUBCL ;
++V+Ind+Prs+Abs/Pl2:zoazte SUBCL ;
++V+Ind+Prs+Abs/Pl3:doaz SUBCL ;
 
-+V+Ind+Prt+Abs/Sg1:nindoen # ;
-+V+Ind+Prt+Abs/Sg2+ifl:hindoen # ; 
-+V+Ind+Prt+Abs/Sg2:zinoazen # ;
-+V+Ind+Prt+Abs/Sg3:zioen # ;
-+V+Ind+Prt+Abs/Pl1:ginoazen # ;
-+V+Ind+Prt+Abs/Pl2:zinoazten # ;
-+V+Ind+Prt+Abs/Pl3:zioazen # ;
++V+Ind+Prt+Abs/Sg1:nindoen SUBCL ;
++V+Ind+Prt+Abs/Sg2+ifl:hindoen SUBCL ; 
++V+Ind+Prt+Abs/Sg2:zinoazen SUBCL ;
++V+Ind+Prt+Abs/Sg3:zioen SUBCL ;
++V+Ind+Prt+Abs/Pl1:ginoazen SUBCL ;
++V+Ind+Prt+Abs/Pl2:zinoazten SUBCL ;
++V+Ind+Prt+Abs/Pl3:zioazen SUBCL ;
 
 LEXICON IBILI
-+V+Ind+Prs+Abs/Sg1:nabil # ;
-+V+Ind+Prs+Abs/Sg2+ifl:habil # ; 
-+V+Ind+Prs+Abs/Sg2:zabiltza # ;
-+V+Ind+Prs+Abs/Sg3:dabil # ;
-+V+Ind+Prs+Abs/Pl1:gabiltza # ;
-+V+Ind+Prs+Abs/Pl2:zabiltzate # ;
-+V+Ind+Prs+Abs/Pl3:dabiltza # ;
++V+Ind+Prs+Abs/Sg1:nabil SUBCL ;
++V+Ind+Prs+Abs/Sg2+ifl:habil SUBCL ; 
++V+Ind+Prs+Abs/Sg2:zabiltza SUBCL ;
++V+Ind+Prs+Abs/Sg3:dabil SUBCL ;
++V+Ind+Prs+Abs/Pl1:gabiltza SUBCL ;
++V+Ind+Prs+Abs/Pl2:zabiltzate SUBCL ;
++V+Ind+Prs+Abs/Pl3:dabiltza SUBCL ;
            
-+V+Ind+Prt+Abs/Sg1:nenbilen # ;
-+V+Ind+Prt+Abs/Sg2+ifl:henbilen # ; 
-+V+Ind+Prt+Abs/Sg2:zenbiltzan # ;
-+V+Ind+Prt+Abs/Sg3:zebilen # ;
-+V+Ind+Prt+Abs/Pl1:genbiltzan # ;
-+V+Ind+Prt+Abs/Pl2:zenbiltzaten # ;
-+V+Ind+Prt+Abs/Pl3:zebiltzan # ;
++V+Ind+Prt+Abs/Sg1:nenbilen SUBCL ;
++V+Ind+Prt+Abs/Sg2+ifl:henbilen SUBCL ; 
++V+Ind+Prt+Abs/Sg2:zenbiltzan SUBCL ;
++V+Ind+Prt+Abs/Sg3:zebilen SUBCL ;
++V+Ind+Prt+Abs/Pl1:genbiltzan SUBCL ;
++V+Ind+Prt+Abs/Pl2:zenbiltzaten SUBCL ;
++V+Ind+Prt+Abs/Pl3:zebiltzan SUBCL ;
 
 LEXICON ETORRI
 
-+V+Ind+Prs+Abs/Sg1:nator # ;
-+V+Ind+Prs+Abs/Sg2+ifl:hator # ; 
-+V+Ind+Prs+Abs/Sg2:zatoz # ;
-+V+Ind+Prs+Abs/Sg3:dator # ;
-+V+Ind+Prs+Abs/Pl1:gatoz # ;
-+V+Ind+Prs+Abs/Pl2:zatozte # ;
-+V+Ind+Prs+Abs/Pl3:datoz # ;
++V+Ind+Prs+Abs/Sg1:nator SUBCL ;
++V+Ind+Prs+Abs/Sg2+ifl:hator SUBCL ; 
++V+Ind+Prs+Abs/Sg2:zatoz SUBCL ;
++V+Ind+Prs+Abs/Sg3:dator SUBCL ;
++V+Ind+Prs+Abs/Pl1:gatoz SUBCL ;
++V+Ind+Prs+Abs/Pl2:zatozte SUBCL ;
++V+Ind+Prs+Abs/Pl3:datoz SUBCL ;
            
-+V+Ind+Prt+Abs/Sg1:nentorren # ;
-+V+Ind+Prt+Abs/Sg2+ifl:hentorren # ; 
-+V+Ind+Prt+Abs/Sg2:zentozen # ;
-+V+Ind+Prt+Abs/Sg3:zetorren # ;
-+V+Ind+Prt+Abs/Pl1:gentozen # ;
-+V+Ind+Prt+Abs/Pl2:zentozten # ;
-+V+Ind+Prt+Abs/Pl3:zetozten # ;
++V+Ind+Prt+Abs/Sg1:nentorren SUBCL ;
++V+Ind+Prt+Abs/Sg2+ifl:hentorren SUBCL ; 
++V+Ind+Prt+Abs/Sg2:zentozen SUBCL ;
++V+Ind+Prt+Abs/Sg3:zetorren SUBCL ;
++V+Ind+Prt+Abs/Pl1:gentozen SUBCL ;
++V+Ind+Prt+Abs/Pl2:zentozten SUBCL ;
++V+Ind+Prt+Abs/Pl3:zetozten SUBCL ;
 
 
 LEXICON ERAMAN
-+V+Ind+Prs+Abs/Sg3+Erg/Sg1:daraman # ;
-+V+Ind+Prs+Abs/Sg3+Erg/Sg2+ifl/f:daraman # ; 
-+V+Ind+Prs+Abs/Sg3+Erg/Sg2+ifl/m:daramak # ;
-+V+Ind+Prs+Abs/Sg3+Erg/Sg2:daramazu # ;
-+V+Ind+Prs+Abs/Sg3+Erg/Sg3:drama # ;
-+V+Ind+Prs+Abs/Sg3+Erg/Pl1:daramagu # ;
-+V+Ind+Prs+Abs/Sg3+Erg/Pl2:daramazue # ;
-+V+Ind+Prs+Abs/Sg3+Erg/Pl3:daramate # ;
++V+Ind+Prs+Abs/Sg3+Erg/Sg1:daraman SUBCL ;
++V+Ind+Prs+Abs/Sg3+Erg/Sg2+ifl/f:daraman SUBCL ; 
++V+Ind+Prs+Abs/Sg3+Erg/Sg2+ifl/m:daramak SUBCL ;
++V+Ind+Prs+Abs/Sg3+Erg/Sg2:daramazu SUBCL ;
++V+Ind+Prs+Abs/Sg3+Erg/Sg3:drama SUBCL ;
++V+Ind+Prs+Abs/Sg3+Erg/Pl1:daramagu SUBCL ;
++V+Ind+Prs+Abs/Sg3+Erg/Pl2:daramazue SUBCL ;
++V+Ind+Prs+Abs/Sg3+Erg/Pl3:daramate SUBCL ;
 
-+V+Ind+Prs+Abs/Pl3+Erg/Sg1:daramatzan # ;
-+V+Ind+Prs+Abs/Pl3+Erg/Sg2+ifl/f:daramatzan # ; 
-+V+Ind+Prs+Abs/Pl3+Erg/Sg2+ifl/m:daramatzak # ;
-+V+Ind+Prs+Abs/Pl3+Erg/Sg2:daramatzazu # ;
-+V+Ind+Prs+Abs/Pl3+Erg/Sg3:dramatza # ;
-+V+Ind+Prs+Abs/Pl3+Erg/Pl1:daramatzagu # ;
-+V+Ind+Prs+Abs/Pl3+Erg/Pl2:daramatzazue # ;
-+V+Ind+Prs+Abs/Pl3+Erg/Pl3:daramatzate # ;
++V+Ind+Prs+Abs/Pl3+Erg/Sg1:daramatzan SUBCL ;
++V+Ind+Prs+Abs/Pl3+Erg/Sg2+ifl/f:daramatzan SUBCL ; 
++V+Ind+Prs+Abs/Pl3+Erg/Sg2+ifl/m:daramatzak SUBCL ;
++V+Ind+Prs+Abs/Pl3+Erg/Sg2:daramatzazu SUBCL ;
++V+Ind+Prs+Abs/Pl3+Erg/Sg3:dramatza SUBCL ;
++V+Ind+Prs+Abs/Pl3+Erg/Pl1:daramatzagu SUBCL ;
++V+Ind+Prs+Abs/Pl3+Erg/Pl2:daramatzazue SUBCL ;
++V+Ind+Prs+Abs/Pl3+Erg/Pl3:daramatzate SUBCL ;
 
-+V+Ind+Prt+Abs/Sg3+Erg/Sg1:neraman # ;
-+V+Ind+Prt+Abs/Sg3+Erg/Sg2+ifl:heraman # ; 
-+V+Ind+Prt+Abs/Sg3+Erg/Sg2:zeneraman # ;
-+V+Ind+Prt+Abs/Sg3+Erg/Sg3:zeraman # ;
-+V+Ind+Prt+Abs/Sg3+Erg/Pl1:generaman # ;
-+V+Ind+Prt+Abs/Sg3+Erg/Pl2:zeneramaten # ;
-+V+Ind+Prt+Abs/Sg3+Erg/Pl3:zeramaten # ;
++V+Ind+Prt+Abs/Sg3+Erg/Sg1:neraman SUBCL ;
++V+Ind+Prt+Abs/Sg3+Erg/Sg2+ifl:heraman SUBCL ; 
++V+Ind+Prt+Abs/Sg3+Erg/Sg2:zeneraman SUBCL ;
++V+Ind+Prt+Abs/Sg3+Erg/Sg3:zeraman SUBCL ;
++V+Ind+Prt+Abs/Sg3+Erg/Pl1:generaman SUBCL ;
++V+Ind+Prt+Abs/Sg3+Erg/Pl2:zeneramaten SUBCL ;
++V+Ind+Prt+Abs/Sg3+Erg/Pl3:zeramaten SUBCL ;
 
-+V+Ind+Prt+Abs/Pl3+Erg/Sg1:neramatzan # ;
-+V+Ind+Prt+Abs/Pl3+Erg/Sg2+ifl:heramatzan # ; 
-+V+Ind+Prt+Abs/Pl3+Erg/Sg2:zeneramatzan # ;
-+V+Ind+Prt+Abs/Pl3+Erg/Sg3:zeramatzan # ;
-+V+Ind+Prt+Abs/Pl3+Erg/Pl1:generamatzan # ;
-+V+Ind+Prt+Abs/Pl3+Erg/Pl2:zeneramatzaten # ;
-+V+Ind+Prt+Abs/Pl3+Erg/Pl3:zeramatzaten # ;
++V+Ind+Prt+Abs/Pl3+Erg/Sg1:neramatzan SUBCL ;
++V+Ind+Prt+Abs/Pl3+Erg/Sg2+ifl:heramatzan SUBCL ; 
++V+Ind+Prt+Abs/Pl3+Erg/Sg2:zeneramatzan SUBCL ;
++V+Ind+Prt+Abs/Pl3+Erg/Sg3:zeramatzan SUBCL ;
++V+Ind+Prt+Abs/Pl3+Erg/Pl1:generamatzan SUBCL ;
++V+Ind+Prt+Abs/Pl3+Erg/Pl2:zeneramatzaten SUBCL ;
++V+Ind+Prt+Abs/Pl3+Erg/Pl3:zeramatzaten SUBCL ;
 
 LEXICON ESAN
-+V+Ind+Prs+Erg/Sg1:diot # ;
-+V+Ind+Prs+Erg/Sg2+ifl/f:dion # ; 
-+V+Ind+Prs+Erg/Sg2+ifl/m:diok # ;
-+V+Ind+Prs+Erg/Sg2:diozu # ;
-+V+Ind+Prs+Erg/Sg3:dio # ;
-+V+Ind+Prs+Erg/Pl1:diogu # ;
-+V+Ind+Prs+Erg/Pl2:diozue # ;
-+V+Ind+Prs+Erg/Pl3:diote # ;
++V+Ind+Prs+Erg/Sg1:diot SUBCL ;
++V+Ind+Prs+Erg/Sg2+ifl/f:dion SUBCL ; 
++V+Ind+Prs+Erg/Sg2+ifl/m:diok SUBCL ;
++V+Ind+Prs+Erg/Sg2:diozu SUBCL ;
++V+Ind+Prs+Erg/Sg3:dio SUBCL ;
++V+Ind+Prs+Erg/Pl1:diogu SUBCL ;
++V+Ind+Prs+Erg/Pl2:diozue SUBCL ;
++V+Ind+Prs+Erg/Pl3:diote SUBCL ;
 
-+V+Ind+Prt+Erg/Sg1:nioen # ;
-+V+Ind+Prt+Erg/Sg2+ifl:hioen # ; 
-+V+Ind+Prt+Erg/Sg2:zenioen # ;
-+V+Ind+Prt+Erg/Sg3:zioen # ;
-+V+Ind+Prt+Erg/Pl1:genioen # ;
-+V+Ind+Prt+Erg/Pl2:zenioten # ;
-+V+Ind+Prt+Erg/Pl3:zioten # ;
++V+Ind+Prt+Erg/Sg1:nioen SUBCL ;
++V+Ind+Prt+Erg/Sg2+ifl:hioen SUBCL ; 
++V+Ind+Prt+Erg/Sg2:zenioen SUBCL ;
++V+Ind+Prt+Erg/Sg3:zioen SUBCL ;
++V+Ind+Prt+Erg/Pl1:genioen SUBCL ;
++V+Ind+Prt+Erg/Pl2:zenioten SUBCL ;
++V+Ind+Prt+Erg/Pl3:zioten SUBCL ;
 
 LEXICON EKARRI
-+V+Ind+Prs+Erg/Sg1:dakart # ;
-+V+Ind+Prs+Erg/Sg2+ifl/f:dakarn # ; 
-+V+Ind+Prs+Erg/Sg2+ifl/m:dakark # ;
-+V+Ind+Prs+Erg/Sg2:dakarzu # ;
-+V+Ind+Prs+Erg/Sg3:dakar # ;
-+V+Ind+Prs+Erg/Pl1:dakargu # ;
-+V+Ind+Prs+Erg/Pl2:dakarzue # ;
-+V+Ind+Prs+Erg/Pl3:dakarte # ;
++V+Ind+Prs+Erg/Sg1:dakart SUBCL ;
++V+Ind+Prs+Erg/Sg2+ifl/f:dakarn SUBCL ; 
++V+Ind+Prs+Erg/Sg2+ifl/m:dakark SUBCL ;
++V+Ind+Prs+Erg/Sg2:dakarzu SUBCL ;
++V+Ind+Prs+Erg/Sg3:dakar SUBCL ;
++V+Ind+Prs+Erg/Pl1:dakargu SUBCL ;
++V+Ind+Prs+Erg/Pl2:dakarzue SUBCL ;
++V+Ind+Prs+Erg/Pl3:dakarte SUBCL ;
 
-+V+Ind+Prt+Erg/Sg1:nekarn # ;
-+V+Ind+Prt+Erg/Sg2+ifl:hekarn # ; 
-+V+Ind+Prt+Erg/Sg2:zenekarn # ;
-+V+Ind+Prt+Erg/Sg3:zekarn # ;
-+V+Ind+Prt+Erg/Pl1:genekarn # ;
-+V+Ind+Prt+Erg/Pl2:zenekarten # ;
-+V+Ind+Prt+Erg/Pl3:zekarten # ;
++V+Ind+Prt+Erg/Sg1:nekarn SUBCL ;
++V+Ind+Prt+Erg/Sg2+ifl:hekarn SUBCL ; 
++V+Ind+Prt+Erg/Sg2:zenekarn SUBCL ;
++V+Ind+Prt+Erg/Sg3:zekarn SUBCL ;
++V+Ind+Prt+Erg/Pl1:genekarn SUBCL ;
++V+Ind+Prt+Erg/Pl2:zenekarten SUBCL ;
++V+Ind+Prt+Erg/Pl3:zekarten SUBCL ;
 
 LEXICON IRUTDITU
-+V+Ind+Prs+Dat/Sg1:dirudit # ;
-+V+Ind+Prs+Dat/Sg2+ifl/f:dirudin # ; 
-+V+Ind+Prs+Dat/Sg2+ifl/m:dirudik # ;
-+V+Ind+Prs+Dat/Sg2:dirudizu # ;
-+V+Ind+Prs+Dat/Sg3:dirudi # ;
-+V+Ind+Prs+Dat/Pl1:dirudigu # ;
-+V+Ind+Prs+Dat/Pl2:dirudizue # ;
-+V+Ind+Prs+Dat/Pl3:dirudite # ;
++V+Ind+Prs+Dat/Sg1:dirudit SUBCL ;
++V+Ind+Prs+Dat/Sg2+ifl/f:dirudin SUBCL ; 
++V+Ind+Prs+Dat/Sg2+ifl/m:dirudik SUBCL ;
++V+Ind+Prs+Dat/Sg2:dirudizu SUBCL ;
++V+Ind+Prs+Dat/Sg3:dirudi SUBCL ;
++V+Ind+Prs+Dat/Pl1:dirudigu SUBCL ;
++V+Ind+Prs+Dat/Pl2:dirudizue SUBCL ;
++V+Ind+Prs+Dat/Pl3:dirudite SUBCL ;
            
-+V+Ind+Prt+Dat/Sg1:nirudien # ;
-+V+Ind+Prt+Dat/Sg2+ifl:hirudien # ; 
-+V+Ind+Prt+Dat/Sg2:zenirudien # ;
-+V+Ind+Prt+Dat/Sg3:zirudien # ;
-+V+Ind+Prt+Dat/Pl1:genirudien # ;
-+V+Ind+Prt+Dat/Pl2:zeniruditen # ;
-+V+Ind+Prt+Dat/Pl3:ziruditen # ;
++V+Ind+Prt+Dat/Sg1:nirudien SUBCL ;
++V+Ind+Prt+Dat/Sg2+ifl:hirudien SUBCL ; 
++V+Ind+Prt+Dat/Sg2:zenirudien SUBCL ;
++V+Ind+Prt+Dat/Sg3:zirudien SUBCL ;
++V+Ind+Prt+Dat/Pl1:genirudien SUBCL ;
++V+Ind+Prt+Dat/Pl2:zeniruditen SUBCL ;
++V+Ind+Prt+Dat/Pl3:ziruditen SUBCL ;
 
 LEXICON EDUKI
-+V+Ind+Prs+Abs/Sg3+Erg/Sg1:daukat # ;
-+V+Ind+Prs+Abs/Sg3+Erg/Sg2:daukazu # ;
-+V+Ind+Prs+Abs/Sg3+Erg/Sg3:dauka # ;
-+V+Ind+Prs+Abs/Sg3+Erg/Pl1:daukagu # ;
-+V+Ind+Prs+Abs/Sg3+Erg/Pl2:daukazue # ;
-+V+Ind+Prs+Abs/Sg3+Erg/Pl3:daukate # ;
++V+Ind+Prs+Abs/Sg3+Erg/Sg1:daukat SUBCL ;
++V+Ind+Prs+Abs/Sg3+Erg/Sg2:daukazu SUBCL ;
++V+Ind+Prs+Abs/Sg3+Erg/Sg3:dauka SUBCL ;
++V+Ind+Prs+Abs/Sg3+Erg/Pl1:daukagu SUBCL ;
++V+Ind+Prs+Abs/Sg3+Erg/Pl2:daukazue SUBCL ;
++V+Ind+Prs+Abs/Sg3+Erg/Pl3:daukate SUBCL ;
 
-+V+Ind+Prs+Abs/Pl3+Erg/Sg1:dauzkat # ;
-+V+Ind+Prs+Abs/Pl3+Erg/Sg2:dauzkazu # ;
-+V+Ind+Prs+Abs/Pl3+Erg/Sg3:dauzka # ;
-+V+Ind+Prs+Abs/Pl3+Erg/Pl1:dauzkagu # ;
-+V+Ind+Prs+Abs/Pl3+Erg/Pl2:dauzkazue # ;
-+V+Ind+Prs+Abs/Pl3+Erg/Pl3:dauzkate # ;
++V+Ind+Prs+Abs/Pl3+Erg/Sg1:dauzkat SUBCL ;
++V+Ind+Prs+Abs/Pl3+Erg/Sg2:dauzkazu SUBCL ;
++V+Ind+Prs+Abs/Pl3+Erg/Sg3:dauzka SUBCL ;
++V+Ind+Prs+Abs/Pl3+Erg/Pl1:dauzkagu SUBCL ;
++V+Ind+Prs+Abs/Pl3+Erg/Pl2:dauzkazue SUBCL ;
++V+Ind+Prs+Abs/Pl3+Erg/Pl3:dauzkate SUBCL ;
            
-+V+Ind+Prt+Abs/Sg3+Erg/Sg1:neukan # ; 
-+V+Ind+Prt+Abs/Sg3+Erg/Sg2:zeneukan # ;
-+V+Ind+Prt+Abs/Sg3+Erg/Sg3:zeukan # ;
-+V+Ind+Prt+Abs/Sg3+Erg/Pl1:geneukan # ;
-+V+Ind+Prt+Abs/Sg3+Erg/Pl2:zeneukaten # ;
-+V+Ind+Prt+Abs/Sg3+Erg/Pl3:zeukaten # ;
++V+Ind+Prt+Abs/Sg3+Erg/Sg1:neukan SUBCL ; 
++V+Ind+Prt+Abs/Sg3+Erg/Sg2:zeneukan SUBCL ;
++V+Ind+Prt+Abs/Sg3+Erg/Sg3:zeukan SUBCL ;
++V+Ind+Prt+Abs/Sg3+Erg/Pl1:geneukan SUBCL ;
++V+Ind+Prt+Abs/Sg3+Erg/Pl2:zeneukaten SUBCL ;
++V+Ind+Prt+Abs/Sg3+Erg/Pl3:zeukaten SUBCL ;
 
-+V+Ind+Prt+Abs/Pl3+Erg/Sg1:neuzkan # ;
-+V+Ind+Prt+Abs/Pl3+Erg/Sg2:zeneuzkan # ;
-+V+Ind+Prt+Abs/Pl3+Erg/Sg3:zeuzkan # ;
-+V+Ind+Prt+Abs/Pl3+Erg/Pl1:geneuzkan # ;
-+V+Ind+Prt+Abs/Pl3+Erg/Pl2:zeneuzkaten # ;
-+V+Ind+Prt+Abs/Pl3+Erg/Pl3:zeuzkaten # ;
++V+Ind+Prt+Abs/Pl3+Erg/Sg1:neuzkan SUBCL ;
++V+Ind+Prt+Abs/Pl3+Erg/Sg2:zeneuzkan SUBCL ;
++V+Ind+Prt+Abs/Pl3+Erg/Sg3:zeuzkan SUBCL ;
++V+Ind+Prt+Abs/Pl3+Erg/Pl1:geneuzkan SUBCL ;
++V+Ind+Prt+Abs/Pl3+Erg/Pl2:zeneuzkaten SUBCL ;
++V+Ind+Prt+Abs/Pl3+Erg/Pl3:zeuzkaten SUBCL ;
 
 
 
 LEXICON JAKIN
-+V+Ind+Prs+Erg/Sg1:dakit # ;
-+V+Ind+Prs+Erg/Sg2+ifl/f:dakin # ; 
-+V+Ind+Prs+Erg/Sg2+ifl/m:dakik # ;
-+V+Ind+Prs+Erg/Sg2:dakizu # ;
-+V+Ind+Prs+Erg/Sg3:daki # ;
-+V+Ind+Prs+Erg/Pl1:dakigu # ;
-+V+Ind+Prs+Erg/Pl2:dakizue # ;
-+V+Ind+Prs+Erg/Pl3:dakite # ;
++V+Ind+Prs+Erg/Sg1:dakit SUBCL ;
++V+Ind+Prs+Erg/Sg2+ifl/f:dakin SUBCL ; 
++V+Ind+Prs+Erg/Sg2+ifl/m:dakik SUBCL ;
++V+Ind+Prs+Erg/Sg2:dakizu SUBCL ;
++V+Ind+Prs+Erg/Sg3:daki SUBCL ;
++V+Ind+Prs+Erg/Pl1:dakigu SUBCL ;
++V+Ind+Prs+Erg/Pl2:dakizue SUBCL ;
++V+Ind+Prs+Erg/Pl3:dakite SUBCL ;
 
-+V+Ind+Prt+Erg/Sg1:nekien # ;
-+V+Ind+Prt+Erg/Sg2+ifl:hekien # ; 
-+V+Ind+Prt+Erg/Sg2:zenekien # ;
-+V+Ind+Prt+Erg/Sg3:zekien # ;
-+V+Ind+Prt+Erg/Pl1:genekien # ;
-+V+Ind+Prt+Erg/Pl2:zenekiten # ;
-+V+Ind+Prt+Erg/Pl3:zekiten # ;
++V+Ind+Prt+Erg/Sg1:nekien SUBCL ;
++V+Ind+Prt+Erg/Sg2+ifl:hekien SUBCL ; 
++V+Ind+Prt+Erg/Sg2:zenekien SUBCL ;
++V+Ind+Prt+Erg/Sg3:zekien SUBCL ;
++V+Ind+Prt+Erg/Pl1:genekien SUBCL ;
++V+Ind+Prt+Erg/Pl2:zenekiten SUBCL ;
++V+Ind+Prt+Erg/Pl3:zekiten SUBCL ;
 
 
 
@@ -532,54 +549,78 @@ LEXICON AuxUkan
 
 LEXICON IZANNOR
 
-+Ind+Prs+Abs/Sg1:naiz # ;
-+Ind+Prs+Abs/Sg2+ifl:haiz # ; !+Ind+Prs+Abs/hi
-+Ind+Prs+Abs/Sg2:zara # ;
-+Ind+Prs+Abs/Sg3:da # ;
-+Ind+Prs+Abs/Pl1:gara # ;
-+Ind+Prs+Abs/Pl2:zarete # ;
-+Ind+Prs+Abs/Pl3:dira # ;
++Ind+Prs+Abs/Sg1:naiz SUBCL ;
++Ind+Prs+Abs/Sg2+ifl:haiz SUBCL ; !+Ind+Prs+Abs/hi
++Ind+Prs+Abs/Sg2:zara SUBCL ;
++Ind+Prs+Abs/Sg3:da SUBCL ;
++Ind+Prs+Abs/Pl1:gara SUBCL ;
++Ind+Prs+Abs/Pl2:zarete SUBCL ;
++Ind+Prs+Abs/Pl3:dira SUBCL ;
 
 !prt - en
-+Ind+Prt+Abs/Sg1:nintzen # ;
-+Ind+Prt+Abs/Sg2+ifl:hintzen # ;
-+Ind+Prt+Abs/Sg2:zinen # ;
-+Ind+Prt+Abs/Sg3:zen # ;
-+Ind+Prt+Abs/Pl1:ginen # ;
-+Ind+Prt+Abs/Pl2:zineten # ;
-+Ind+Prt+Abs/Pl3:ziren # ;
++Ind+Prt+Abs/Sg1:nintzen SUBCL ;
++Ind+Prt+Abs/Sg2+ifl:hintzen SUBCL ;
++Ind+Prt+Abs/Sg2:zinen SUBCL ;
++Ind+Prt+Abs/Sg3:zen SUBCL ;
++Ind+Prt+Abs/Pl1:ginen SUBCL ;
++Ind+Prt+Abs/Pl2:zineten SUBCL ;
++Ind+Prt+Abs/Pl3:ziren SUBCL ;
+
+!pot
++Pot+Prs+Abs/Sg1:naiteke SUBCL ;
++Pot+Prs+Abs/Sg2+ifl:haiteke SUBCL ; !+Ind+Prs+Abs/hi
++Pot+Prs+Abs/Sg2:zaitezke SUBCL ;
++Pot+Prs+Abs/Sg3:daiteke SUBCL ;
++Pot+Prs+Abs/Pl1:gaitezke SUBCL ;
++Pot+Prs+Abs/Pl2:zaitezkete SUBCL ;
++Pot+Prs+Abs/Pl3:daitezke SUBCL ;
 
 
 LEXICON UKANNORNORK
 
-+Ind+Prs+Abs/Sg3+Erg/Sg1:dut # ;
-+Ind+Prs+Abs/Sg3+Erg/Sg2:duzu # ;
-+Ind+Prs+Abs/Sg3+Erg/Sg3:du # ;
-+Ind+Prs+Abs/Sg3+Erg/Pl1:dugu # ;
-+Ind+Prs+Abs/Sg3+Erg/Pl2:duzue # ;
-+Ind+Prs+Abs/Sg3+Erg/Pl3:dute # ;
++Ind+Prs+Abs/Sg3+Erg/Sg1:dut SUBCL ;
++Ind+Prs+Abs/Sg3+Erg/Sg2:duzu SUBCL ;
++Ind+Prs+Abs/Sg3+Erg/Sg3:du SUBCL ;
++Ind+Prs+Abs/Sg3+Erg/Pl1:dugu SUBCL ;
++Ind+Prs+Abs/Sg3+Erg/Pl2:duzue SUBCL ;
++Ind+Prs+Abs/Sg3+Erg/Pl3:dute SUBCL ;
        
-+Ind+Prs+Abs/Pl3+Erg/Sg1:ditut # ;
-+Ind+Prs+Abs/Pl3+Erg/Sg2:dituzu # ;
-+Ind+Prs+Abs/Pl3+Erg/Sg3:ditu # ;
-+Ind+Prs+Abs/Pl3+Erg/Pl1:ditugu # ;
-+Ind+Prs+Abs/Pl3+Erg/Pl2:dituzue # ;
-+Ind+Prs+Abs/Pl3+Erg/Pl3:dituzte # ;
++Ind+Prs+Abs/Pl3+Erg/Sg1:ditut SUBCL ;
++Ind+Prs+Abs/Pl3+Erg/Sg2:dituzu SUBCL ;
++Ind+Prs+Abs/Pl3+Erg/Sg3:ditu SUBCL ;
++Ind+Prs+Abs/Pl3+Erg/Pl1:ditugu SUBCL ;
++Ind+Prs+Abs/Pl3+Erg/Pl2:dituzue SUBCL ;
++Ind+Prs+Abs/Pl3+Erg/Pl3:dituzte SUBCL ;
 
 !prt - en
-+Ind+Prt+Abs/Sg3+Erg/Sg1:nuen # ;
-+Ind+Prt+Abs/Sg3+Erg/Sg2:zenuen # ;
-+Ind+Prt+Abs/Sg3+Erg/Sg3:zuen # ;
-+Ind+Prt+Abs/Sg3+Erg/Pl1:genuen # ;
-+Ind+Prt+Abs/Sg3+Erg/Pl2:zenuten # ;
-+Ind+Prt+Abs/Sg3+Erg/Pl3:zuten # ;
++Ind+Prt+Abs/Sg3+Erg/Sg1:nuen SUBCL ;
++Ind+Prt+Abs/Sg3+Erg/Sg2:zenuen SUBCL ;
++Ind+Prt+Abs/Sg3+Erg/Sg3:zuen SUBCL ;
++Ind+Prt+Abs/Sg3+Erg/Pl1:genuen SUBCL ;
++Ind+Prt+Abs/Sg3+Erg/Pl2:zenuten SUBCL ;
++Ind+Prt+Abs/Sg3+Erg/Pl3:zuten SUBCL ;
        
-+Ind+Prt+Abs/Pl3+Erg/Sg1:nituen # ;
-+Ind+Prt+Abs/Pl3+Erg/Sg2:zenituen # ;
-+Ind+Prt+Abs/Pl3+Erg/Sg3:zituen # ;
-+Ind+Prt+Abs/Pl3+Erg/Pl1:genituen # ;
-+Ind+Prt+Abs/Pl3+Erg/Pl2:zenituzten # ;
-+Ind+Prt+Abs/Pl3+Erg/Pl3:zituzten # ;
++Ind+Prt+Abs/Pl3+Erg/Sg1:nituen SUBCL ;
++Ind+Prt+Abs/Pl3+Erg/Sg2:zenituen SUBCL ;
++Ind+Prt+Abs/Pl3+Erg/Sg3:zituen SUBCL ;
++Ind+Prt+Abs/Pl3+Erg/Pl1:genituen SUBCL ;
++Ind+Prt+Abs/Pl3+Erg/Pl2:zenituzten SUBCL ;
++Ind+Prt+Abs/Pl3+Erg/Pl3:zituzten SUBCL ;
+
+!pot
++Pot+Prs+Abs/Sg3+Erg/Sg1:nuke SUBCL ;
++Pot+Prs+Abs/Sg3+Erg/Sg2:zenuke SUBCL ;
++Pot+Prs+Abs/Sg3+Erg/Sg3:luke SUBCL ;
++Pot+Prs+Abs/Sg3+Erg/Pl1:genuke SUBCL ;
++Pot+Prs+Abs/Sg3+Erg/Pl2:zenukete SUBCL ;
++Pot+Prs+Abs/Sg3+Erg/Pl3:lukete SUBCL ;
+    
++Pot+Prs+Abs/Pl3+Erg/Sg1:nituke SUBCL ;
++Pot+Prs+Abs/Pl3+Erg/Sg2:zenituke SUBCL ;
++Pot+Prs+Abs/Pl3+Erg/Sg3:lituke SUBCL ;
++Pot+Prs+Abs/Pl3+Erg/Pl1:genituke SUBCL ;
++Pot+Prs+Abs/Pl3+Erg/Pl2:zenitukete SUBCL ;
++Pot+Prs+Abs/Pl3+Erg/Pl3:litukete SUBCL ;
 
 
 
@@ -608,7 +649,13 @@ LEXICON PAST
 
 +Prt:n # ;
 
+LEXICON SUBCL
 
++Sub:ela # ;
++Sub:elako # ;
++Sub+Temp:enean # ;
++Sub+Rel:en # ;
++Main: # ;
 
 LEXICON Nouns
 
@@ -617,17 +664,31 @@ abesti Nreg "song" ;
 abizen Nreg "last# name" ;
 abokatu NregBizi "advocate" ;
 abuztu Nreg "August" ;
+aditz Nreg "verb" ;
+afalkide NregBizi ;
 aho Nreg "mouth" ;
+aldaketa Na "change" ;
+amnistia Na "amnesty" ;
 antzerki Nreg "theatre" ;
 apiril Nreg "April" ;
 arazo Nreg "problem" ;
+argazki Nreg ;
+argibide Nreg "explication" ;
 arma Na "weapon" ;
+arrain Nreg "fish" ;
+arratsalde Nreg "evening" ;
 arrazakeri Nreg "racisim" ;
 aste Nreg "week" ;
 astearte Nreg "Tuesday" ;
+asteazken Nreg "Wednesday" ;
+astelehen Nreg "Monday" ;
 atentatu Nreg "assault" ;
+aztitasun Nreg ;
 azaro Nreg "November" ;
+aztertzaile Nreg ;
 
+barazki Nreg "vegetable" ;
+beldur Nreg "fear" ;
 bidaiari NregBizi "traveller";
 bilera Na "meeting" ;
 borroka Nreg "fighting" ;
@@ -636,6 +697,8 @@ britainiar NregBizi "British" ;
 buruzagi NregBizi "head" ;
 
 denbora Na "time" ;
+
+egia Na "truth" ;
 egongela Na "room" ;
 egoera Na "situation" ;
 egun Nreg "day" ;
@@ -647,26 +710,40 @@ entrenatzaile NregBizi "" ;
 epaiketa Na "court" ;
 erasoaldi Nreg "attack" ;
 erdi Nreg "half" ;
+eremu Nreg "field" ; 
+errepublika Na ;
 eskola Na "school" ;
 esku Nreg "hand" ;
+esperientzia Na "experience" ;
+estatubatuar NregBizi "American" ;
 etxe Nreg "house" ;
 euskaldun NregBizi "Basque# speaker" ;
+euskalki Nreg "Basque# dialect" ;
+ezberdintasun Nreg "unequality" ;
 
 ferry Nreg "ferry" ;
 
+galdera Na "question" ;
 gazte NregBizi "youth" ;
 giltza Na "key" ;
 gerrillari NregBizi "gerrilla# fighter" ;
 gobernu Nreg "government" ;
 
+haragi Nreg "meat" ;
 hartz NregBizi "bear" ;
+hasiera Na "beginning" ;
 haur NregBizi "child" ;
+herri Nreg ;
+herritar NregBizi ;
 hilabete Nreg "month" ;
 historia Na "history" ;
 holandar NregBizi "Dutch" ;
 hotel Nreg "hotel" ;
 hortz Nreg "tooth" ;
 
+ibilbide Nreg ;
+igande Nreg "Sunday" ;
+ikatz Nreg ;
 indarkeria Na "violoence" ;
 independentista NregBizi "independentist" ;
 indigena NregBizi "indigenous" ;
@@ -674,15 +751,19 @@ inguru Nreg "surrounding" ;
 irabazle NregBizi "winner" ;
 irail Nreg "September" ;
 irakasle NregBizi "teacher" ; 
+irrati Nreg "radio" ;
 itsaso Nreg "sea" ;
 itsasontzi Nreg "boat" ;
 istripu Nreg "accident" ;
 iturri Nreg "source" ;
+izen Nreg "name" ;
 
 jarraitzail NregBizi "supporter" ;
 jende NregBizi "people" ;
 jokalari NregBizi "player" ;
+juridiko Nreg ;
 
+kabinete Nreg ;
 kale Nreg "street" ;
 kantu Nreg "song" ;
 kapitain Nreg "captain" ;
@@ -690,12 +771,17 @@ kargu Nreg "charge" ;
 katu NregBizi "cat" ;
 kaxoi Nreg "drawer" ;
 kolore Nreg "color" ;
+kolpe Nreg ;
 kolpeka Na "hit" ;
+komentario Nreg ;
 konponbide Nreg "solution" ;
+kontzentrazio Nreg "concentration" ;
 kristau NregBizi "Christian" ;
 
 lagun NregBizi "friend" ;
 lan Nreg "work" ;
+landare Nreg "plant" ;
+lankide NregBizi ;
 lehendakari NregBizi "president" ;
 lehergailu Nreg "bomb" ;
 lerro Nreg "rank" ;
@@ -704,8 +790,10 @@ maiatz Nreg "May" ;
 maite Na "love" ;
 manifestazio Nreg "demonstration" ;
 martxo Nreg "March" ;
+material Nreg ;
 mendi Nreg "mountain" ;
 militar NregBizi "soldier" ;
+musika Nreg "music" ;
 musulman NregBizi "Muslim" ;
 muxu Nreg "kiss" ;
 
@@ -714,44 +802,58 @@ negu Nreg "winter" ;
 
 odol Nreg "blood" ;
 olde Nreg "wish" ;
+ontzi Nreg "container" ;
 ordu Nreg "hour" ;
 otsail Nreg "February" ;
 
 papera Na "paper" ;
+parlamentu Nreg "parlament" ;
 partidu Nreg "match" ;
 pasaporte Nreg "passport" ;
 pastel Nreg "cake" ;
 pentsamendu Nreg "thinking" ;
+pilotari Nreg ;
 plaza Na "place" ;
 poltsa Na "bag" ;
 pisu Nreg "flat" ;
 presa Na "hurry" ;
 presidente NregBizi "president" ;
+protagonista Na "protagonist" ;
 
+salaketa Na ;
 soldadu NregBizi "soldier" ;
 sukalde Nreg "kitchen" ;
 taberna Na "bar" ;
 txakur NregBizi "dog" ;
+txistu Nreg ;
 testu Nreg "text" ;
 
 sari Nreg "prize" ;
 sektore Nreg ;
 seme NregBizi "son" ;
+sistema Nreg "system" ;
+
+tarte Nreg ;
 telefono Nreg "telephone" ;
 talde Nreg "group" ;
+tresna Na "tool" ;
 txalaparta Na "txalaparta" ;
+txanda Na "turn" ;
 txirrindulari Nreg "cyclist" ;
 
 uda Na "summer" ;
 udazken Nreg "autumn" ;
 udaberri Nreg "spring" ;
 uharte Nreg "island" ;
+ume NregBizi "child" ;
 urri Nreg "October" ;
 urtarril Nreg "January" ;
 urte Nreg "year" ;
 uztail Nreg "July" ;
 
+zenbaki Nreg "number" ;
 zentral Nreg ;
+zilegitasun Nreg ;
 
 
 LEXICON Propernouns
@@ -784,6 +886,9 @@ Tomas NpM "Tomas" ;
 Alex NpM "Alex" ;
 Julen NpM "Julen" ;
 Sergio NpM "Sergio" ;
+Jason NpM "Jason" ;
+Jose NpM "Jose" ;
+Mari NpM "Mari" ;
 
 Itziar NpF "Itziar" ;
 Garbiñe NpF "Garbiñe" ;
@@ -804,6 +909,7 @@ Arantxa NpF "Arantxa" ;
 Olaia NpF "Olaia" ;
 Marlene NpF "Marlene" ;
 Raquel NpF "Raquel" ;
+Julia NpF "Julia" ;
 
 Maradona NpS "Maradona" ;
 Uranga NpS "Uranga" ;
@@ -853,6 +959,11 @@ Espainia NpTop "Spain" ;
 Serbia NpTop "Serbia" ;
 Bilbao NpTop "Bilbao" ;
 Txernobil NpTop "Txernobil" ;
+Andalusia NpTop "Andalusia" ;
+Miami NpTop "Miami" ;
+
+ETA NpOrg "ETA" ;
+Pentagon NpOrg "Pentagon" ;
 
 LEXICON Pronouns
 ni+Pron+Pers+Sg1:ni PronSgCases ;
@@ -863,12 +974,16 @@ gu+Pron+Pers+Pl1:guk # ;
 zuek+Pron+Pers+Pl2:zuek # ;
 haiek+Pron+Pers+Pl3:haiek # ;
 
-+Pron+Dem+Sg3:hau PronSgCases ;
-+Pron+Dem+Sg3:hori PronSgCases ;
-+Pron+Dem+Sg3:hura PronSgCases ;
+hon+Pron+Dem+Sg3+Abs:hau PronSgCases ;
+hor+Pron+Dem+Sg3:hori PronSgCases ;
+har+Pron+Dem+Sg3:hura PronSgCases ;
 
-+Pron+Interr+Sg3:zer PronSgCases ;
-+Pron+Interr+Sg3:nor PronSgCases ;
+zer+Pron+Interr+Sg3:zer PronSgCases ;
+zer+Pron+Interr+Sg3:nor PronSgCases ;
+
+edozein+Pron+Indef:edozein PronSgCases ;
+bakoitz+Pron+Indef:bakoitz PronSgCases ;
+guzti++Pron+Indef:bakoitz PronSgCases ;
 
 LEXICON ADV 
 
@@ -878,27 +993,37 @@ LEXICON Adverbs
 
 atzo ADV  ;
 behin ADV ;
+berehala ADV ;
 bihar ADV ;
 ere ADV ;
+gero ADV ;
 gaur ADV ;
 orain ADV ;
+orduan ADV ;
 zergatik+Adv+Interr:zergatik # ;
 
 LEXICON Adjectives
+azken Areg "last" ;
+berandu Areg "late" ;
+berezi Areg "special" ;
 berri Areg "new" ;
+datorren Areg "next" ;
 errusiar Areg "Russian" ;
+handi Areg "big" ;
 larri Areg "grave" ;
 luze Areg "long" ;
 turkiar Areg "Turkish" ;
 tonto Areg "stupid" ;
 urduri Areg "nervous" ;
+zail Areg "dificult" ;
+zuzen Areg "correct" ;
 
 
 LEXICON Verbs
 
 abera%{t%}s Tu "get# rich" ;
 abes Tu "sing" ;
-adieraZ I "declare" ;
+adieraz I "declare" ;
 afal Du ;
 ager Tu "appear" ;
 agur Tu "greet" ;
@@ -906,6 +1031,7 @@ ahal Sinmas "can" ;
 ahaz Tu "forget" ;
 alda Tu "change" ;
 amai Tu "finnish" ;
+anima Tu ;
 argi Tu "clear" ;
 ari Tu "busy# oneself" ;
 asma Tu "invent" ;
@@ -919,8 +1045,13 @@ banan Du "differ" ;
 behar Sinmas "must" ;
 bete Sinmas "complete" ;
 bilaka Tu "turn# into" ;
+bila Tu ;
 bisita Tu "visit" ;
+
 dei Tu "call" ;
+defendi Tu "defend" ;
+deklara Tu "declare" ;
+
 edan Sinmas "drink" ;
 eduki: EDUKI "have" ;
 egin Sinmas "do" ; 
@@ -936,6 +1067,7 @@ eragin Sinmas "oblige" ;
 erantzun Sinmas "answer" ;
 erre Sinmas "burn" ;
 errapa Tu "realize" ;
+errespe Tu "respect" ;
 esan: ESAN "say" ;
 eskain I "offer" ;
 eska Tu "order" ;
@@ -946,12 +1078,16 @@ existi Tu ;
 ezin Sinmas "can# not" ;
 ezkon Du ;
 flota Tu ;
-gaindi Tu ;
+
+gaindi Tu "pass" ;
+galde Tu "ask" ;
 geldi Tu "stay" ;
 graba Tu "record" ;
 gerta Tu "happen" ;
 gosal Du "breakfast" ;
 graba Tu "tape" ;
+
+har Tu "take" ;
 haserre Tu "get# angry" ;
 has I "begin" ;
 hauta Tu "choose" ;
@@ -965,6 +1101,7 @@ ibili: IBILI "walk" ;
 igo Sinmas "ascend" ;
 ikas I "learn" ;
 ikus I "see" ;
+inputa Tu ;
 irabaz I "earn" ;
 irakin Sinmas "boil" ;
 irits I "arrive" ;
@@ -990,6 +1127,7 @@ jolas Tu ;
 kezka Tu "worry" ;
 koka Tu ;
 konpara Tu "compare" ;
+konta Tu "tell" ;
 kontrola Tu "control" ;
 kontura Tu "notice" ;
 
@@ -998,42 +1136,66 @@ landa Tu "plant" ;
 laztand Du ;
 lor Tu "achieve";
 lo Tu "tie" ;
+
 maitemin Du "fall# in love" ;
+manifesta Tu ;
 mintza Tu "talk" ;
 moz Tu "cut" ;
 mugi Tu ;
+
 nahas Tu "mix" ;
+nahi Sinmas "want" ;
 onar Tu "accept" ;
 opari Tu "give" ;
 o Tu "occur" ;
 onar Tu "admit" ;
 oroi Tu ;
 pasa Tu "happen" ;
+presta Tu "prepare" ; 
+
 saia Tu "try" ;
 sar Tu "enter" ;
+sor Tu ;
 topa Tu "meet" ;
 ukan: AuxUkan "be" ;
 uki Tu "touch" ;
 uler Tu "understand" ;
 utz I "leave" ;
+
 zain Du "" ;
 zeharka Tu "cross" ;
 zintzilika Tu "hang" ;
 ziurta Tu"secure" ;
+zorbia Tu ;
 zuri Tu "hurt" ;
 
 LEXICON Postposition
-+Po:buruz # ;
-+Po:gabe # ;
-+Po:ondoren # ;
-+Po:artean # ;
+arabera POSTP ;
+aurrean POSTP ;
+azpitik POSTP ;
+buruz POSTP ;
+gabe POSTP ;
+ondoren POSTP ;
+artean POSTP ;
+
+LEXICON POSTP
+
++P: # ;
++P: GENLOC ;
+
+LEXICON GENLOC
+
++GenL:ko # ;
++GenL+Art:koa # ;
+
 
 LEXICON Conjunctions
-eta CONJ;
+edo CONJ ;
+eta CONJ ;
 baina CONJ ;
 
 LEXICON CONJ
-+CC # ;
++CC: # ;
 
 LEXICON NUMBAT
 

@@ -381,22 +381,29 @@ LEXICON IBILI
 +V+Ind+Prt+Abs/Pl3:zebiltzan SUBCL ;
 
 LEXICON ETORRI
++V+Prc:etorri # ; !Partizip
++V+Der/N:etortze # ; ! - nominalisation
++V+Pot:etor # ; ! + Potential form des Auxiliars
++V+Ind+Prs: etorriprs ; !
++V+Ind+Prt: etorriprt ; !
 
-+V+Ind+Prs+Abs/Sg1:nator SUBCL ;
-+V+Ind+Prs+Abs/Sg2+ifl:hator SUBCL ; 
-+V+Ind+Prs+Abs/Sg2:zatoz SUBCL ;
-+V+Ind+Prs+Abs/Sg3:dator SUBCL ;
-+V+Ind+Prs+Abs/Pl1:gatoz SUBCL ;
-+V+Ind+Prs+Abs/Pl2:zatozte SUBCL ;
-+V+Ind+Prs+Abs/Pl3:datoz SUBCL ;
-           
-+V+Ind+Prt+Abs/Sg1:nentorren SUBCL ;
-+V+Ind+Prt+Abs/Sg2+ifl:hentorren SUBCL ; 
-+V+Ind+Prt+Abs/Sg2:zentozen SUBCL ;
-+V+Ind+Prt+Abs/Sg3:zetorren SUBCL ;
-+V+Ind+Prt+Abs/Pl1:gentozen SUBCL ;
-+V+Ind+Prt+Abs/Pl2:zentozten SUBCL ;
-+V+Ind+Prt+Abs/Pl3:zetozten SUBCL ;
+LEXICON etorriprs
++Abs/Sg1:nator SUBCL ;
++Abs/Sg2+ifl:hator SUBCL ; 
++Abs/Sg2:zatoz SUBCL ;
++Abs/Sg3:dator SUBCL ;
++Abs/Pl1:gatoz SUBCL ;
++Abs/Pl2:zatozte SUBCL ;
++Abs/Pl3:datoz SUBCL ;
+
+LEXICON etorriprt           
++Abs/Sg1:nentorren SUBCL ;
++Abs/Sg2+ifl:hentorren SUBCL ; 
++Abs/Sg2:zentozen SUBCL ;
++Abs/Sg3:zetorren SUBCL ;
++Abs/Pl1:gentozen SUBCL ;
++Abs/Pl2:zentozten SUBCL ;
++Abs/Pl3:zetozten SUBCL ;
 
 
 LEXICON ERAMAN
@@ -655,7 +662,8 @@ LEXICON SUBCL
 +Sub:elako # ;
 +Sub+Temp:enean # ;
 +Sub+Rel:en # ;
-+Main: # ;
+ # ; ! testing without the +Main tag
+!+Main: # ; irgendetwas hat da nicht geklappt, aber vielleicht habe ich es anders geschrieben
 
 LEXICON Nouns
 
@@ -1027,152 +1035,152 @@ zuzen Areg "correct" ;
 LEXICON Verbs
 
 abera%{t%}s Tu "get# rich" ;
-abes Tu "sing" ;
-adieraz I "declare" ;
-afal Du ;
-ager Tu "appear" ;
-agur Tu "greet" ;
+abestu:abes Tu "sing" ;
+adierazadierazi:adieraz I "declare" ;
+afaldu:afal Du ;
+agertu:ager Tu "appear" ;
+agurtu:agur Tu "greet" ;
 ahal Sinmas "can" ;
-ahaz Tu "forget" ;
-alda Tu "change" ;
-amai Tu "finnish" ;
-anima Tu ;
-argi Tu "clear" ;
-ari Tu "busy# oneself" ;
-asma Tu "invent" ;
+ahaztu:ahaz Tu "forget" ;
+aldatu:alda Tu "change" ;
+amaitu:amai Tu "finnish" ;
+animatu:anima Tu ;
+argitu:argi Tu "clear" ;
+aritu:ari Tu "busy# oneself" ;
+asmatu:asma Tu "invent" ;
 atera Sinmas "go out" ;
-atxilo Tu "arrest" ;
-aurki Tu "find" ;
-azal Du "" ;
+atxilotu:atxilo Tu "arrest" ;
+aurkitu:aurki Tu "find" ;
+azaldu:azal Du ;
 
-baiezta Tu "confirm" ;
-banan Du "differ" ;
+baieztatu:baiezta Tu "confirm" ;
+banandu:banan Du "differ" ;
 behar Sinmas "must" ;
 bete Sinmas "complete" ;
-bilaka Tu "turn# into" ;
-bila Tu ;
-bisita Tu "visit" ;
+bilakatu:bilaka Tu "turn into" ;
+bilatu:bila Tu ;
+bisitatu:bisita Tu "visit" ;
 
-dei Tu "call" ;
-defendi Tu "defend" ;
-deklara Tu "declare" ;
+deitu:dei Tu "call" ;
+defenditu:defendi Tu "defend" ;
+deklaratu:deklara Tu "declare" ;
 
 edan Sinmas "drink" ;
 eduki: EDUKI "have" ;
 egin Sinmas "do" ; 
-egoki Tu "adapt" ;
-ehiza Tu "hunt" ;
+egokitu:egoki Tu "adapt" ;
+ehizatu:ehiza Tu "hunt" ;
 ekarr I "bring" ;
-elkar Tu "meet" ;
+elkartu:elkar Tu "meet" ;
 eman Sinmas "give" ; 
 entzun Sinmas "hear" ;
-erabil I "use" ;
+erabili:erabil I "use" ;
 eraman: ERAMAN "bring" ;
 eragin Sinmas "oblige" ;
 erantzun Sinmas "answer" ;
 erre Sinmas "burn" ;
-errapa Tu "realize" ;
-errespe Tu "respect" ;
+errapatu:errapa Tu "realize" ;
+errespetu:erraspe Tu "respect" ;
 esan: ESAN "say" ;
-eskain I "offer" ;
-eska Tu "order" ;
+eskaini:eskain I "offer" ;
+eskatu:eska Tu "order" ;
 ekarri: EKARRI "bring" ;
-eskain I "offer" ;
-etorr ETORRI "come" ;
-existi Tu ;
-ezin Sinmas "can# not" ;
-ezkon Du ;
-flota Tu ;
+eskaini:eskain I "offer" ;
+etorr: ETORRI "come" ; ! adding : to avoid etorrnator
+existitu:existi Tu ;
+ezin Sinmas "can not" ;
+ezkondu:ezkon Du ;
+flotatu:flota Tu ;
 
-gaindi Tu "pass" ;
-galde Tu "ask" ;
-geldi Tu "stay" ;
-graba Tu "record" ;
-gerta Tu "happen" ;
-gosal Du "breakfast" ;
-graba Tu "tape" ;
+gainditu:gaindi Tu "pass" ;
+galdetu:galde Tu "ask" ;
+gelditu:geldo Tu "stay" ;
+grabatu:graba Tu "record" ;
+gertatu:gerta Tu "happen" ;
+gosaldu:gosal Du "breakfast" ;
+grabatu:graba Tu "tape" ;
 
-har Tu "take" ;
-haserre Tu "get# angry" ;
-has I "begin" ;
-hauta Tu "choose" ;
-hauts I ;
-haz I ;
+hartu:har Tu "take" ;
+haserretu:haserre Tu "get angry" ;
+hasi:has I "begin" ;
+hautatu:hauta Tu "choose" ;
+hautsi:hauts I ;
+hazi:haz I ;
 hil Sinmas "die" ;
-honda Tu "destroy" ;
-horni Tu ;
-hus Tu ;
+hondatu:honda Tu "destroy" ;
+hornitu:horni Tu ;
+hustu:hus Tu ;
 ibili: IBILI "walk" ;
 igo Sinmas "ascend" ;
-ikas I "learn" ;
-ikus I "see" ;
-inputa Tu ;
-irabaz I "earn" ;
+ikasi:ikas I "learn" ;
+ikusi:ikus I "see" ;
+inputatu:inputa Tu ;
+irabazi:irabaz I "earn" ;
 irakin Sinmas "boil" ;
-irits I "arrive" ;
+iritsi:irits I "arrive" ;
 iruditu: IRUDITU "seem" ;
-isur I "flow" ;
+isuri:isur I "flow" ;
 i%{t%}x I ;
-itxaron "wait" ;
+!itxaron "wait" ; ! commented out, waiting for contlex
 izan: AuxIzan "be" ;
 
-jaits I "go# down" ;
+jaitsi:jaits I "go# down" ;
 jakin Sinmas "know" ;
 jan Sinmas "eat" ;
-jar I "put" ; !R
+jari:jar I "put" ; !R
 jakin: JAKIN "know" ;
 jasan Sinmas ;
 jaso Sinmas ;
-jipoi Tu "beat# up" ;
+jipoitu:jipoi Tu "beat# up" ;
 jo Sinmas ;
 joan JOAN "go" ;
-joka Tu "play" ;
-jolas Tu ;
+jokatu:joka Tu "play" ;
+jolastu:jolas Tu ;
 
-kezka Tu "worry" ;
-koka Tu ;
-konpara Tu "compare" ;
-konta Tu "tell" ;
-kontrola Tu "control" ;
-kontura Tu "notice" ;
+kezkatu:kezka Tu "worry" ;
+kokatu:koka Tu ;
+konparatu:konpara Tu "compare" ;
+kontatu:konta Tu "tell" ;
+kontrolatu:kontrola Tu "control" ;
+konturatu:kontura Tu "notice" ;
 
-lan Du ;
-landa Tu "plant" ;
-laztand Du ;
-lor Tu "achieve";
-lo Tu "tie" ;
+landu:lan Du ;
+landatu:landa Tu "plant" ;
+laztanddu:laztand Du ;
+lortu:lor Tu "achieve";
+lotu:lo Tu "tie" ;
 
-maitemin Du "fall# in love" ;
-manifesta Tu ;
-mintza Tu "talk" ;
-moz Tu "cut" ;
-mugi Tu ;
+maitemindu:maitemin Du "fall# in love" ;
+manifestatu:manifesta Tu ;
+mintzatu:mintza Tu "talk" ;
+moztu:moz Tu "cut" ;
+mugitu:mugi Tu ;
 
-nahas Tu "mix" ;
+nahastu:nahas Tu "mix" ;
 nahi Sinmas "want" ;
-onar Tu "accept" ;
-opari Tu "give" ;
-o Tu "occur" ;
-onar Tu "admit" ;
-oroi Tu ;
-pasa Tu "happen" ;
-presta Tu "prepare" ; 
+onartu:onar Tu "accept" ;
+oparitu:opari Tu "give" ;
+otu:o Tu "occur" ;
+onartu:onar Tu "admit" ;
+oroitu:oroi Tu ;
+pasatu:pasa Tu "happen" ;
+prestatu:presta Tu "prepare" ; 
 
-saia Tu "try" ;
-sar Tu "enter" ;
-sor Tu ;
-topa Tu "meet" ;
+saiatu:saia Tu "try" ;
+sartu:sar Tu "enter" ;
+sortu:sor Tu ;
+topatu:topa Tu "meet" ;
 ukan: AuxUkan "be" ;
-uki Tu "touch" ;
-uler Tu "understand" ;
-utz I "leave" ;
+ukitu:uki Tu "touch" ;
+ulertu:uler Tu "understand" ;
+utzi:utz I "leave" ;
 
-zain Du "" ;
-zeharka Tu "cross" ;
-zintzilika Tu "hang" ;
-ziurta Tu"secure" ;
-zorbia Tu ;
-zuri Tu "hurt" ;
+zaindu:zain Du "asdf" ;
+zeharkatu:zerharka Tu "cross" ;
+zintzilikatu:zintzilika Tu "hang" ;
+ziurtatu:ziurta Tu"secure" ;
+zorbiatu:zorbia Tu ;
+zuritu:zuri Tu "hurt" ;
 
 LEXICON Postposition
 arabera POSTP ;

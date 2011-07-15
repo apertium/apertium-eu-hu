@@ -1034,7 +1034,7 @@ zuzen Areg "correct" ;
 
 LEXICON Verbs
 
-abera%{t%}s Tu "get# rich" ;
+aberatstu:abera%{t%}s Tu "get# rich" ;
 abestu:abes Tu "sing" ;
 adierazadierazi:adieraz I "declare" ;
 afaldu:afal Du ;
@@ -1120,7 +1120,7 @@ irakin Sinmas "boil" ;
 iritsi:irits I "arrive" ;
 iruditu: IRUDITU "seem" ;
 isuri:isur I "flow" ;
-i%{t%}x I ;
+itxi:i%{t%}x I ;
 !itxaron "wait" ; ! commented out, waiting for contlex
 izan: AuxIzan "be" ;
 

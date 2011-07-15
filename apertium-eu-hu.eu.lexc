@@ -667,7 +667,9 @@ abuztu Nreg "August" ;
 aditz Nreg "verb" ;
 afalkide NregBizi ;
 aho Nreg "mouth" ;
+aita NaBizi "father" ;
 aldaketa Na "change" ;
+ama NaBizi "mother" ;
 amnistia Na "amnesty" ;
 antzerki Nreg "theatre" ;
 apiril Nreg "April" ;
@@ -722,6 +724,7 @@ euskalki Nreg "Basque# dialect" ;
 ezberdintasun Nreg "unequality" ;
 
 ferry Nreg "ferry" ;
+futbol Nreg "football" ;
 
 galdera Na "question" ;
 gazte NregBizi "youth" ;
@@ -776,6 +779,7 @@ kolpeka Na "hit" ;
 komentario Nreg ;
 konponbide Nreg "solution" ;
 kontzentrazio Nreg "concentration" ;
+kosta Na ;
 kristau NregBizi "Christian" ;
 
 lagun NregBizi "friend" ;
@@ -961,6 +965,7 @@ Bilbao NpTop "Bilbao" ;
 Txernobil NpTop "Txernobil" ;
 Andalusia NpTop "Andalusia" ;
 Miami NpTop "Miami" ;
+Washington NpTop "Washington" ;
 
 ETA NpOrg "ETA" ;
 Pentagon NpOrg "Pentagon" ;

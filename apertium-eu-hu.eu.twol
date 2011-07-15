@@ -25,7 +25,13 @@ Rules
 "ae -> e"
  a:0 <=> _ %>: e ;
  
- 
+!"Final r deletion"
+! r:0 <=> r _ #: ; 
+
+!etorr#
+!etor0#  
+
+
 !"r doubling"
 ! 0:r <=> r %>: _ Vow ;
   

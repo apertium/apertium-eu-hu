@@ -132,27 +132,27 @@ LEXICON PlCases3
 LEXICON MggCases1 
 
 +Abs: # ;
-+Erg:%>k # ;   !k
-+Dat:%>ri # ;   !i
++Erg:%>k # ; !k
++Dat:%>ri # ; !i
 
-+PGen:%>ren # ;    !en
-+Ins:%>z # ;       !ez,etaz,taz
-+Soc:%>rekin # ;   !ekin
++PGen:%>ren # ; !en
++Ins:%>z # ; !ez,etaz,taz
++Soc:%>rekin # ; !ekin
 +Ben:%>rentzat # ; !entzat
-+Ben2:%>rengatik # ;   !engatik
++Ben2:%>rengatik # ; !engatik
 
 +Par:%>rik # ;
 
 LEXICON MggCases2
 
-+Ine:%>etan # ;     !tan
-+All:%>etara # ;    !tara
-+Ela:%>etatik # ;   !tatik
++Ine:%>etan # ; !tan
++All:%>etara # ; !tara
++Ela:%>etatik # ; !tatik
 
 
 LEXICON MggCases3
 
-+LGen:%>etako # ;   !tako
++LGen:%>etako # ; !tako
 +LGen:%>eko # ;
 
 
@@ -331,15 +331,15 @@ LEXICON I
 
 LEXICON Nominalization
 
-+Der/N:%>tze #  ;
-+Der/N:%>tze Nominalization2  ;
-+Der/N:%>te #  ;
-+Der/N:%>te Nominalization2  ;
++Der/N:%>tze # ;
++Der/N:%>tze Nominalization2 ;
++Der/N:%>te # ;
++Der/N:%>te Nominalization2 ;
 
 LEXICON Nominalization2
 
 +Sub:%>ko # ;
-+Art:%>a #  ;      !! Should this go to the SgCases1 continuation 
++Art:%>a # ; !! Should this go to the SgCases1 continuation 
 +Cont:%>n # ;
 
 LEXICON Fut
@@ -371,7 +371,7 @@ LEXICON IBILI
 +V+Ind+Prs+Abs/Pl1:gabiltza SUBCL ;
 +V+Ind+Prs+Abs/Pl2:zabiltzate SUBCL ;
 +V+Ind+Prs+Abs/Pl3:dabiltza SUBCL ;
-           
+ 
 +V+Ind+Prt+Abs/Sg1:nenbilen SUBCL ;
 +V+Ind+Prt+Abs/Sg2+ifl:henbilen SUBCL ; 
 +V+Ind+Prt+Abs/Sg2:zenbiltzan SUBCL ;
@@ -396,7 +396,7 @@ LEXICON etorriprs
 +Abs/Pl2:zatozte SUBCL ;
 +Abs/Pl3:datoz SUBCL ;
 
-LEXICON etorriprt           
+LEXICON etorriprt 
 +Abs/Sg1:nentorren SUBCL ;
 +Abs/Sg2+ifl:hentorren SUBCL ; 
 +Abs/Sg2:zentozen SUBCL ;
@@ -486,7 +486,7 @@ LEXICON IRUTDITU
 +V+Ind+Prs+Dat/Pl1:dirudigu SUBCL ;
 +V+Ind+Prs+Dat/Pl2:dirudizue SUBCL ;
 +V+Ind+Prs+Dat/Pl3:dirudite SUBCL ;
-           
+ 
 +V+Ind+Prt+Dat/Sg1:nirudien SUBCL ;
 +V+Ind+Prt+Dat/Sg2+ifl:hirudien SUBCL ; 
 +V+Ind+Prt+Dat/Sg2:zenirudien SUBCL ;
@@ -509,7 +509,7 @@ LEXICON EDUKI
 +V+Ind+Prs+Abs/Pl3+Erg/Pl1:dauzkagu SUBCL ;
 +V+Ind+Prs+Abs/Pl3+Erg/Pl2:dauzkazue SUBCL ;
 +V+Ind+Prs+Abs/Pl3+Erg/Pl3:dauzkate SUBCL ;
-           
+ 
 +V+Ind+Prt+Abs/Sg3+Erg/Sg1:neukan SUBCL ; 
 +V+Ind+Prt+Abs/Sg3+Erg/Sg2:zeneukan SUBCL ;
 +V+Ind+Prt+Abs/Sg3+Erg/Sg3:zeukan SUBCL ;
@@ -591,7 +591,7 @@ LEXICON UKANNORNORK
 +Ind+Prs+Abs/Sg3+Erg/Pl1:dugu SUBCL ;
 +Ind+Prs+Abs/Sg3+Erg/Pl2:duzue SUBCL ;
 +Ind+Prs+Abs/Sg3+Erg/Pl3:dute SUBCL ;
-       
+ 
 +Ind+Prs+Abs/Pl3+Erg/Sg1:ditut SUBCL ;
 +Ind+Prs+Abs/Pl3+Erg/Sg2:dituzu SUBCL ;
 +Ind+Prs+Abs/Pl3+Erg/Sg3:ditu SUBCL ;
@@ -606,7 +606,7 @@ LEXICON UKANNORNORK
 +Ind+Prt+Abs/Sg3+Erg/Pl1:genuen SUBCL ;
 +Ind+Prt+Abs/Sg3+Erg/Pl2:zenuten SUBCL ;
 +Ind+Prt+Abs/Sg3+Erg/Pl3:zuten SUBCL ;
-       
+ 
 +Ind+Prt+Abs/Pl3+Erg/Sg1:nituen SUBCL ;
 +Ind+Prt+Abs/Pl3+Erg/Sg2:zenituen SUBCL ;
 +Ind+Prt+Abs/Pl3+Erg/Sg3:zituen SUBCL ;
@@ -621,7 +621,7 @@ LEXICON UKANNORNORK
 +Pot+Prs+Abs/Sg3+Erg/Pl1:genuke SUBCL ;
 +Pot+Prs+Abs/Sg3+Erg/Pl2:zenukete SUBCL ;
 +Pot+Prs+Abs/Sg3+Erg/Pl3:lukete SUBCL ;
-    
+ 
 +Pot+Prs+Abs/Pl3+Erg/Sg1:nituke SUBCL ;
 +Pot+Prs+Abs/Pl3+Erg/Sg2:zenituke SUBCL ;
 +Pot+Prs+Abs/Pl3+Erg/Sg3:lituke SUBCL ;
@@ -643,14 +643,14 @@ LEXICON IZANNORNORI
 
 LEXICON IZANNORI
 
-+Dat/Sg1:%>t       PAST ; !dan before a consonant
++Dat/Sg1:%>t PAST ; !dan before a consonant
 +Dat/Sg2+ifl/m:%>k PAST ; !kian before a consonant
 +Dat/Sg2+ifl/f:%>n PAST ; !
-+Dat/Sg2:%>zu      PAST ;
-+Dat/Sg3:%>o       PAST ;
-+Dat/Pl1:%>gu      PAST ;
-+Dat/Pl2:%>zuete   PAST ;
-+Dat/Pl3:%>e       PAST ;
++Dat/Sg2:%>zu PAST ;
++Dat/Sg3:%>o PAST ;
++Dat/Pl1:%>gu PAST ;
++Dat/Pl2:%>zuete PAST ;
++Dat/Pl3:%>e PAST ;
 
 LEXICON PAST
 
@@ -716,7 +716,7 @@ ekain Nreg "June" ;
 emaitza Na "result" ;
 enbaxadore NregBizi "emabassador" ;
 enpresa Na "company" ;
-entrenatzaile NregBizi "" ;
+entrenatzaile NregBizi ;
 epaiketa Na "court" ;
 erasoaldi Nreg "attack" ;
 erdi Nreg "half" ;
@@ -1004,7 +1004,7 @@ LEXICON ADV
 
 LEXICON Adverbs
 
-atzo ADV  ;
+atzo ADV ;
 behin ADV ;
 berehala ADV ;
 bihar ADV ;
@@ -1070,7 +1070,7 @@ eduki: EDUKI "have" ;
 egin Sinmas "do" ; 
 egokitu:egoki Tu "adapt" ;
 ehizatu:ehiza Tu "hunt" ;
-ekarr I "bring" ;
+ekarri:ekarr I "bring" ;
 elkartu:elkar Tu "meet" ;
 eman Sinmas "give" ; 
 entzun Sinmas "hear" ;
@@ -1236,149 +1236,119 @@ LEXICON CLB
 
 +CLB: # ;
 
-!LEXICON Punctuation
-!
-!%, CLB ;
-!%. CLB ;
-!%; CLB ;
-!%: CLB ;
-!%? CLB ;
-!%! CLB ;
-!%- CLB ;
-!%/ CLB ;
 
-! Divvun & Giellatekno - open source grammars for Sámi and other languages
-! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
-! http://giellatekno.uit.no & http://divvun.no
-!
-! This program is free software; you can redistribute and/or modify
-! this file under the terms of the GNU General Public License as published by
-! the Free Software Foundation, either version 3 of the License, or
-! (at your option) any later version. The GNU General Public License
-! is found at http://www.gnu.org/licenses/gpl.html. It is
-! also available in the file $GTHOME/LICENSE.txt.
-!
-! Other licensing options are available upon request, please contact
-! giellatekno@hum.uit.no or divvun@samediggi.no
 
 LEXICON Punctuation
 
 ! Clause boundary symbols
 
-%,+CLB:%,   # ;
-%.+CLB:%.   # ;
-%.%.+CLB:%.%.   # ;
-%.%.%.+CLB:%.%.%.   # ;
-%:+CLB:%:   # ;
-%;+CLB:%;	  # ;
- ^excl+CLB+Use/Circ:%!	  # ;	!
- %?+CLB:%?	  # ; !Question mark
-…+CLB:…		  # ;
- ¿+CLB:¿		  # ;	! Only seen as noise.
- ¶+CLB:¶		  # ;	! This sign is for titles, it is introduced by the
+%,+CLB:%, # ;
+%.+CLB:%. # ;
+%.%.+CLB:%.%. # ;
+%.%.%.+CLB:%.%.%. # ;
+%:+CLB:%: # ;
+%;+CLB:%;	 # ;
+ ^excl+CLB+Use/Circ:%!	 # ;	!
+ %?+CLB:%?	 # ; !Question mark
+…+CLB:…		 # ;
+ ¿+CLB:¿		 # ;	! Only seen as noise.
+ ¶+CLB:¶		 # ;	! This sign is for titles, it is introduced by the
 			! catxml script, and may be changed if it interferes 
 			! with real pilcrow signs.
 
-! Miscellaneous symbols, abbreviation symbols (could be moved to abbr-sme-lex.txt) 
-  
- §+N+ABBR+Use/Circ:§ PUNCTconnector ;    ! §:s	!
- §§+N+ABBR+Use/Circ:§§ PUNCTconnector ;  ! §:ain	!
- $+N+ABBR+Use/Circ:$  PUNCTconnector ;    ! $:s	!
- €+N+ABBR+Use/Circ:€  PUNCTconnector ;    ! €:s	!
- £+N+ABBR+Use/Circ:£  PUNCTconnector ;    ! €:s	!
+! Miscellaneous symbols, abbreviation symbols 
+ 
+ §+N+ABBR+Use/Circ:§ PUNCTconnector ; 
+ §§+N+ABBR+Use/Circ:§§ PUNCTconnector ; 
+ $+N+ABBR+Use/Circ:$ PUNCTconnector ; 
+ €+N+ABBR+Use/Circ:€ PUNCTconnector ; 
+ £+N+ABBR+Use/Circ:£ PUNCTconnector ; 
 ®+N+ABBR:® # ;
 ©+N+ABBR:© # ;
 
 
 ! Single punctuation marks
 
- •+PUNCT:•  # ; !U
- ●+PUNCT:●  # ; !U
- ·+PUNCT:·  # ; !U
- ּ+PUNCT:ּ  # ; !U
- ·+PUNCT:·  # ; !U
- -+PUNCT:-  # ; !hyphen
- --+PUNCT:--  # ; !double hyphen
+ •+PUNCT:• # ; !U
+ ●+PUNCT:● # ; !U
+ ·+PUNCT:· # ; !U
+ ּ+PUNCT:ּ # ; !U
+ ·+PUNCT:· # ; !U
+ -+PUNCT:- # ; !hyphen
+ --+PUNCT:-- # ; !double hyphen
  –+PUNCT:– # ; !endash
  —+PUNCT:— # ; !emdash
  ―+PUNCT:― # ; !horizontal bar U
-=+PUNCT:=  # ;
-≈+PUNCT:≈  # ;
-%%+PUNCT:%%  # ;
+=+PUNCT:= # ;
+≈+PUNCT:≈ # ;
+%%+PUNCT:%% # ;
 &+PUNCT:& # ;
-%"+PUNCT:%"  # ;
- '+PUNCT:'7  # ;   ! We use "'7" to avoid the CG symbol of ái'gi etc.
-%*+PUNCT:%*  # ;
-++PUNCT:+  # ;
-±+PUNCT:±  # ;
-`+PUNCT:`  # ;
-´+PUNCT:´  # ;
-/+PUNCT:/  # ; 
+%"+PUNCT:%" # ;
+%*+PUNCT:%* # ;
+++PUNCT:+ # ;
+±+PUNCT:± # ;
+`+PUNCT:` # ;
+´+PUNCT:´ # ;
+/+PUNCT:/ # ; 
 +/-+PUNCT:+/- # ;
-%~+PUNCT:%~	  # ;
+%~+PUNCT:%~	 # ;
 
 
 ! Paired punctuation marks
 
-%«+PUNCT+LEFT:%«  # ;
-%»+PUNCT+RIGHT:%»  # ;
-%“+PUNCT+LEFT:%“  # ;
-%”+PUNCT+RIGHT:%”  # ;
-%‘+PUNCT+LEFT:%‘  # ;
-%’+PUNCT+RIGHT:%’  # ;
+%«+PUNCT+LEFT:%« # ;
+%»+PUNCT+RIGHT:%» # ;
+%“+PUNCT+LEFT:%“ # ;
+%”+PUNCT+RIGHT:%” # ;
+%‘+PUNCT+LEFT:%‘ # ;
+%’+PUNCT+RIGHT:%’ # ;
 %„+PUNCT+LEFT:%„ # ;
 %‹+PUNCT+LEFT:%‹ # ;
-%›+PUNCT+RIGHT:%›  # ;
-%(+PUNCT+LEFT:%(  # ;
-%)+PUNCT+RIGHT:%)  # ;
-%[+PUNCT+LEFT:%[  # ;
-%]+PUNCT+RIGHT:%]  # ;
-%{+PUNCT+LEFT:%{  # ;
-%}+PUNCT+RIGHT:%}  # ;
-%<+PUNCT+LEFT:%<   # ;
-%>+PUNCT+LEFT:%>   # ;
+%›+PUNCT+RIGHT:%› # ;
+%(+PUNCT+LEFT:%( # ;
+%)+PUNCT+RIGHT:%) # ;
+%[+PUNCT+LEFT:%[ # ;
+%]+PUNCT+RIGHT:%] # ;
+%{+PUNCT+LEFT:%{ # ;
+%}+PUNCT+RIGHT:%} # ;
+%<+PUNCT+LEFT:%< # ;
+%>+PUNCT+LEFT:%> # ;
 
 
 
-LEXICON PUNCTconnector    !^C^
- +Sg+Nom+Use/Circ: K ;	! §       !
-!+Sg+Gen: K ;	! §       !^C^
-!+Sg+Acc: K ;	! §       !^C^
- +Use/Sub+Use/Circ: PUNCTsuff ;		! §as              ! !
- +Use/Circ:%: PUNCTsuff ;	! §:s                   !
- +Use/Sub+Use/Circ:%- PUNCTsuff ;	! §-as  ! Perhaps. ! !
- +Use/Sub+Use/Circ:%' PUNCTsuff ;	! §'as  ! Perhaps. ! !
+LEXICON PUNCTconnector 
+ +Sg+Nom+Use/Circ: K ;	
+ +Use/Sub+Use/Circ: PUNCTsuff ;	
+ +Use/Circ:%: PUNCTsuff ;	
+ +Use/Sub+Use/Circ:%- PUNCTsuff ;	
+ +Use/Sub+Use/Circ:%' PUNCTsuff ;	
  
 LEXICON PUNCTsuff
-! K ;		! § 14 (no case on the bare §). Oh, yes. Case.
- +Sg+Gen: K ;	! §    (case suffix on the rest, in case of explicit
- +Sg+Acc: K ;	!       suffix)
- +Sg+Gen+Use/Sub:a K ;	! §:a  (case suffix on the rest, in case of explicit  !
- +Sg+Acc+Use/Sub:a K ;	!       suffix)                                       !
- +Sg+Ill+Use/Sub:ij K ;  !       !
- +Sg+Ill:i K ;   !
- +Sg+Loc:s K ;   ! §:s
- +Sg+Loc+Use/Sub:as K ;  ! §:as  !
-+Sg+Com:in K ;
-   +Ess:n K ;
- +Ess+Use/Sub:an K ;          !
-+Pl+Nom:t K ;
-+Pl+Gen:id K ;
-+Pl+Acc:id K ;
-+Pl+Ill:ide K ;
-+Pl+Loc:in K ;
-+Pl+Com:igujn K ;
- +Pl+Nom+Use/Sub:at K ;     !
- +Pl+Gen+Use/Sub:ajd K ;    !
- +Pl+Acc+Use/Sub:ajd K ;    !
- +Pl+Ill+Use/Sub:ajde K ;   !
- +Pl+Loc+Use/Sub:ajn K ;    !
- +Pl+Com+Use/Sub:ajgujn K ; !
+ # ;
+ 
+! sami ! ! K ;		! § 14 (no case on the bare §). Oh, yes. Case.
+! sami ! +Sg+Gen: K ;	! § (case suffix on the rest, in case of explicit
+! sami ! +Sg+Acc: K ;	! suffix)
+! sami ! +Sg+Gen+Use/Sub:a K ;	! §:a (case suffix on the rest, in case of explicit !
+! sami ! +Sg+Acc+Use/Sub:a K ;	! suffix) !
+! sami ! +Sg+Ill+Use/Sub:ij K ; ! !
+! sami ! +Sg+Ill:i K ; !
+! sami ! +Sg+Loc:s K ; ! §:s
+! sami ! +Sg+Loc+Use/Sub:as K ; ! §:as !
+! sami ! +Sg+Com:in K ;
+! sami ! +Ess:n K ;
+! sami ! +Ess+Use/Sub:an K ; !
+! sami ! +Pl+Nom:t K ;
+! sami ! +Pl+Gen:id K ;
+! sami ! +Pl+Acc:id K ;
+! sami ! +Pl+Ill:ide K ;
+! sami ! +Pl+Loc:in K ;
+! sami ! +Pl+Com:igujn K ;
+! sami ! +Pl+Nom+Use/Sub:at K ; !
+! sami ! +Pl+Gen+Use/Sub:ajd K ; !
+! sami ! +Pl+Acc+Use/Sub:ajd K ; !
+! sami ! +Pl+Ill+Use/Sub:ajde K ; !
+! sami ! +Pl+Loc+Use/Sub:ajn K ; !
+! sami ! +Pl+Com+Use/Sub:ajgujn K ; !
 
-
-! Todo: Some symbols from non-ISO code pages do not work
-
-!+PUNCT:"\150" # ; ! trying to capture some hyphens
-!+PUNCT:"\151" # ; ! trying to capture some hyphens
-! Did not work.
 

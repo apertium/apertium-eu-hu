@@ -617,11 +617,14 @@ abesti Nreg "song" ;
 abizen Nreg "last# name" ;
 abokatu NregBizi "advocate" ;
 abuztu Nreg "August" ;
+aho Nreg "mouth" ;
 antzerki Nreg "theatre" ;
 apiril Nreg "April" ;
 arazo Nreg "problem" ;
+arma Na "weapon" ;
 arrazakeri Nreg "racisim" ;
 aste Nreg "week" ;
+astearte Nreg "Tuesday" ;
 atentatu Nreg "assault" ;
 azaro Nreg "November" ;
 
@@ -643,6 +646,7 @@ enpresa Na "company" ;
 entrenatzaile NregBizi "" ;
 epaiketa Na "court" ;
 erasoaldi Nreg "attack" ;
+erdi Nreg "half" ;
 eskola Na "school" ;
 esku Nreg "hand" ;
 etxe Nreg "house" ;
@@ -663,6 +667,7 @@ holandar NregBizi "Dutch" ;
 hotel Nreg "hotel" ;
 hortz Nreg "tooth" ;
 
+indarkeria Na "violoence" ;
 independentista NregBizi "independentist" ;
 indigena NregBizi "indigenous" ;
 inguru Nreg "surrounding" ;
@@ -693,6 +698,7 @@ lagun NregBizi "friend" ;
 lan Nreg "work" ;
 lehendakari NregBizi "president" ;
 lehergailu Nreg "bomb" ;
+lerro Nreg "rank" ;
 
 maiatz Nreg "May" ;
 maite Na "love" ;
@@ -715,6 +721,7 @@ papera Na "paper" ;
 partidu Nreg "match" ;
 pasaporte Nreg "passport" ;
 pastel Nreg "cake" ;
+pentsamendu Nreg "thinking" ;
 plaza Na "place" ;
 poltsa Na "bag" ;
 pisu Nreg "flat" ;
@@ -728,6 +735,7 @@ txakur NregBizi "dog" ;
 testu Nreg "text" ;
 
 sari Nreg "prize" ;
+sektore Nreg ;
 seme NregBizi "son" ;
 telefono Nreg "telephone" ;
 talde Nreg "group" ;
@@ -742,6 +750,8 @@ urri Nreg "October" ;
 urtarril Nreg "January" ;
 urte Nreg "year" ;
 uztail Nreg "July" ;
+
+zentral Nreg ;
 
 
 LEXICON Propernouns
@@ -842,6 +852,7 @@ Indonesia NpTop "Indonesia" ;
 Espainia NpTop "Spain" ;
 Serbia NpTop "Serbia" ;
 Bilbao NpTop "Bilbao" ;
+Txernobil NpTop "Txernobil" ;
 
 LEXICON Pronouns
 ni+Pron+Pers+Sg1:ni PronSgCases ;
@@ -874,8 +885,10 @@ orain ADV ;
 zergatik+Adv+Interr:zergatik # ;
 
 LEXICON Adjectives
+berri Areg "new" ;
 errusiar Areg "Russian" ;
 larri Areg "grave" ;
+luze Areg "long" ;
 turkiar Areg "Turkish" ;
 tonto Areg "stupid" ;
 urduri Areg "nervous" ;
@@ -960,7 +973,9 @@ isur I "flow" ;
 i%{t%}x I ;
 itxaron "wait" ;
 izan: AuxIzan "be" ;
+
 jaits I "go# down" ;
+jakin Sinmas "know" ;
 jan Sinmas "eat" ;
 jar I "put" ; !R
 jakin: JAKIN "know" ;
@@ -1009,12 +1024,16 @@ zuri Tu "hurt" ;
 
 LEXICON Postposition
 +Po:buruz # ;
++Po:gabe # ;
 +Po:ondoren # ;
 +Po:artean # ;
 
 LEXICON Conjunctions
-+CC:eta # ;
-+CC:baina # ;
+eta CONJ;
+baina CONJ ;
+
+LEXICON CONJ
++CC # ;
 
 LEXICON NUMBAT
 

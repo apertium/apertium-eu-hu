@@ -203,16 +203,16 @@ LEXICON Bizidun2 !after animate noun phrases
 !LEXICON Loccases
 !
 !+Ela:%>dik # ; !"from"
-!+All:%>a # ; ! "to"
+!+All:%>a # ; ! ; !"to"
 !+Term:%>aino # ; !"as far as, up to"
-!+Ten:%>antz # ; ! "toward"
+!+Ten:%>antz # ; ! ; !"toward"
 !
 !LEXICON Precases !nouns that can denote a location, they can take another case in addition
 !
-!+Sg+Term:%>raino # ; !Terminal "as far as"
+!+Sg+Term:%>raino # ; !Terminal ; !"as far as"
 !+Sg+Gen:%>ko # ;
 !+Sg+XXX:%>koa # ;
-!+Sg+Ten:%>rantz # ; !Tendential "toward"
+!+Sg+Ten:%>rantz # ; !Tendential ; !"toward"
 
 
 !for propernouns ending in a consonant
@@ -306,6 +306,7 @@ LEXICON Tu
 +V: Nominalization ;
 +V+Prc:%>tu #;
 +V:%>tu Fut;
++V+Sub+Temp:z # ;
 
 LEXICON Du
 
@@ -313,6 +314,7 @@ LEXICON Du
 +V: Nominalization ;
 +V+Prc:%>du #;
 +V:%>du Fut;
++V+Sub+Temp:z # ;
 
 LEXICON Sinmas
 
@@ -328,6 +330,13 @@ LEXICON I
 +V+Root: # ;
 +V+Prc:%>i #;
 +V:%>i Fut;
+
+LEXICON N
+
++V:%>n Nominalization ;
++V+Root:%>n # ;
++V+Prc:%>n #;
++V:%>n Fut2 ;
 
 LEXICON Nominalization
 
@@ -345,6 +354,10 @@ LEXICON Nominalization2
 LEXICON Fut
 
 +Fut:%>ko # ;
+
+LEXICON Fut2
+
++Fut:%>go # ;
 
 LEXICON JOAN
 +V+Ind+Prs+Abs/Sg1:noa SUBCL ;
@@ -667,316 +680,339 @@ LEXICON SUBCL
 
 LEXICON Nouns
 
-abendu Nreg "December" ;
-abesti Nreg "song" ;
-abizen Nreg "last# name" ;
-abokatu NregBizi "advocate" ;
-abuztu Nreg "August" ;
-aditz Nreg "verb" ;
+abendu Nreg ; !"December"
+abesti Nreg ; !"song"
+abizen Nreg ; !"last# name"
+abokatu NregBizi ; !"advocate"
+abuztu Nreg ; !"August"
+aditz Nreg ; !"verb"
 afalkide NregBizi ;
-aho Nreg "mouth" ;
-aita NaBizi "father" ;
-aldaketa Na "change" ;
-ama NaBizi "mother" ;
-amnistia Na "amnesty" ;
-antzerki Nreg "theatre" ;
-apiril Nreg "April" ;
-arazo Nreg "problem" ;
+aho Nreg ; !"mouth"
+aita NaBizi ; !"father"
+aldaketa Na ; !"change"
+aldundi Nreg ; !"Provincial# Government"
+ama NaBizi ; !"mother"
+amnistia Na ; !"amnesty"
+antzerki Nreg ; !"theatre"
+apiril Nreg ; !"April"
+arazo Nreg ; !"problem"
 argazki Nreg ;
-argibide Nreg "explication" ;
-arma Na "weapon" ;
-arrain Nreg "fish" ;
-arratsalde Nreg "evening" ;
-arrazakeri Nreg "racisim" ;
-aste Nreg "week" ;
-astearte Nreg "Tuesday" ;
-asteazken Nreg "Wednesday" ;
-astelehen Nreg "Monday" ;
-atentatu Nreg "assault" ;
+argibide Nreg ; !"explication"
+arma Na ; !"weapon"
+arrain Nreg ; !"fish"
+arratsalde Nreg ; !"evening"
+arrazakeri Nreg ; !"racisim"
+asmo Nreg ; !"intention"
+aste Nreg ; !"week"
+astearte Nreg ; !"Tuesday"
+asteazken Nreg ; !"Wednesday"
+astelehen Nreg ; !"Monday"
+ate Nreg ; !"door"
+atentatu Nreg ; !"assault"
 aztitasun Nreg ;
-azaro Nreg "November" ;
+azaro Nreg ; !"November"
+azken Nreg ; !"end"
 aztertzaile Nreg ;
 
-barazki Nreg "vegetable" ;
-beldur Nreg "fear" ;
-bidaiari NregBizi "traveller";
-bilera Na "meeting" ;
-borroka Nreg "fighting" ;
-boxeolari NregBizi "boxer" ;
-britainiar NregBizi "British" ;
-buruzagi NregBizi "head" ;
+barazki Nreg ; !"vegetable"
+beldur Nreg ; !"fear"
+bidaiari NregBizi ; !"traveller";
+bilera Na ; !"meeting"
+borroka Nreg ; !"fighting"
+boxeolari NregBizi ; !"boxer"
+bozeramaile Nreg ; !"spokesperson"
+britainiar NregBizi ; !"British"
+buruzagi NregBizi ; !"head"
 
-denbora Na "time" ;
+denbora Na ; !"time"
 
-egia Na "truth" ;
-egongela Na "room" ;
-egoera Na "situation" ;
-egun Nreg "day" ;
-ekain Nreg "June" ;
-emaitza Na "result" ;
-enbaxadore NregBizi "emabassador" ;
-enpresa Na "company" ;
+egia Na ; !"truth"
+egongela Na ; !"room"
+egoera Na ; !"situation"
+egun Nreg ; !"day"
+ekain Nreg ; !"June"
+emaitza Na ; !"result"
+enbaxadore NregBizi ; !"emabassador" 
+enpresa Na ; !"company"
 entrenatzaile NregBizi ;
-epaiketa Na "court" ;
-erasoaldi Nreg "attack" ;
-erdi Nreg "half" ;
-eremu Nreg "field" ; 
+epaiketa Na ; !"court"
+erasoaldi Nreg ; !"attack"
+erdi Nreg ; !"half"
+eremu Nreg ; !"field" 
 errepublika Na ;
-eskola Na "school" ;
-esku Nreg "hand" ;
-esperientzia Na "experience" ;
-estatubatuar NregBizi "American" ;
-etxe Nreg "house" ;
-euskaldun NregBizi "Basque# speaker" ;
-euskalki Nreg "Basque# dialect" ;
-ezberdintasun Nreg "unequality" ;
+eskola Na ; !"school"
+esku Nreg ; !"hand"
+esperientzia Na ; !"experience"
+estatubatuar NregBizi ; !"American"
+etxe Nreg ; !"house"
+euskaldun NregBizi ; !"Basque# speaker"
+euskalki Nreg ; !"Basque# dialect"
+ezberdintasun Nreg ; !"unequality"
 
-ferry Nreg "ferry" ;
-futbol Nreg "football" ;
+ferry Nreg ; !"ferry"
+futbol Nreg ; !"football"
 
-galdera Na "question" ;
-gazte NregBizi "youth" ;
-giltza Na "key" ;
-gerrillari NregBizi "gerrilla# fighter" ;
-gobernu Nreg "government" ;
+galdera Na ; !"question"
+garaipen Nreg ; !"victory"
+gazte NregBizi ; !"youth"
+giltza Na ; !"key"
+gerrillari NregBizi ; !"gerrilla# fighter"
+gobernu Nreg ; !"government"
 
-haragi Nreg "meat" ;
-hartz NregBizi "bear" ;
-hasiera Na "beginning" ;
-haur NregBizi "child" ;
+haragi Nreg ; !"meat"
+hartz NregBizi ; !"bear"
+hasiera Na ; !"beginning"
+haur NregBizi ; !"child"
+hedabide Nreg ; !"means# of# communication"
 herri Nreg ;
 herritar NregBizi ;
-hilabete Nreg "month" ;
-historia Na "history" ;
-holandar NregBizi "Dutch" ;
-hotel Nreg "hotel" ;
-hortz Nreg "tooth" ;
+hilabete Nreg ; !"month"
+historia Na ; !"history"
+holandar NregBizi ; !"Dutch"
+hotel Nreg ; !"hotel"
+hortz Nreg ; !"tooth"
 
 ibilbide Nreg ;
-igande Nreg "Sunday" ;
+igande Nreg ; !"Sunday"
 ikatz Nreg ;
-indarkeria Na "violoence" ;
-independentista NregBizi "independentist" ;
-indigena NregBizi "indigenous" ;
-inguru Nreg "surrounding" ;
-irabazle NregBizi "winner" ;
-irail Nreg "September" ;
-irakasle NregBizi "teacher" ; 
-irrati Nreg "radio" ;
-itsaso Nreg "sea" ;
-itsasontzi Nreg "boat" ;
-istripu Nreg "accident" ;
-iturri Nreg "source" ;
-izen Nreg "name" ;
+indarkeria Na ; !"violoence"
+independentista NregBizi ; !"independentist"
+indigena NregBizi ; !"indigenous"
+inguru Nreg ; !"surrounding"
+irabazle NregBizi ; !"winner"
+irail Nreg ; !"September"
+irakasle NregBizi ; !"teacher" 
+irrati Nreg ; !"radio"
+irtenbide Nreg ;
+itsaso Nreg ; !"sea"
+itsasontzi Nreg ; !"boat"
+istripu Nreg ; !"accident"
+iturri Nreg ; !"source"
+itxura Na ; !"appearance"
+itzuli Nreg ; !"turn"
+izen Nreg ; !"name"
 
-jarraitzail NregBizi "supporter" ;
-jende NregBizi "people" ;
-jokalari NregBizi "player" ;
+jarraitzail NregBizi ; !"supporter"
+jarrera Na ; !"position"
+jende NregBizi ; !"people"
+jokalari NregBizi ; !"player"
 juridiko Nreg ;
 
 kabinete Nreg ;
-kale Nreg "street" ;
-kantu Nreg "song" ;
-kapitain Nreg "captain" ;
-kargu Nreg "charge" ;
-katu NregBizi "cat" ;
-kaxoi Nreg "drawer" ;
-kolore Nreg "color" ;
+kale Nreg ; !"street"
+kantu Nreg ; !"song"
+kapitain Nreg ; !"captain"
+kargu Nreg ; !"charge"
+katu NregBizi ; !"cat"
+kaxoi Nreg ; !"drawer"
+kolore Nreg ; !"color"
 kolpe Nreg ;
-kolpeka Na "hit" ;
+kolpeka Na ; !"hit"
 komentario Nreg ;
-konponbide Nreg "solution" ;
-kontzentrazio Nreg "concentration" ;
+konponbide Nreg ; !"solution"
+kontzentrazio Nreg ; !"concentration"
 kosta Na ;
-kristau NregBizi "Christian" ;
+kristau NregBizi ; !"Christian"
 
-lagun NregBizi "friend" ;
-lan Nreg "work" ;
-landare Nreg "plant" ;
+lagun NregBizi ; !"friend"
+lan Nreg ; !"work"
+landare Nreg ; !"plant"
 lankide NregBizi ;
-lehendakari NregBizi "president" ;
-lehergailu Nreg "bomb" ;
-lerro Nreg "rank" ;
+lehendakari NregBizi ; !"president"
+lehergailu Nreg ; !"bomb"
+lerro Nreg ; !"rank"
 
-maiatz Nreg "May" ;
-maite Na "love" ;
-manifestazio Nreg "demonstration" ;
-martxo Nreg "March" ;
+maiatz Nreg ; !"May"
+maite Na ; !"love"
+manifestazio Nreg ; !"demonstration"
+martxo Nreg ; !"March"
 material Nreg ;
-mendi Nreg "mountain" ;
-militar NregBizi "soldier" ;
-musika Nreg "music" ;
-musulman NregBizi "Muslim" ;
-muxu Nreg "kiss" ;
+mendi Nreg ; !"mountain"
+metro Nreg ; ! ; !"meter" 
+militar NregBizi ; !"soldier"
+musika Nreg ; !"music"
+musulman NregBizi ; !"Muslim"
+muxu Nreg ; !"kiss"
 
-neska NaBizi "girl" ;
-negu Nreg "winter" ;
+nagusitasun Nreg ;
+neska NaBizi ; !"girl"
+negu Nreg ; !"winter"
 
-odol Nreg "blood" ;
-olde Nreg "wish" ;
-ontzi Nreg "container" ;
-ordu Nreg "hour" ;
-otsail Nreg "February" ;
+odol Nreg ; !"blood"
+olde Nreg ; !"wish"
+ontzi Nreg ; !"container"
+ordu Nreg ; !"hour"
+osagai Nreg ; !"component"
+otsail Nreg ; !"February"
 
-papera Na "paper" ;
-parlamentu Nreg "parlament" ;
-partidu Nreg "match" ;
-pasaporte Nreg "passport" ;
-pastel Nreg "cake" ;
-pentsamendu Nreg "thinking" ;
+papera Na ; !"paper"
+parlamentu Nreg ; !"parlament"
+partidu Nreg ; !"match"
+pasaporte Nreg ; !"passport"
+pastel Nreg ; !"cake"
+pedal Nreg ; !"pedal"
+pentsamendu Nreg ; !"thinking"
 pilotari Nreg ;
-plaza Na "place" ;
-poltsa Na "bag" ;
-pisu Nreg "flat" ;
-presa Na "hurry" ;
-presidente NregBizi "president" ;
-protagonista Na "protagonist" ;
+plaza Na ; !"place"
+poltsa Na ; !"bag"
+pisu Nreg ; !"flat"
+presa Na ; !"hurry"
+presidente NregBizi ; !"president"
+protagonista Na ; !"protagonist"
 
 salaketa Na ;
-soldadu NregBizi "soldier" ;
-sukalde Nreg "kitchen" ;
-taberna Na "bar" ;
-txakur NregBizi "dog" ;
+segundo Nreg ; !"second"
+soldadu NregBizi ; !"soldier"
+sukalde Nreg ; !"kitchen"
+taberna Na ; !"bar"
+txakur NregBizi ; !"dog"
+txanda Na ; !"turn"
 txistu Nreg ;
-testu Nreg "text" ;
+testu Nreg ; !"text"
 
-sari Nreg "prize" ;
+sari Nreg ; !"prize"
 sektore Nreg ;
-seme NregBizi "son" ;
-sistema Nreg "system" ;
+seme NregBizi ; !"son"
+sistema Nreg ; !"system"
 
 tarte Nreg ;
-telefono Nreg "telephone" ;
-talde Nreg "group" ;
-tresna Na "tool" ;
-txalaparta Na "txalaparta" ;
-txanda Na "turn" ;
-txirrindulari Nreg "cyclist" ;
+telefono Nreg ; !"telephone"
+talde Nreg ; !"group"
+tresna Na ; !"tool"
+txalaparta Na ; !"txalaparta"
+txanda Na ; !"turn"
+txirrindulari Nreg ; !"cyclist"
 
-uda Na "summer" ;
-udazken Nreg "autumn" ;
-udaberri Nreg "spring" ;
-uharte Nreg "island" ;
-ume NregBizi "child" ;
-urri Nreg "October" ;
-urtarril Nreg "January" ;
-urte Nreg "year" ;
-uztail Nreg "July" ;
+uda Na ; !"summer"
+udalerri Nreg ; !"municipality"
+udazken Nreg ; !"autumn"
+udaberri Nreg ; !"spring"
+uharte Nreg ; !"island"
+ume NregBizi ; !"child"
+urri Nreg ; !"October"
+urtarril Nreg ; !"January"
+urte Nreg ; !"year"
+uste Nreg ; !"intention" 
+uztail Nreg ; !"July"
 
-zenbaki Nreg "number" ;
+zati Nreg ; 
+zenbaki Nreg ; !"number"
 zentral Nreg ;
 zilegitasun Nreg ;
+zurrunbilo Nreg ; !"storm"
 
 
 LEXICON Propernouns
 
-Aitor NpM "Aitor" ;
-Arkaitz NpM "Arkaitz" ;
-Danel NpM "Danel" ;
-Francis NpM "Francis" ;
-Tristan NpM "Tristan" ;
-Kepa NpM "Kepa" ;
-Iñaki NpM "Iñaki" ;
-Mikel NpM "Mikel" ;
-Julen NpM "Julen" ;
-Fermin NpM "Fermin" ;
-Gorka NpM "Gorka" ;
-Xabi NpM "Xabi" ;
-Bittor NpM "Bittor" ;
-Zohiartze NpM "Zohiartze" ;
-Iker NpM "Iker" ;
-Patxi NpM "Patxi" ;
-Milosevic NpM "Milosevic" ;
-Ugudov NpM "Ugudov" ;
-Howard NpM "Howard" ;
-Luis NpM "Luis" ;
-Josu NpM "Josu" ;
-Bill NpM "Bill" ;
-David NpM "David" ;
-Justin NpM "Justin" ;
-Tomas NpM "Tomas" ;
-Alex NpM "Alex" ;
-Julen NpM "Julen" ;
-Sergio NpM "Sergio" ;
-Jason NpM "Jason" ;
-Jose NpM "Jose" ;
-Mari NpM "Mari" ;
+Aitor NpM ; !"Aitor"
+Arkaitz NpM ; !"Arkaitz"
+Danel NpM ; !"Danel"
+Francis NpM ; !"Francis"
+Tristan NpM ; !"Tristan"
+Kepa NpM ; !"Kepa"
+Iñaki NpM ; !"Iñaki"
+Mikel NpM ; !"Mikel"
+Julen NpM ; !"Julen"
+Fermin NpM ; !"Fermin"
+Gorka NpM ; !"Gorka"
+Xabi NpM ; !"Xabi"
+Bittor NpM ; !"Bittor"
+Zohiartze NpM ; !"Zohiartze"
+Iker NpM ; !"Iker"
+Patxi NpM ; !"Patxi"
+Milosevic NpM ; !"Milosevic"
+Ugudov NpM ; !"Ugudov"
+Howard NpM ; !"Howard"
+Luis NpM ; !"Luis"
+Josu NpM ; !"Josu"
+Bill NpM ; !"Bill"
+David NpM ; !"David"
+Justin NpM ; !"Justin"
+Tomas NpM ; !"Tomas"
+Alex NpM ; !"Alex"
+Julen NpM ; !"Julen"
+Sergio NpM ; !"Sergio"
+Jason NpM ; !"Jason"
+Jose NpM ; !"Jose"
+Mari NpM ; !"Mari"
+Juan NpM ;
 
-Itziar NpF "Itziar" ;
-Garbiñe NpF "Garbiñe" ;
-Linda NpF "Linda" ;
-Naiara NpF "Naiara" ;
-Ainhoa NpF "Ainhoa" ;
-Edurne NpF "Edurne" ;
-Nora NpF "Nora" ;
-Miren NpF "Miren" ;
-Molly NpF "Molly" ;
-Veronica NpF "Veronica" ;
-Lara NpF "Lara" ;
-Nerea NpF "Nerea" ;
-Laraitz NpF "Laraitz" ;
-Maite NpF "Maite" ;
-Mireia NpF "Mireia" ;
-Arantxa NpF "Arantxa" ;
-Olaia NpF "Olaia" ;
-Marlene NpF "Marlene" ;
-Raquel NpF "Raquel" ;
-Julia NpF "Julia" ;
+Itziar NpF ; !"Itziar"
+Garbiñe NpF ; !"Garbiñe"
+Linda NpF ; !"Linda"
+Naiara NpF ; !"Naiara"
+Ainhoa NpF ; !"Ainhoa"
+Edurne NpF ; !"Edurne"
+Nora NpF ; !"Nora"
+Miren NpF ; !"Miren"
+Molly NpF ; !"Molly"
+Veronica NpF ; !"Veronica"
+Lara NpF ; !"Lara"
+Nerea NpF ; !"Nerea"
+Laraitz NpF ; !"Laraitz"
+Maite NpF ; !"Maite"
+Mireia NpF ; !"Mireia"
+Arantxa NpF ; !"Arantxa"
+Olaia NpF ; !"Olaia"
+Marlene NpF ; !"Marlene"
+Raquel NpF ; !"Raquel"
+Julia NpF ; !"Julia"
 
-Maradona NpS "Maradona" ;
-Uranga NpS "Uranga" ;
-Zubia NpS "Zubia" ;
-Clinton NpS "Clinton" ;
-Garbajo NpS "Garbajo" ;
-Millar NpS "Millar" ;
-Meabe NpS "Meabe" ;
-Fernandez NpS "Fernandez" ;
-Moreno NpS "Moreno" ;
-Garciar NpS "Garciar" ;
-Guerrero NpS "Guerrero" ;
-Azurmendi NpS "Azurmendi" ;
-Aierbe NpS "Aierbe" ;
+Maradona NpS ; !"Maradona"
+Uranga NpS ; !"Uranga"
+Zubia NpS ; !"Zubia"
+Clinton NpS ; !"Clinton"
+Garbajo NpS ; !"Garbajo"
+Millar NpS ; !"Millar"
+Meabe NpS ; !"Meabe"
+Fernandez NpS ; !"Fernandez"
+Moreno NpS ; !"Moreno"
+Garciar NpS ; !"Garciar"
+Guerrero NpS ; !"Guerrero"
+Azurmendi NpS ; !"Azurmendi"
+Aierbe NpS ; !"Aierbe"
+Kresicek NpS ;
 
 
-Frantzia NpTop "France" ;
-Galizia NpTop "Galicia" ;
-Grezia NpTop "Greece" ;
-Jakarta NpTop "Jakarta" ;
-Japonia NpTop "Japan" ;
-Katalunia NpTop "Catalonia" ;
-Polonia NpTop "Poland" ;
-Suedia NpTop "Sweden" ;
-Suitza NpTop "Switzerland" ;
-Turkia NpTop "Turkey" ;
-Txekia NpTop "Czech Republic" ;
-Baiona NpTop "Bayonne" ;
-Gipuzkoa NpTop "Guipuzcoa" ;
-Aezkoa NpTop "Aezcoa" ;
-Baiona NpTop "Bayonne" ;
-Hendaia NpTop "Hendaye" ;
-Bidasoa NpTop "Bidasoa" ; 
-Leioa NpTop "Lejona" ;
-Donostia NpTop "San Sebastian" ;
-Nafarroa NpTop "Navarra" ;
-Errenteria NpTop "Renteria" ;
-Ordizia NpTop "Villafranca de Oria" ;
-Getaria NpTop "Guetaria" ;
-Solingen NpTop "Solingen" ;
-Zuberoa NpTop "Soule" ;
-Eibar NpTop "Eibar" ;
-Miarritz NpTop "Miarritz" ;
-Kamerun NpTop "Kamerun" ;
-Indonesia NpTop "Indonesia" ;
-Espainia NpTop "Spain" ;
-Serbia NpTop "Serbia" ;
-Bilbao NpTop "Bilbao" ;
-Txernobil NpTop "Txernobil" ;
-Andalusia NpTop "Andalusia" ;
-Miami NpTop "Miami" ;
-Washington NpTop "Washington" ;
+Frantzia NpTop ; !"France"
+Galizia NpTop ; !"Galicia"
+Grezia NpTop ; !"Greece"
+Jakarta NpTop ; !"Jakarta"
+Japonia NpTop ; !"Japan"
+Katalunia NpTop ; !"Catalonia"
+Polonia NpTop ; !"Poland"
+Suedia NpTop ; !"Sweden"
+Suitza NpTop ; !"Switzerland"
+Turkia NpTop ; !"Turkey"
+Txekia NpTop ; !"Czech Republic"
+Baiona NpTop ; !"Bayonne"
+Gipuzkoa NpTop ; !"Guipuzcoa"
+Aezkoa NpTop ; !"Aezcoa"
+Baiona NpTop ; !"Bayonne"
+Hendaia NpTop ; !"Hendaye"
+Bidasoa NpTop ; !"Bidasoa" 
+Leioa NpTop ; !"Lejona"
+Donostia NpTop ; !"San Sebastian"
+Nafarroa NpTop ; !"Navarra"
+Errenteria NpTop ; !"Renteria"
+Ordizia NpTop ; !"Villafranca de Oria"
+Getaria NpTop ; !"Guetaria"
+Solingen NpTop ; !"Solingen"
+Zuberoa NpTop ; !"Soule"
+Eibar NpTop ; !"Eibar"
+Miarritz NpTop ; !"Miarritz"
+Kamerun NpTop ; !"Kamerun"
+Indonesia NpTop ; !"Indonesia"
+Espainia NpTop ; !"Spain"
+Serbia NpTop ; !"Serbia"
+Bilbao NpTop ; !"Bilbao"
+Txernobil NpTop ; !"Txernobil"
+Andalusia NpTop ; !"Andalusia"
+Miami NpTop ; !"Miami"
+Washington NpTop ; !"Washington"
 
-ETA NpOrg "ETA" ;
-Pentagon NpOrg "Pentagon" ;
+ETA NpOrg ; !"ETA"
+Pentagon NpOrg ; !"Pentagon"
 
 LEXICON Pronouns
 ni+Pron+Pers+Sg1:ni PronSgCases ;
@@ -1001,186 +1037,208 @@ guzti++Pron+Indef:bakoitz PronSgCases ;
 LEXICON ADV 
 
 +Adv: # ;
++Adv+LGen:%>ko # ;
 
 LEXICON Adverbs
 
 atzo ADV ;
+batere ADV ;
 behin ADV ;
 berehala ADV ;
+berriro ADV ; !"again"
 bihar ADV ;
 ere ADV ;
+ez ADV ; !"not"
+ezik ADV ; !"otherwise"
+gainera ADV ; !"additionally"
 gero ADV ;
 gaur ADV ;
+ia ADV ; !"almost"
+iaz ADV ; !"last# year"
 orain ADV ;
 orduan ADV ;
 zergatik+Adv+Interr:zergatik # ;
 
 LEXICON Adjectives
-azken Areg "last" ;
-berandu Areg "late" ;
-berezi Areg "special" ;
-berri Areg "new" ;
-datorren Areg "next" ;
-errusiar Areg "Russian" ;
-handi Areg "big" ;
-larri Areg "grave" ;
-luze Areg "long" ;
-turkiar Areg "Turkish" ;
-tonto Areg "stupid" ;
-urduri Areg "nervous" ;
-zail Areg "dificult" ;
-zuzen Areg "correct" ;
+azkar Areg ; !"quick"
+azken Areg ; !"last"
+beltza Areg ; !"black"
+berandu Areg ; !"late"
+berdin Areg ; !"equal"
+berezi Areg ; !"special"
+berri Areg ; !"new"
+datorren Areg ; !"next"
+errusiar Areg ; !"Russian"
+ezberdin Areg ; !"unequal"
+handi Areg ; !"big"
+larri Areg ; !"grave"
+luze Areg ; !"long"
+turkiar Areg ; !"Turkish"
+tonto Areg ; !"stupid"
+urduri Areg ; !"nervous"
+zail Areg ; !"dificult"
+zuri Areg ; !"white"
+zuzen Areg ; !"correct"
 
 
 LEXICON Verbs
 
-aberatstu:abera%{t%}s Tu "get# rich" ;
-abestu:abes Tu "sing" ;
-adierazadierazi:adieraz I "declare" ;
+aberatstu:abera%{t%}s Tu ; !"get# rich"
+abestu:abes Tu ; !"sing"
+adierazadierazi:adieraz I ; !"declare"
 afaldu:afal Du ;
-agertu:ager Tu "appear" ;
-agurtu:agur Tu "greet" ;
-ahal Sinmas "can" ;
-ahaztu:ahaz Tu "forget" ;
-aldatu:alda Tu "change" ;
-amaitu:amai Tu "finnish" ;
+agertu:ager Tu ; !"appear"
+agurtu:agur Tu ; !"greet"
+ahal Sinmas ; !"can"
+ahaztu:ahaz Tu ; !"forget"
+aldatu:alda Tu ; !"change"
+amaitu:amai Tu ; !"finnish"
 animatu:anima Tu ;
-argitu:argi Tu "clear" ;
-aritu:ari Tu "busy# oneself" ;
-asmatu:asma Tu "invent" ;
-atera Sinmas "go out" ;
-atxilotu:atxilo Tu "arrest" ;
-aurkitu:aurki Tu "find" ;
+argitu:argi Tu ; !"clear"
+aritu:ari Tu ; !"busy# oneself"
+asmatu:asma Tu ; !"invent"
+atera Sinmas ; !"go out"
+atxilotu:atxilo Tu ; !"arrest"
+aurkitu:aurki Tu ; !"find"
+aurreratu:aurrera Tu ; !"advance"
 azaldu:azal Du ;
 
-baieztatu:baiezta Tu "confirm" ;
-banandu:banan Du "differ" ;
-behar Sinmas "must" ;
-bete Sinmas "complete" ;
-bilakatu:bilaka Tu "turn into" ;
+baieztatu:baiezta Tu ; !"confirm"
+banandu:banan Du ; !"differ"
+behar Sinmas ; !"must"
+bete Sinmas ; !"complete"
+bilakatu:bilaka Tu ; !"turn# into"
 bilatu:bila Tu ;
-bisitatu:bisita Tu "visit" ;
+bildu:bil Du ;
+bisitatu:bisita Tu ; !"visit"
+bota Sinmas ;
 
-deitu:dei Tu "call" ;
-defenditu:defendi Tu "defend" ;
-deklaratu:deklara Tu "declare" ;
+deitu:dei Tu ; !"call"
+defenditu:defendi Tu ; !"defend"
+deklaratu:deklara Tu ; !"declare"
+derrigortu:derrigor Tu ; !"force" 
 
-edan Sinmas "drink" ;
-eduki: EDUKI "have" ;
-egin Sinmas "do" ; 
-egokitu:egoki Tu "adapt" ;
-ehizatu:ehiza Tu "hunt" ;
-ekarri:ekarr I "bring" ;
-elkartu:elkar Tu "meet" ;
-eman Sinmas "give" ; 
-entzun Sinmas "hear" ;
-erabili:erabil I "use" ;
-eraman: ERAMAN "bring" ;
-eragin Sinmas "oblige" ;
-erantzun Sinmas "answer" ;
-erre Sinmas "burn" ;
-errapatu:errapa Tu "realize" ;
-errespetu:erraspe Tu "respect" ;
-esan: ESAN "say" ;
-eskaini:eskain I "offer" ;
-eskatu:eska Tu "order" ;
-ekarri: EKARRI "bring" ;
-eskaini:eskain I "offer" ;
-etorr: ETORRI "come" ; ! adding : to avoid etorrnator
+edan Sinmas ; !"drink"
+eduki: EDUKI ; !"have"
+egin Sinmas ; !"do" 
+egokitu:egoki Tu ; !"adapt"
+egon:ego N ; ! ; !"be"
+ehizatu:ehiza Tu ; !"hunt"
+ekarri:ekarr I ; !"bring"
+elkartu:elkar Tu ; !"meet"
+eman Sinmas ; !"give" 
+entzun Sinmas ; !"hear"
+erabili:erabil I ; !"use"
+eraman: ERAMAN ; !"bring"
+eragin Sinmas ; !"oblige"
+erakutsi:erakuts I ;
+erantzun Sinmas ; !"answer"
+erre Sinmas ; !"burn"
+errapatu:errapa Tu ; !"realize"
+errespetu:erraspe Tu ; !"respect"
+esan: ESAN ; !"say"
+eskaini:eskain I ; !"offer"
+eskatu:eska Tu ; !"order"
+ekarri: EKARRI ; !"bring"
+eskaini:eskain I ; !"offer"
+etorr: ETORRI ; !"come" ! adding : to avoid etorrnator
 existitu:existi Tu ;
-ezin Sinmas "can not" ;
+ezin Sinmas ; !"can not"
 ezkondu:ezkon Du ;
 flotatu:flota Tu ;
 
-gainditu:gaindi Tu "pass" ;
-galdetu:galde Tu "ask" ;
-gelditu:geldo Tu "stay" ;
-grabatu:graba Tu "record" ;
-gertatu:gerta Tu "happen" ;
-gosaldu:gosal Du "breakfast" ;
-grabatu:graba Tu "tape" ;
+gainditu:gaindi Tu ; !"pass"
+galdetu:galde Tu ; !"ask"
+gelditu:geldo Tu ; !"stay"
+grabatu:graba Tu ; !"record"
+gertatu:gerta Tu ; !"happen"
+gosaldu:gosal Du ; !"breakfast"
+grabatu:graba Tu ; !"tape"
 
-hartu:har Tu "take" ;
-haserretu:haserre Tu "get angry" ;
-hasi:has I "begin" ;
-hautatu:hauta Tu "choose" ;
+hartu:har Tu ; !"take"
+haserretu:haserre Tu ; !"get angry"
+hasi:has I ; !"begin"
+hautatu:hauta Tu ; !"choose"
 hautsi:hauts I ;
 hazi:haz I ;
-hil Sinmas "die" ;
-hondatu:honda Tu "destroy" ;
+hil Sinmas ; !"die"
+hondatu:honda Tu ; !"destroy"
 hornitu:horni Tu ;
 hustu:hus Tu ;
-ibili: IBILI "walk" ;
-igo Sinmas "ascend" ;
-ikasi:ikas I "learn" ;
-ikusi:ikus I "see" ;
-inputatu:inputa Tu ;
-irabazi:irabaz I "earn" ;
-irakin Sinmas "boil" ;
-iritsi:irits I "arrive" ;
-iruditu: IRUDITU "seem" ;
-isuri:isur I "flow" ;
-itxi:i%{t%}x I ;
-!itxaron "wait" ; ! commented out, waiting for contlex
-izan: AuxIzan "be" ;
 
-jaitsi:jaits I "go# down" ;
-jakin Sinmas "know" ;
-jan Sinmas "eat" ;
-jari:jar I "put" ; !R
-jakin: JAKIN "know" ;
+ibili: IBILI ; !"walk"
+igo Sinmas ; !"ascend"
+ikasi:ikas I ; !"learn"
+ikusi:ikus I ; !"see"
+inputatu:inputa Tu ;
+irabazi:irabaz I ; !"earn"
+irakin Sinmas ; !"boil"
+irauli:iraul I ; !"turn# over"
+iritsi:irits I ; !"arrive"
+iruditu: IRUDITU ; !"seem"
+isuri:isur I ; !"flow"
+itxi:i%{t%}x I ;
+!itxaron ; !"wait" ! commented out, waiting for contlex
+izan: AuxIzan ; !"be" 
+
+jaitsi:jaits I ; !"go# down"
+jakin Sinmas ; !"know"
+jan Sinmas ; !"eat"
+jari:jar I ; !"put" !R
+jakin: JAKIN ; !"know"
 jasan Sinmas ;
 jaso Sinmas ;
-jipoitu:jipoi Tu "beat# up" ;
+jipoitu:jipoi Tu ; !"beat# up"
 jo Sinmas ;
-joan JOAN "go" ;
-jokatu:joka Tu "play" ;
+joan JOAN ; !"go"
+jokatu:joka Tu ; !"play"
 jolastu:jolas Tu ;
 
-kezkatu:kezka Tu "worry" ;
+kezkatu:kezka Tu ; !"worry"
 kokatu:koka Tu ;
-konparatu:konpara Tu "compare" ;
-kontatu:konta Tu "tell" ;
-kontrolatu:kontrola Tu "control" ;
-konturatu:kontura Tu "notice" ;
+konparatu:konpara Tu ; !"compare"
+kontatu:konta Tu ; !"tell"
+kontrolatu:kontrola Tu ; !"control"
+konturatu:kontura Tu ; !"notice"
 
 landu:lan Du ;
-landatu:landa Tu "plant" ;
+landatu:landa Tu ; !"plant"
 laztanddu:laztand Du ;
-lortu:lor Tu "achieve";
-lotu:lo Tu "tie" ;
+lortu:lor Tu ; !"achieve";
+lotu:lo Tu ; !"tie"
 
-maitemindu:maitemin Du "fall# in love" ;
+maitemindu:maitemin Du ; !"fall# in love"
 manifestatu:manifesta Tu ;
-mintzatu:mintza Tu "talk" ;
-moztu:moz Tu "cut" ;
+mintzatu:mintza Tu ; !"talk"
+moztu:moz Tu ; !"cut"
 mugitu:mugi Tu ;
 
-nahastu:nahas Tu "mix" ;
-nahi Sinmas "want" ;
-onartu:onar Tu "accept" ;
-oparitu:opari Tu "give" ;
-otu:o Tu "occur" ;
-onartu:onar Tu "admit" ;
+nahastu:nahas Tu ; !"mix"
+nahi Sinmas ; !"want"
+onartu:onar Tu ; !"accept"
+oparitu:opari Tu ; !"give"
+otu:o Tu ; !"occur"
+onartu:onar Tu ; !"admit"
 oroitu:oroi Tu ;
-pasatu:pasa Tu "happen" ;
-prestatu:presta Tu "prepare" ; 
+pasatu:pasa Tu ; !"happen"
+prestatu:presta Tu ; !"prepare" 
 
-saiatu:saia Tu "try" ;
-sartu:sar Tu "enter" ;
+saiatu:saia Tu ; !"try"
+sartu:sar Tu ; !"enter"
 sortu:sor Tu ;
-topatu:topa Tu "meet" ;
-ukan: AuxUkan "be" ;
-ukitu:uki Tu "touch" ;
-ulertu:uler Tu "understand" ;
-utzi:utz I "leave" ;
+topatu:topa Tu ; !"meet" 
+ukan: AuxUkan ; !"be"
+ukitu:uki Tu ; !"touch"
+ulertu:uler Tu ; !"understand"
+utzi:utz I ; !"leave"
 
-zaindu:zain Du "asdf" ;
-zeharkatu:zerharka Tu "cross" ;
-zintzilikatu:zintzilika Tu "hang" ;
-ziurtatu:ziurta Tu"secure" ;
+zabaldu:zabal Du ; !"widen"
+zaindu:zain Du ; !"take# care"
+zeharkatu:zerharka Tu ; !"cross" 
+zintzilikatu:zintzilika Tu ; !"hang"
+ziurtatu:ziurta Tu ; !"secure"
 zorbiatu:zorbia Tu ;
-zuritu:zuri Tu "hurt" ;
+zuritu:zuri Tu ; !"hurt"
 
 LEXICON Postposition
 arabera POSTP ;
@@ -1221,16 +1279,16 @@ LEXICON NUM
 +Num+Ord+Art:%>garren%>a SgCases1 ;
 
 LEXICON Numerals
-bat NUMBAT "one" ;
-bi NUM "two" ;
-hiru NUM "hiru" ;
-lau NUM "lau" ;
-bost NUM "five" ;
-sei NUM "six" ;
-zazpi NUM "seven" ;
-zortzi NUM "eight" ;
-bederatzi NUM "nine" ;
-hamar NUM "ten" ;
+bat NUMBAT ; !"one"
+bi NUM ; !"two"
+hiru NUM ; !"hiru"
+lau NUM ; !"lau"
+bost NUM ; !"five"
+sei NUM ; !"six"
+zazpi NUM ; !"seven"
+zortzi NUM ; !"eight"
+bederatzi NUM ; !"nine"
+hamar NUM ; !"ten"
 
 LEXICON CLB
 

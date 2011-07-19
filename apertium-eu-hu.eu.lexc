@@ -1,7 +1,7 @@
 Multichar_Symbols
 
 +N +Po +Cm +Punct +Adv +A +CLB +CC
-+Abs +Dat +Ins +Soc +Erg +Ine +Ben +Ben2 +Par +All +Ela +Term +Ten
++Abs +Dat +Ins +Soc +Erg +Ine +Ben +Ben2 +Par +All +Ela +GenL +GenP +Term +Ten
 +Mal +Fem +Plc 
 +Art +Interr
 +Fut
@@ -37,6 +37,7 @@ Multichar_Symbols
 +Ind
 +Prs
 +Prt
++Cond
 +Pot
 +Abs/Sg1
 +Abs/Sg2
@@ -359,7 +360,38 @@ LEXICON Fut2
 
 +Fut:%>go # ;
 
+LEXICON EGON
++V+Prc:egon # ; !Partizip
++V+Der/N:egote # ; ! - nominalisation
++V+Pot:egon # ; ! + Potential form des Auxiliars
++V+Cond:%>ba EGONTENSE ;
++V+Ind: EGONTENSE ; !
+
+LEXICON EGONTENSE
++V+Ind+Prs+Abs/Sg1:nago SUBCL ;
++V+Ind+Prs+Abs/Sg2+ifl:hago SUBCL ; 
++V+Ind+Prs+Abs/Sg2:zaude SUBCL ;
++V+Ind+Prs+Abs/Sg3:dago SUBCL ;
++V+Ind+Prs+Abs/Pl1:gaude SUBCL ;
++V+Ind+Prs+Abs/Pl2:zaudete SUBCL ;
++V+Ind+Prs+Abs/Pl3:daude SUBCL ;
+
++V+Ind+Prt+Abs/Sg1:nengoen SUBCL ;
++V+Ind+Prt+Abs/Sg2+ifl:hengoen SUBCL ; 
++V+Ind+Prt+Abs/Sg2:zeunden SUBCL ;
++V+Ind+Prt+Abs/Sg3:zegoen SUBCL ;
++V+Ind+Prt+Abs/Pl1:geunden SUBCL ;
++V+Ind+Prt+Abs/Pl2:zeundeten SUBCL ;
++V+Ind+Prt+Abs/Pl3:zeuden SUBCL ;
+
 LEXICON JOAN
++V+Prc:joan # ; !Partizip
++V+Der/N:joate # ; ! - nominalisation
++V+Pot:joan # ; ! + Potential form des Auxiliars
++V+Cond:%>ba JOANTENSE ;
++V+Ind: JOANTENSE ; !
+
+LEXICON JOANTENSE
 +V+Ind+Prs+Abs/Sg1:noa SUBCL ;
 +V+Ind+Prs+Abs/Sg2+ifl:hoa SUBCL ; 
 +V+Ind+Prs+Abs/Sg2:zoaz SUBCL ;
@@ -368,15 +400,23 @@ LEXICON JOAN
 +V+Ind+Prs+Abs/Pl2:zoazte SUBCL ;
 +V+Ind+Prs+Abs/Pl3:doaz SUBCL ;
 
-+V+Ind+Prt+Abs/Sg1:nindoen SUBCL ;
-+V+Ind+Prt+Abs/Sg2+ifl:hindoen SUBCL ; 
++V+Ind+Prt+Abs/Sg1:nindoan SUBCL ;
++V+Ind+Prt+Abs/Sg2+ifl:hindoan SUBCL ; 
 +V+Ind+Prt+Abs/Sg2:zinoazen SUBCL ;
-+V+Ind+Prt+Abs/Sg3:zioen SUBCL ;
-+V+Ind+Prt+Abs/Pl1:ginoazen SUBCL ;
-+V+Ind+Prt+Abs/Pl2:zinoazten SUBCL ;
-+V+Ind+Prt+Abs/Pl3:zioazen SUBCL ;
++V+Ind+Prt+Abs/Sg3:zihoan SUBCL ;
++V+Ind+Prt+Abs/Pl1:gindoazen SUBCL ;
++V+Ind+Prt+Abs/Pl2:zindoazten SUBCL ;
++V+Ind+Prt+Abs/Pl3:zihoazen SUBCL ;
 
 LEXICON IBILI
++V+Prc:ibili # ; !Partizip
++V+Fut:ibiliko # ;
++V+Der/N:ibiltze # ; ! - nominalisation
++V+Pot:ibil # ; ! + Potential form des Auxiliars
++V+Cond:%>ba IBILITENSE ;
++V+Ind: IBILITENSE ; !
+
+LEXICON IBILITENSE
 +V+Ind+Prs+Abs/Sg1:nabil SUBCL ;
 +V+Ind+Prs+Abs/Sg2+ifl:habil SUBCL ; 
 +V+Ind+Prs+Abs/Sg2:zabiltza SUBCL ;
@@ -420,6 +460,13 @@ LEXICON etorriprt
 
 
 LEXICON ERAMAN
++V+Prc:eraman # ; !Partizip
++V+Der/N:eramate # ; ! - nominalisation
++V+Pot:eraman # ; ! + Potential form des Auxiliars
++V+Cond:%>ba ERAMANTENSE ;
++V+Ind: ERAMANTENSE ; !
+
+LEXICON ERAMANTENSE
 +V+Ind+Prs+Abs/Sg3+Erg/Sg1:daraman SUBCL ;
 +V+Ind+Prs+Abs/Sg3+Erg/Sg2+ifl/f:daraman SUBCL ; 
 +V+Ind+Prs+Abs/Sg3+Erg/Sg2+ifl/m:daramak SUBCL ;
@@ -455,6 +502,13 @@ LEXICON ERAMAN
 +V+Ind+Prt+Abs/Pl3+Erg/Pl3:zeramatzaten SUBCL ;
 
 LEXICON ESAN
++V+Prc:esan # ; !Partizip
++V+Der/N:esate # ; ! - nominalisation
++V+Pot:esan # ; ! + Potential form des Auxiliars
++V+Cond:%>ba ESANTENSE ;
++V+Ind: ESANTENSE ; !
+
+LEXICON ESANTENSE
 +V+Ind+Prs+Erg/Sg1:diot SUBCL ;
 +V+Ind+Prs+Erg/Sg2+ifl/f:dion SUBCL ; 
 +V+Ind+Prs+Erg/Sg2+ifl/m:diok SUBCL ;
@@ -473,6 +527,13 @@ LEXICON ESAN
 +V+Ind+Prt+Erg/Pl3:zioten SUBCL ;
 
 LEXICON EKARRI
++V+Prc:ekarri # ; !Partizip
++V+Der/N:ekartze # ; ! - nominalisation
++V+Pot:ekar # ; ! + Potential form des Auxiliars
++V+Cond:%>ba EKARRITENSE ;
++V+Ind: EKARRITENSE ; !
+
+LEXICON EKARRITENSE
 +V+Ind+Prs+Erg/Sg1:dakart SUBCL ;
 +V+Ind+Prs+Erg/Sg2+ifl/f:dakarn SUBCL ; 
 +V+Ind+Prs+Erg/Sg2+ifl/m:dakark SUBCL ;
@@ -490,7 +551,14 @@ LEXICON EKARRI
 +V+Ind+Prt+Erg/Pl2:zenekarten SUBCL ;
 +V+Ind+Prt+Erg/Pl3:zekarten SUBCL ;
 
-LEXICON IRUTDITU
+LEXICON IRUDITU
++V+Prc:iruditu # ; !Partizip
++V+Der/N:iruditze # ; ! - nominalisation
++V+Pot:irudi # ; ! + Potential form des Auxiliars
++V+Cond:%>ba IRUDITUTENSE ;
++V+Ind: IRUDITUTENSE ; !
+
+LEXICON IRUDITUTENSE
 +V+Ind+Prs+Dat/Sg1:dirudit SUBCL ;
 +V+Ind+Prs+Dat/Sg2+ifl/f:dirudin SUBCL ; 
 +V+Ind+Prs+Dat/Sg2+ifl/m:dirudik SUBCL ;
@@ -508,7 +576,14 @@ LEXICON IRUTDITU
 +V+Ind+Prt+Dat/Pl2:zeniruditen SUBCL ;
 +V+Ind+Prt+Dat/Pl3:ziruditen SUBCL ;
 
-LEXICON EDUKI
+LEXICON IRUDITU
++V+Prc:eduki # ; !Partizip
++V+Der/N:edukitze # ; ! - nominalisation
++V+Pot:eduki # ; ! + Potential form des Auxiliars
++V+Cond:%>ba EDUKITENSE ;
++V+Ind: EDUKITENSE ; !
+
+LEXICON EDUKITENSE
 +V+Ind+Prs+Abs/Sg3+Erg/Sg1:daukat SUBCL ;
 +V+Ind+Prs+Abs/Sg3+Erg/Sg2:daukazu SUBCL ;
 +V+Ind+Prs+Abs/Sg3+Erg/Sg3:dauka SUBCL ;
@@ -537,54 +612,71 @@ LEXICON EDUKI
 +V+Ind+Prt+Abs/Pl3+Erg/Pl2:zeneuzkaten SUBCL ;
 +V+Ind+Prt+Abs/Pl3+Erg/Pl3:zeuzkaten SUBCL ;
 
-
-
 LEXICON JAKIN
-+V+Ind+Prs+Erg/Sg1:dakit SUBCL ;
-+V+Ind+Prs+Erg/Sg2+ifl/f:dakin SUBCL ; 
-+V+Ind+Prs+Erg/Sg2+ifl/m:dakik SUBCL ;
-+V+Ind+Prs+Erg/Sg2:dakizu SUBCL ;
-+V+Ind+Prs+Erg/Sg3:daki SUBCL ;
-+V+Ind+Prs+Erg/Pl1:dakigu SUBCL ;
-+V+Ind+Prs+Erg/Pl2:dakizue SUBCL ;
-+V+Ind+Prs+Erg/Pl3:dakite SUBCL ;
++V+Prc:jakin # ; !Partizip
++V+Der/N:jakitze # ; ! - nominalisation
++V+Pot:jakin # ; ! + Potential form des Auxiliars
++V+Cond:%>ba JANKINTENSE ;
++V+Ind: JAKINTENSE ; !
 
-+V+Ind+Prt+Erg/Sg1:nekien SUBCL ;
-+V+Ind+Prt+Erg/Sg2+ifl:hekien SUBCL ; 
-+V+Ind+Prt+Erg/Sg2:zenekien SUBCL ;
-+V+Ind+Prt+Erg/Sg3:zekien SUBCL ;
-+V+Ind+Prt+Erg/Pl1:genekien SUBCL ;
-+V+Ind+Prt+Erg/Pl2:zenekiten SUBCL ;
-+V+Ind+Prt+Erg/Pl3:zekiten SUBCL ;
+LEXICON JAKINTENSE
++Prs+Erg/Sg1:dakit SUBCL ;
++Prs+Erg/Sg2+ifl/f:dakin SUBCL ; 
++Prs+Erg/Sg2+ifl/m:dakik SUBCL ;
++Prs+Erg/Sg2:dakizu SUBCL ;
++Prs+Erg/Sg3:daki SUBCL ;
++Prs+Erg/Pl1:dakigu SUBCL ;
++Prs+Erg/Pl2:dakizue SUBCL ;
++Prs+Erg/Pl3:dakite SUBCL ;
+
+!prt
++Prt+Erg/Sg1:nekien SUBCL ;
++Prt+Erg/Sg2+ifl:hekien SUBCL ; 
++Prt+Erg/Sg2:zenekien SUBCL ;
++Prt+Erg/Sg3:zekien SUBCL ;
++Prt+Erg/Pl1:genekien SUBCL ;
++Prt+Erg/Pl2:zenekiten SUBCL ;
++Prt+Erg/Pl3:zekiten SUBCL ;
 
 
 
 LEXICON AuxIzan
 
-+V+Aux: IZANNOR ;
++V+Aux+Ind: IZANNOR ;
++V+Aux: IZANBA ;
+
+LEXICON IZANBA
++Cond:%>ba IZANNOR ;
 
 LEXICON AuxUkan
 +V+Aux: UKANNORNORK ;
 +V+Aux: IZANNORNORI ;
++V+Aux: UKANNORNORINORK ;
++V+Aux: UKANBA ;
+
+LEXICON UKANBA
++Cond:%>ba UKANNORNORK ;
++Cond:%>ba IZANNORNORI ;
++Cond:%>ba UKANNORNORINORK ;
 
 LEXICON IZANNOR
 
-+Ind+Prs+Abs/Sg1:naiz SUBCL ;
-+Ind+Prs+Abs/Sg2+ifl:haiz SUBCL ; !+Ind+Prs+Abs/hi
-+Ind+Prs+Abs/Sg2:zara SUBCL ;
-+Ind+Prs+Abs/Sg3:da SUBCL ;
-+Ind+Prs+Abs/Pl1:gara SUBCL ;
-+Ind+Prs+Abs/Pl2:zarete SUBCL ;
-+Ind+Prs+Abs/Pl3:dira SUBCL ;
++Prs+Abs/Sg1:naiz SUBCL ;
++Prs+Abs/Sg2+ifl:haiz SUBCL ; !+Ind+Prs+Abs/hi
++Prs+Abs/Sg2:zara SUBCL ;
++Prs+Abs/Sg3:da SUBCL ;
++Prs+Abs/Pl1:gara SUBCL ;
++Prs+Abs/Pl2:zarete SUBCL ;
++Prs+Abs/Pl3:dira SUBCL ;
 
 !prt - en
-+Ind+Prt+Abs/Sg1:nintzen SUBCL ;
-+Ind+Prt+Abs/Sg2+ifl:hintzen SUBCL ;
-+Ind+Prt+Abs/Sg2:zinen SUBCL ;
-+Ind+Prt+Abs/Sg3:zen SUBCL ;
-+Ind+Prt+Abs/Pl1:ginen SUBCL ;
-+Ind+Prt+Abs/Pl2:zineten SUBCL ;
-+Ind+Prt+Abs/Pl3:ziren SUBCL ;
++Prt+Abs/Sg1:nintzen SUBCL ;
++Prt+Abs/Sg2+ifl:hintzen SUBCL ;
++Prt+Abs/Sg2:zinen SUBCL ;
++Prt+Abs/Sg3:zen SUBCL ;
++Prt+Abs/Pl1:ginen SUBCL ;
++Prt+Abs/Pl2:zineten SUBCL ;
++Prt+Abs/Pl3:ziren SUBCL ;
 
 !pot
 +Pot+Prs+Abs/Sg1:naiteke SUBCL ;
@@ -643,7 +735,6 @@ LEXICON UKANNORNORK
 +Pot+Prs+Abs/Pl3+Erg/Pl3:litukete SUBCL ;
 
 
-
 LEXICON IZANNORNORI
 
 +Ind+Abs/Sg1:nintzai IZANNORI ;
@@ -665,6 +756,22 @@ LEXICON IZANNORI
 +Dat/Pl2:%>zuete PAST ;
 +Dat/Pl3:%>e PAST ;
 
+LEXICON UKANNORNORINORK
+
++Ind+Prs+Dat/Sg3+Abs/Sg3+Erg/Sg1:diot SUBCL ;
++Ind+Prs+Dat/Sg3+Abs/Sg3+Erg/Sg2:diozu SUBCL ;
++Ind+Prs+Dat/Sg3+Abs/Sg3+Erg/Sg3:dio SUBCL ;
++Ind+Prs+Dat/Sg3+Abs/Sg3+Erg/Pl1:diogu SUBCL ;
++Ind+Prs+Dat/Sg3+Abs/Sg3+Erg/Pl2:diozue SUBCL ;
++Ind+Prs+Dat/Sg3+Abs/Sg3+Erg/Pl3:diote SUBCL ;
+ 
++Ind+Prs+Dat/Sg3+Abs/Pl3+Erg/Sg1:dizkiot SUBCL ;
++Ind+Prs+Dat/Sg3+Abs/Pl3+Erg/Sg2:dizkiozu SUBCL ;
++Ind+Prs+Dat/Sg3+Abs/Pl3+Erg/Sg3:dizkio SUBCL ;
++Ind+Prs+Dat/Sg3+Abs/Pl3+Erg/Pl1:dizkiogu SUBCL ;
++Ind+Prs+Dat/Sg3+Abs/Pl3+Erg/Pl2:dizkiozue SUBCL ;
++Ind+Prs+Dat/Sg3+Abs/Pl3+Erg/Pl3:dizkiote SUBCL ;
+
 LEXICON PAST
 
 +Prt:n # ;
@@ -672,6 +779,7 @@ LEXICON PAST
 LEXICON SUBCL
 
 +Sub:ela # ;
++Sub:la # ;
 +Sub:elako # ;
 +Sub+Temp:enean # ;
 +Sub+Rel:en # ;
@@ -687,8 +795,10 @@ abokatu NregBizi ; !"advocate"
 abuztu Nreg ; !"August"
 aditz Nreg ; !"verb"
 afalkide NregBizi ;
+agintari Nreg ; !"authority"
 aho Nreg ; !"mouth"
 aita NaBizi ; !"father"
+albiste Nreg ; !"news"
 aldaketa Na ; !"change"
 aldundi Nreg ; !"Provincial# Government"
 ama NaBizi ; !"mother"
@@ -699,6 +809,7 @@ arazo Nreg ; !"problem"
 argazki Nreg ;
 argibide Nreg ; !"explication"
 arma Na ; !"weapon"
+armada Na ;
 arrain Nreg ; !"fish"
 arratsalde Nreg ; !"evening"
 arrazakeri Nreg ; !"racisim"
@@ -715,6 +826,7 @@ azken Nreg ; !"end"
 aztertzaile Nreg ;
 
 barazki Nreg ; !"vegetable"
+batasun Nreg ; 
 beldur Nreg ; !"fear"
 bidaiari NregBizi ; !"traveller";
 bilera Na ; !"meeting"
@@ -722,6 +834,7 @@ borroka Nreg ; !"fighting"
 boxeolari NregBizi ; !"boxer"
 bozeramaile Nreg ; !"spokesperson"
 britainiar NregBizi ; !"British"
+buru Nreg ; !"head"
 buruzagi NregBizi ; !"head"
 
 denbora Na ; !"time"
@@ -736,12 +849,15 @@ enbaxadore NregBizi ; !"emabassador"
 enpresa Na ; !"company"
 entrenatzaile NregBizi ;
 epaiketa Na ; !"court"
+eraikuntza Na ; !"building"
 erasoaldi Nreg ; !"attack"
 erdi Nreg ; !"half"
 eremu Nreg ; !"field" 
+ermita Na ;
 errepublika Na ;
 eskola Na ; !"school"
 esku Nreg ; !"hand"
+eskualde Nreg ;
 esperientzia Na ; !"experience"
 estatubatuar NregBizi ; !"American"
 etxe Nreg ; !"house"
@@ -779,6 +895,7 @@ indarkeria Na ; !"violoence"
 independentista NregBizi ; !"independentist"
 indigena NregBizi ; !"indigenous"
 inguru Nreg ; !"surrounding"
+intransijentzia Na ;
 irabazle NregBizi ; !"winner"
 irail Nreg ; !"September"
 irakasle NregBizi ; !"teacher" 
@@ -810,9 +927,11 @@ kolpe Nreg ;
 kolpeka Na ; !"hit"
 komentario Nreg ;
 konponbide Nreg ; !"solution"
+kontratu Nreg ; !"contract"
 kontzentrazio Nreg ; !"concentration"
 kosta Na ;
 kristau NregBizi ; !"Christian"
+krudeltasun Nreg ;
 
 lagun NregBizi ; !"friend"
 lan Nreg ; !"work"
@@ -829,6 +948,7 @@ martxo Nreg ; !"March"
 material Nreg ;
 mendi Nreg ; !"mountain"
 metro Nreg ; ! ; !"meter" 
+mezu Nreg ;
 militar NregBizi ; !"soldier"
 musika Nreg ; !"music"
 musulman NregBizi ; !"Muslim"
@@ -840,9 +960,11 @@ negu Nreg ; !"winter"
 
 odol Nreg ; !"blood"
 olde Nreg ; !"wish"
+ohi Nreg ; !"custom"
 ontzi Nreg ; !"container"
 ordu Nreg ; !"hour"
 osagai Nreg ; !"component"
+otoitz Nreg ; !"prayer"
 otsail Nreg ; !"February"
 
 papera Na ; !"paper"
@@ -855,6 +977,7 @@ pentsamendu Nreg ; !"thinking"
 pilotari Nreg ;
 plaza Na ; !"place"
 poltsa Na ; !"bag"
+polizia Na ; !"police"
 pisu Nreg ; !"flat"
 presa Na ; !"hurry"
 presidente NregBizi ; !"president"
@@ -862,6 +985,7 @@ protagonista Na ; !"protagonist"
 
 salaketa Na ;
 segundo Nreg ; !"second"
+Segurtasun Nreg ; !"security"
 soldadu NregBizi ; !"soldier"
 sukalde Nreg ; !"kitchen"
 taberna Na ; !"bar"
@@ -889,6 +1013,7 @@ udazken Nreg ; !"autumn"
 udaberri Nreg ; !"spring"
 uharte Nreg ; !"island"
 ume NregBizi ; !"child"
+unibertsitate Nreg ; !"university"
 urri Nreg ; !"October"
 urtarril Nreg ; !"January"
 urte Nreg ; !"year"
@@ -972,6 +1097,7 @@ Guerrero NpS ; !"Guerrero"
 Azurmendi NpS ; !"Azurmendi"
 Aierbe NpS ; !"Aierbe"
 Kresicek NpS ;
+Winstone NpS ;
 
 
 Frantzia NpTop ; !"France"
@@ -1010,9 +1136,13 @@ Txernobil NpTop ; !"Txernobil"
 Andalusia NpTop ; !"Andalusia"
 Miami NpTop ; !"Miami"
 Washington NpTop ; !"Washington"
+Zimbawe NpTop ;
+Israel NpTop ;
 
+EHU NpOrg ; !"University of the Basque Country"
 ETA NpOrg ; !"ETA"
 Pentagon NpOrg ; !"Pentagon"
+UPV NpOrg ; !"University of the Basque Country"
 
 LEXICON Pronouns
 ni+Pron+Pers+Sg1:ni PronSgCases ;
@@ -1032,7 +1162,8 @@ zer+Pron+Interr+Sg3:nor PronSgCases ;
 
 edozein+Pron+Indef:edozein PronSgCases ;
 bakoitz+Pron+Indef:bakoitz PronSgCases ;
-guzti++Pron+Indef:bakoitz PronSgCases ;
+guzti+Pron+Indef:bakoitz PronSgCases ;
+beste+Pron+Indef:beste PronSgCases ;
 
 LEXICON ADV 
 
@@ -1042,6 +1173,7 @@ LEXICON ADV
 LEXICON Adverbs
 
 atzo ADV ;
+baino ADV ; !"than"
 batere ADV ;
 behin ADV ;
 berehala ADV ;
@@ -1053,13 +1185,19 @@ ezik ADV ; !"otherwise"
 gainera ADV ; !"additionally"
 gero ADV ;
 gaur ADV ;
+gora ADV ; !"up"
+
+hain ADV ;
+hainbeste ADV ; !"so much"
 ia ADV ; !"almost"
 iaz ADV ; !"last# year"
 orain ADV ;
 orduan ADV ;
+oso ADV ; !"very"
 zergatik+Adv+Interr:zergatik # ;
 
 LEXICON Adjectives
+altu Areg ; 
 azkar Areg ; !"quick"
 azken Areg ; !"last"
 beltza Areg ; !"black"
@@ -1068,9 +1206,14 @@ berdin Areg ; !"equal"
 berezi Areg ; !"special"
 berri Areg ; !"new"
 datorren Areg ; !"next"
+
+ederki Areg ;
 errusiar Areg ; !"Russian"
 ezberdin Areg ; !"unequal"
+
+gutxi Areg ; !"little"
 handi Areg ; !"big"
+ipar Areg ; !"northern"
 larri Areg ; !"grave"
 luze Areg ; !"long"
 turkiar Areg ; !"Turkish"
@@ -1094,6 +1237,7 @@ ahaztu:ahaz Tu ; !"forget"
 aldatu:alda Tu ; !"change"
 amaitu:amai Tu ; !"finnish"
 animatu:anima Tu ;
+areagotu:areago Tu ; !"increase"
 argitu:argi Tu ; !"clear"
 aritu:ari Tu ; !"busy# oneself"
 asmatu:asma Tu ; !"invent"
@@ -1112,6 +1256,7 @@ bilatu:bila Tu ;
 bildu:bil Du ;
 bisitatu:bisita Tu ; !"visit"
 bota Sinmas ;
+burutu:buru Tu ;
 
 deitu:dei Tu ; !"call"
 defenditu:defendi Tu ; !"defend"
@@ -1120,9 +1265,9 @@ derrigortu:derrigor Tu ; !"force"
 
 edan Sinmas ; !"drink"
 eduki: EDUKI ; !"have"
-egin Sinmas ; !"do" 
+egin:egi N ; !"do" 
 egokitu:egoki Tu ; !"adapt"
-egon:ego N ; ! ; !"be"
+egon: EGON ; ! ; !"be"
 ehizatu:ehiza Tu ; !"hunt"
 ekarri:ekarr I ; !"bring"
 elkartu:elkar Tu ; !"meet"
@@ -1145,6 +1290,8 @@ etorr: ETORRI ; !"come" ! adding : to avoid etorrnator
 existitu:existi Tu ;
 ezin Sinmas ; !"can not"
 ezkondu:ezkon Du ;
+
+faltatu:falta Tu ; !"miss"
 flotatu:flota Tu ;
 
 gainditu:gaindi Tu ; !"pass"
@@ -1174,6 +1321,7 @@ inputatu:inputa Tu ;
 irabazi:irabaz I ; !"earn"
 irakin Sinmas ; !"boil"
 irauli:iraul I ; !"turn# over"
+iraun:irau N ; !"last"
 iritsi:irits I ; !"arrive"
 iruditu: IRUDITU ; !"seem"
 isuri:isur I ; !"flow"
@@ -1186,7 +1334,7 @@ jakin Sinmas ; !"know"
 jan Sinmas ; !"eat"
 jari:jar I ; !"put" !R
 jakin: JAKIN ; !"know"
-jasan Sinmas ;
+jasan:jasa N ;
 jaso Sinmas ;
 jipoitu:jipoi Tu ; !"beat# up"
 jo Sinmas ;
@@ -1242,12 +1390,14 @@ zuritu:zuri Tu ; !"hurt"
 
 LEXICON Postposition
 arabera POSTP ;
+artean POSTP ;
+arte POSTP ;
 aurrean POSTP ;
 azpitik POSTP ;
 buruz POSTP ;
 gabe POSTP ;
+menpe POSTP ;
 ondoren POSTP ;
-artean POSTP ;
 
 LEXICON POSTP
 
@@ -1261,6 +1411,7 @@ LEXICON GENLOC
 
 
 LEXICON Conjunctions
+arren CONJ ;
 edo CONJ ;
 eta CONJ ;
 baina CONJ ;

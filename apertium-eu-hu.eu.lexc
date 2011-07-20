@@ -847,6 +847,7 @@ LEXICON SUBCL
 
 LEXICON Nouns
 
+abaniko Nreg ;
 abendu Nreg ; !"December"
 abesti Nreg ; !"song"
 abizen NregN ; !"last# name"
@@ -854,8 +855,10 @@ abokatu NregBizi ; !"advocate"
 abuztu Nreg ; !"August"
 aditz Nreg ; !"verb"
 afalkide NregBizi ;
+agindupe Nreg ; !"power"
 agintari Nreg ; !"authority"
 aho Nreg ; !"mouth"
+aitzin NregN ; !"front"
 aita NaBizi ; !"father"
 albiste Nreg ; !"news"
 aldaketa Na ; !"change"
@@ -891,7 +894,9 @@ barazki Nreg ; !"vegetable"
 batasun NregN ; 
 beldur Nreg ; !"fear"
 bidaiari NregBizi ; !"traveller";
+bihotz Nreg ; !"heart"
 bilera Na ; !"meeting"
+bizitza Na ; !"life"
 borroka Nreg ; !"fighting"
 boxeolari NregBizi ; !"boxer"
 bozeramaile Nreg ; !"spokesperson"
@@ -899,7 +904,11 @@ britainiar:britainiarr NregBizi ; !"British"
 buru Nreg ; !"head"
 buruzagi NregBizi ; !"head"
 
+celta NaBizi ;
+dantza Na ; !"dance"
+dardo Nreg ; !"spear"
 denbora Na ; !"time"
+dozenaka Na ; !"dozen"
 
 egia Na ; !"truth"
 egongela Na ; !"room"
@@ -925,6 +934,7 @@ eskualde Nreg ;
 esperientzia Na ; !"experience"
 estatu Nreg ;
 estatubatuar NregBizi ; !"American"
+etsipen NregN ; !"despair"
 etxe Nreg ; !"house"
 euskaldun NregBiziN ; !"Basque# speaker"
 euskalki Nreg ; !"Basque# dialect"
@@ -934,23 +944,27 @@ ferry Nreg ; !"ferry"
 futbol Nreg ; !"football"
 
 galdera Na ; !"question"
+garai Nreg ;
 garaipen NregN ; !"victory"
 gazte NregBizi ; !"youth"
 giltza Na ; !"key"
 gerrillari NregBizi ; !"gerrilla# fighter"
 gobernu Nreg ; !"government"
 
+haize Nreg ; !"wind"
 haragi Nreg ; !"meat"
 harreman NregN ; !"relationship"
 hartz NregBizi ; !"bear"
 hasiera Na ; !"beginning"
-haur NregBizi ; !"child"
+haste Nreg ; !"beginning"
+haur:haurr NregBizi ; !"child"
 hedabide Nreg ; !"means# of# communication"
 hektometro Nreg ;
 herri Nreg ;
 herritar NregBizi ;
 hilabete Nreg ; !"month"
 historia Na ; !"history"
+hizkuntza Na ; !"language"
 holandar NregBizi ; !"Dutch"
 hotel Nreg ; !"hotel"
 hortz Nreg ; !"tooth"
@@ -985,15 +999,18 @@ jarraitzail NregBizi ; !"supporter"
 jarrera Na ; !"position"
 jende NregBizi ; !"people"
 jokalari NregBizi ; !"player"
+jolas Nreg ; !"game"
 juridiko Nreg ;
 
 kabinete Nreg ;
 kale Nreg ; !"street"
+kanguru NregBizi ; !"kangoroo"
 kantu Nreg ; !"song"
 kapitain NregBizi ; !"captain"
 kargu Nreg ; !"charge"
 katu NregBizi ; !"cat"
 kaxoi Nreg ; !"drawer"
+kirol Nreg ; !"sport"
 kolore Nreg ; !"color"
 kolpe Nreg ;
 kolpeka Na ; !"hit"
@@ -1014,6 +1031,7 @@ lankide NregBizi ;
 lehendakari NregBizi ; !"president"
 lehergailu Nreg ; !"bomb"
 lerro Nreg ; !"rank"
+liburu Nreg ; !"book"
 
 maiatz Nreg ; !"May"
 maite Na ; !"love"
@@ -1024,6 +1042,7 @@ mendi Nreg ; !"mountain"
 metro Nreg ; ! ; !"meter" 
 mezu Nreg ;
 militar NregBizi ; !"soldier"
+museo Nreg ; !"museum"
 musika Nreg ; !"music"
 musulman NregBizi ; !"Muslim"
 muxu Nreg ; !"kiss"
@@ -1039,6 +1058,8 @@ ohi Nreg ; !"custom"
 ontzi Nreg ; !"container"
 ordu Nreg ; !"hour"
 osagai Nreg ; !"component"
+ostegun NregN ;
+ostiral Nreg ;
 otoitz Nreg ; !"prayer"
 otsail Nreg ; !"February"
 
@@ -1051,6 +1072,7 @@ pastel Nreg ; !"cake"
 pedal Nreg ; !"pedal"
 pentsamendu Nreg ; !"thinking"
 pilotari Nreg ;
+planeta Na ;
 plaza Na ; !"place"
 poltsa Na ; !"bag"
 polizia Na ; !"police"
@@ -1081,8 +1103,10 @@ tarte Nreg ;
 telefono Nreg ; !"telephone"
 talde Nreg ; !"group"
 tresna Na ; !"tool"
+tribunal Nreg ; 
 txalaparta Na ; !"txalaparta"
 txanda Na ; !"turn"
+txirrin NregN ; !"bell"
 txirrindulari Nreg ; !"cyclist"
 
 uda Na ; !"summer"
@@ -1099,10 +1123,13 @@ urtegi Nreg ; !"reservoir"
 uste Nreg ; !"intention" 
 uztail Nreg ; !"July"
 
+xehetasun NregN ;
+
 zalaparta Na ;
 zati Nreg ; 
 zenbaki Nreg ; !"number"
 zentral Nreg ;
+zilar:zilarr Nreg ; !"silver"
 zilegitasun NregN ;
 zurrunbilo Nreg ; !"storm"
 
@@ -1260,14 +1287,19 @@ LEXICON ADV
 
 LEXICON Adverbs
 
+asko ADV ;
 atzo ADV ;
+aurten ADV ; !"this# year"
+
 baino ADV ; !"than"
 batere ADV ;
 behin ADV ;
 berehala ADV ;
 berriro ADV ; !"again"
 beti ADV ; !"always"
+bezain ADV ;
 bihar ADV ;
+
 ere ADV ;
 ez ADV ; !"not"
 ezik ADV ; !"otherwise"
@@ -1282,6 +1314,9 @@ hainbeste ADV ; !"so much"
 ia ADV ; !"almost"
 iaz ADV ; !"last# year"
 lehen ADV ; !"before"
+nola ADV ; !"how"
+ondo ADV ; !"well"
+ongi ADV ; !"well"
 orain ADV ;
 oraindik ADV ; !"still"
 orduan ADV ;
@@ -1292,8 +1327,8 @@ zergatik+Adv+Interr:zergatik # ;
 LEXICON Adjectives
 altu Areg ; 
 azkar Areg ; !"quick"
-azken Areg ; !"last"
-beltza Areg ; !"black"
+azken An ; !"last"
+beltz Areg ; !"black"
 berandu Areg ; !"late"
 berdin Areg ; !"equal"
 berezi Areg ; !"special"
@@ -1302,9 +1337,10 @@ datorren Areg ; !"next"
 
 ederki Areg ;
 errusiar Areg ; !"Russian"
-ezberdin Areg ; !"unequal"
+ezberdin An ; !"unequal"
 
 garrantzitsu Areg ; !"important"
+gogor:gogorr Areg ; !"hard"
 gogotsu Areg ; !"enthusiastic"
 gutxi Areg ; !"little"
 handi Areg ; !"big"
@@ -1313,12 +1349,14 @@ larri Areg ; !"grave"
 luze Areg ; !"long"
 
 on Areg ; !"good"
+posible Areg ;
 turkiar:turkiarr Areg ; !"Turkish"
 tonto Areg ; !"stupid"
 urduri Areg ; !"nervous"
 zail Areg ; !"dificult"
+zehazki Areg ;
 zuri Areg ; !"white"
-zuzen Areg ; !"correct"
+zuzen An ; !"correct"
 
 
 LEXICON Verbs
@@ -1355,6 +1393,7 @@ bilakatu:bilaka Tu ; !"turn# into"
 bilatu:bila Tu ;
 bildu:bil Du ;
 bisitatu:bisita Tu ; !"visit"
+borrokatu:borroka Tu ; !"fight"
 bota Sinmas ;
 burutu:buru Tu ;
 
@@ -1370,6 +1409,7 @@ egokitu:egoki Tu ; !"adapt"
 egon: EGON ; ! ; !"be"
 ehizatu:ehiza Tu ; !"hunt"
 ekarri:ekarr I ; !"bring"
+ekidin:ekidi N ; !"avoid"
 elkartu:elkar Tu ; !"meet"
 eman Sinmas ; !"give" 
 entzun Sinmas ; !"hear"
@@ -1434,7 +1474,7 @@ izan: AuxIzan ; !"be"
 jaitsi:jaits I ; !"go# down"
 jakin Sinmas ; !"know"
 jan Sinmas ; !"eat"
-jari:jar I ; !"put" !R
+jari:jarr I ; !"put" !R
 jakin: JAKIN ; !"know"
 jasan:jasa N ;
 jaso Sinmas ;
@@ -1443,6 +1483,7 @@ jo Sinmas ;
 joan JOAN ; !"go"
 jokatu:joka Tu ; !"play"
 jolastu:jolas Tu ;
+juzkatu:juzka Tu ;
 
 kezkatu:kezka Tu ; !"worry"
 kokatu:koka Tu ;
@@ -1461,11 +1502,13 @@ lotu:lo Tu ; !"tie"
 maitemindu:maitemin Du ; !"fall# in love"
 manifestatu:manifesta Tu ;
 mintzatu:mintza Tu ; !"talk"
+moldatu:molda Tu ;
 moztu:moz Tu ; !"cut"
 mugitu:mugi Tu ;
 
 nahastu:nahas Tu ; !"mix"
 nahi Sinmas ; !"want"
+nozitu:nozi Tu ; !"suffer"
 onartu:onar Tu ; !"accept"
 oparitu:opari Tu ; !"give"
 otu:o Tu ; !"occur"
@@ -1511,6 +1554,7 @@ LEXICON POSTP
 LEXICON GENLOC
 
 +GenL:ko # ;
++GenL:go # ;
 +GenL+Art:koa # ;
 
 

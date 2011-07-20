@@ -455,7 +455,7 @@ LEXICON ETORRI
 +V+Ind+Prt: etorriprt ; !
 
 LEXICON etorriprs
-+Abs/Sg1:nator SUBCL ;
++Abs/Sg1:%>nator SUBCL ;
 +Abs/Sg2+ifl:hator SUBCL ; 
 +Abs/Sg2:zatoz SUBCL ;
 +Abs/Sg3:dator SUBCL ;
@@ -590,7 +590,7 @@ LEXICON IRUDITUTENSE
 +V+Ind+Prt+Dat/Pl2:zeniruditen SUBCL ;
 +V+Ind+Prt+Dat/Pl3:ziruditen SUBCL ;
 
-LEXICON IRUDITU
+LEXICON EDUKI
 +V+Prc:eduki # ; !Partizip
 +V+Der/N:edukitze # ; ! - nominalisation
 +V+Pot:eduki # ; ! + Potential form des Auxiliars
@@ -630,27 +630,27 @@ LEXICON JAKIN
 +V+Prc:jakin # ; !Partizip
 +V+Der/N:jakitze # ; ! - nominalisation
 +V+Pot:jakin # ; ! + Potential form des Auxiliars
-+V+Cond:%>ba JANKINTENSE ;
++V+Cond:ba JANKINTENSE ;
 +V+Ind: JAKINTENSE ; !
 
 LEXICON JAKINTENSE
-+Prs+Erg/Sg1:dakit SUBCL ;
-+Prs+Erg/Sg2+ifl/f:dakin SUBCL ; 
-+Prs+Erg/Sg2+ifl/m:dakik SUBCL ;
-+Prs+Erg/Sg2:dakizu SUBCL ;
-+Prs+Erg/Sg3:daki SUBCL ;
-+Prs+Erg/Pl1:dakigu SUBCL ;
-+Prs+Erg/Pl2:dakizue SUBCL ;
-+Prs+Erg/Pl3:dakite SUBCL ;
++Prs+Erg/Sg1:%>dakit SUBCL ;
++Prs+Erg/Sg2+ifl/f:%>dakin SUBCL ; 
++Prs+Erg/Sg2+ifl/m:%>dakik SUBCL ;
++Prs+Erg/Sg2:%>dakizu SUBCL ;
++Prs+Erg/Sg3:%>daki SUBCL ;
++Prs+Erg/Pl1:%>dakigu SUBCL ;
++Prs+Erg/Pl2:%>dakizue SUBCL ;
++Prs+Erg/Pl3:%>dakite SUBCL ;
 
 !prt
-+Prt+Erg/Sg1:nekien SUBCL ;
-+Prt+Erg/Sg2+ifl:hekien SUBCL ; 
-+Prt+Erg/Sg2:zenekien SUBCL ;
-+Prt+Erg/Sg3:zekien SUBCL ;
-+Prt+Erg/Pl1:genekien SUBCL ;
-+Prt+Erg/Pl2:zenekiten SUBCL ;
-+Prt+Erg/Pl3:zekiten SUBCL ;
++Prt+Erg/Sg1:%>nekien SUBCL ;
++Prt+Erg/Sg2+ifl:%>hekien SUBCL ; 
++Prt+Erg/Sg2:%>zenekien SUBCL ;
++Prt+Erg/Sg3:%>zekien SUBCL ;
++Prt+Erg/Pl1:%>genekien SUBCL ;
++Prt+Erg/Pl2:%>zenekiten SUBCL ;
++Prt+Erg/Pl3:%>zekiten SUBCL ;
 
 
 
@@ -792,13 +792,13 @@ LEXICON PAST
 
 LEXICON SUBCL
 
-+Sub:ela # ;
-+Sub:la # ;
-+Sub:elako # ;
-+Sub+Temp:enean # ;
-+Sub+Rel:en # ;
+!+Sub:la # ;
++Sub:%>elako # ;
++Sub+Temp:%>enean # ;
++Sub+Rel:%>en # ;
++Sub:%>ela # ;
  # ; ! testing without the +Main tag
-!+Main: # ; irgendetwas hat da nicht geklappt, aber vielleicht habe ich es anders geschrieben
+!+Main: # ; !irgendetwas hat da nicht geklappt, aber vielleicht habe ich es anders geschrieben
 
 LEXICON Nouns
 
@@ -815,11 +815,13 @@ aita NaBizi ; !"father"
 albiste Nreg ; !"news"
 aldaketa Na ; !"change"
 aldundi Nreg ; !"Provincial# Government"
+alegia Na ; !"fable"
 ama NaBizi ; !"mother"
 amnistia Na ; !"amnesty"
 antzerki Nreg ; !"theatre"
 apiril Nreg ; !"April"
 arazo Nreg ; !"problem"
+arduradun Nreg ;
 argazki Nreg ;
 argibide Nreg ; !"explication"
 arma Na ; !"weapon"
@@ -848,7 +850,7 @@ bilera Na ; !"meeting"
 borroka Nreg ; !"fighting"
 boxeolari NregBizi ; !"boxer"
 bozeramaile Nreg ; !"spokesperson"
-britainiar NregBizi ; !"British"
+britainiar:britainiarr NregBizi ; !"British"
 buru Nreg ; !"head"
 buruzagi NregBizi ; !"head"
 
@@ -893,6 +895,7 @@ gerrillari NregBizi ; !"gerrilla# fighter"
 gobernu Nreg ; !"government"
 
 haragi Nreg ; !"meat"
+harreman Nreg ; !"relationship"
 hartz NregBizi ; !"bear"
 hasiera Na ; !"beginning"
 haur NregBizi ; !"child"
@@ -909,9 +912,11 @@ hortz Nreg ; !"tooth"
 ibilbide Nreg ;
 idei Nreg ; !"idea"
 igande Nreg ; !"Sunday"
+ikastaro Nreg ; !"course"
 ikatz Nreg ;
-ilusi Nreg ; !"illusion"
-indarkeria Na ; !"violoence"
+ilusio Nreg ; !"illusion"
+indar:indarr Nreg ;
+indarkeria Na ; !"violence"
 independentista NregBizi ; !"independentist"
 indigena NregBizi ; !"indigenous"
 inguru Nreg ; !"surrounding"
@@ -1042,9 +1047,11 @@ unibertsitate Nreg ; !"university"
 urri Nreg ; !"October"
 urtarril Nreg ; !"January"
 urte Nreg ; !"year"
+urtegi Nreg ; !"reservoir"
 uste Nreg ; !"intention" 
 uztail Nreg ; !"July"
 
+zalaparta Na ;
 zati Nreg ; 
 zenbaki Nreg ; !"number"
 zentral Nreg ;
@@ -1124,6 +1131,7 @@ Aierbe NpS ; !"Aierbe"
 Kresicek NpS ;
 Winstone NpS ;
 Uranga NpS ;
+Gonzalez NpS ;
 
 
 Frantzia NpTop ; !"France"
@@ -1166,7 +1174,9 @@ Zimbawe NpTop ;
 Israel NpTop ;
 Europa NpTop ;
 Atlanta NpTop ;
+Kuba NpTop ;
 
+Auzitegi_Gorenak NpOrg ; !"Supreme Court"
 EHU NpOrg ; !"University of the Basque Country"
 ETA NpOrg ; !"ETA"
 Pentagon NpOrg ; !"Pentagon"
@@ -1220,6 +1230,7 @@ hain ADV ;
 hainbeste ADV ; !"so much"
 ia ADV ; !"almost"
 iaz ADV ; !"last# year"
+lehen ADV ; !"before"
 orain ADV ;
 orduan ADV ;
 oso ADV ; !"very"
@@ -1246,7 +1257,9 @@ handi Areg ; !"big"
 ipar Areg ; !"northern"
 larri Areg ; !"grave"
 luze Areg ; !"long"
-turkiar Areg ; !"Turkish"
+
+on Areg ; !"good"
+turkiar:turkiarr Areg ; !"Turkish"
 tonto Areg ; !"stupid"
 urduri Areg ; !"nervous"
 zail Areg ; !"dificult"
@@ -1331,6 +1344,7 @@ gainditu:gaindi Tu ; !"pass"
 galdetu:galde Tu ; !"ask"
 gehitu:gehi Tu ; !"increase"
 gelditu:geldi Tu ; !"stay"
+gezurtatu:gezurta Tu ; !"lie"
 grabatu:graba Tu ; !"record"
 gertatu:gerta Tu ; !"happen"
 gosaldu:gosal Du ; !"breakfast"
@@ -1359,7 +1373,7 @@ iraun:irau N ; !"last"
 iritsi:irits I ; !"arrive"
 iruditu: IRUDITU ; !"seem"
 isuri:isur I ; !"flow"
-itxi:i%{t%}x I ;
+itxi:itx I ; !"close"
 !itxaron ; !"wait" ! commented out, waiting for contlex
 izan: AuxIzan ; !"be" 
 
@@ -1447,6 +1461,7 @@ LEXICON GENLOC
 
 
 LEXICON Conjunctions
+
 arren CONJ ;
 edo CONJ ;
 eta CONJ ;

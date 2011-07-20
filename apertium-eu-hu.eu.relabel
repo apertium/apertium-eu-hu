@@ -25,6 +25,8 @@
 +Biz	<Biz>
 +Ben	<Ben>
 +Ben2	<Ben2>
++PGen	<PGen>
++LGen	<LGen>
 +Pron	<Pron>
 +Pers	<Pers>
 +Dem	<Dem>
@@ -35,6 +37,7 @@
 +Pl2	<Pl2>
 +Pl3	<Pl3>
 +V	<V>
++A	<A>
 +Aux	<Aux>
 +Prs	<Prs>
 +Prt	<Prt>

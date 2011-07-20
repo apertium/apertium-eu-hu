@@ -104,8 +104,7 @@ LEXICON SgCases1
 +Sg+Ben2:%>rengatik # ; !-agatik !-engatik
 
 LEXICON SgCases2
-
-!+Sg+Ine: # ; !-ean !-etan
++Sg+Ine:%>n # ; !-ean !-etan
 !twolc rule - larunbata - larunbatean // isn't the lemma 'larunbat' here ? 
 +Sg+All:%>ra # ; !-era !-etara
 +Sg+Ela:%>tik # ; !-etik !-etatik
@@ -129,7 +128,7 @@ LEXICON PlCases1
 
 LEXICON PlCases2 
 
-+Pl+Ine: # ;
++Pl+Ine:%>tan # ;
 +Pl+All:%>etara # ;
 +Pl+Ela:%>etatik # ;
 
@@ -242,6 +241,10 @@ LEXICON Nreg
 +N+Art:%>a PlCases3 ;
 !+N: Dim ;
 
+LEXICON NregN
+
++N: NCases ;
+
 LEXICON NregBizi
 
 +N: Bizidun2 ;
@@ -305,10 +308,52 @@ LEXICON Areg
 
 
 
-!LEXICON AuxUkan
-!
-!+V+Aux: 
+LEXICON An
 
++A: # ;
++A: NCases ;
+
+LEXICON NCases 
+
++Sg+Abs:a # ; !-ak
++Sg+Erg:%>ak # ; !-ek
++Sg+Dat:%>ari # ; !-ei
+
++Sg+PGen:%>aren # ; !-en
++Sg+Ins:%>az # ; !-ez, taz, etaz
++Sg+Soc:%>arekin # ; !-ekin
++Sg+Ben:%>arentzat # ; !-entzat
++Sg+Ben2:%>arengatik # ; !-agatik !-engatik
++Sg+Ine:%>ean # ; 
++Sg+All:%>era # ; !-era !-etara
++Sg+Ela:%>atik # ; !-etik !-etatik
++Sg+LGen:%>eko # ; !-eko !-etako
++Pl+Abs:%>ak # ;
++Pl+Erg:%>ek # ;
++Pl+Dat:%>ei # ;
++Pl+PGen:%>en # ; 
++Pl+Ins:%>ez # ; 
++Pl+Soc:%>ekin # ;
++Pl+Ben:%>entzat # ;
++Pl+Ben2:%>engatik # ;
++Pl+Ine:%>etan # ;
++Pl+All:%>etara # ;
++Pl+Ela:%>etatik # ;
++Pl+LGen:%>etako # ;
++Abs: # ;
++Erg:%>k # ; !k
++Dat:%>ri # ; !i
++PGen:%>eren # ; !en
++Ins:%>ez # ; !ez,etaz,taz
++Soc:%>erekin # ; !ekin
++Ben:%>erentzat # ; !entzat
++Ben2:%>erengatik # ; !engatik
++Par:%>erik # ;
++Ine:%>etan # ; !tan
++All:%>etara # ; !tara
++Ela:%>etatik # ; !tatik
++LGen:%>etako # ; !tako
++LGen:%>eko # ;
 LEXICON Tu
 
 +V+Root: # ;
@@ -804,7 +849,7 @@ LEXICON Nouns
 
 abendu Nreg ; !"December"
 abesti Nreg ; !"song"
-abizen Nreg ; !"last# name"
+abizen NregN ; !"last# name"
 abokatu NregBizi ; !"advocate"
 abuztu Nreg ; !"August"
 aditz Nreg ; !"verb"
@@ -821,29 +866,29 @@ amnistia Na ; !"amnesty"
 antzerki Nreg ; !"theatre"
 apiril Nreg ; !"April"
 arazo Nreg ; !"problem"
-arduradun Nreg ;
+arduradun NregN ;
 argazki Nreg ;
 argibide Nreg ; !"explication"
 arma Na ; !"weapon"
 armada Na ;
-arrain Nreg ; !"fish"
+arrain NregBizi ; !"fish"
 arratsalde Nreg ; !"evening"
 arrazakeri Nreg ; !"racisim"
 asilo Nreg ;
 asmo Nreg ; !"intention"
 aste Nreg ; !"week"
 astearte Nreg ; !"Tuesday"
-asteazken Nreg ; !"Wednesday"
-astelehen Nreg ; !"Monday"
+asteazken NregN ; !"Wednesday"
+astelehen NregN ; !"Monday"
 ate Nreg ; !"door"
 atentatu Nreg ; !"assault"
-aztitasun Nreg ;
+aztitasun NregN ;
 azaro Nreg ; !"November"
-azken Nreg ; !"end"
+azken NregN ; !"end"
 aztertzaile Nreg ;
 
 barazki Nreg ; !"vegetable"
-batasun Nreg ; 
+batasun NregN ; 
 beldur Nreg ; !"fear"
 bidaiari NregBizi ; !"traveller";
 bilera Na ; !"meeting"
@@ -859,8 +904,8 @@ denbora Na ; !"time"
 egia Na ; !"truth"
 egongela Na ; !"room"
 egoera Na ; !"situation"
-egun Nreg ; !"day"
-ekain Nreg ; !"June"
+egun NregN ; !"day"
+ekain NregN ; !"June"
 emaitza Na ; !"result"
 enbaxadore NregBizi ; !"emabassador" 
 enpresa Na ; !"company"
@@ -881,22 +926,22 @@ esperientzia Na ; !"experience"
 estatu Nreg ;
 estatubatuar NregBizi ; !"American"
 etxe Nreg ; !"house"
-euskaldun NregBizi ; !"Basque# speaker"
+euskaldun NregBiziN ; !"Basque# speaker"
 euskalki Nreg ; !"Basque# dialect"
-ezberdintasun Nreg ; !"unequality"
+ezberdintasun NregN ; !"unequality"
 
 ferry Nreg ; !"ferry"
 futbol Nreg ; !"football"
 
 galdera Na ; !"question"
-garaipen Nreg ; !"victory"
+garaipen NregN ; !"victory"
 gazte NregBizi ; !"youth"
 giltza Na ; !"key"
 gerrillari NregBizi ; !"gerrilla# fighter"
 gobernu Nreg ; !"government"
 
 haragi Nreg ; !"meat"
-harreman Nreg ; !"relationship"
+harreman NregN ; !"relationship"
 hartz NregBizi ; !"bear"
 hasiera Na ; !"beginning"
 haur NregBizi ; !"child"
@@ -934,7 +979,7 @@ istripu Nreg ; !"accident"
 iturri Nreg ; !"source"
 itxura Na ; !"appearance"
 itzuli Nreg ; !"turn"
-izen Nreg ; !"name"
+izen NregN ; !"name"
 
 jarraitzail NregBizi ; !"supporter"
 jarrera Na ; !"position"
@@ -945,7 +990,7 @@ juridiko Nreg ;
 kabinete Nreg ;
 kale Nreg ; !"street"
 kantu Nreg ; !"song"
-kapitain Nreg ; !"captain"
+kapitain NregBizi ; !"captain"
 kargu Nreg ; !"charge"
 katu NregBizi ; !"cat"
 kaxoi Nreg ; !"drawer"
@@ -960,10 +1005,10 @@ kontzentrazio Nreg ; !"concentration"
 kopuru Nreg ; !"amount"
 kosta Na ;
 kristau NregBizi ; !"Christian"
-krudeltasun Nreg ;
+krudeltasun NregN ;
 
 lagun NregBizi ; !"friend"
-lan Nreg ; !"work"
+lan NregN ; !"work"
 landare Nreg ; !"plant"
 lankide NregBizi ;
 lehendakari NregBizi ; !"president"
@@ -983,7 +1028,7 @@ musika Nreg ; !"music"
 musulman NregBizi ; !"Muslim"
 muxu Nreg ; !"kiss"
 
-nagusitasun Nreg ;
+nagusitasun NregN ;
 neska NaBizi ; !"girl"
 negu Nreg ; !"winter"
 
@@ -1017,7 +1062,7 @@ puntu Nreg ;
 
 salaketa Na ;
 segundo Nreg ; !"second"
-Segurtasun Nreg ; !"security"
+segurtasun NregN ; !"security"
 soldadu NregBizi ; !"soldier"
 sukalde Nreg ; !"kitchen"
 taberna Na ; !"bar"
@@ -1042,7 +1087,7 @@ txirrindulari Nreg ; !"cyclist"
 
 uda Na ; !"summer"
 udalerri Nreg ; !"municipality"
-udazken Nreg ; !"autumn"
+udazken NregN ; !"autumn"
 udaberri Nreg ; !"spring"
 uharte Nreg ; !"island"
 ume NregBizi ; !"child"
@@ -1058,7 +1103,7 @@ zalaparta Na ;
 zati Nreg ; 
 zenbaki Nreg ; !"number"
 zentral Nreg ;
-zilegitasun Nreg ;
+zilegitasun NregN ;
 zurrunbilo Nreg ; !"storm"
 
 

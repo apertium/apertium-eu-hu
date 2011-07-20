@@ -866,6 +866,7 @@ enbaxadore NregBizi ; !"emabassador"
 enpresa Na ; !"company"
 entrenatzaile NregBizi ;
 epaiketa Na ; !"court"
+epe Nreg ; !"period"
 erabaki Nreg ; !"decision"
 eraikuntza Na ; !"building"
 erasoaldi Nreg ; !"attack"
@@ -952,6 +953,7 @@ kolore Nreg ; !"color"
 kolpe Nreg ;
 kolpeka Na ; !"hit"
 komentario Nreg ;
+konfiantza Na ;
 konponbide Nreg ; !"solution"
 kontratu Nreg ; !"contract"
 kontzentrazio Nreg ; !"concentration"
@@ -1025,6 +1027,7 @@ txistu Nreg ;
 testu Nreg ; !"text"
 
 sari Nreg ; !"prize"
+sarrera Na ; !"entrance"
 sektore Nreg ;
 seme NregBizi ; !"son"
 sistema Nreg ; !"system"
@@ -1132,6 +1135,7 @@ Kresicek NpS ;
 Winstone NpS ;
 Uranga NpS ;
 Gonzalez NpS ;
+Louwe NpS ;
 
 
 Frantzia NpTop ; !"France"
@@ -1176,7 +1180,7 @@ Europa NpTop ;
 Atlanta NpTop ;
 Kuba NpTop ;
 
-Auzitegi_Gorenak NpOrg ; !"Supreme Court"
+Auzitegi% Gorenak NpOrg ; !"Supreme Court"
 EHU NpOrg ; !"University of the Basque Country"
 ETA NpOrg ; !"ETA"
 Pentagon NpOrg ; !"Pentagon"
@@ -1202,6 +1206,7 @@ edozein+Pron+Indef:edozein PronSgCases ;
 bakoitz+Pron+Indef:bakoitz PronSgCases ;
 guzti+Pron+Indef:bakoitz PronSgCases ;
 beste+Pron+Indef:beste PronSgCases ;
+ezer+Pron+Indef:ezer # ;
 
 LEXICON ADV 
 
@@ -1224,6 +1229,7 @@ ezik ADV ; !"otherwise"
 gainera ADV ; !"additionally"
 gero ADV ;
 gaur ADV ;
+gogotsu ADV ; !"enthusiastically"
 gora ADV ; !"up"
 
 hain ADV ;
@@ -1232,6 +1238,7 @@ ia ADV ; !"almost"
 iaz ADV ; !"last# year"
 lehen ADV ; !"before"
 orain ADV ;
+oraindik ADV ; !"still"
 orduan ADV ;
 oso ADV ; !"very"
 pozik ADV ; !"happy"
@@ -1252,6 +1259,8 @@ ederki Areg ;
 errusiar Areg ; !"Russian"
 ezberdin Areg ; !"unequal"
 
+garrantzitsu Areg ; !"important"
+gogotsu Areg ; !"enthusiastic"
 gutxi Areg ; !"little"
 handi Areg ; !"big"
 ipar Areg ; !"northern"

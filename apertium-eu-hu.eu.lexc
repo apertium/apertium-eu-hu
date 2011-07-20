@@ -701,6 +701,11 @@ LEXICON JAKINTENSE
 
 LEXICON AuxIzan
 
++V+Prc:izan # ; !Partizip
++V+Der/N:izate # ; ! - nominalisation
++V+Cont:izaten # ;
++V+Pot:izan # ; ! + Potential form des Auxiliars
++V+Ind+Fut:izango # ;
 +V+Aux+Ind: IZANNOR ;
 +V+Aux: IZANBA ;
 
@@ -796,24 +801,29 @@ LEXICON UKANNORNORK
 
 LEXICON IZANNORNORI
 
-+Ind+Abs/Sg1:nintzai IZANNORI ;
-+Ind+Abs/Sg2+ifl:hintzai IZANNORI ; !+Ind+Prs+Abs/hi
-+Ind+Abs/Sg2:zintzai IZANNORI ;
-+Ind+Abs/Sg3:zitzai IZANNORI ;
-+Ind+Abs/Pl1:gintzaizki IZANNORI ;
-+Ind+Abs/Pl2:zintzaizki IZANNORI ;
-+Ind+Abs/Pl3:aitzaizki IZANNORI ;
++Ind+Prs+Abs/Sg3+Dat/Sg1:zait SUBCL ;
++Ind+Prs+Abs/Sg3+Dat/Sg2+ifl: SUBCL ; !+Ind+Prs+Abs/hi
++Ind+Prs+Abs/Sg3+Dat/Sg2:zaizu SUBCL ;
++Ind+Prs+Abs/Sg3+Dat/Sg3:zaio SUBCL ;
++Ind+Prs+Abs/Sg3+Dat/Pl1:zaigu SUBCL ;
++Ind+Prs+Abs/Sg3+Dat/Pl2:zaizue SUBCL ;
++Ind+Prs+Abs/Sg3+Dat/Pl3:zaie SUBCL ;
 
-LEXICON IZANNORI
++Ind+Prs+Abs/Pl3+Dat/Sg1:zaizkit SUBCL ;
++Ind+Prs+Abs/Pl3+Dat/Sg2+ifl: SUBCL ; !+Ind+Prs+Abs/hi
++Ind+Prs+Abs/Pl3+Dat/Sg2:zaizkizu SUBCL ;
++Ind+Prs+Abs/Pl3+Dat/Sg3:zaizkio SUBCL ;
++Ind+Prs+Abs/Pl3+Dat/Pl1:zaizkigu SUBCL ;
++Ind+Prs+Abs/Pl3+Dat/Pl2:zaizkizue SUBCL ;
++Ind+Prs+Abs/Pl3+Dat/Pl3:zaizkie SUBCL ;
 
-+Dat/Sg1:%>t PAST ; !dan before a consonant
-+Dat/Sg2+ifl/m:%>k PAST ; !kian before a consonant
-+Dat/Sg2+ifl/f:%>n PAST ; !
-+Dat/Sg2:%>zu PAST ;
-+Dat/Sg3:%>o PAST ;
-+Dat/Pl1:%>gu PAST ;
-+Dat/Pl2:%>zuete PAST ;
-+Dat/Pl3:%>e PAST ;
++Ind+Prt+Abs/Sg3+Dat/Sg1:nintzaidan SUBCL ;
++Ind+Prt+Abs/Sg3+Dat/Sg2+ifl:hintzaik SUBCL ; !+Ind+Prs+Abs/hi
++Ind+Prt+Abs/Sg3+Dat/Sg2:zintzaizun SUBCL ;
++Ind+Prt+Abs/Sg3+Dat/Sg3:zitzaion SUBCL ;
++Ind+Prt+Abs/Sg3+Dat/Pl1:gintzaizkigun SUBCL ;
++Ind+Prt+Abs/Sg3+Dat/Pl2:zintzaizkizueten SUBCL ;
++Ind+Prt+Abs/Sg3+Dat/Pl3:aitzaizkien SUBCL ;
 
 LEXICON UKANNORNORINORK
 
@@ -830,6 +840,20 @@ LEXICON UKANNORNORINORK
 +Ind+Prs+Dat/Sg3+Abs/Pl3+Erg/Pl1:dizkiogu SUBCL ;
 +Ind+Prs+Dat/Sg3+Abs/Pl3+Erg/Pl2:dizkiozue SUBCL ;
 +Ind+Prs+Dat/Sg3+Abs/Pl3+Erg/Pl3:dizkiote SUBCL ;
+
++Ind+Prt+Dat/Sg3+Abs/Sg3+Erg/Sg1:nion SUBCL ;
++Ind+Prt+Dat/Sg3+Abs/Sg3+Erg/Sg2:zenion SUBCL ;
++Ind+Prt+Dat/Sg3+Abs/Sg3+Erg/Sg3:zion SUBCL ;
++Ind+Prt+Dat/Sg3+Abs/Sg3+Erg/Pl1:genion SUBCL ;
++Ind+Prt+Dat/Sg3+Abs/Sg3+Erg/Pl2:zenioten SUBCL ;
++Ind+Prt+Dat/Sg3+Abs/Sg3+Erg/Pl3:zioten SUBCL ;
+
++Ind+Prt+Dat/Sg3+Abs/Pl3+Erg/Sg1:nien SUBCL ;
++Ind+Prt+Dat/Sg3+Abs/Pl3+Erg/Sg2:zenien SUBCL ;
++Ind+Prt+Dat/Sg3+Abs/Pl3+Erg/Sg3:zien SUBCL ;
++Ind+Prt+Dat/Sg3+Abs/Pl3+Erg/Pl1:genien SUBCL ;
++Ind+Prt+Dat/Sg3+Abs/Pl3+Erg/Pl2:zenieten SUBCL ;
++Ind+Prt+Dat/Sg3+Abs/Pl3+Erg/Pl3:zieten SUBCL ;
 
 LEXICON PAST
 
@@ -866,8 +890,9 @@ aldundi Nreg ; !"Provincial# Government"
 alegia Na ; !"fable"
 ama NaBizi ; !"mother"
 amnistia Na ; !"amnesty"
+antolamendu Nreg ;
 antzerki Nreg ; !"theatre"
-apiril Nreg ; !"April"
+apiril NregN ; !"April"
 arazo Nreg ; !"problem"
 arduradun NregN ;
 argazki Nreg ;
@@ -941,7 +966,7 @@ euskalki Nreg ; !"Basque# dialect"
 ezberdintasun NregN ; !"unequality"
 
 ferry Nreg ; !"ferry"
-futbol Nreg ; !"football"
+futbol NregN ; !"football"
 
 galdera Na ; !"question"
 garai Nreg ;
@@ -949,6 +974,7 @@ garaipen NregN ; !"victory"
 gazte NregBizi ; !"youth"
 giltza Na ; !"key"
 gerrillari NregBizi ; !"gerrilla# fighter"
+giro Nreg ;
 gobernu Nreg ; !"government"
 
 haize Nreg ; !"wind"
@@ -966,9 +992,10 @@ hilabete Nreg ; !"month"
 historia Na ; !"history"
 hizkuntza Na ; !"language"
 holandar NregBizi ; !"Dutch"
-hotel Nreg ; !"hotel"
+hotel NregN ; !"hotel"
 hortz Nreg ; !"tooth"
 
+ibai Nreg ; !"river"
 ibilbide Nreg ;
 idei Nreg ; !"idea"
 igande Nreg ; !"Sunday"
@@ -982,7 +1009,7 @@ indigena NregBizi ; !"indigenous"
 inguru Nreg ; !"surrounding"
 intransijentzia Na ;
 irabazle NregBizi ; !"winner"
-irail Nreg ; !"September"
+irail NregN ; !"September"
 irakasle NregBizi ; !"teacher"
 iritzi Nreg ; !"opinion" 
 irrati Nreg ; !"radio"
@@ -1010,7 +1037,7 @@ kapitain NregBizi ; !"captain"
 kargu Nreg ; !"charge"
 katu NregBizi ; !"cat"
 kaxoi Nreg ; !"drawer"
-kirol Nreg ; !"sport"
+kirol NregN ; !"sport"
 kolore Nreg ; !"color"
 kolpe Nreg ;
 kolpeka Na ; !"hit"
@@ -1037,7 +1064,7 @@ maiatz Nreg ; !"May"
 maite Na ; !"love"
 manifestazio Nreg ; !"demonstration"
 martxo Nreg ; !"March"
-material Nreg ;
+material NregN ;
 mendi Nreg ; !"mountain"
 metro Nreg ; ! ; !"meter" 
 mezu Nreg ;
@@ -1052,24 +1079,24 @@ neska NaBizi ; !"girl"
 negu Nreg ; !"winter"
 
 obra Na ;
-odol Nreg ; !"blood"
+odol NregN ; !"blood"
 olde Nreg ; !"wish"
 ohi Nreg ; !"custom"
 ontzi Nreg ; !"container"
 ordu Nreg ; !"hour"
 osagai Nreg ; !"component"
 ostegun NregN ;
-ostiral Nreg ;
+ostiral NregN ;
 otoitz Nreg ; !"prayer"
-otsail Nreg ; !"February"
+otsail NregN ; !"February"
 
 papera Na ; !"paper"
 paramilitar NregBizi ; 
 parlamentu Nreg ; !"parlament"
 partidu Nreg ; !"match"
 pasaporte Nreg ; !"passport"
-pastel Nreg ; !"cake"
-pedal Nreg ; !"pedal"
+pastel NregN ; !"cake"
+pedal NregN ; !"pedal"
 pentsamendu Nreg ; !"thinking"
 pilotari Nreg ;
 planeta Na ;
@@ -1079,6 +1106,7 @@ polizia Na ; !"police"
 pisu Nreg ; !"flat"
 presa Na ; !"hurry"
 presidente NregBizi ; !"president"
+proba Na ;
 protagonista Na ; !"protagonist"
 puntu Nreg ;
 
@@ -1098,12 +1126,13 @@ sarrera Na ; !"entrance"
 sektore Nreg ;
 seme NregBizi ; !"son"
 sistema Nreg ; !"system"
+suhiltzaile Nreg ;
 
 tarte Nreg ;
 telefono Nreg ; !"telephone"
 talde Nreg ; !"group"
 tresna Na ; !"tool"
-tribunal Nreg ; 
+tribunal NregN ; 
 txalaparta Na ; !"txalaparta"
 txanda Na ; !"turn"
 txirrin NregN ; !"bell"
@@ -1116,19 +1145,22 @@ udaberri Nreg ; !"spring"
 uharte Nreg ; !"island"
 ume NregBizi ; !"child"
 unibertsitate Nreg ; !"university"
+ur Nreg ; !"water"
 urri Nreg ; !"October"
-urtarril Nreg ; !"January"
+urtarril NregN ; !"January"
 urte Nreg ; !"year"
 urtegi Nreg ; !"reservoir"
 uste Nreg ; !"intention" 
-uztail Nreg ; !"July"
+uztail NregN ; !"July"
 
 xehetasun NregN ;
 
+zalantza Na ; !"doubt"
 zalaparta Na ;
 zati Nreg ; 
 zenbaki Nreg ; !"number"
-zentral Nreg ;
+zentral NregN ;
+zerbitzu Nreg ;
 zilar:zilarr Nreg ; !"silver"
 zilegitasun NregN ;
 zurrunbilo Nreg ; !"storm"

@@ -1,7 +1,7 @@
 Multichar_Symbols
 
 +N +Po +Cm +Punct +Adv +A +CLB +CC
-+Abs +Dat +Ins +Soc +Erg +Ine +Ben +Ben2 +Par +All +Ela +GenL +GenP +Term +Ten
++Abs +Dat +Ins +Soc +Erg +Ine +Ben +Ben2 +Par +All +Abl +Ela +GenL +GenP +Term +Ten
 +Mal +Fem +Plc 
 +Art +Interr
 +Fut
@@ -39,6 +39,7 @@ Multichar_Symbols
 +Prt
 +Cond
 +Pot
++Caus
 +Abs/Sg1
 +Abs/Sg2
 +Abs/Sg3
@@ -236,9 +237,9 @@ LEXICON Nreg
 +N+Art:%>a SgCases1 ;
 +N+Art:%>a SgCases2 ;
 +N+Art:%>a SgCases3 ;
-+N+Art:%>a PlCases1 ;
-+N+Art:%>a PlCases2 ;
-+N+Art:%>a PlCases3 ;
++N+Art: PlCases1 ;
++N+Art: PlCases2 ;
++N+Art: PlCases3 ;
 !+N: Dim ;
 
 LEXICON NregN
@@ -360,6 +361,7 @@ LEXICON Tu
 +V: Nominalization ;
 +V+Prc:%>tu #;
 +V:%>tu Fut;
++V+Abl:%>turik # ;
 +V+Sub+Temp:z # ;
 
 LEXICON Du
@@ -368,7 +370,7 @@ LEXICON Du
 +V: Nominalization ;
 +V+Prc:%>du #;
 +V:%>du Fut;
-+V+Sub+Temp:z # ;
++V+Sub+Temp:%>z # ;
 
 LEXICON Sinmas
 
@@ -376,7 +378,7 @@ LEXICON Sinmas
 +V: Nominalization ;
 +V+Prc: #;
 +V: Fut;
-+V+Sub+Temp:ez # ;
++V+Sub+Temp:%>ez # ;
 +N:%>da CASES ;
 +A:%>ta # ; !Or Adv ?
 
@@ -409,6 +411,7 @@ LEXICON Nominalization2
 
 +Sub:%>ko # ;
 +Art:%>a # ; !! Should this go to the SgCases1 continuation 
++All:%>ra # ;
 +Cont:%>n # ;
 
 LEXICON Fut
@@ -427,217 +430,216 @@ LEXICON EGON
 +V+Ind: EGONTENSE ; !
 
 LEXICON EGONTENSE
-+V+Ind+Prs+Abs/Sg1:nago SUBCL ;
-+V+Ind+Prs+Abs/Sg2+ifl:hago SUBCL ; 
-+V+Ind+Prs+Abs/Sg2:zaude SUBCL ;
-+V+Ind+Prs+Abs/Sg3:dago SUBCL ;
-+V+Ind+Prs+Abs/Pl1:gaude SUBCL ;
-+V+Ind+Prs+Abs/Pl2:zaudete SUBCL ;
-+V+Ind+Prs+Abs/Pl3:daude SUBCL ;
++V+Ind+Prs+Abs/Sg1:%>nago SUBCL ;
++V+Ind+Prs+Abs/Sg2+ifl:%>hago SUBCL ; 
++V+Ind+Prs+Abs/Sg2:%>zaude SUBCL ;
++V+Ind+Prs+Abs/Sg3:%>dago SUBCL ;
++V+Ind+Prs+Abs/Pl1:%>gaude SUBCL ;
++V+Ind+Prs+Abs/Pl2:%>zaudete SUBCL ;
++V+Ind+Prs+Abs/Pl3:%>daude SUBCL ;
 
-+V+Ind+Prt+Abs/Sg1:nengoen SUBCL ;
-+V+Ind+Prt+Abs/Sg2+ifl:hengoen SUBCL ; 
-+V+Ind+Prt+Abs/Sg2:zeunden SUBCL ;
-+V+Ind+Prt+Abs/Sg3:zegoen SUBCL ;
-+V+Ind+Prt+Abs/Pl1:geunden SUBCL ;
-+V+Ind+Prt+Abs/Pl2:zeundeten SUBCL ;
-+V+Ind+Prt+Abs/Pl3:zeuden SUBCL ;
++V+Ind+Prt+Abs/Sg1:%>nengoen SUBCL ;
++V+Ind+Prt+Abs/Sg2+ifl:%>hengoen SUBCL ; 
++V+Ind+Prt+Abs/Sg2:%>zeunden SUBCL ;
++V+Ind+Prt+Abs/Sg3:%>zegoen SUBCL ;
++V+Ind+Prt+Abs/Pl1:%>geunden SUBCL ;
++V+Ind+Prt+Abs/Pl2:%>zeundeten SUBCL ;
++V+Ind+Prt+Abs/Pl3:%>zeuden SUBCL ;
 
 LEXICON JOAN
 +V+Prc:joan # ; !Partizip
-+V+Der/N:joate # ; ! - nominalisation
++V+Der/N:joate Nominalization2 ; ! - nominalisation
 +V+Pot:joan # ; ! + Potential form des Auxiliars
-+V+Cond:%>ba JOANTENSE ;
++V+Cond:ba JOANTENSE ;
 +V+Ind: JOANTENSE ; !
 
 LEXICON JOANTENSE
-+V+Ind+Prs+Abs/Sg1:noa SUBCL ;
-+V+Ind+Prs+Abs/Sg2+ifl:hoa SUBCL ; 
-+V+Ind+Prs+Abs/Sg2:zoaz SUBCL ;
-+V+Ind+Prs+Abs/Sg3:doa SUBCL ;
-+V+Ind+Prs+Abs/Pl1:goaz SUBCL ;
-+V+Ind+Prs+Abs/Pl2:zoazte SUBCL ;
-+V+Ind+Prs+Abs/Pl3:doaz SUBCL ;
++Prs+Abs/Sg1:%>noa SUBCL ;
++Prs+Abs/Sg2+ifl:%>hoa SUBCL ; 
++Prs+Abs/Sg2:%>zoaz SUBCL ;
++Prs+Abs/Sg3:%>doa SUBCL ;
++Prs+Abs/Pl1:%>goaz SUBCL ;
++Prs+Abs/Pl2:%>zoazte SUBCL ;
++Prs+Abs/Pl3:%>doaz SUBCL ;
 
-+V+Ind+Prt+Abs/Sg1:nindoan SUBCL ;
-+V+Ind+Prt+Abs/Sg2+ifl:hindoan SUBCL ; 
-+V+Ind+Prt+Abs/Sg2:zinoazen SUBCL ;
-+V+Ind+Prt+Abs/Sg3:zihoan SUBCL ;
-+V+Ind+Prt+Abs/Pl1:gindoazen SUBCL ;
-+V+Ind+Prt+Abs/Pl2:zindoazten SUBCL ;
-+V+Ind+Prt+Abs/Pl3:zihoazen SUBCL ;
++Prt+Abs/Sg1:%>nindoan SUBCL ;
++Prt+Abs/Sg2+ifl:%>hindoan SUBCL ; 
++Prt+Abs/Sg2:%>zinoazen SUBCL ;
++Prt+Abs/Sg3:%>zihoan SUBCL ;
++Prt+Abs/Pl1:%>gindoazen SUBCL ;
++Prt+Abs/Pl2:%>zindoazten SUBCL ;
++Prt+Abs/Pl3:%>zihoazen SUBCL ;
 
 LEXICON IBILI
 +V+Prc:ibili # ; !Partizip
 +V+Fut:ibiliko # ;
-+V+Der/N:ibiltze # ; ! - nominalisation
++V+Der/N:ibiltze Nominalization2 ; ! - nominalisation
 +V+Pot:ibil # ; ! + Potential form des Auxiliars
-+V+Cond:%>ba IBILITENSE ;
++V+Cond:ba IBILITENSE ;
 +V+Ind: IBILITENSE ; !
 
 LEXICON IBILITENSE
-+V+Ind+Prs+Abs/Sg1:nabil SUBCL ;
-+V+Ind+Prs+Abs/Sg2+ifl:habil SUBCL ; 
-+V+Ind+Prs+Abs/Sg2:zabiltza SUBCL ;
-+V+Ind+Prs+Abs/Sg3:dabil SUBCL ;
-+V+Ind+Prs+Abs/Pl1:gabiltza SUBCL ;
-+V+Ind+Prs+Abs/Pl2:zabiltzate SUBCL ;
-+V+Ind+Prs+Abs/Pl3:dabiltza SUBCL ;
- 
-+V+Ind+Prt+Abs/Sg1:nenbilen SUBCL ;
-+V+Ind+Prt+Abs/Sg2+ifl:henbilen SUBCL ; 
-+V+Ind+Prt+Abs/Sg2:zenbiltzan SUBCL ;
-+V+Ind+Prt+Abs/Sg3:zebilen SUBCL ;
-+V+Ind+Prt+Abs/Pl1:genbiltzan SUBCL ;
-+V+Ind+Prt+Abs/Pl2:zenbiltzaten SUBCL ;
-+V+Ind+Prt+Abs/Pl3:zebiltzan SUBCL ;
++Prs+Abs/Sg1:%>nabil SUBCL ;
++Prs+Abs/Sg2+ifl:%>habil SUBCL ; 
++Prs+Abs/Sg2:%>zabiltza SUBCL ;
++Prs+Abs/Sg3:%>dabil SUBCL ;
++Prs+Abs/Pl1:%>gabiltza SUBCL ;
++Prs+Abs/Pl2:%>zabiltzate SUBCL ;
++Prs+Abs/Pl3:%>dabiltza SUBCL ;
+
++Prt+Abs/Sg1:%>nenbilen SUBCL ;
++Prt+Abs/Sg2+ifl:%>henbilen SUBCL ; 
++Prt+Abs/Sg2:%>zenbiltzan SUBCL ;
++Prt+Abs/Sg3:%>zebilen SUBCL ;
++Prt+Abs/Pl1:%>genbiltzan SUBCL ;
++Prt+Abs/Pl2:%>zenbiltzaten SUBCL ;
++Prt+Abs/Pl3:%>zebiltzan SUBCL ;
 
 LEXICON ETORRI
 +V+Prc:etorri # ; !Partizip
-+V+Der/N:etortze # ; ! - nominalisation
++V+Der/N:etortze Nominalization2 ; ! - nominalisation
 +V+Pot:etor # ; ! + Potential form des Auxiliars
-+V+Ind+Prs: etorriprs ; !
-+V+Ind+Prt: etorriprt ; !
++V+Ind: ETORRITENSE ; !
++V+Cond:ba ETORRITENSE ;
 
-LEXICON etorriprs
-+Abs/Sg1:%>nator SUBCL ;
-+Abs/Sg2+ifl:hator SUBCL ; 
-+Abs/Sg2:zatoz SUBCL ;
-+Abs/Sg3:dator SUBCL ;
-+Abs/Pl1:gatoz SUBCL ;
-+Abs/Pl2:zatozte SUBCL ;
-+Abs/Pl3:datoz SUBCL ;
+LEXICON ETORRITENSE
++Prs+Abs/Sg1:%>nator SUBCL ;
++Prs+Abs/Sg2+ifl:%>hator SUBCL ; 
++Prs+Abs/Sg2:%>zatoz SUBCL ;
++Prs+Abs/Sg3:%>dator SUBCL ;
++Prs+Abs/Pl1:%>gatoz SUBCL ;
++Prs+Abs/Pl2:%>zatozte SUBCL ;
++Prs+Abs/Pl3:%>datoz SUBCL ;
 
-LEXICON etorriprt 
-+Abs/Sg1:nentorren SUBCL ;
-+Abs/Sg2+ifl:hentorren SUBCL ; 
-+Abs/Sg2:zentozen SUBCL ;
-+Abs/Sg3:zetorren SUBCL ;
-+Abs/Pl1:gentozen SUBCL ;
-+Abs/Pl2:zentozten SUBCL ;
-+Abs/Pl3:zetozten SUBCL ;
++Prt+Abs/Sg1:%>nentorren SUBCL ;
++Prt+Abs/Sg2+ifl:%>hentorren SUBCL ; 
++Prt+Abs/Sg2:%>zentozen SUBCL ;
++Prt+Abs/Sg3:%>zetorren SUBCL ;
++Prt+Abs/Pl1:%>gentozen SUBCL ;
++Prt+Abs/Pl2:%>zentozten SUBCL ;
++Prt+Abs/Pl3:%>zetozten SUBCL ;
 
 
 LEXICON ERAMAN
 +V+Prc:eraman # ; !Partizip
-+V+Der/N:eramate # ; ! - nominalisation
++V+Der/N:eramate Nominalization2 ; ! - nominalisation
 +V+Pot:eraman # ; ! + Potential form des Auxiliars
-+V+Cond:%>ba ERAMANTENSE ;
++V+Cond:ba ERAMANTENSE ;
 +V+Ind: ERAMANTENSE ; !
 
 LEXICON ERAMANTENSE
-+V+Ind+Prs+Abs/Sg3+Erg/Sg1:daraman SUBCL ;
-+V+Ind+Prs+Abs/Sg3+Erg/Sg2+ifl/f:daraman SUBCL ; 
-+V+Ind+Prs+Abs/Sg3+Erg/Sg2+ifl/m:daramak SUBCL ;
-+V+Ind+Prs+Abs/Sg3+Erg/Sg2:daramazu SUBCL ;
-+V+Ind+Prs+Abs/Sg3+Erg/Sg3:drama SUBCL ;
-+V+Ind+Prs+Abs/Sg3+Erg/Pl1:daramagu SUBCL ;
-+V+Ind+Prs+Abs/Sg3+Erg/Pl2:daramazue SUBCL ;
-+V+Ind+Prs+Abs/Sg3+Erg/Pl3:daramate SUBCL ;
++Prs+Abs/Sg3+Erg/Sg1:%>daraman SUBCL ;
++Prs+Abs/Sg3+Erg/Sg2+ifl/f:%>daraman SUBCL ; 
++Prs+Abs/Sg3+Erg/Sg2+ifl/m:%>daramak SUBCL ;
++Prs+Abs/Sg3+Erg/Sg2:%>daramazu SUBCL ;
++Prs+Abs/Sg3+Erg/Sg3:%>drama SUBCL ;
++Prs+Abs/Sg3+Erg/Pl1:%>daramagu SUBCL ;
++Prs+Abs/Sg3+Erg/Pl2:%>daramazue SUBCL ;
++Prs+Abs/Sg3+Erg/Pl3:%>daramate SUBCL ;
 
-+V+Ind+Prs+Abs/Pl3+Erg/Sg1:daramatzan SUBCL ;
-+V+Ind+Prs+Abs/Pl3+Erg/Sg2+ifl/f:daramatzan SUBCL ; 
-+V+Ind+Prs+Abs/Pl3+Erg/Sg2+ifl/m:daramatzak SUBCL ;
-+V+Ind+Prs+Abs/Pl3+Erg/Sg2:daramatzazu SUBCL ;
-+V+Ind+Prs+Abs/Pl3+Erg/Sg3:dramatza SUBCL ;
-+V+Ind+Prs+Abs/Pl3+Erg/Pl1:daramatzagu SUBCL ;
-+V+Ind+Prs+Abs/Pl3+Erg/Pl2:daramatzazue SUBCL ;
-+V+Ind+Prs+Abs/Pl3+Erg/Pl3:daramatzate SUBCL ;
++Prs+Abs/Pl3+Erg/Sg1:%>daramatzan SUBCL ;
++Prs+Abs/Pl3+Erg/Sg2+ifl/f:%>daramatzan SUBCL ; 
++Prs+Abs/Pl3+Erg/Sg2+ifl/m:%>daramatzak SUBCL ;
++Prs+Abs/Pl3+Erg/Sg2:%>daramatzazu SUBCL ;
++Prs+Abs/Pl3+Erg/Sg3:%>dramatza SUBCL ;
++Prs+Abs/Pl3+Erg/Pl1:%>daramatzagu SUBCL ;
++Prs+Abs/Pl3+Erg/Pl2:%>daramatzazue SUBCL ;
++Prs+Abs/Pl3+Erg/Pl3:%>daramatzate SUBCL ;
 
-+V+Ind+Prt+Abs/Sg3+Erg/Sg1:neraman SUBCL ;
-+V+Ind+Prt+Abs/Sg3+Erg/Sg2+ifl:heraman SUBCL ; 
-+V+Ind+Prt+Abs/Sg3+Erg/Sg2:zeneraman SUBCL ;
-+V+Ind+Prt+Abs/Sg3+Erg/Sg3:zeraman SUBCL ;
-+V+Ind+Prt+Abs/Sg3+Erg/Pl1:generaman SUBCL ;
-+V+Ind+Prt+Abs/Sg3+Erg/Pl2:zeneramaten SUBCL ;
-+V+Ind+Prt+Abs/Sg3+Erg/Pl3:zeramaten SUBCL ;
++Prt+Abs/Sg3+Erg/Sg1:%>neraman SUBCL ;
++Prt+Abs/Sg3+Erg/Sg2+ifl:%>heraman SUBCL ; 
++Prt+Abs/Sg3+Erg/Sg2:%>zeneraman SUBCL ;
++Prt+Abs/Sg3+Erg/Sg3:%>zeraman SUBCL ;
++Prt+Abs/Sg3+Erg/Pl1:%>generaman SUBCL ;
++Prt+Abs/Sg3+Erg/Pl2:%>zeneramaten SUBCL ;
++Prt+Abs/Sg3+Erg/Pl3:%>zeramaten SUBCL ;
 
-+V+Ind+Prt+Abs/Pl3+Erg/Sg1:neramatzan SUBCL ;
-+V+Ind+Prt+Abs/Pl3+Erg/Sg2+ifl:heramatzan SUBCL ; 
-+V+Ind+Prt+Abs/Pl3+Erg/Sg2:zeneramatzan SUBCL ;
-+V+Ind+Prt+Abs/Pl3+Erg/Sg3:zeramatzan SUBCL ;
-+V+Ind+Prt+Abs/Pl3+Erg/Pl1:generamatzan SUBCL ;
-+V+Ind+Prt+Abs/Pl3+Erg/Pl2:zeneramatzaten SUBCL ;
-+V+Ind+Prt+Abs/Pl3+Erg/Pl3:zeramatzaten SUBCL ;
++Prt+Abs/Pl3+Erg/Sg1:%>neramatzan SUBCL ;
++Prt+Abs/Pl3+Erg/Sg2+ifl:%>heramatzan SUBCL ; 
++Prt+Abs/Pl3+Erg/Sg2:%>zeneramatzan SUBCL ;
++Prt+Abs/Pl3+Erg/Sg3:%>zeramatzan SUBCL ;
++Prt+Abs/Pl3+Erg/Pl1:%>generamatzan SUBCL ;
++Prt+Abs/Pl3+Erg/Pl2:%>zeneramatzaten SUBCL ;
++Prt+Abs/Pl3+Erg/Pl3:%>zeramatzaten SUBCL ;
 
 LEXICON ESAN
 +V+Prc:esan # ; !Partizip
-+V+Der/N:esate # ; ! - nominalisation
++V+Der/N:esate Nominalization2 ; ! - nominalisation
 +V+Pot:esan # ; ! + Potential form des Auxiliars
-+V+Cond:%>ba ESANTENSE ;
++V+Cond:ba ESANTENSE ;
 +V+Ind: ESANTENSE ; !
 
 LEXICON ESANTENSE
-+V+Ind+Prs+Erg/Sg1:diot SUBCL ;
-+V+Ind+Prs+Erg/Sg2+ifl/f:dion SUBCL ; 
-+V+Ind+Prs+Erg/Sg2+ifl/m:diok SUBCL ;
-+V+Ind+Prs+Erg/Sg2:diozu SUBCL ;
-+V+Ind+Prs+Erg/Sg3:dio SUBCL ;
-+V+Ind+Prs+Erg/Pl1:diogu SUBCL ;
-+V+Ind+Prs+Erg/Pl2:diozue SUBCL ;
-+V+Ind+Prs+Erg/Pl3:diote SUBCL ;
++Prs+Erg/Sg1:%>diot SUBCL ;
++Prs+Erg/Sg2+ifl/f:%>dion SUBCL ; 
++Prs+Erg/Sg2+ifl/m:%>diok SUBCL ;
++Prs+Erg/Sg2:%>diozu SUBCL ;
++Prs+Erg/Sg3:%>dio SUBCL ;
++Prs+Erg/Pl1:%>diogu SUBCL ;
++Prs+Erg/Pl2:%>diozue SUBCL ;
++Prs+Erg/Pl3:%>diote SUBCL ;
 
-+V+Ind+Prt+Erg/Sg1:nioen SUBCL ;
-+V+Ind+Prt+Erg/Sg2+ifl:hioen SUBCL ; 
-+V+Ind+Prt+Erg/Sg2:zenioen SUBCL ;
-+V+Ind+Prt+Erg/Sg3:zioen SUBCL ;
-+V+Ind+Prt+Erg/Pl1:genioen SUBCL ;
-+V+Ind+Prt+Erg/Pl2:zenioten SUBCL ;
-+V+Ind+Prt+Erg/Pl3:zioten SUBCL ;
++Prt+Erg/Sg1:%>nioen SUBCL ;
++Prt+Erg/Sg2+ifl:%>hioen SUBCL ; 
++Prt+Erg/Sg2:%>zenioen SUBCL ;
++Prt+Erg/Sg3:%>zioen SUBCL ;
++Prt+Erg/Pl1:%>genioen SUBCL ;
++Prt+Erg/Pl2:%>zenioten SUBCL ;
++Prt+Erg/Pl3:%>zioten SUBCL ;
 
 LEXICON EKARRI
 +V+Prc:ekarri # ; !Partizip
-+V+Der/N:ekartze # ; ! - nominalisation
++V+Der/N:ekartze Nominalization2 ; ! - nominalisation
 +V+Pot:ekar # ; ! + Potential form des Auxiliars
-+V+Cond:%>ba EKARRITENSE ;
++V+Cond:ba EKARRITENSE ;
 +V+Ind: EKARRITENSE ; !
 
 LEXICON EKARRITENSE
-+V+Ind+Prs+Erg/Sg1:dakart SUBCL ;
-+V+Ind+Prs+Erg/Sg2+ifl/f:dakarn SUBCL ; 
-+V+Ind+Prs+Erg/Sg2+ifl/m:dakark SUBCL ;
-+V+Ind+Prs+Erg/Sg2:dakarzu SUBCL ;
-+V+Ind+Prs+Erg/Sg3:dakar SUBCL ;
-+V+Ind+Prs+Erg/Pl1:dakargu SUBCL ;
-+V+Ind+Prs+Erg/Pl2:dakarzue SUBCL ;
-+V+Ind+Prs+Erg/Pl3:dakarte SUBCL ;
++Prs+Erg/Sg1:%>dakart SUBCL ;
++Prs+Erg/Sg2+ifl/f:%>dakarn SUBCL ; 
++Prs+Erg/Sg2+ifl/m:%>dakark SUBCL ;
++Prs+Erg/Sg2:%>dakarzu SUBCL ;
++Prs+Erg/Sg3:%>dakar SUBCL ;
++Prs+Erg/Pl1:%>dakargu SUBCL ;
++Prs+Erg/Pl2:%>dakarzue SUBCL ;
++Prs+Erg/Pl3:%>dakarte SUBCL ;
 
-+V+Ind+Prt+Erg/Sg1:nekarn SUBCL ;
-+V+Ind+Prt+Erg/Sg2+ifl:hekarn SUBCL ; 
-+V+Ind+Prt+Erg/Sg2:zenekarn SUBCL ;
-+V+Ind+Prt+Erg/Sg3:zekarn SUBCL ;
-+V+Ind+Prt+Erg/Pl1:genekarn SUBCL ;
-+V+Ind+Prt+Erg/Pl2:zenekarten SUBCL ;
-+V+Ind+Prt+Erg/Pl3:zekarten SUBCL ;
++Prt+Erg/Sg1:%>nekarn SUBCL ;
++Prt+Erg/Sg2+ifl:%>hekarn SUBCL ; 
++Prt+Erg/Sg2:%>zenekarn SUBCL ;
++Prt+Erg/Sg3:%>zekarn SUBCL ;
++Prt+Erg/Pl1:%>genekarn SUBCL ;
++Prt+Erg/Pl2:%>zenekarten SUBCL ;
++Prt+Erg/Pl3:%>zekarten SUBCL ;
 
 LEXICON IRUDITU
 +V+Prc:iruditu # ; !Partizip
-+V+Der/N:iruditze # ; ! - nominalisation
++V+Der/N:iruditze Nominalization2 ; ! - nominalisation
 +V+Pot:irudi # ; ! + Potential form des Auxiliars
-+V+Cond:%>ba IRUDITUTENSE ;
++V+Cond:ba IRUDITUTENSE ;
 +V+Ind: IRUDITUTENSE ; !
 
 LEXICON IRUDITUTENSE
-+V+Ind+Prs+Dat/Sg1:dirudit SUBCL ;
-+V+Ind+Prs+Dat/Sg2+ifl/f:dirudin SUBCL ; 
-+V+Ind+Prs+Dat/Sg2+ifl/m:dirudik SUBCL ;
-+V+Ind+Prs+Dat/Sg2:dirudizu SUBCL ;
-+V+Ind+Prs+Dat/Sg3:dirudi SUBCL ;
-+V+Ind+Prs+Dat/Pl1:dirudigu SUBCL ;
-+V+Ind+Prs+Dat/Pl2:dirudizue SUBCL ;
-+V+Ind+Prs+Dat/Pl3:dirudite SUBCL ;
- 
-+V+Ind+Prt+Dat/Sg1:nirudien SUBCL ;
-+V+Ind+Prt+Dat/Sg2+ifl:hirudien SUBCL ; 
-+V+Ind+Prt+Dat/Sg2:zenirudien SUBCL ;
-+V+Ind+Prt+Dat/Sg3:zirudien SUBCL ;
-+V+Ind+Prt+Dat/Pl1:genirudien SUBCL ;
-+V+Ind+Prt+Dat/Pl2:zeniruditen SUBCL ;
-+V+Ind+Prt+Dat/Pl3:ziruditen SUBCL ;
++Prs+Dat/Sg1:%>dirudit SUBCL ;
++Prs+Dat/Sg2+ifl/f:%>dirudin SUBCL ; 
++Prs+Dat/Sg2+ifl/m:%>dirudik SUBCL ;
++Prs+Dat/Sg2:%>dirudizu SUBCL ;
++Prs+Dat/Sg3:%>dirudi SUBCL ;
++Prs+Dat/Pl1:%>dirudigu SUBCL ;
++Prs+Dat/Pl2:%>dirudizue SUBCL ;
++Prs+Dat/Pl3:%>dirudite SUBCL ;
+
++Prt+Dat/Sg1:%>nirudien SUBCL ;
++Prt+Dat/Sg2+ifl:%>hirudien SUBCL ; 
++Prt+Dat/Sg2:%>zenirudien SUBCL ;
++Prt+Dat/Sg3:%>zirudien SUBCL ;
++Prt+Dat/Pl1:%>genirudien SUBCL ;
++Prt+Dat/Pl2:%>zeniruditen SUBCL ;
++Prt+Dat/Pl3:%>ziruditen SUBCL ;
 
 LEXICON EDUKI
 +V+Prc:eduki # ; !Partizip
-+V+Der/N:edukitze # ; ! - nominalisation
++V+Der/N:edukitze Nominalization2 ; ! - nominalisation
 +V+Pot:eduki # ; ! + Potential form des Auxiliars
 +V+Cond:%>ba EDUKITENSE ;
 +V+Ind: EDUKITENSE ; !
@@ -672,6 +674,7 @@ LEXICON EDUKITENSE
 +V+Ind+Prt+Abs/Pl3+Erg/Pl3:zeuzkaten SUBCL ;
 
 LEXICON JAKIN
++V:jakin ARAZI ;
 +V+Prc:jakin # ; !Partizip
 +V+Der/N:jakitze # ; ! - nominalisation
 +V+Pot:jakin # ; ! + Potential form des Auxiliars
@@ -859,6 +862,9 @@ LEXICON PAST
 
 +Prt:n # ;
 
+LEXICON ARAZI
++Caus:%>arazi # ;
+
 LEXICON SUBCL
 
 !+Sub:la # ;
@@ -886,6 +892,7 @@ aitzin NregN ; !"front"
 aita NaBizi ; !"father"
 albiste Nreg ; !"news"
 aldaketa Na ; !"change"
+alde Nreg ; !"side"
 aldundi Nreg ; !"Provincial# Government"
 alegia Na ; !"fable"
 ama NaBizi ; !"mother"
@@ -916,6 +923,7 @@ azken NregN ; !"end"
 aztertzaile Nreg ;
 
 barazki Nreg ; !"vegetable"
+baserri Nreg ; !"farm" LOCATION
 batasun NregN ; 
 beldur Nreg ; !"fear"
 bidaiari NregBizi ; !"traveller";
@@ -966,6 +974,7 @@ euskalki Nreg ; !"Basque# dialect"
 ezberdintasun NregN ; !"unequality"
 
 ferry Nreg ; !"ferry"
+festa Na ; !"party"
 futbol NregN ; !"football"
 
 galdera Na ; !"question"
@@ -1055,6 +1064,7 @@ lagun NregBizi ; !"friend"
 lan NregN ; !"work"
 landare Nreg ; !"plant"
 lankide NregBizi ;
+legebiltzar:legebiltzarr Nreg ; !"parliament" ORGANIZATION
 lehendakari NregBizi ; !"president"
 lehergailu Nreg ; !"bomb"
 lerro Nreg ; !"rank"
@@ -1065,11 +1075,12 @@ maite Na ; !"love"
 manifestazio Nreg ; !"demonstration"
 martxo Nreg ; !"March"
 material NregN ;
-mendi Nreg ; !"mountain"
+mende Nreg ; !"century"
+mendi Nreg ; !"mountain" PLACE
 metro Nreg ; ! ; !"meter" 
-mezu Nreg ;
+mezu Nreg ; ! "message"
 militar NregBizi ; !"soldier"
-museo Nreg ; !"museum"
+museo Nreg ; !"museum" PLACE
 musika Nreg ; !"music"
 musulman NregBizi ; !"Muslim"
 muxu Nreg ; !"kiss"
@@ -1085,6 +1096,7 @@ ohi Nreg ; !"custom"
 ontzi Nreg ; !"container"
 ordu Nreg ; !"hour"
 osagai Nreg ; !"component"
+osagarri Nreg ; !"component"
 ostegun NregN ;
 ostiral NregN ;
 otoitz Nreg ; !"prayer"
@@ -1113,6 +1125,7 @@ puntu Nreg ;
 salaketa Na ;
 segundo Nreg ; !"second"
 segurtasun NregN ; !"security"
+sindikatu Nreg ; !"trade# union"
 soldadu NregBizi ; !"soldier"
 sukalde Nreg ; !"kitchen"
 taberna Na ; !"bar"
@@ -1200,6 +1213,7 @@ Jason NpM ; !"Jason"
 Jose NpM ; !"Jose"
 Mari NpM ; !"Mari"
 Juan NpM ;
+Yoshiro NpM ;
 
 Itziar NpF ; !"Itziar"
 Garbiñe NpF ; !"Garbiñe"
@@ -1240,8 +1254,10 @@ Winstone NpS ;
 Uranga NpS ;
 Gonzalez NpS ;
 Louwe NpS ;
+Mori NpS ;
 
-
+Euskal% Herri NpTop ; !"Basque# Country"
+Arrasate NpTop ;
 Frantzia NpTop ; !"France"
 Galizia NpTop ; !"Galicia"
 Grezia NpTop ; !"Greece"
@@ -1283,11 +1299,12 @@ Israel NpTop ;
 Europa NpTop ;
 Atlanta NpTop ;
 Kuba NpTop ;
+Florida NpTop ;
 
 Auzitegi% Gorenak NpOrg ; !"Supreme Court"
 EHU NpOrg ; !"University of the Basque Country"
 ETA NpOrg ; !"ETA"
-Pentagon NpOrg ; !"Pentagon"
+Pentagono NpOrg ; !"Pentagon"
 UPV NpOrg ; !"University of the Basque Country"
 
 LEXICON Pronouns
@@ -1330,6 +1347,7 @@ berehala ADV ;
 berriro ADV ; !"again"
 beti ADV ; !"always"
 bezain ADV ;
+bezala ADV ;
 bihar ADV ;
 
 ere ADV ;
@@ -1354,11 +1372,12 @@ oraindik ADV ; !"still"
 orduan ADV ;
 oso ADV ; !"very"
 pozik ADV ; !"happy"
+urtero ADV ;
 zergatik+Adv+Interr:zergatik # ;
 
 LEXICON Adjectives
 altu Areg ; 
-azkar Areg ; !"quick"
+azkar:azkarr Areg ; !"quick"
 azken An ; !"last"
 beltz Areg ; !"black"
 berandu Areg ; !"late"
@@ -1368,8 +1387,10 @@ berri Areg ; !"new"
 datorren Areg ; !"next"
 
 ederki Areg ;
-errusiar Areg ; !"Russian"
+errusiar:errusiarr Areg ; !"Russian"
+euskal Areg ; !"Basque"
 ezberdin An ; !"unequal"
+ezohiko Areg ; !"unusual"
 
 garrantzitsu Areg ; !"important"
 gogor:gogorr Areg ; !"hard"
@@ -1398,6 +1419,7 @@ abestu:abes Tu ; !"sing"
 adierazadierazi:adieraz I ; !"declare"
 afaldu:afal Du ;
 agertu:ager Tu ; !"appear"
+agindu:agin Du ; !"order"
 agurtu:agur Tu ; !"greet"
 ahal Sinmas ; !"can"
 ahaztu:ahaz Tu ; !"forget"
@@ -1473,6 +1495,7 @@ gelditu:geldi Tu ; !"stay"
 gezurtatu:gezurta Tu ; !"lie"
 grabatu:graba Tu ; !"record"
 gertatu:gerta Tu ; !"happen"
+gonbidatu:gonbida Tu ; !"invite"
 gosaldu:gosal Du ; !"breakfast"
 grabatu:graba Tu ; !"tape"
 
@@ -1504,10 +1527,9 @@ itxi:itx I ; !"close"
 izan: AuxIzan ; !"be" 
 
 jaitsi:jaits I ; !"go# down"
-jakin Sinmas ; !"know"
 jan Sinmas ; !"eat"
 jari:jarr I ; !"put" !R
-jakin: JAKIN ; !"know"
+jakin:jaki JAKIN ; !"know"
 jasan:jasa N ;
 jaso Sinmas ;
 jipoitu:jipoi Tu ; !"beat# up"
@@ -1546,6 +1568,7 @@ oparitu:opari Tu ; !"give"
 otu:o Tu ; !"occur"
 onartu:onar Tu ; !"admit"
 oroitu:oroi Tu ;
+osatu:osa Tu ; !"complete"
 pasatu:pasa Tu ; !"happen"
 prestatu:presta Tu ; !"prepare" 
 
@@ -1575,6 +1598,7 @@ aurrean POSTP ;
 azpitik POSTP ;
 buruz POSTP ;
 gabe POSTP ;
+kontra POSTP ;
 menpe POSTP ;
 ondoren POSTP ;
 

@@ -38,6 +38,7 @@ Multichar_Symbols
 +Prs
 +Prt
 +Cond
++Concl
 +Pot
 +Caus
 +Abs/Sg1
@@ -176,6 +177,8 @@ LEXICON Propcases
 +All:%>ra # ; ! -a
 +Ela:%>tik # ; !-dik
 +LGen:%>ko # ; !-go
++LGen:%>go # ; !-go
+
 
 +PGen:%>ren # ; !-en
 +Ins:%>ez # ; !-z, taz, etaz
@@ -754,6 +757,15 @@ LEXICON IZANNOR
 +Pot+Prs+Abs/Pl2:zaitezkete SUBCL ;
 +Pot+Prs+Abs/Pl3:daitezke SUBCL ;
 
+!pot
++Concl+Prs+Abs/Sg1:nintzateke SUBCL ;
++Concl+Prs+Abs/Sg2+ifl:hintzateke SUBCL ; !+Ind+Prs+Abs/hi
++Concl+Prs+Abs/Sg2:zinateke SUBCL ;
++Concl+Prs+Abs/Sg3:litzateke SUBCL ;
++Concl+Prs+Abs/Pl1:ginateke SUBCL ;
++Concl+Prs+Abs/Pl2:zinatekete SUBCL ;
++Concl+Prs+Abs/Pl3:lirateke SUBCL ;
+
 
 LEXICON UKANNORNORK
 
@@ -827,6 +839,23 @@ LEXICON IZANNORNORI
 +Ind+Prt+Abs/Sg3+Dat/Pl1:gintzaizkigun SUBCL ;
 +Ind+Prt+Abs/Sg3+Dat/Pl2:zintzaizkizueten SUBCL ;
 +Ind+Prt+Abs/Sg3+Dat/Pl3:aitzaizkien SUBCL ;
+
+
++Concl+Prs+Abs/Sg3+Dat/Sg1:litzaidake SUBCL ;
++Concl+Prs+Abs/Sg3+Dat/Sg2+ifl:litzaiake SUBCL ; !+Ind+Prs+Abs/hi
++Concl+Prs+Abs/Sg3+Dat/Sg2:litzaizuke SUBCL ;
++Concl+Prs+Abs/Sg3+Dat/Sg3:litzaiake SUBCL ;
++Concl+Prs+Abs/Sg3+Dat/Pl1:litzaiguke SUBCL ;
++Concl+Prs+Abs/Sg3+Dat/Pl2:litzaizueke SUBCL ;
++Concl+Prs+Abs/Sg3+Dat/Pl3:litzaieke SUBCL ;
+ Concl
++Concl+Prs+Abs/Pl3+Dat/Sg1:litzaizkidake SUBCL ;
++Concl+Prs+Abs/Pl3+Dat/Sg2+ifl:lizaizkiake SUBCL ; !+Ind+Prs+Abs/hi
++Concl+Prs+Abs/Pl3+Dat/Sg2:litzaizkizuke SUBCL ;
++Concl+Prs+Abs/Pl3+Dat/Sg3:litzaizkiake SUBCL ;
++Concl+Prs+Abs/Pl3+Dat/Pl1:litzaizkiguke SUBCL ;
++Concl+Prs+Abs/Pl3+Dat/Pl2:litzaizkizueke SUBCL ;
++Concl+Prs+Abs/Pl3+Dat/Pl3:litzaizkieke SUBCL ;
 
 LEXICON UKANNORNORINORK
 
@@ -904,6 +933,7 @@ arazo Nreg ; !"problem"
 arduradun NregN ;
 argazki Nreg ;
 argibide Nreg ; !"explication"
+demokratikoki Nreg ; !"field"
 arma Na ; !"weapon"
 armada Na ;
 arrain NregBizi ; !"fish"
@@ -917,6 +947,8 @@ asteazken NregN ; !"Wednesday"
 astelehen NregN ; !"Monday"
 ate Nreg ; !"door"
 atentatu Nreg ; !"assault"
+aurreikuspen NregN ; !"forecast"
+aurrekontu Nreg ; !"budget"
 aztitasun NregN ;
 azaro Nreg ; !"November"
 azken NregN ; !"end"
@@ -993,6 +1025,7 @@ hartz NregBizi ; !"bear"
 hasiera Na ; !"beginning"
 haste Nreg ; !"beginning"
 haur:haurr NregBizi ; !"child"
+hazkunde Nreg ; !"growth"
 hedabide Nreg ; !"means# of# communication"
 hektometro Nreg ;
 herri Nreg ;
@@ -1094,6 +1127,7 @@ odol NregN ; !"blood"
 olde Nreg ; !"wish"
 ohi Nreg ; !"custom"
 ontzi Nreg ; !"container"
+ordezkaritza NaBizi ; !"delegation"
 ordu Nreg ; !"hour"
 osagai Nreg ; !"component"
 osagarri Nreg ; !"component"
@@ -1173,6 +1207,7 @@ zalaparta Na ;
 zati Nreg ; 
 zenbaki Nreg ; !"number"
 zentral NregN ;
+zentral% nuklear:zentral% nuklearr ; !"nuclear powerplant"
 zerbitzu Nreg ;
 zilar:zilarr Nreg ; !"silver"
 zilegitasun NregN ;
@@ -1255,6 +1290,10 @@ Uranga NpS ;
 Gonzalez NpS ;
 Louwe NpS ;
 Mori NpS ;
+Gore NpS ;
+Bush NpS ;
+Devichek NpS ;
+Garzon NpS ;
 
 Euskal% Herri NpTop ; !"Basque# Country"
 Arrasate NpTop ;
@@ -1350,6 +1389,7 @@ bezain ADV ;
 bezala ADV ;
 bihar ADV ;
 
+demokratikoki ADV ; !"democratically"
 ere ADV ;
 ez ADV ; !"not"
 ezik ADV ; !"otherwise"
@@ -1401,6 +1441,7 @@ ipar Areg ; !"northern"
 larri Areg ; !"grave"
 luze Areg ; !"long"
 
+nazioarteko Areg ; !"international"
 on Areg ; !"good"
 posible Areg ;
 turkiar:turkiarr Areg ; !"Turkish"
@@ -1434,12 +1475,14 @@ atera Sinmas ; !"go out"
 atxilotu:atxilo Tu ; !"arrest"
 aukeratu:aukera Tu ; !"choose"
 aurkitu:aurki Tu ; !"find"
+aurreikusi:aurreikus I ; !"forsee"
 aurreratu:aurrera Tu ; !"advance"
 azaldu:azal Du ;
 
 baieztatu:baiezta Tu ; !"confirm"
 banandu:banan Du ; !"differ"
 baztertu:bazter Tu ; !"retreat"
+begiratu:begira Tu ; !"look"
 behar Sinmas ; !"must"
 behartu:behar Tu ;
 bete Sinmas ; !"complete"
@@ -1469,8 +1512,8 @@ eman Sinmas ; !"give"
 entzun Sinmas ; !"hear"
 erabili:erabil I ; !"use"
 eraman: ERAMAN ; !"bring"
-eragin Sinmas ; !"oblige"
-erakutsi:erakuts I ;
+eragin:eragi N ; !"oblige"
+erakutsi:erakus I ;
 erantzun Sinmas ; !"answer"
 erre Sinmas ; !"burn"
 errapatu:errapa Tu ; !"realize"
@@ -1499,6 +1542,7 @@ gonbidatu:gonbida Tu ; !"invite"
 gosaldu:gosal Du ; !"breakfast"
 grabatu:graba Tu ; !"tape"
 
+handitu:handi Tu ; !"grow"
 hartu:har Tu ; !"take"
 haserretu:haserre Tu ; !"get angry"
 hasi:has I ; !"begin"
@@ -1528,7 +1572,7 @@ izan: AuxIzan ; !"be"
 
 jaitsi:jaits I ; !"go# down"
 jan Sinmas ; !"eat"
-jari:jarr I ; !"put" !R
+jarri:jarr I ; !"put" !R
 jakin:jaki JAKIN ; !"know"
 jasan:jasa N ;
 jaso Sinmas ;
@@ -1587,7 +1631,7 @@ zauritu:zauri Tu ; !"be# injured"
 zeharkatu:zerharka Tu ; !"cross" 
 zintzilikatu:zintzilika Tu ; !"hang"
 ziurtatu:ziurta Tu ; !"secure"
-zorbiatu:zorbia Tu ;
+zorabiatu:zorabia Tu ; !"faint"
 zuritu:zuri Tu ; !"hurt"
 
 LEXICON Postposition

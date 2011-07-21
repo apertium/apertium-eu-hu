@@ -366,8 +366,8 @@ LEXICON Tu
 +V+Prc:%>tu #;
 +V:%>tu Fut;
 +V+Abl:%>turik # ;
-+V+Sub+Temp:%>z # ;
-+Adv:%tuta # ;
++V+Sub+Temp:%>tuz # ;
++Adv:%>tuta # ;
 
 LEXICON Du
 
@@ -375,7 +375,8 @@ LEXICON Du
 +V: Nominalization ;
 +V+Prc:%>du #;
 +V:%>du Fut;
-+V+Sub+Temp:%>z # ;
++V+Sub+Temp:%>duz # ;
++Adv:%>duta # ;
 
 LEXICON Sinmas
 
@@ -506,6 +507,7 @@ LEXICON ETORRI
 +V+Pot:etor # ; ! + Potential form des Auxiliars
 +V+Ind: ETORRITENSE ; !
 +V+Cond:ba ETORRITENSE ;
++V+Sub+Temp:etorriz # ;
 
 LEXICON ETORRITENSE
 +Prs+Abs/Sg1:%>nator SUBCL ;
@@ -716,6 +718,7 @@ LEXICON AuxIzan
 +V+Ind+Fut:izango # ;
 +V+Aux+Ind: IZANNOR ;
 +V+Aux: IZANBA ;
++V+Sub+Temp:izanez # ;
 
 LEXICON IZANBA
 +Cond:%>ba IZANNOR ;
@@ -875,6 +878,21 @@ LEXICON UKANNORNORINORK
 +Ind+Prs+Dat/Sg3+Abs/Pl3+Erg/Pl2:dizkiozue SUBCL ;
 +Ind+Prs+Dat/Sg3+Abs/Pl3+Erg/Pl3:dizkiote SUBCL ;
 
++Ind+Prs+Dat/Pl3+Abs/Sg3+Erg/Sg1:diet SUBCL ;
++Ind+Prs+Dat/Pl3+Abs/Sg3+Erg/Sg2:diezu SUBCL ;
++Ind+Prs+Dat/Pl3+Abs/Sg3+Erg/Sg3:die SUBCL ;
++Ind+Prs+Dat/Pl3+Abs/Sg3+Erg/Pl1:diegu SUBCL ;
++Ind+Prs+Dat/Pl3+Abs/Sg3+Erg/Pl2:diezue SUBCL ;
++Ind+Prs+Dat/Pl3+Abs/Sg3+Erg/Pl3:diete SUBCL ;
+             
++Ind+Prs+Dat/Pl3+Abs/Pl3+Erg/Sg1:dizkiet SUBCL ;
++Ind+Prs+Dat/Pl3+Abs/Pl3+Erg/Sg2:dizkiezu SUBCL ;
++Ind+Prs+Dat/Pl3+Abs/Pl3+Erg/Sg3:dizkie SUBCL ;
++Ind+Prs+Dat/Pl3+Abs/Pl3+Erg/Pl1:dizkiegu SUBCL ;
++Ind+Prs+Dat/Pl3+Abs/Pl3+Erg/Pl2:dizkiezue SUBCL ;
++Ind+Prs+Dat/Pl3+Abs/Pl3+Erg/Pl3:dizkiete SUBCL ;
+
+
 +Ind+Prt+Dat/Sg3+Abs/Sg3+Erg/Sg1:nion SUBCL ;
 +Ind+Prt+Dat/Sg3+Abs/Sg3+Erg/Sg2:zenion SUBCL ;
 +Ind+Prt+Dat/Sg3+Abs/Sg3+Erg/Sg3:zion SUBCL ;
@@ -953,6 +971,7 @@ astelehen NregN ; !"Monday"
 ate Nreg ; !"door"
 atentatu Nreg ; !"assault"
 aurreikuspen NregN ; !"forecast"
+aura Na ;
 aurrekontu Nreg ; !"budget"
 aztitasun NregN ;
 azaro Nreg ; !"November"
@@ -971,12 +990,14 @@ bidaiari NregBizi ; !"traveller";
 bihotz Nreg ; !"heart"
 bilera Na ; !"meeting"
 biltzar Nreg ; !"meeting, council" ORGANIZATION
-bizitza Na ; !"life"
+bizitza Na ; !"life" TIME
+bolada Na ; !"period" TIME
 borroka Nreg ; !"fighting"
 boxeolari NregBizi ; !"boxer"
 bozeramaile Nreg ; !"spokesperson"
 britainiar:britainiarr NregBizi ; !"British"
 buru Nreg ; !"head"
+buruko% min Nreg ; !"headache"
 buruzagi NregBizi ; !"head"
 
 celta NaBizi ;
@@ -1007,6 +1028,8 @@ erdi Nreg ; !"half"
 eremu Nreg ; !"field" 
 ermita Na ;
 errepublika Na ;
+erro Nreg ; !"root"
+errusiar:errusiarr NregN ;
 eskola Na ; !"school"
 esku Nreg ; !"hand"
 eskualde Nreg ;
@@ -1027,6 +1050,7 @@ futbol NregN ; !"football"
 galdera Na ; !"question"
 garai Nreg ;
 garaipen NregN ; !"victory"
+gazta Na ;
 gazte NregBizi ; !"youth"
 gaztelu Nreg ;
 giltza Na ; !"key"
@@ -1138,6 +1162,7 @@ metro Nreg ; ! ; !"meter"
 mezu Nreg ; ! "message"
 militar NregBizi ; !"soldier"
 mito Nreg ;
+mugimendu Nreg ; !"movement"
 museo Nreg ; !"museum" PLACE
 musika Nreg ; !"music"
 musulman NregBizi ; !"Muslim"
@@ -1146,17 +1171,20 @@ muxu Nreg ; !"kiss"
 nagusitasun NregN ;
 neska NaBizi ; !"girl"
 negu Nreg ; !"winter"
+normaltasun NregN ;
 
 obra Na ;
 odol NregN ; !"blood"
 olde Nreg ; !"wish"
 ohi Nreg ; !"custom"
 ontzi Nreg ; !"container"
+oposizio Nreg ;
 ordezkaritza NaBizi ; !"delegation"
 ordezkari NregBizi ; !"delegate"
 ordu Nreg ; !"hour"
 osagai Nreg ; !"component"
 osagarri Nreg ; !"component"
+ospital NregN ;
 ostegun NregN ;
 ostiral NregN ;
 otoitz Nreg ; !"prayer"
@@ -1171,6 +1199,7 @@ partidu Nreg ; !"match"
 pasaporte Nreg ; !"passport"
 pastel NregN ; !"cake"
 pedal NregN ; !"pedal"
+penalti Nreg ;
 pentsamendu Nreg ; !"thinking"
 pilotari Nreg ;
 planeta Na ;
@@ -1382,6 +1411,7 @@ EEBB NpOrg ;
 EHU NpOrg ; !"University of the Basque Country"
 ETA NpOrg ; !"ETA"
 Pentagono NpOrg ; !"Pentagon"
+RIRA NpOrg ; !"Real Irish Republican Army"
 UPV NpOrg ; !"University of the Basque Country"
 
 LEXICON Pronouns
@@ -1393,9 +1423,20 @@ gu+Pron+Pers+Pl1:guk # ;
 zuek+Pron+Pers+Pl2:zuek # ;
 haiek+Pron+Pers+Pl3:haiek # ;
 
-hon+Pron+Dem+Sg3+Abs:hau PronSgCases ;
-hor+Pron+Dem+Sg3:hori PronSgCases ;
-har+Pron+Dem+Sg3:hura PronSgCases ;
+ni+Pron+Pers+Sg1:ni PronSgCases ;
+zu+Pron+Pers+Sg2:zu PronSgCases ;
+hi+Pron+Pers+Sg2+inf:hi PronSgCases ;
+bera+Pron+Pers+Sg3:bera PronSgCases ;
+gu+Pron+Pers+Pl1:guk # ;
+zuek+Pron+Pers+Pl2:zuek # ;
+haiek+Pron+Pers+Pl3:haiek # ;
+
+hon+Pron+Dem+Abs:hau PronSgCases ;
+hor+Pron+Dem+Abs:hori PronSgCases ;
+har+Pron+Dem+Abs:hura PronSgCases ;
+
+hon+Pron+Dem+Ine:honetan # ;
+hor+Pron+Dem+Ine:hor # ;
 
 zer+Pron+Interr+Sg3:zer PronSgCases ;
 zer+Pron+Interr+Sg3:nor PronSgCases ;
@@ -1405,6 +1446,8 @@ bakoitz+Pron+Indef:bakoitz PronSgCases ;
 guzti+Pron+Indef:bakoitz PronSgCases ;
 beste+Pron+Indef:beste PronSgCases ;
 ezer+Pron+Indef:ezer # ;
+hainbat+Pron+Indef:hainbat # ;
+elkar+Pron+Indef:elkarri # ; !"each# other"
 
 LEXICON ADV 
 
@@ -1414,12 +1457,14 @@ LEXICON ADV
 
 LEXICON Adverbs
 
+akaso ADV ; !"maybe"
 alderantziz ADV ; !"al reves"
 aldiro ADV ;
 asko ADV ;
 atzo ADV ;
 aurten ADV ; !"this# year"
 
+badaezpada ADV ;
 baino ADV ; !"than"
 batere ADV ;
 behin ADV ;
@@ -1463,6 +1508,7 @@ urtero ADV ;
 zergatik+Adv+Interr:zergatik # ;
 
 LEXICON Adjectives
+afrikar:afrikarr An ;
 altu Areg ; 
 azkar:azkarr Areg ; !"quick"
 azken An ; !"last"
@@ -1485,6 +1531,7 @@ gogor:gogorr Areg ; !"hard"
 gogotsu Areg ; !"enthusiastic"
 gutxi Areg ; !"little"
 handi Areg ; !"big"
+hurrengo Areg ; !"next"
 ipar Areg ; !"northern"
 
 kritiko Areg ; !"crictical"
@@ -1516,6 +1563,7 @@ agindu:agin Du ; !"order"
 agurtu:agur Tu ; !"greet"
 ahal Sinmas ; !"can"
 ahaztu:ahaz Tu ; !"forget"
+akusatu:akusa Tu ;
 aldatu:alda Tu ; !"change"
 amaitu:amai Tu ; !"finnish"
 animatu:anima Tu ;
@@ -1618,6 +1666,7 @@ irauli:iraul I ; !"turn# over"
 iraun:irau N ; !"last"
 iritsi:irits I ; !"arrive"
 iruditu: IRUDITU ; !"seem"
+islatu:isla Tu ;
 isuri:isur I ; !"flow"
 itxi:itx I ; !"close"
 !itxaron ; !"wait" ! commented out, waiting for contlex

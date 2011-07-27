@@ -72,6 +72,21 @@ Multichar_Symbols
 
 %{t%}
 
++Thcase_Abs +Thcase_Ela +Thcase_Dat +Thcase_Ine +Incase_Soc +Thsyn_Subj +Thsyn_Obj +Thsem_Ani +Thsem_Time
++Agcase_Erg +Agsyn_Subj +Agsem_Ani +Agsem_Hum
+
++Pacase_Abs +Pasyn_Obj +Pasem_Ani
++Locase_Ine +Locase_Ala +Locase_Abl +Locase_Dat +Losyn_Advl
++Prcase_Abs +Prcase_Soc
++Tocase_Abs +Tosyn_Obj
++Pocase_Abs +Posyn_Obj
++Socase_Abl +Socase_Dat +Sosyn_Advl
++Decase_Ala +Desyn_Advl
++Incase_Ins +Incase_Soc +Insyn_Advl
++Besyn_Iobj +Besem_Hum
++Prcase_Abs
++Recase_Dat
+
 LEXICON Root
 
 Adjectives ;
@@ -234,16 +249,50 @@ LEXICON Bizidun2 !after animate noun phrases
 
 LEXICON Nreg
 
-+N: MggCases1 ;
-+N: MggCases2 ;
-+N: MggCases3 ;
-+N+Art:%>a SgCases1 ;
-+N+Art:%>a SgCases2 ;
-+N+Art:%>a SgCases3 ;
-+N+Art: PlCases1 ;
-+N+Art: PlCases2 ;
-+N+Art: PlCases3 ;
-!+N: Dim ;
++N: # ;
++N: NregCases ;
+
+LEXICON NregCases 
+
++Sg+Abs:a # ; !-ak
++Sg+Erg:%>ak # ; !-ek
++Sg+Dat:%>ari # ; !-ei
+
++Sg+PGen:%>aren # ; !-en
++Sg+Ins:%>az # ; !-ez, taz, etaz
++Sg+Soc:%>arekin # ; !-ekin
++Sg+Ben:%>arentzat # ; !-entzat
++Sg+Ben2:%>arengatik # ; !-agatik !-engatik
++Sg+Ine:%>an # ; 
++Sg+All:%>ra # ; !-era !-etara
++Sg+Ela:%>atik # ; !-etik !-etatik
++Sg+LGen:%>ko # ; !-eko !-etako
++Pl+Abs:%>ak # ;
++Pl+Erg:%>ek # ;
++Pl+Dat:%>ei # ;
++Pl+PGen:%>en # ; 
++Pl+Ins:%>ez # ; 
++Pl+Soc:%>ekin # ;
++Pl+Ben:%>entzat # ;
++Pl+Ben2:%>engatik # ;
++Pl+Ine:%>etan # ;
++Pl+All:%>etara # ;
++Pl+Ela:%>etatik # ;
++Pl+LGen:%>etako # ;
++Abs: # ;
++Erg:%>k # ; !k
++Dat:%>ri # ; !i
++PGen:%>ren # ; !en
++Ins:%>z # ; !ez,etaz,taz
++Soc:%>rekin # ; !ekin
++Ben:%>rentzat # ; !entzat
++Ben2:%>rengatik # ; !engatik
++Par:%>rik # ;
++Ine:%>tan # ; !tan
++All:%>tara # ; !tara
++Ela:%>tatik # ; !tatik
++LGen:%>tako # ; !tako
++LGen:%>ko # ;
 
 LEXICON NregN
 
@@ -359,6 +408,47 @@ LEXICON NCases
 +LGen:%>etako # ; !tako
 +LGen:%>eko # ;
 
+LEXICON AGERTU
+
++V+Thcase_Abs+Thcase_Ela+Thsyn_Subj+Locase_Ine+Locase_Ala+Losyn_Advl: Tu ;
++V+Thcase_Abs+Thsyn_Subj+Prcase_Abs+Prcase_Soc: Tu ;
++V+Agcase_Erg+Agsyn_Subj+Tocase_Abs+Tosyn_Obj: Tu ;
+
+LEXICON AMAITU
+
++V+Agcase_Erg+Agsyn_Subj+Thcase_Abs+Thcase_Ine+Incase_Soc+Incase_Ins+Insyn_Advl: Tu ;
++V+Agcase_Erg+Agsyn_Subj+Thcase_Ine+Thsyn_Advl+Incase_Soc+Incase_Ins+Insyn_Advl: Tu ;
+
+LEXICON ASMATU
+
++V+Agcase_Erg+Agsyn_Subj+Pocase_Abs+Posyn_Obj: Tu ;
++V+Agcase_Erg+Agsyn_Subj+Thcase_Abs+Thsyn_Obj: Tu ;
+
+LEXICON ATERA
+
++V+Agcase_Erg+Agsyn_Subj+Agsem_Ani+Thcase_Abs+Thsyn_Obj+Socase_Abl+Socase_Dat+Sosyn_Advl+Decase_Ala+Desyn_Advl: Sinmas ;
++V+Locase_Erg+Locase_Abl+Locase_Dat+Thcase_Abs: Sinmas ;
+
+LEXICON DEITU
+
++V+Agcase_Erg+Agsyn_Subj+Thcase_Abs+Thsyn_Obj+Locase_Ala+Locase_Abl: Tu ;
++V+Agcase_Erg+Agsyn_Subj+Agsem_Hum+Becase_Dat+Besyn_Iobj+Besem_Hum+Locase_Ala+Locase_Abl: Tu ;
++V+Agcase_Erg+Agsyn_Subj+Agsem_Hum+Thcase_Abs+Thcase_Dat+Prcase_Abs: Tu ;
+
+LEXICON EMAN
+
++V+Agcase_Erg+Argsyn_Subj+Thcase_Abs+Recase_Dat: Sinmas ;
++V+Agcase_Erg+Argsyn_Subj+Thcase_Abs+Thsyn_Obj+Thsem_Time: Sinmas ;
++V+Agcase_Erg+Argsyn_Subj+Decase_Ala+Desyn_Advl: Sinmas ;
+
+LEXCION ETORRI
+
++V+Thcase_Abs+Socase_Abl+Decase_Ala: ;
+
+LEXICON HIL
++V+Thcase_Abs+Thsyn_Subj+Thsem_Ani: Sinmas ;
++V+Agcase_Erg+Agsyn_Subj+Pacase_Abs+Pasyn_Obj+Pasem_Ani: Sinmas ;
+
 LEXICON Tu
 
 +V+Root: # ;
@@ -394,17 +484,17 @@ LEXICON I
 +V+Root: # ;
 +V+Prc:%>i #;
 +V:%>i Fut;
-+N:%>da CASES ;
-+A:%>ta # ; !Or Adv ?
++N:%>ida CASES ;
++A:%>ita # ; !Or Adv ?
 
 LEXICON N
 
-+V:%>n Nominalization ;
++V:%> Nominalization ;
 +V+Root:%>n # ;
 +V+Prc:%>n #;
 +V:%>n Fut2 ;
-+N:%>da CASES ;
-+A:%>ta # ; !Or Adv ?
++N:%>nda CASES ;
++A:%>nta # ; !Or Adv ?
 
 LEXICON Nominalization
 
@@ -976,6 +1066,7 @@ aurrekontu Nreg ; !"budget"
 aztitasun NregN ;
 azaro Nreg ; !"November"
 azken NregN ; !"end"
+azpiatal Nreg ;
 aztertzaile Nreg ;
 
 balio Nreg ; !"value"
@@ -1005,6 +1096,7 @@ dantza Na ; !"dance"
 dardo Nreg ; !"spear"
 deialdi Nreg ; !"official# announcement"
 denbora Na ; !"time"
+diru Nreg ;
 dozenaka Na ; !"dozen"
 
 egia Na ; !"truth"
@@ -1018,6 +1110,7 @@ enbaxadore NregBizi ; !"emabassador"
 enpresa Na ; !"company"
 entrenamendu Nreg ;
 entrenatzaile NregBizi ;
+epai Nreg ; !"judgement"
 epaiketa Na ; !"court"
 epe Nreg ; !"period"
 erabaki Nreg ; !"decision"
@@ -1041,6 +1134,7 @@ etxe Nreg ; !"house"
 euro Nreg ; 
 euskaldun NregBiziN ; !"Basque# speaker"
 euskalki Nreg ; !"Basque# dialect"
+ezbehar:ezbeharr Nreg ; !"accident"
 ezberdintasun NregN ; !"unequality"
 
 ferry Nreg ; !"ferry"
@@ -1139,6 +1233,7 @@ korronte Nreg ; !"current"
 kosta Na ;
 kristau NregBizi ; !"Christian"
 krudeltasun NregN ;
+kurtso Nreg ; 
 
 lagun NregBizi ; !"friend"
 lan NregN ; !"work"
@@ -1154,6 +1249,7 @@ maiatz Nreg ; !"May"
 maite Na ; !"love"
 manifestazio Nreg ; !"demonstration"
 mantenu Nreg ; !"maintenance"
+markagailu Nreg ; !"scoreboard"
 martxo Nreg ; !"March"
 material NregN ;
 mende Nreg ; !"century"
@@ -1162,6 +1258,7 @@ metro Nreg ; ! ; !"meter"
 mezu Nreg ; ! "message"
 militar NregBizi ; !"soldier"
 mito Nreg ;
+moral Nreg ; !"moral"
 mugimendu Nreg ; !"movement"
 museo Nreg ; !"museum" PLACE
 musika Nreg ; !"music"
@@ -1201,6 +1298,7 @@ pastel NregN ; !"cake"
 pedal NregN ; !"pedal"
 penalti Nreg ;
 pentsamendu Nreg ; !"thinking"
+perla Na ; !"pearl"
 pilotari Nreg ;
 planeta Na ;
 plaza Na ; !"place"
@@ -1209,6 +1307,7 @@ polizia Na ; !"police"
 pisu Nreg ; !"flat"
 presa Na ; !"hurry"
 presidente NregBizi ; !"president"
+proiektu Nreg ;
 proba Na ;
 protagonista Na ; !"protagonist"
 puntu Nreg ;
@@ -1232,8 +1331,10 @@ sarrera Na ; !"entrance"
 sektore Nreg ;
 seme NregBizi ; !"son"
 sistema Nreg ; !"system"
+sueten Nreg ; !"ceasefire"?
 suhiltzaile Nreg ;
 
+tanto Nreg ; !"point"
 tarte Nreg ;
 telefono Nreg ; !"telephone"
 talde Nreg ; !"group"
@@ -1242,6 +1343,7 @@ tribunal NregN ;
 tutu Nreg ; !"tube"
 txalaparta Na ; !"txalaparta"
 txanda Na ; !"turn"
+txapeldun Nreg ; 
 txirrin NregN ; !"bell"
 txirrindulari Nreg ; !"cyclist"
 
@@ -1263,6 +1365,7 @@ uztail NregN ; !"July"
 
 xehetasun NregN ;
 
+zakar:zakarr Nreg ; !"garbage"
 zalantza Na ; !"doubt"
 zalaparta Na ;
 zati Nreg ; 
@@ -1311,6 +1414,7 @@ Mari NpM ; !"Mari"
 Juan NpM ;
 Yoshiro NpM ;
 Octaviano NpM ;
+Joseba NpM ;
 
 Itziar NpF ; !"Itziar"
 Garbiñe NpF ; !"Garbiñe"
@@ -1359,6 +1463,9 @@ Devichek NpS ;
 Garzon NpS ;
 Lindroth NpS ;
 Aranberri NpS ;
+Gimelstobi NpS ;
+Arrate NpS ;
+Llorent NpS ;
 
 Euskal% Herri NpTop ; !"Basque# Country"
 Arrasate NpTop ;
@@ -1406,6 +1513,7 @@ Kuba NpTop ;
 Florida NpTop ;
 Ebro NpTop ;
 
+Athletice NpOrg ;
 Auzitegi% Gorenak NpOrg ; !"Supreme Court"
 EEBB NpOrg ;
 EHU NpOrg ; !"University of the Basque Country"
@@ -1413,6 +1521,7 @@ ETA NpOrg ; !"ETA"
 Pentagono NpOrg ; !"Pentagon"
 RIRA NpOrg ; !"Real Irish Republican Army"
 UPV NpOrg ; !"University of the Basque Country"
+Real NpOrg ;
 
 LEXICON Pronouns
 ni+Pron+Pers+Sg1:ni PronSgCases ;
@@ -1439,15 +1548,19 @@ hon+Pron+Dem+Ine:honetan # ;
 hor+Pron+Dem+Ine:hor # ;
 
 zer+Pron+Interr+Sg3:zer PronSgCases ;
-zer+Pron+Interr+Sg3:nor PronSgCases ;
+nor+Pron+Interr+Sg3:nor PronSgCases ;
+
+inor+Pron+Indef:inor PronSgCases ;
 
 edozein+Pron+Indef:edozein PronSgCases ;
+guzti+Pron+Indef:guzti PronSgCases ;
 bakoitz+Pron+Indef:bakoitz PronSgCases ;
 guzti+Pron+Indef:bakoitz PronSgCases ;
 beste+Pron+Indef:beste PronSgCases ;
 ezer+Pron+Indef:ezer # ;
 hainbat+Pron+Indef:hainbat # ;
 elkar+Pron+Indef:elkarri # ; !"each# other"
+dena+Pron+Indef:dena # ; !"everything"
 
 LEXICON ADV 
 
@@ -1503,6 +1616,8 @@ orain ADV ;
 oraindik ADV ; !"still"
 orduan ADV ;
 oso ADV ; !"very"
+
+pixkanaka ADV ;
 pozik ADV ; !"happy"
 urtero ADV ;
 zergatik+Adv+Interr:zergatik # ;
@@ -1536,8 +1651,10 @@ ipar Areg ; !"northern"
 
 kritiko Areg ; !"crictical"
 larri Areg ; !"grave"
+literario Areg ; !"literary"
 luze Areg ; !"long"
 
+nabarmen Areg ; !"evident"
 nazioarteko Areg ; !"international"
 on Areg ; !"good"
 posible Areg ;
@@ -1558,20 +1675,24 @@ aberatstu:abera%{t%}s Tu ; !"get# rich"
 abestu:abes Tu ; !"sing"
 adierazadierazi:adieraz I ; !"declare"
 afaldu:afal Du ;
-agertu:ager Tu ; !"appear"
+agertu:ager AGERTU ; !"appear"
+!agertu:ager Tu ; !"appear"
 agindu:agin Du ; !"order"
 agurtu:agur Tu ; !"greet"
 ahal Sinmas ; !"can"
 ahaztu:ahaz Tu ; !"forget"
 akusatu:akusa Tu ;
 aldatu:alda Tu ; !"change"
-amaitu:amai Tu ; !"finnish"
+amaitu:amai AMAITU ; !"finnish"
+!amaitu:amai Tu ; !"finnish"
 animatu:anima Tu ;
 areagotu:areago Tu ; !"increase"
 argitu:argi Tu ; !"clear"
 aritu:ari Tu ; !"busy# oneself"
-asmatu:asma Tu ; !"invent"
-atera Sinmas ; !"go out"
+asmatu:asma ASMATU ; !"invent"
+!asmatu:asma Tu ; !"invent"
+atera ATERA ; !"go out"
+!atera Sinmas ; !"go out"
 atxilotu:atxilo Tu ; !"arrest"
 aukeratu:aukera Tu ; !"choose"
 aurkitu:aurki Tu ; !"find"
@@ -1580,6 +1701,7 @@ aurreratu:aurrera Tu ; !"advance"
 azaldu:azal Du ;
 
 baieztatu:baiezta Tu ; !"confirm"
+baloratu:balora Tu ; !"value"
 banandu:banan Du ; !"differ"
 baztertu:bazter Tu ; !"retreat"
 begiratu:begira Tu ; !"look"
@@ -1594,7 +1716,8 @@ borrokatu:borroka Tu ; !"fight"
 bota Sinmas ;
 burutu:buru Tu ;
 
-deitu:dei Tu ; !"call"
+deitu:dei DEITU ; !"call"
+!deitu:dei Tu ; !"call"
 defenditu:defendi Tu ; !"defend"
 deklaratu:deklara Tu ; !"declare"
 derrigortu:derrigor Tu ; !"force" 
@@ -1608,7 +1731,8 @@ ehizatu:ehiza Tu ; !"hunt"
 ekarri:ekarr I ; !"bring"
 ekidin:ekidi N ; !"avoid"
 elkartu:elkar Tu ; !"meet"
-eman Sinmas ; !"give" 
+eman EMAN ; !"give" 
+!eman Sinmas ; !"give" 
 entzun Sinmas ; !"hear"
 erabili:erabil I ; !"use"
 eraman: ERAMAN ; !"bring"
@@ -1622,6 +1746,7 @@ esan: ESAN ; !"say"
 eskaini:eskain I ; !"offer"
 eskatu:eska Tu ; !"order"
 ekarri: EKARRI ; !"bring"
+eraso: Sinmas ; !"attack"
 eskaini:eskain I ; !"offer"
 etorr: ETORRI ; !"come" ! adding : to avoid etorrnator
 existitu:existi Tu ;
@@ -1640,6 +1765,7 @@ grabatu:graba Tu ; !"record"
 gertatu:gerta Tu ; !"happen"
 gonbidatu:gonbida Tu ; !"invite"
 gosaldu:gosal Du ; !"breakfast"
+gozatu:goza Tu ; !"enjoy"
 grabatu:graba Tu ; !"tape"
 
 handitu:handi Tu ; !"grow"
@@ -1649,7 +1775,8 @@ hasi:has I ; !"begin"
 hautatu:hauta Tu ; !"choose"
 hautsi:hauts I ;
 hazi:haz I ;
-hil Sinmas ; !"die"
+! hil Sinmas ; !"die"
+hil HIL ; !"die"
 hitzartu:hitzar Tu ; !"agree"
 hondatu:honda Tu ; !"destroy"
 hornitu:horni Tu ;
@@ -1665,6 +1792,7 @@ irakin Sinmas ; !"boil"
 irauli:iraul I ; !"turn# over"
 iraun:irau N ; !"last"
 iritsi:irits I ; !"arrive"
+irten:irte N ; !"leave"
 iruditu: IRUDITU ; !"seem"
 islatu:isla Tu ;
 isuri:isur I ; !"flow"
@@ -1721,6 +1849,7 @@ prestatu:presta Tu ; !"prepare"
 
 saiatu:saia Tu ; !"try"
 sartu:sar Tu ; !"enter"
+segitu:segi Tu ; 
 sortu:sor Tu ;
 topatu:topa Tu ; !"meet" 
 ukan: AuxUkan ; !"be"

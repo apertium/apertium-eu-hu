@@ -2,7 +2,7 @@ Multichar_Symbols
 
 +N +Po +Cm +Punct +Adv +A +CLB +CC
 +Abs +Dat +Ins +Soc +Erg +Ine +Ben +Ben2 +Par +All +Abl +Ela +GenL +GenP +Term +Ten
-+Mal +Fem +Plc 
++Mal +Fem +Sur +Plc +Org
 +Art +Interr
 +Fut
 +Ord
@@ -25,7 +25,7 @@ Multichar_Symbols
 +Sg
 
 +Pron
-+Pers +Dem +Poss
++Pers +Dem +Poss +Indef +Interr
 
 +Num
 
@@ -213,6 +213,20 @@ LEXICON PronSgCases
 +Soc:%>rekin # ; !-ekin
 +Ben:%>rentzat # ; !-entzat
 +Ben2:%>rengatik # ; !-agatik !-engatik
+
+LEXICON PronReg 
+
++Abs:%>a # ; !-ak
++Erg:%>ak # ; !-ek
++Dat:%>ari # ; !-ei
+
++PGen:%>aren # ; !-en
++Ins:%>z # ; !-ez, taz, etaz
++Soc:%>arekin # ; !-ekin
++Ben:%>arentzat # ; !-entzat
++Ben2:%>arengatik # ; !-agatik !-engatik
+
+
 
 
 LEXICON Bizidun !after animate noun phrases
@@ -458,6 +472,7 @@ LEXICON Tu
 +V+Abl:%>turik # ;
 +V+Sub+Temp:%>tuz # ;
 +Adv:%>tuta # ;
++Adv+LGen:%>tutako # ;
 
 LEXICON Du
 
@@ -1023,6 +1038,7 @@ abesti Nreg ; !"song"
 abizen NregN ; !"last# name"
 abokatu NregBizi ; !"advocate"
 abuztu Nreg ; !"August"
+adibide Nreg ; !"example!
 aditz Nreg ; !"verb"
 afalkide NregBizi ;
 agindupe Nreg ; !"power"
@@ -1070,6 +1086,7 @@ azpiatal Nreg ;
 aztertzaile Nreg ;
 
 balio Nreg ; !"value"
+baloi Nreg ;
 barazki Nreg ; !"vegetable"
 barru Nreg ; !"interior"
 baserri Nreg ; !"farm" LOCATION
@@ -1118,7 +1135,8 @@ eraikuntza Na ; !"building"
 erakustaldi Na ; !"exhibition"
 erasoaldi Nreg ; !"attack"
 erdi Nreg ; !"half"
-eremu Nreg ; !"field" 
+eremu Nreg ; !"field"
+erlijio Nreg ; !"religion" 
 ermita Na ;
 errepublika Na ;
 erro Nreg ; !"root"
@@ -1147,6 +1165,7 @@ garaipen NregN ; !"victory"
 gazta Na ;
 gazte NregBizi ; !"youth"
 gaztelu Nreg ;
+geldiketa Na ;
 giltza Na ; !"key"
 gerrillari NregBizi ; !"gerrilla# fighter"
 giro Nreg ;
@@ -1325,6 +1344,7 @@ txanda Na ; !"turn"
 txapela Na ; !"hat"
 txistu Nreg ;
 testu Nreg ; !"text"
+tiro Nreg ; !"shot"
 
 sari Nreg ; !"prize"
 sarrera Na ; !"entrance"
@@ -1353,6 +1373,7 @@ udaletxe Nreg ; !"Rathaus"
 udazken NregN ; !"autumn"
 udaberri Nreg ; !"spring"
 uharte Nreg ; !"island"
+uhartedi Nreg ; !"archipelago"
 ume NregBizi ; !"child"
 unibertsitate Nreg ; !"university"
 ur Nreg ; !"water"
@@ -1372,6 +1393,7 @@ zati Nreg ;
 zenbaki Nreg ; !"number"
 zentral NregN ;
 zentral% nuklear:zentral% nuklearr ; !"nuclear powerplant"
+zentsu Nreg ;
 zerbitzu Nreg ;
 zilar:zilarr Nreg ; !"silver"
 zilegitasun NregN ;
@@ -1548,15 +1570,15 @@ hon+Pron+Dem+Ine:honetan # ;
 hor+Pron+Dem+Ine:hor # ;
 
 zer+Pron+Interr+Sg3:zer PronSgCases ;
+zein+Pron+Interr+Sg3:zein PronSgCases ;
 nor+Pron+Interr+Sg3:nor PronSgCases ;
 
 inor+Pron+Indef:inor PronSgCases ;
 
 edozein+Pron+Indef:edozein PronSgCases ;
-guzti+Pron+Indef:guzti PronSgCases ;
-bakoitz+Pron+Indef:bakoitz PronSgCases ;
-guzti+Pron+Indef:bakoitz PronSgCases ;
-beste+Pron+Indef:beste PronSgCases ;
+guzti+Pron+Indef:guzti PronReg ;
+bakoitz+Pron+Indef:bakoitz PronReg ;
+beste+Pron+Indef:beste PronReg ;
 ezer+Pron+Indef:ezer # ;
 hainbat+Pron+Indef:hainbat # ;
 elkar+Pron+Indef:elkarri # ; !"each# other"
@@ -1607,6 +1629,7 @@ Herenegun ADV ; !"day# before# yesterday"
 ia ADV ; !"almost"
 iaz ADV ; !"last# year"
 konektatuta ADV ;
+konforme ADV ;
 
 lehen ADV ; !"before"
 nola ADV ; !"how"
@@ -1657,12 +1680,15 @@ luze Areg ; !"long"
 nabarmen Areg ; !"evident"
 nazioarteko Areg ; !"international"
 on Areg ; !"good"
+
+paregabe Areg ;
 posible Areg ;
 turkiar:turkiarr Areg ; !"Turkish"
 txukun Areg ; !"clean"
 tonto Areg ; !"stupid"
 urduri Areg ; !"nervous"
 zail Areg ; !"dificult"
+zehatz Areg ; !"exact"
 zehazki Areg ;
 zurbil Areg ; !"pale"
 zuri Areg ; !"white"
@@ -1748,7 +1774,7 @@ eskatu:eska Tu ; !"order"
 ekarri: EKARRI ; !"bring"
 eraso: Sinmas ; !"attack"
 eskaini:eskain I ; !"offer"
-etorr: ETORRI ; !"come" ! adding : to avoid etorrnator
+etorri:etor ETORRI ; !"come" ! adding : to avoid etorrnator
 existitu:existi Tu ;
 ezin Sinmas ; !"can not"
 ezkondu:ezkon Du ;

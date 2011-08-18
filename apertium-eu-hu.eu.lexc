@@ -426,12 +426,12 @@ LEXICON AGERTU
 
 +V+Thcase_Abs+Thcase_Ela+Thsyn_Subj+Locase_Ine+Locase_Ala+Losyn_Advl: Tu ;
 +V+Thcase_Abs+Thsyn_Subj+Prcase_Abs+Prcase_Soc: Tu ;
-+V+Agcase_Erg+Agsyn_Subj+Tocase_Abs+Tosyn_Obj: Tu ;
++V+Agcase_Erg+Agsyn_Subj+Tocase_Abs+Tosyn_Obj+Recase_Dat: Tu ;
 
 LEXICON AMAITU
 
-+V+Agcase_Erg+Agsyn_Subj+Thcase_Abs+Thcase_Ine+Incase_Soc+Incase_Ins+Insyn_Advl: Tu ;
-+V+Agcase_Erg+Agsyn_Subj+Thcase_Ine+Thsyn_Advl+Incase_Soc+Incase_Ins+Insyn_Advl: Tu ;
++V+Thcase_Abs+Thcase_Ine: Tu ;
++V+Agcase_Erg+Agsyn_Subj+Thcase_Ine+Thsyn_Advl: Tu ;
 
 LEXICON ASMATU
 
@@ -441,6 +441,7 @@ LEXICON ASMATU
 LEXICON ATERA
 
 +V+Agcase_Erg+Agsyn_Subj+Agsem_Ani+Thcase_Abs+Thsyn_Obj+Socase_Abl+Socase_Dat+Sosyn_Advl+Decase_Ala+Desyn_Advl: Sinmas ;
++V+Thcase_Abs+Thsyn_Obj+Socase_Abl+Socase_Dat+Sosyn_Advl+Decase_Ala+Desyn_Advl: Sinmas ;
 +V+Locase_Erg+Locase_Abl+Locase_Dat+Thcase_Abs: Sinmas ;
 
 LEXICON DEITU
@@ -457,11 +458,18 @@ LEXICON EMAN
 
 LEXCION ETORRI
 
-+V+Thcase_Abs+Socase_Abl+Decase_Ala: ;
++V+Thcase_Abs+Socase_Abl+Decase_Ala: ETORRI2 ;
++V+Thcase_Abs+Locase_Abl+Locase_Dat: ETORRI2 ;
++V+Thcase_Abs+Locase_Ine: ETORRI2 ;
++V+Tocase_Abs+Atcase_Abs: ETORRI2 ;
 
 LEXICON HIL
 +V+Thcase_Abs+Thsyn_Subj+Thsem_Ani: Sinmas ;
 +V+Agcase_Erg+Agsyn_Subj+Pacase_Abs+Pasyn_Obj+Pasem_Ani: Sinmas ;
+
+LEXICON IRITSI
+
+LEXICON TOPATU
 
 LEXICON Tu
 
@@ -606,7 +614,7 @@ LEXICON IBILITENSE
 +Prt+Abs/Pl2:%>zenbiltzaten SUBCL ;
 +Prt+Abs/Pl3:%>zebiltzan SUBCL ;
 
-LEXICON ETORRI
+LEXICON ETORRI2
 +V+Prc:etorri # ; !Partizip
 +V+Der/N:etortze Nominalization2 ; ! - nominalisation
 +V+Pot:etor # ; ! + Potential form des Auxiliars
@@ -1216,6 +1224,7 @@ irtenbide Nreg ;
 itsaso Nreg ; !"sea"
 itsasontzi Nreg ; !"boat"
 istripu Nreg ; !"accident"
+itu Nreg ; !"aim"
 iturri Nreg ; !"source"
 itxura Na ; !"appearance"
 itzuli Nreg ; !"turn"
@@ -1252,6 +1261,7 @@ korronte Nreg ; !"current"
 kosta Na ;
 kristau NregBizi ; !"Christian"
 krudeltasun NregN ;
+kuarteta Na ;
 kurtso Nreg ; 
 
 lagun NregBizi ; !"friend"
@@ -1384,7 +1394,7 @@ urtegi Nreg ; !"reservoir"
 uste Nreg ; !"intention" 
 uztail NregN ; !"July"
 
-xehetasun NregN ;
+xehetasun NregN ; !"detail"
 
 zakar:zakarr Nreg ; !"garbage"
 zalantza Na ; !"doubt"
@@ -1488,6 +1498,7 @@ Aranberri NpS ;
 Gimelstobi NpS ;
 Arrate NpS ;
 Llorent NpS ;
+Meabe NpS ;
 
 Euskal% Herri NpTop ; !"Basque# Country"
 Arrasate NpTop ;
@@ -1699,6 +1710,7 @@ LEXICON Verbs
 
 aberatstu:abera%{t%}s Tu ; !"get# rich"
 abestu:abes Tu ; !"sing"
+abiatu:abia Tu ; !"start"
 adierazadierazi:adieraz I ; !"declare"
 afaldu:afal Du ;
 agertu:ager AGERTU ; !"appear"
@@ -1832,6 +1844,7 @@ jarri:jarr I ; !"put" !R
 jakin: JAKIN ; !"know"
 jasan:jasa N ;
 jaso Sinmas ;
+jaurtitu:jaurti Tu ; !"throw"
 jipoitu:jipoi Tu ; !"beat# up"
 jo Sinmas ;
 joan: JOAN ; !"go"

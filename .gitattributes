@@ -9,3 +9,8 @@
 /apertium-eu-hu.hu.relabel -text
 /apertium-eu-hu.hu.twol -text
 dev/test_grammar.cg -text
+*.dix linguist-language=XML linguist-detectable=true
+*.lrx linguist-language=XML linguist-detectable=true
+*.lsx linguist-language=XML linguist-detectable=true
+*.tsx linguist-language=XML linguist-detectable=true
+*.t[[:digit:]]x linguist-language=XML linguist-detectable=true
